@@ -1,0 +1,14 @@
+{
+  "version": "2.1.0",
+  "updated_at": "2025-10-23",
+  "AANDACHTSPUNTEN_V2": [
+    {
+      "id": "AP001",
+      "label": "Ascal indicatie",
+      "category": "Hypertensief/preventie",
+      "zorgpad_title": "Zorgpad ascal indicatie",
+      "categorie2": "Indicatie",
+      "betekenis": "Indicatie voor acetylsalicylzuur (80 mg tot 36 wkn) ter preventie van pre-eclampsie en/of foetale groeirestrictie. Zoek naar Ascal-gebruik, counseling hierover, calciumadvies en onderliggende risicofactoren."
+    }
+  ]
+}
