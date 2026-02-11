@@ -1,630 +1,481 @@
+# version 2.1
+# updated at 2026-02-11
+
 {
-  "version": "2.1.0",
-  "updated_at": "2025-10-23",
   "AANDACHTSPUNTEN_V2": [
     {
       "id": "AP001",
       "label": "Ascal indicatie",
-      "category": "Hypertensief/preventie",
-      "zorgpad_title": "Zorgpad ascal indicatie",
-      "categorie2": "Indicatie",
-      "betekenis": "Indicatie voor acetylsalicylzuur (80 mg tot 36 wkn) ter preventie van pre-eclampsie en/of foetale groeirestrictie. Zoek naar Ascal-gebruik, counseling hierover, calciumadvies en onderliggende risicofactoren."
+      "categorie": "Indicatie",
+      "betekenis": "Markeer dit aandachtspunt positief wanneer er aanwijzingen zijn voor een indicatie voor acetylsalicylzuurprofylaxe. Dit is het geval bij: (1) voorgaand gebruik van Ascal/acetylsalicylzuur in een eerdere zwangerschap ter preventie van pre-eclampsie of FGR; (2) aanwezigheid van één of meer HOOG-risicofactoren voor pre-eclampsie, waaronder: pre-eclampsie in een eerdere zwangerschap, chronische nierziekte, auto-immuunziekten zoals SLE of antifosfolipidensyndroom, diabetes mellitus type 1 of 2, of pre-existente hypertensie; (3) aanwezigheid van twee of meer MATIGE risicofactoren, waaronder: nullipariteit, maternale leeftijd ≥40 jaar, zwangerschapsinterval >10 jaar, pre-eclampsie in de familie-anamnese (moeder of zuster), obesitas (BMI >35 kg/m²), meerlingzwangerschap, placentaire insufficiëntie in de obstetrische voorgeschiedenis (bijv. laag geboortegewicht, FGR of onverklaarde perinatale sterfte), of zwangerschap na eiceldonatie."
     },
     {
       "id": "AP002",
       "label": "Asfyxie of perinatale sterfte in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad asfyxie of perinatale sterfte in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Voorgeschiedenis met perinatale asfyxie of sterfte. Zoek naar beschrijving van eerdere casus, continuïteit van zorg, extra controles (OGTT 27w, biometrie 32/36w) en bespreking van inleiding rond 39w."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere intra-uteriene vruchtdood, neonatale sterfte, ernstige asfyxie, reanimatie, lage Apgar-scores, NICU-opname, hypoxisch-ischemische encefalopathie of neonatale insulten."
     },
     {
       "id": "AP003",
       "label": "Asherman in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad Asherman in anamnese",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Asherman (intra-uteriene adhesies) in anamnese. Zoek naar adhesiolyse, 2e lijns zorg, cervixlengte 16–20w (ook bij SEO), fluxuspreventie en beleid bij retentio placentae."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar intra-uteriene adhesies, Asherman-syndroom, adhesiolyse, cavumafwijkingen, post-curettage klachten, subfertiliteit of hypomenorroe/amenorroe."
     },
     {
       "id": "AP004",
       "label": "Bariatrische chirurgie i.a. BMI 30-40",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad bariatrische chirurgie in anamnese BMI 30-40",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische chirurgie in VG met huidig BMI 30–40. Zoek naar dieet/gewichtstoename-advies, voedingsstatus-lab, dagcurves i.p.v. OGTT, 2e-lijn echo’s/consulten en suppletie (WLS Forte + vit D)."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar bariatrische chirurgie (gastric bypass, sleeve, banding) in voorgeschiedenis bij huidig BMI 30–40, inclusief gewijzigde glucoseabsorptie, malabsorptie of vitaminesuppletie."
     },
     {
       "id": "AP005",
       "label": "Bariatrische chirurgie i.a. BMI >40",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad bariatrische chirurgie in anamnese BMI >40",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische chirurgie in VG met BMI >40. Zoek naar 2e-lijns zorg, voedingsstatus-lab, dagcurves i.p.v. OGTT, SEO/biometrie tweede lijn en beleid voor klachten i.r.t. post-bariatrische complicaties."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar bariatrische chirurgie in voorgeschiedenis met huidig BMI >40, inclusief comorbiditeit, metabole problematiek, malabsorptie of dumpingklachten."
     },
     {
       "id": "AP006",
       "label": "Bariatrische chirurgie i.a. BMI <30",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad bariatrische chirurgie in anamnese BMI <30",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische chirurgie in VG met BMI <30. Zoek naar echo’s en intake 2e lijn, voedingsstatus-lab, dagcurves i.p.v. OGTT, suppletie en seriële biometrie 28/32/36w."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar bariatrische chirurgie bij huidig BMI <30, inclusief gebruik van WLS-suppletie, dagcurves i.p.v. OGTT en aanwijzingen voor voedingstekorten."
     },
     {
       "id": "AP007",
       "label": "Schouderdystocie in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Schouderdystocie i.a.",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Schouderdystocie eerder doorgemaakt. Zoek naar restschade, 24w en 36–37w consult 2e lijn, seriële biometrie, afspraken over modus partus en D-situatie/geen VE behalve bij nood."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere schouderdystocie, gebruik van McRoberts, suprapubische druk, plexus brachialis letsel, macrosomie of noodmanoeuvres tijdens partus."
     },
     {
       "id": "AP008",
       "label": "SSRI gebruik",
-      "category": "Neuro/Psych",
-      "zorgpad_title": "Zorgpad SSRI gebruik",
-      "categorie2": "Indicatie",
-      "betekenis": "Gebruik van SSRI/antidepressiva in de zwangerschap. Zoek naar POP/psychiatrie, preventieplan, D-indicatie voor partus en minimaal 24 u klinisch kraambed postpartum."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar gebruik van SSRI’s of andere antidepressiva zoals sertraline, fluoxetine, citalopram of paroxetine, en naar onderliggende psychiatrische voorgeschiedenis."
     },
     {
       "id": "AP009",
       "label": "(Sub)totaalruptuur in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad (sub)totaalruptuur in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "(Sub)totaalruptuur (graad 3–4) in anamnese. Zoek naar restklachten, 24w consult 2e lijn en beleid rond episiotomie."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar OASIS (graad 3–4), sfincterletsel, fecale incontinentie, endo-anale echo of perineale reconstructieve ingrepen."
     },
     {
       "id": "AP010",
       "label": "Obesitas BMI 30-35",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad obesitas bmi 30-35",
-      "categorie2": "Indicatie",
-      "betekenis": "Obesitas BMI 30–35. Zoek naar gewichtstoename-advies (max 5–9 kg), brede RR-band, OGTT 27w, biometrie 32/36w en actiever nageboortetijdperk."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar BMI 30–35 of gewicht/lengte-combinaties die hierop wijzen, inclusief verhoogd risico op GDM of hypertensieve aandoeningen."
     },
     {
       "id": "AP011",
       "label": "Obesitas BMI 35-40",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad obesitas bmi 35-40",
-      "categorie2": "Indicatie",
-      "betekenis": "Obesitas BMI 35–40. Zoek naar OGTT 27w, biometrie 32/36w, D‑indicatie voor partus en nazorg incl. borstvoedingsrisico’s."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar BMI 35–40 of gewicht/lengte die hierop uitkomt. Let op verhoogd metabool risico, voorgeschiedenis van GDM of hypertensieve aandoeningen en obesitasgerelateerde comorbiditeit."
     },
     {
       "id": "AP012",
       "label": "Obesitas BMI >40",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad obesitas bmi boven 40",
-      "categorie2": "Indicatie",
-      "betekenis": "Obesitas BMI >40. Zoek naar 2e-lijns zorg, OGTT 16 én 27w, anesthesie-ICC 28w, seriële biometrie 28/32/36w, infuusbeleid, remifentanil-voorzichtigheid en tromboserisico’s."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar BMI >40 of termen als morbide obesitas. Let op respiratoire, cardiovasculaire of metabole comorbiditeit en eerdere zwangerschapscomplicaties gerelateerd aan obesitas."
     },
     {
       "id": "AP013",
       "label": "Chronische hypertensie",
-      "category": "Hypertensief/preventie",
-      "zorgpad_title": "Zorgpad chronische hypertensie",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Chronische hypertensie (met/zonder medicatie). Zoek naar uitgangstoxlab/EKR, overweeg thuismeting, seriële biometrie 28/32/36w, stoppen ascal rond 36w en plan voor inleiding ≥38w."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar hypertensie vóór de zwangerschap of verhoogde RR <20 weken, gebruik van antihypertensiva (bijv. labetalol, nifedipine), internist/cardioloog in voorgeschiedenis of eerdere hypertensieve zwangerschap."
     },
     {
       "id": "AP014",
       "label": "Conisatie in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad conisatie in anamnese",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Conisatie in voorgeschiedenis. Zoek naar 2e-lijns zorg, cervixlengtes (ETSEO, 16/20/24w) en terugplaatsing 1e lijn rond 34w."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar eerdere conisatie, LLETZ of excisie wegens CIN2/3, verkorte cervix, cervixchirurgie of pathologieverslagen passend bij cervicale dysplasie."
     },
     {
       "id": "AP015",
       "label": "COPD of ernstige astma",
-      "category": "Long/Immuun",
-      "zorgpad_title": "Zorgpad COPD of ernstige astma",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "COPD of ernstige astma met medicatie. Zoek naar longartsbetrokkenheid, 2e-lijn traject, seriële biometrie 32/36w en klinische partus."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar COPD of matig-ernstige/ernstige astma, onderhoudsmedicatie (ICS/LABA/tiotropium), frequente exacerbaties, prednisonkuren of eerdere ziekenhuisopnames."
     },
     {
       "id": "AP016",
       "label": "Colitis ulcerosa/MC met medicatie",
-      "category": "Gastro/Immuun",
-      "zorgpad_title": "Zorgpad colitis ulcerosa met medicatie",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Inflammatoire darmziekte (M. Crohn/colitis) met medicatie. Zoek naar MDL-arts/TNF-α beleid, biometrie 32/36w, leukocytenbepaling en klinische partus + kinderarts."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar inflammatoire darmziekte (Crohn of colitis ulcerosa) met gebruik van mesalazine, thiopurines, azathioprine of biologicals (bijv. infliximab/adalimumab)."
     },
     {
       "id": "AP017",
       "label": "Diabetes mellitus pre-existent",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad pre-existente Diabetes mellitus",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Pre-existente diabetes mellitus (type 1/2). Zoek naar internist/diab.vpk, GUO, seriële biometrie 28/32/36w, GIK-infuus beleid partus en neonatale glucosecontroles."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar diabetes mellitus type 1 of 2 vóór conceptie, insulinegebruik, orale antidiabetica, verhoogde HbA1c-waarden of diabetische complicaties."
     },
     {
       "id": "AP018",
       "label": "Diabetes gravidarum in anamnese",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad diabetes gravidarum in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Eerdere GDM. Zoek naar nuchtere glucose bij intake, OGTT 16–18w en 27w, postpartum screening en huisartssurveillance (jaarlijks)."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere zwangerschapsdiabetes, afwijkende OGTT in vorige zwangerschap, dieet- of insulinebehandeling en postpartum glucosecontrole."
     },
     {
       "id": "AP019",
       "label": "Diabetes gravidarum (huidige)",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad diabetes gravidarum",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "GDM in huidige zwangerschap. Zoek naar dieet vs insuline (zorgniveau), indicatie GUO <20w bij vroege insuline, biometrie 28/32/36w en D‑indicatie partus."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar afwijkende OGTT in deze zwangerschap, verhoogde glucoseprofielen, dieettherapie, insuline- of metforminegebruik en documentatie van hyperglykemie."
     },
     {
       "id": "AP020",
       "label": "Harddrugs gebruik",
-      "category": "Middelengebruik",
-      "zorgpad_title": "Zorgpad harddrugs gebruik",
-      "categorie2": "Indicatie",
-      "betekenis": "Harddrugsgebruik tijdens zwangerschap. Zoek naar Brijder/MMW/Veilig Thuis, urinescreening, 2e‑lijns zorg, seriële biometrie, klinische bevalling en neonatale observatie."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar gebruik van cocaïne, heroïne, amfetamine, XTC, GHB of andere harddrugs, inclusief verslavingszorg, substitutietherapie of afhankelijkheid."
     },
     {
       "id": "AP021",
       "label": "Softdrugs gebruik",
-      "category": "Middelengebruik",
-      "zorgpad_title": "Zorgpad softdrugs gebruik",
-      "categorie2": "Indicatie",
-      "betekenis": "Softdrugsgebruik (definitie: <12 mnd voor zw.schap geblowd). Zoek naar urinescreening, stoppen-met-blowen adviezen, indicatie MDO en instructies peripartum."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar cannabisgebruik (wiet, hasj, blowen, joints), THC-positieve urine, frequent gebruik in het jaar vóór of tijdens de zwangerschap en documentatie van afhankelijkheid of stoppogingen."
     },
     {
       "id": "AP022",
       "label": "Dysmatuur in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad dysmatuur in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Dysmatuur (EFW/AC < p10) in voorgeschiedenis. Zoek naar Ascal-indicatie bij hoog risico, SEO/biometrieën in 2e lijn en overgang naar FGR-pad bij hernieuwde groeiachterstand."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere foetale groeirestrictie of dysmaturiteit, geboortegewicht <p10, lage AC/EFW-percentielen, placenta-insufficiëntie of afwijkende dopplers in voorgeschiedenis."
     },
     {
       "id": "AP023",
       "label": "Epilepsie met medicatie",
-      "category": "Neuro/Psych",
-      "zorgpad_title": "Zorgpad epilepsie met medicatie",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Epilepsie met medicatie. Zoek naar type middel, GUO’s bij valproïnezuur/carbamazepine/fenytoïne, EURAP, vit K‑beleid, klinische partus en borstvoedingsadvies."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar epilepsie met gebruik van anti-epileptica zoals valproïnezuur, levetiracetam, lamotrigine, carbamazepine of fenytoïne, inclusief neurologische follow-up of insultfrequentie."
     },
     {
       "id": "AP024",
       "label": "Ernstige PE/HELLP <34w in anamnese",
-      "category": "Hypertensief/preventie",
-      "zorgpad_title": "Zorgpad ernstige pre-eclampsie of HELLP voor 34wkn in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Ernstige pre‑eclampsie/HELLP vóór 34 wkn in VG. Zoek naar uitgangstoxlab/EKR, Ascal counseling, seriële biometrie 24/28/32/36w en klinische partus."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar pre-eclampsie of HELLP vóór 34 weken, opname wegens hypertensie, magnesiumsulfaat, ernstige toxlabafwijkingen (verhoogde leverenzymen, hemolyse, trombocytopenie) of vroegtijdige partus om maternale indicatie."
     },
     {
       "id": "AP025",
       "label": "GBS ziek kind in anamnese",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad GBS-ziek-kind in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "GBS‑ziek kind in anamnese. Zoek naar folder/voorlichting, 32w consult voor AB‑profylaxe, D‑situatie intrapartum en postpartum observatie neonaat (≥12–24 u)."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere neonatale GBS-sepsis, meningitis, bacteriëmie of opname van het kind wegens groep-B-streptokokkeninfectie."
     },
     {
       "id": "AP026",
       "label": "GBS-urie in huidige graviditeit",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "GBS-urie in huidige graviditeit",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "GBS‑urie in huidige graviditeit. Zoek naar GBS+ urinekweek, counseling/folder, 32w consult voor AB‑profylaxe, D‑situatie intrapartum en neonatale observatie."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar GBS-positieve urinekweek, asymptomatische bacteriurie door GBS of GBS-gerelateerde urineweginfectie in deze zwangerschap."
     },
     {
       "id": "AP027",
       "label": "Bichoriale gemelli",
-      "category": "Meervoudig/Fertiliteit",
-      "zorgpad_title": "Zorgpad bichoriale gemelli",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Bichoriale tweeling. Zoek naar foliumzuur/ijzersuppletie, NIPT/SEO in 2e lijn, seriële biometrie (24/28/32/36w), OGTT 27w en plan inleiding 37–38w."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar dichoriale tweeling (DCDA), twee placenta’s, twee vruchtzakken of expliciete vermelding van bichorialiteit op echo."
     },
     {
       "id": "AP028",
       "label": "Monochoriale gemelli",
-      "category": "Meervoudig/Fertiliteit",
-      "zorgpad_title": "Zorgpad monochoriale gemelli",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Monochoriale tweeling. Zoek naar intensieve echo‑bewaking (vanaf 14–16w frequente scans), GUO, dopplers, werk-/verlofadviezen en inleiding 36–37w."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar monochoriale tweeling (MCDA of MCMA), gedeelde placenta, risico op TTTS/TAPS of expliciete vermelding van monochorialiteit."
     },
     {
       "id": "AP029",
       "label": "Hepatitis-B dragerschap",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad hepatitis-B dragerschap",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Hepatitis B dragerschap. Zoek naar serologie (HbsAg/HBeAg/anti‑HBc/HBs‑titer), melding/MDL, vaccinatie/IG voor neonaat <2 uur postpartum en vervolg via JGZ."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar HBsAg-positiviteit, eerdere HBV-diagnose, virale load, HBeAg-status of antivirale behandeling."
     },
     {
       "id": "AP030",
       "label": "Herhaalde miskramen (>=3)",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad herhaalde miskramen (3 of meer)",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Herhaalde miskramen (≥3). Zoek naar extra vroege echo(’s) in eerste trimester en vervolginformatie."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar drie of meer spontane miskramen, fertiliteitsonderzoek, APS-screening of uterusanomalieën in voorgeschiedenis."
     },
     {
       "id": "AP031",
       "label": "HIV",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad HIV",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "HIV in zwangerschap. Zoek naar cART/viral load, MDO’s, GUO op indicatie, borstvoedingsbeleid (vaak ontraden), klinische partus en neonatale opname/beleid."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar HIV-positieve serologie, gebruik van cART, vermelding van viral load of CD4-waarden, eerdere HIV-diagnose of follow-up bij infectiologie."
     },
     {
       "id": "AP032",
       "label": "Hyperthyreoidie i.a. met pos TSHRAb",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad hyperthyreoidie in anamnese met positieve TSH receptorantistoffen",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Hyperthyreoïdie in anamnese met positieve TSH‑receptor antistoffen. Zoek naar TSH/FT4/TSHR‑ab monitoring, GUO’s, counselings/folders en neonatale labafname bij partus."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar voorgeschiedenis van hyperthyreoïdie met positieve TSH-receptorantistoffen (Graves), eerdere antithyreoïdale medicatie en documentatie van TSHR-Ab in labresultaten."
     },
     {
       "id": "AP033",
       "label": "Hyperthyreoidie met pos TSHRAb (huidig)",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad hyperthyreoidie met positieve TSH receptorantistoffen",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Actieve hyperthyreoïdie met positieve TSH‑receptor antistoffen. Zoek naar 2e lijns zorg, TSH/FT4/TSHR‑ab cycli, indicatie GUO a 4 wkn bij hoge antistoffen en navelstrengbloedbepalingen bij partus."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar actuele hyperthyreoïdie met positieve TSHR-Ab, afwijkend TSH/FT4, gebruik van antithyreoïdale medicatie en recente antistofmetingen."
     },
     {
       "id": "AP034",
       "label": "Hyperthyreoidie i.a. zonder pos TSHRAb",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad hyperthyreoidie in anamnese zonder positieve TSH receptorantistoffen",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Hyperthyreoïdie in anamnese zonder positieve TSH‑receptor antistoffen. Zoek naar 1e‑lijns traject, Thyrax‑dosis aanpassing en periodieke TSH/FT4‑controles."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar voorgeschiedenis van hyperthyreoïdie zonder positieve TSHR-Ab, zoals nodulair struma of Graves in remissie, inclusief historische TSH/FT4-afwijkingen."
     },
     {
       "id": "AP035",
       "label": "Hypothyreoidie in anamnese",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad hypothyreoidie in anamnese",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Hypothyreoïdie in anamnese. Zoek naar 1e‑lijns beleid, Thyrax‑dosis + labcontroles (TSH/FT4) tijdens zwangerschap en controle 6 wkn postpartum."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar diagnose hypothyreoïdie in voorgeschiedenis, gebruik van levothyroxine, auto-immuunthyreoïditis of eerdere afwijkende TSH/FT4-waarden."
     },
     {
       "id": "AP036",
       "label": "Hypothyreoidie (huidige)",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad hypothyreoidie",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Huidige hypothyreoïdie. Zoek naar zelfde lijnen als AP035 incl. folders, huisarts/internist betrokkenheid en controlestappen (16–18/27/33w)."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar actuele hypothyreoïdie met verhoogd TSH, verlaagd FT4, huidig levothyroxinegebruik of recente dosisaanpassingen."
     },
     {
       "id": "AP037",
       "label": "Zwanger na ART (IVF/IUI/ICSI)",
-      "category": "Meervoudig/Fertiliteit",
-      "zorgpad_title": "Zorgpad infertiliteitstraject SG",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Zwanger na fertiliteitstraject (ART/IVF/IUI/ICSI). Zoek naar counseling over iets verhoogd IUVD‑risico en bespreking inleiding vanaf 39w bij IVF/ICSI."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar conceptie via ART zoals IVF, ICSI of IUI, embryo-transfer, cryo-terugplaatsing of verwijzing naar fertiliteitscentrum."
     },
     {
       "id": "AP038",
       "label": "Irregulaire antistoffen relevant",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad irregulaire antistoffen (relevante)",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Relevante irregulaire antistoffen (bv. anti‑D/c/K). Zoek naar partneronderzoek/ADCC‑volgschema, klinische partus met navelstrengbloed en paraat bloedproducten."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar klinisch relevante erytrocytenantistoffen zoals anti-D, anti-c of anti-K, positieve antistofscreening en titerbepalingen."
     },
     {
       "id": "AP039",
       "label": "Irregulaire antistoffen niet relevant (variant 1)",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad irregulaire antistoffen (niet relevant voor de zwangerschap)",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Irregulaire antistoffen niet relevant voor zwangerschap. Zoek naar transfusie‑implicaties: kruisbloed, paraat EC/PC, D‑indicatie en planningsrestricties."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar positieve irregulaire antistoffen die expliciet als niet-klinisch relevant voor hemolytische ziekte worden beschreven."
     },
     {
       "id": "AP040",
       "label": "Jehova’s getuige",
-      "category": "Taal/Cultuur/Overig",
-      "zorgpad_title": "Zorgpad jehova’s getuige",
-      "categorie2": "Overig",
-      "betekenis": "Jehovah’s getuige. Zoek naar wilsverklaring, beleid m.b.t. transfusie, waakinfuus/kruisbloed en plaatsindicatie partus (poliklinisch/D‑indicatie)."
+      "categorie": "Overig",
+      "betekenis": "Zoek naar expliciete vermelding van Jehovah’s Getuige of vastgelegde weigering van bloedproducten in anamnese of wilsverklaring."
     },
     {
       "id": "AP041",
       "label": "LLETZ in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad LLETZ in anamnese",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "LLETZ in anamnese. Zoek naar cervixlengte bij SEO en indicatie voor verwijzing naar gynaecoloog bij <25 mm."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar eerdere LLETZ-procedure of andere cervicale excisie wegens CIN2/3, pathologieverslagen van dysplasie of verkorte cervix in voorgeschiedenis."
     },
     {
       "id": "AP042",
       "label": "Lithium gebruik",
-      "category": "Neuro/Psych",
-      "zorgpad_title": "Zorgpad lithium gebruik",
-      "categorie2": "Indicatie",
-      "betekenis": "Lithiumgebruik (bipolaire stoornis). Zoek naar POP‑poli, lithiumspiegels/nier‑ en schildklierfunctie, GUO, borstvoeding ontraden (flesvoeding) en neonatale observatie."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar actueel of recent lithiumgebruik, bipolaire stoornis in voorgeschiedenis, lithiumspiegelcontroles of documentatie van stemmingsstabilisatoren."
     },
     {
       "id": "AP043",
       "label": "MPV/HPP in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad MPV / HPP in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Eerdere fluxus/MPV/HPP of MPV. Zoek naar consult 2e lijn rond 24w, D‑indicatie, waakinfuus/kruisbloed en actief nageboortetijdperk."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere fluxus postpartum, groot bloedverlies, transfusiebehoefte, uterusatone, ballon-tamponade, curettage of invasieve hemostatische interventies."
     },
     {
       "id": "AP044",
       "label": "Ondergewicht BMI <18.5",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad ondergewicht (BMI<18,5)",
-      "categorie2": "Indicatie",
-      "betekenis": "Ondergewicht (BMI <18,5). Zoek naar voedingsadvies/dietist, Hb‑controle ~20w en biometrie 32/36w."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar BMI <18.5 of gewicht/lengte-combinaties die hierop wijzen, inclusief signalen van ondervoeding, eetstoornis of inadequate gewichtstoename."
     },
     {
       "id": "AP045",
       "label": "Uterus myomatosus",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad uterus myomatosus",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Uterus myomatosus (myomen; >5 cm obstetrisch relevant). Zoek naar mapping 16w, seriële biometrie en beoordeling baringsbelemmering (36w), klinische partus."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar myomen, uterus myomatosus, myoom >5 cm, multipele myomen, myoomchirurgie of echo-bevindingen passend bij myomateuze uterus."
     },
     {
       "id": "AP046",
       "label": "Vaginisme",
-      "category": "Neuro/Psych",
-      "zorgpad_title": "Zorgpad vaginisme",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Vaginisme. Zoek naar 12–13w consult gynaecoloog en op indicatie doorverwijzing seksuoloog/bekkenbodem‑fysiotherapie (exposure)."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar vermelding van vaginisme, dyspareunie, pijn bij penetratie, vermijding van gynaecologisch onderzoek of verwijzing naar bekkenbodemfysiotherapie/seksuologie."
     },
     {
       "id": "AP047",
       "label": "Vroeggeboorte <34w in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad vroeggeboorte <34weken in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Vroeggeboorte <34w in VG. Zoek naar progesteronprofylaxe, cervixlengte‑screening, preventie‑poli tot 35w en stop progesteron rond 36w."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere bevalling vóór 34 weken, spontane partus prematurus, PPROM <34 weken of neonatale prematuriteit gerelateerd aan vroeggeboorte."
     },
     {
       "id": "AP048",
       "label": "Vluchteling/asielzoeker",
-      "category": "Taal/Cultuur/Overig",
-      "zorgpad_title": "Zorgpad vluchteling",
-      "categorie2": "Overig",
-      "betekenis": "Vluchteling/asielzoeker (AZC). Zoek naar vaccinatiestatus en infectiescreening, contactpersoon/JGZ, MRSA‑kweek, MDO en D‑indicatie voor partus."
+      "categorie": "Overig",
+      "betekenis": "Zoek naar status als vluchteling of asielzoeker, verblijf in AZC, recente migratie, beperkte medische voorgeschiedenis of onvolledige documentatie."
     },
     {
       "id": "AP049",
       "label": "Maternale leeftijd >40 jaar",
-      "category": "Leefstijl/BMI",
-      "zorgpad_title": "Zorgpad maternale leeftijd >40 jaar",
-      "categorie2": "Overig",
-      "betekenis": "Maternale leeftijd >40 jaar. Zoek naar voorlichting/OGTT 24–28w, extra consult/biometrie 32/36w en counseling over inleiding v.a. 39w i.v.m. IUVD‑risico."
+      "categorie": "Overig",
+      "betekenis": "Zoek naar maternale leeftijd ≥40 jaar op de uitgerekende datum."
     },
     {
       "id": "AP050",
       "label": "Vroeggeboorte >34w in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad vroeggeboorte >34weken in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Vroeggeboorte ≥34w in VG. Zoek naar counseling over progesteron (vaginaal), extra rust/instructies en cervixlengte bij 20w."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere bevalling tussen 34 en 37 weken, spontane vroeggeboorte of PPROM >34 weken."
     },
     {
       "id": "AP051",
       "label": "Zwangerschap na eiceldonatie",
-      "category": "Meervoudig/Fertiliteit",
-      "zorgpad_title": "Zorgpad zwangerschap na eiceldonatie",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Zwangerschap na eiceldonatie. Zoek naar gedeelde zorg met extra 2e‑lijn consulten/biometrie (28/32/36w), toxlab/EKR en inleiding v.a. 39w afhankelijk leeftijd/MI."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar conceptie via eiceldonatie, donor-oöcyten, buitenlandse donorprogramma’s of expliciete vermelding van een ED-traject."
     },
     {
       "id": "AP052",
       "label": "Tromboseprofylaxe zwangerschap en kraambed",
-      "category": "Trombose/Antistolling",
-      "zorgpad_title": "Zorgpad tromboseprofylaxe zwangerschap en kraambed",
-      "categorie2": "Indicatie",
-      "betekenis": "LMWH‑profylaxe indicatie tijdens zwangerschap en kraambed. Zoek naar start/monitoring trombocyten, instructies rond neuraxis‑blokkade en duur postpartum profylaxe."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar gebruik van profylactische LMWH tijdens zwangerschap én kraambed, voorgeschiedenis van trombose of trombofilie die aanleiding geeft tot antistollingsprofylaxe."
     },
     {
       "id": "AP053",
       "label": "Tromboseprofylaxe kraambed",
-      "category": "Trombose/Antistolling",
-      "zorgpad_title": "Zorgpad tromboseprofylaxe kraambed",
-      "categorie2": "Indicatie",
-      "betekenis": "Profylaxe alleen in kraambed. Zoek naar 1e‑lijn traject + 2e‑lijn consult voor besluitvorming en start LMWH postpartum gedurende 6 weken."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar start van LMWH uitsluitend postpartum, inclusief voorgeschiedenis van postpartum trombose of verhoogd tromboserisico rond bevalling."
     },
     {
       "id": "AP054",
       "label": "Sectio in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad sectio in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Sectio in anamnese. Zoek naar counseling VBAC vs ERCS, consult 24w, overname 36w en locatie placenta."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere keizersnede (primaire of secundaire sectio), indicatie, uterusscar, complicaties of meerdere eerdere sectio’s."
     },
     {
       "id": "AP055",
       "label": "Foetale groeirestrictie (FGR) verdenking",
-      "category": "Placenta/Koord/Ligging/ROM",
-      "zorgpad_title": "Zorgpad Foetale groeirestrictie",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Foetale groeirestrictie/verdachte dysmaturiteit. Zoek naar seriële biometrie (± q2w tot 36w), dopplers, timing inleiding (38w bij normaal, eerder bij geen groei/abnormale dopplers)."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar EFW of AC <p10, afbuigende groeicurve, discrepantie tussen termijn en groei, placenta-insufficiëntie of afwijkende dopplers."
     },
     {
       "id": "AP056",
       "label": "Anemie",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad anemie",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Anemie (Hb/MCV/ferritine afwijkend). Zoek naar protocol‑gestuurd beleid incl. ijzertherapie en Hb‑pathie‑screening op indicatie."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar verlaagd Hb, afwijkend MCV of laag ferritine, ijzergebreksanemie, hemoglobinopathie-screening of eerdere ijzertherapie."
     },
     {
       "id": "AP057",
       "label": "Rhesus-D negatief",
-      "category": "Bloedgroep/Rhesus",
-      "zorgpad_title": "Zorgpad rhesus-D negatief",
-      "categorie2": "Indicatie",
-      "betekenis": "Rhesus‑D negatief. Zoek naar foetale Rh‑D‑bepaling ~7w, anti‑D rond 30w bij RhD+ foetus en postpartum toediening volgens protocol."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar Rhesus-D-negatieve bloedgroep of vermelding van RhD-negativiteit in serologie."
     },
     {
       "id": "AP058",
       "label": "Rhesus-c negatief",
-      "category": "Bloedgroep/Rhesus",
-      "zorgpad_title": "Zorgpad rhesus-c negatief",
-      "categorie2": "Indicatie",
-      "betekenis": "Rhesus‑c negatief. Zoek naar 27w lab en verplaatsen naar ‘huidige graviditeit’ bij uitslag beschikbaar."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar Rhesus-c-negatieve bloedgroep of expliciete vermelding van c-negativiteit in bloedgroepserologie."
     },
     {
       "id": "AP059",
       "label": "Zwangerschapsinterval <1 jaar",
-      "category": "Leeftijd",
-      "zorgpad_title": "Zorgpad binnen 1 jaar zwanger",
-      "categorie2": "Overig",
-      "betekenis": "Zwangerschapsinterval <1 jaar. Zoek naar Hb‑controle rond 20w en vermelden/verplaatsen als huidig probleem indien actueel."
+      "categorie": "Overig",
+      "betekenis": "Zoek naar interpregnancy interval korter dan 12 maanden tussen vorige bevalling en huidige conceptie."
     },
     {
       "id": "AP060",
       "label": "Cholestase (zwangerschapscholestase)",
-      "category": "Hepatobiliair",
-      "zorgpad_title": "Zorgpad cholestase",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Zwangerschapscholestase. Zoek naar galzure zouten (monitoring), Ursochol‑gebruik, CTG/lab‑frequentie per GZZ‑niveau en timing inleiding (36–39w afhankelijk GZZ/therapie)."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar verhoogde galzuren, jeuk zonder huidafwijkingen, afwijkende leverwaarden of diagnose intrahepatische zwangerschapscholestase."
     },
     {
       "id": "AP061",
       "label": "PCOS",
-      "category": "Endocrien/metabool",
-      "zorgpad_title": "Zorgpad PCOS",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "PCOS. Zoek naar verhoogd GDM‑risico: nuchtere glucose bij intake en OGTT 27w."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar diagnose PCOS op basis van oligo- of amenorroe, anovulatie, hyperandrogenisme (klinisch of biochemisch), polycysteus ovariumbeeld op echo, verhoogd AMH of fertiliteitstraject wegens ovulatiestoornis."
     },
     {
       "id": "AP062",
       "label": "Pre-eclampsie (huidige)",
-      "category": "Hypertensief/preventie",
-      "zorgpad_title": "Zorgpad Pre-eclampsie",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Huidige pre‑eclampsie. Zoek naar klinische of intensieve poliklinische observatie (CTG/RR/toxlab/EKR), echo op indicatie en postpartum follow‑up."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar nieuwe hypertensie in combinatie met proteïnurie of orgaandisfunctie. Herken klachten passend bij pre-eclampsie: persisterende hoofdpijn, visusstoornissen (wazig zien, flitsen, sterretjes), tinnitus, misselijkheid of braken, epigastrische of rechterbovenbuikspijn, plotselinge toename van oedeem (handen/gezicht), snelle gewichtstoename door vochtretentie, dyspneu, malaise of insulten (eclampsie). Let op afwijkend toxlab: verhoogde leverenzymen, hemolyseparameters, trombocytopenie, verhoogd creatinine, proteïnurie of tekenen van orgaandisfunctie."
     },
     {
       "id": "AP063",
       "label": "Zwangerschapshypertensie (PIH)",
-      "category": "Hypertensief/preventie",
-      "zorgpad_title": "Zorgpad zwangerschapshypertensie",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Zwangerschapshypertensie (PIH). Zoek naar frequente RR/CTG, toxlab/EKR, seriële biometrie <36w en geïndividualiseerd beleid t.a.v. inleiding."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar nieuw ontstane hypertensie na 20 weken zonder proteïnurie of orgaandisfunctie, verhoogde RR-trends of eerdere PIH in voorgeschiedenis."
     },
     {
       "id": "AP064",
       "label": "Macrosomie in anamnese",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad macrosomie in anamnese",
-      "categorie2": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Macrosomie in anamnese. Zoek naar OGTT 27w, seriële biometrie 32/36w en consult staflid bij hernieuwde macrosomie t.b.v. timing partus."
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Zoek naar eerdere geboortegewicht >4000–4500 g of >p95, vermelding van macrosomie, groot kind of schouderdystocie in voorgeschiedenis."
     },
     {
       "id": "AP065",
       "label": "Antistolling therapeutisch zw/kraambed",
-      "category": "Trombose/Antistolling",
-      "zorgpad_title": "Zorgpad antistolling therapeutisch zwangerschap en kraambed",
-      "categorie2": "Indicatie",
-      "betekenis": "Therapeutische antistolling (zwangerschap/kraambed). Zoek naar 2e‑lijn beleid, trombocytencontrole, aanpassing dosering rond partus en postpartum vervolg."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar therapeutische dosering LMWH of andere anticoagulantia tijdens zwangerschap of kraambed, inclusief voorgeschiedenis van DVT, longembolie, ernstige trombofilie of mechanische hartklep."
     },
     {
       "id": "AP066",
       "label": "Antifosfolipidensyndroom (APS)",
-      "category": "Trombose/Antistolling",
-      "zorgpad_title": "Zorgpad antifosfolipidensyndroom",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Antifosfolipidensyndroom. Zoek naar start LMWH profylaxe vanaf positieve test, ascal 80 mg t/m 36w, trombocytenmonitoring en partus‑instructies."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar diagnose APS met positieve lupus anticoagulans, anticardiolipine of β2-glycoproteïne I-antistoffen, voorgeschiedenis van trombose of herhaalde miskramen."
     },
     {
       "id": "AP067",
       "label": "Niet-relevante irregulaire antistoffen (variant 2)",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad niet relevante irregulaire antistoffen",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Niet‑relevante irregulaire antistoffen (variant 2). Zoek naar transfusieplanning: tijdig kruisen, D‑indicatie en EC’s paraat bij (geplande) inleiding/PSC."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar positieve irregulaire antistoffen die expliciet als niet-klinisch relevant voor hemolytische ziekte van de foetus worden benoemd."
     },
     {
       "id": "AP068",
       "label": "TNF-α remmers gebruik",
-      "category": "Gastro/Immuun",
-      "zorgpad_title": "Zorgpad TNF alfa remmers",
-      "categorie2": "Indicatie",
-      "betekenis": "TNF‑α‑remmers gebruik. Zoek naar middel/doseringsschema, overleg medebehandelaar over stopmoment, biometrie 28/32/36w en leukocytencontrole."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar gebruik van TNF-α-remmers zoals infliximab, adalimumab, golimumab of certolizumab, inclusief onderliggende IBD, reumatologische of dermatologische aandoeningen."
     },
     {
       "id": "AP069",
       "label": "Roken in de zwangerschap",
-      "category": "Middelengebruik",
-      "zorgpad_title": "Zorgpad roken in de zwangerschap",
-      "categorie2": "Indicatie",
-      "betekenis": "Roken in de zwangerschap. Zoek naar aantal sigaretten/dag, motivatie/aanmelding ‘Rookvrije Ouders’, counseling en seriële biometrie 32/36w."
+      "categorie": "Indicatie",
+      "betekenis": "Zoek naar actief tabaksgebruik tijdens de zwangerschap, aantal sigaretten per dag, rookgeschiedenis, CO-metingen of documentatie van rookgedrag."
     },
     {
       "id": "AP070",
       "label": "Velamenteuze insertie navelstreng (vasa praevia uitgesloten)",
-      "category": "Placenta/Koord/Ligging/ROM",
-      "zorgpad_title": "Zorgpad velamenteuze insertie navelstreng",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Velamenteuze insertie (vasa praevia uitgesloten). Zoek naar seriële biometrie 32/36w en documentatie van vasa‑praevia‑exclusie."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar echo-diagnose van velamenteuze insertie waarbij de navelstreng in de vliezen aanhecht, met vermelding van vrije vaatbanen of afwijkende insertieplaats."
     },
     {
       "id": "AP071",
       "label": "Uterus anomalie",
-      "category": "Obstetrische VG",
-      "zorgpad_title": "Zorgpad uterus anomalie",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Uterusanomalie (bicornis/unicornis/didelphys/arcuatus). Zoek naar hoornlokalisatie vroege echo, cervixlengtes, SEO in 2e lijn en beleid bij stuit/versie."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar congenitale uterusafwijkingen zoals uterus bicornis, unicornis, didelphys, septus of arcuatus, inclusief afwijkende cavumvorm op echo, MRI of hysteroscopie en voorgeschiedenis van miskramen of fertiliteitsproblemen."
     },
     {
       "id": "AP072",
       "label": "Trombocytopenie",
-      "category": "Infectie/Hematologie",
-      "zorgpad_title": "Zorgpad trombocytopenie",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Trombocytopenie (<150×10^9/L). Zoek naar herhaling in citraat, differentiaal/antistoffen, internistbetrokkenheid, anesthesie‑consult en intrapartum drempels/IVIG."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar trombocyten <150 x 10^9/L, dalende trombocytentrend, ITP, hypertensieve aandoeningen, HELLP, infecties of medicatiegerelateerde trombocytopenie."
     },
     {
       "id": "AP073",
       "label": "Langdurig/prematuur gebroken vliezen (PROM/PPROM)",
-      "category": "Placenta/Koord/Ligging/ROM",
-      "zorgpad_title": "Zorgpad langdurig gebroken vliezen",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Langdurig/prematuur gebroken vliezen. Zoek naar duur en test, GBS‑status en inleidingsbeleid per scenario (a terme/PPROM), CTG/temperatuur en neonatale observatie."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar verlies van vruchtwater >24 uur (PROM) of gebroken vliezen <37 weken (PPROM), positieve vruchtwatertesten, speculumbevindingen of oligohydramnion passend bij gebroken vliezen."
     },
     {
       "id": "AP074",
       "label": "Ehlers-Danlos (hypermobiliteitssyndroom)",
-      "category": "Taal/Cultuur/Overig",
-      "zorgpad_title": "Zorgpad ehlers danlos hypermobiliteitssyndroom",
-      "categorie2": "Medische voorgeschiedenis",
-      "betekenis": "Ehlers‑Danlos (hypermobiliteit). Zoek naar verhoogde risico’s (rupturen/fluxus), consulten (cardio/oog/anesthesie), beperkingen bij partus en actief nageboortetijdperk."
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Zoek naar diagnose Ehlers-Danlos of hypermobiliteitssyndroom, gewrichtshyperlaxiteit, recidiverende luxaties, hyperextensibele huid, littekenproblemen of easy bruising."
     },
     {
       "id": "AP075",
       "label": "Placenta praevia",
-      "category": "Placenta/Koord/Ligging/ROM",
-      "zorgpad_title": "Zorgpad placenta praevia",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Placenta praevia. Zoek naar afstand tot ostium (AD/32/36w), vasa‑praevia uitsluiting, PSC‑planning 37–38w of vaginalebeleid per mm‑cut‑offs en accreta‑screening."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar placenta die geheel of gedeeltelijk over het ostium internum ligt, echo-rapport met placenta praevia of bloedingen in tweede/derde trimester passend bij lage placentaligging."
     },
     {
       "id": "AP076",
       "label": "Placenta laagliggend",
-      "category": "Placenta/Koord/Ligging/ROM",
-      "zorgpad_title": "Zorgpad placenta laagliggend",
-      "categorie2": "Huidige zwangerschap",
-      "betekenis": "Placenta laagliggend. Zoek naar mm‑afstand ostium (32/36w), triage per drempels (>35, 20–35, 10–20, <10 mm), vasa‑praevia‑exclusie en accreta‑overweging bij anterior."
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Zoek naar placenta die laag in het onderste uterine segment ligt zonder het ostium te bedekken, inclusief vermelde afstand tot het ostium op echo."
     },
     {
       "id": "AP077",
       "label": "Taalbarrière",
-      "category": "Taal/Cultuur/Overig",
-      "zorgpad_title": "Zorgpad taalbarriere",
-      "categorie2": "Overig",
-      "betekenis": "Taalbarrière. Zoek naar moedertaal/tolkbehoefte, gedeelde materialen/films, signalenkaart, en contactinstructies."
+      "categorie": "Overig",
+      "betekenis": "Zoek naar beperkte beheersing van de Nederlandse taal, noodzaak tot tolkgebruik, communicatieproblemen of documentatie van taal als zorgbelemmering."
     },
     {
       "id": "AP078",
       "label": "Engelssprekend",
-      "category": "Taal/Cultuur/Overig",
-      "zorgpad_title": "Zorgpad engelssprekend",
-      "categorie2": "Overig",
-      "betekenis": "Engelssprekend. Zoek naar gedeelde Engelstalige voorlichtingsmaterialen en documentatie daarvan."
+      "categorie": "Overig",
+      "betekenis": "Zoek naar expliciete vermelding dat patiënt uitsluitend Engels spreekt of geen Nederlands beheerst."
+    },
+    {
+      "id": "AP079",
+      "label": "Kwetsbare zwangere",
+      "categorie": "Overig",
+      "betekenis": "Zoek naar risicofactoren voor sociale, psychische of praktische kwetsbaarheid. Let op: vermoeden of voorgeschiedenis van huiselijk geweld of kindermishandeling; laaggeletterdheid of moeite met begrijpen van medische informatie; ongecontroleerde of laat aangevangen zwangerschap; psychische of psychiatrische problematiek (depressie, angst, PTSS, bipolaire stoornis, persoonlijkheidsproblematiek); traumatische partus; sociale problemen zoals relatieproblemen, financiële zorgen, schulden, instabiele huisvesting of dakloosheid; tienerzwangerschap; gebruik van alcohol of drugs; laag IQ of begeleiding door instelling; ongedocumenteerde status, recent statushouderschap of verblijf in AZC; ongeplande of ongewenste zwangerschap; gebrek aan sociaal vangnet; zorgmijding, moeite met afspraken nakomen of beperkte zelfredzaamheid. Signaleer ook stapeling van meerdere van deze factoren."
     }
   ]
 }
