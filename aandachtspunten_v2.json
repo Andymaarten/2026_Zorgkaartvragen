@@ -10,6 +10,14 @@
       "zorgpad_title": "Zorgpad ascal indicatie",
       "categorie2": "Indicatie",
       "betekenis": "Indicatie voor acetylsalicylzuur (80 mg tot 36 wkn) ter preventie van pre-eclampsie en/of foetale groeirestrictie. Zoek naar Ascal-gebruik, counseling hierover, calciumadvies en onderliggende risicofactoren."
+    },
+    {
+      "id": "AP044",
+      "label": "Ondergewicht BMI <18.5",
+      "category": "Leefstijl/BMI",
+      "zorgpad_title": "Zorgpad ondergewicht (BMI<18,5)",
+      "categorie2": "Indicatie",
+      "betekenis": "Ondergewicht (BMI <18,5). Zoek naar voedingsadvies/dietist, Hb‑controle ~20w en biometrie 32/36w."
     }
   ]
 }
