@@ -7,7 +7,7 @@
       "id": "AP001",
       "label": "Ascal indicatie",
       "categorie": "Indicatie",
-      "betekenis": "Markeer dit aandachtspunt positief wanneer er aanwijzingen zijn voor een indicatie voor acetylsalicylzuurprofylaxe. Dit is het geval bij: (1) voorgaand gebruik van Ascal/acetylsalicylzuur in een eerdere zwangerschap ter preventie van pre-eclampsie of FGR; (2) aanwezigheid van één of meer HOOG-risicofactoren voor pre-eclampsie, waaronder: pre-eclampsie in een eerdere zwangerschap, chronische nierziekte, auto-immuunziekten zoals SLE of antifosfolipidensyndroom, diabetes mellitus type 1 of 2, of pre-existente hypertensie; (3) aanwezigheid van twee of meer MATIGE risicofactoren, waaronder: nullipariteit, maternale leeftijd ≥40 jaar, zwangerschapsinterval >10 jaar, pre-eclampsie in de familie-anamnese (moeder of zuster), obesitas (BMI >35 kg/m²), meerlingzwangerschap, placentaire insufficiëntie in de obstetrische voorgeschiedenis (bijv. laag geboortegewicht, FGR of onverklaarde perinatale sterfte), of zwangerschap na eiceldonatie."
+      "betekenis": "Markeer dit aandachtspunt positief wanneer er aanwijzingen zijn voor een indicatie voor acetylsalicylzuurprofylaxe. Dit is het geval bij: (1) voorgaand gebruik van Ascal/acetylsalicylzuur in een eerdere zwangerschap ter preventie van pre-eclampsie of FGR; (2) aanwezigheid van één of meer HOOG-risicofactoren voor pre-eclampsie, waaronder: pre-eclampsie in een eerdere zwangerschap, chronische nierziekte, auto-immuunziekten zoals SLE of antifosfolipidensyndroom, diabetes mellitus type 1 of 2, of pre-existente hypertensie; (3) aanwezigheid van twee of meer van de volgende MATIGE risicofactoren (tel ALLEEN mee als de exacte drempelwaarde wordt gehaald, dus niet 'in de buurt'): nullipariteit, maternale leeftijd LETTERLIJK 40 jaar of ouder (dus NIET bij een leeftijd onder de 40), zwangerschapsinterval >10 jaar, pre-eclampsie in de familie-anamnese (moeder of zuster), obesitas met BMI LETTERLIJK hoger dan 35 kg/m² (dus NIET bij een BMI tussen 30 en 35 — dat is een ander, apart aandachtspunt), meerlingzwangerschap, placentaire insufficiëntie in de obstetrische voorgeschiedenis (bijv. laag geboortegewicht, FGR of onverklaarde perinatale sterfte), of zwangerschap na eiceldonatie. Controleer bij twijfel elke drempelwaarde apart tegen het exacte getal uit de zorgkaart voordat je een risicofactor meetelt."
     },
     {
       "id": "AP002",
@@ -49,7 +49,7 @@
       "id": "AP008",
       "label": "SSRI gebruik",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar gebruik van SSRI’s of andere antidepressiva zoals sertraline, fluoxetine, citalopram of paroxetine, en naar onderliggende psychiatrische voorgeschiedenis."
+      "betekenis": "Markeer dit aandachtspunt UITSLUITEND positief wanneer een SSRI of ander antidepressivum (bijv. sertraline, fluoxetine, citalopram, paroxetine) daadwerkelijk als medicatie wordt VOORGESCHREVEN of GEBRUIKT. Psychische klachten, depressieve gevoelens of contact met POH/psycholoog ZONDER vermelding van daadwerkelijk medicatiegebruik tellen NIET mee — dat is geen SSRI-gebruik."
     },
     {
       "id": "AP009",
@@ -59,15 +59,15 @@
     },
     {
       "id": "AP010",
-      "label": "Obesitas BMI 30-35",
+      "label": "Obesitas BMI tussen 30 en 35",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar BMI 30–35 of gewicht/lengte-combinaties die hierop wijzen, inclusief verhoogd risico op GDM of hypertensieve aandoeningen."
+      "betekenis": "Zoek naar een BMI die LETTERLIJK tussen 30 en 35 ligt (dus BMI 30,0 t/m 34,9), of gewicht/lengte-combinaties die hierop uitkomen. Markeer NIET positief als de BMI 35 of hoger is — dat valt onder het aparte aandachtspunt 'Obesitas BMI tussen 35 en 40'."
     },
     {
       "id": "AP011",
-      "label": "Obesitas BMI 35-40",
+      "label": "Obesitas BMI tussen 35 en 40",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar BMI 35–40 of gewicht/lengte die hierop uitkomt. Let op verhoogd metabool risico, voorgeschiedenis van GDM of hypertensieve aandoeningen en obesitasgerelateerde comorbiditeit."
+      "betekenis": "Zoek naar een BMI die LETTERLIJK tussen 35 en 40 ligt (dus BMI 35,0 t/m 39,9), of gewicht/lengte-combinaties die hierop uitkomen. Markeer NIET positief als de BMI lager dan 35 is — dat valt onder het aparte aandachtspunt 'Obesitas BMI tussen 30 en 35' — en NIET als de BMI 40 of hoger is."
     },
     {
       "id": "AP012",
