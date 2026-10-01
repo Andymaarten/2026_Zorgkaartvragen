@@ -1,481 +1,530 @@
-# version 2.1
-# updated at 2026-02-11
+# version 3.1
+# updated at 01-10-2026
+# gegenereerd uit 261001_Prompts_aandachtspunten_v3.2.xlsx met build_aandachtspunten_json.py
 
 {
   "AANDACHTSPUNTEN": [
     {
       "id": "AP001",
-      "label": "Ascal indicatie",
+      "label": "Ascalindicatie",
       "categorie": "Indicatie",
-      "betekenis": "Markeer dit aandachtspunt positief wanneer er aanwijzingen zijn voor een indicatie voor acetylsalicylzuurprofylaxe. Dit is het geval bij: (1) voorgaand gebruik van Ascal/acetylsalicylzuur in een eerdere zwangerschap ter preventie van pre-eclampsie of FGR; (2) aanwezigheid van één of meer HOOG-risicofactoren voor pre-eclampsie, waaronder: pre-eclampsie in een eerdere zwangerschap, chronische nierziekte, auto-immuunziekten zoals SLE of antifosfolipidensyndroom, diabetes mellitus type 1 of 2, of pre-existente hypertensie; (3) aanwezigheid van twee of meer van de volgende MATIGE risicofactoren (tel ALLEEN mee als de exacte drempelwaarde wordt gehaald, dus niet 'in de buurt'): nullipariteit, maternale leeftijd LETTERLIJK 40 jaar of ouder (dus NIET bij een leeftijd onder de 40), zwangerschapsinterval >10 jaar, pre-eclampsie in de familie-anamnese (moeder of zuster), obesitas met BMI LETTERLIJK hoger dan 35 kg/m² (dus NIET bij een BMI tussen 30 en 35 — dat is een ander, apart aandachtspunt), meerlingzwangerschap, placentaire insufficiëntie in de obstetrische voorgeschiedenis (bijv. laag geboortegewicht, FGR of onverklaarde perinatale sterfte), of zwangerschap na eiceldonatie. Controleer bij twijfel elke drempelwaarde apart tegen het exacte getal uit de zorgkaart voordat je een risicofactor meetelt."
+      "betekenis": "Een indicatie voor acetylsalicylzuurprofylaxe in de huidige zwangerschap volgens de aangeleverde risicoregels. Positief wanneer: Er expliciet een geldige indicatie staat; Ascal/acetylsalicylzuur in een eerdere zwangerschap werd gebruikt ter preventie van pre-eclampsie of FGR; ten minste één hoogrisicofactor aanwezig is; of ten minste twee verschillende matige risicofactoren aanwezig zijn. Hoogrisicofactoren: eerdere pre-eclampsie, chronische nierziekte, SLE of APS, pre-existente diabetes type 1/2, pre-existente hypertensie. Matige risicofactoren: nullipariteit, leeftijd ≥40 jaar, zwangerschapsinterval >10 jaar, pre-eclampsie bij moeder of zuster, BMI >35 kg/m², meerlingzwangerschap, eerdere placentaire insufficiëntie zoals FGR of onverklaarde perinatale sterfte, zwangerschap na eiceldonatie. Een laag geboortegewicht telt bij placentaire insufficiëntie alleen als die samenhang blijkt uit de kaart. Niet positief wanneer: Alleen Ascalgebruik, gebruik op eigen verzoek of een wens tot Ascal staat zonder geldige indicatie; slechts één matige risicofactor aanwezig is; of risicofactoren alleen worden onderzocht. Tel één factor niet dubbel. Grenswaarden: Leeftijd ≥40 jaar op de uitgerekende datum. Zwangerschapsinterval >10 jaar. BMI >35,0 kg/m² (35,0 telt niet). Aantal risicofactoren: ≥1 hoog of ≥2 matig."
     },
     {
       "id": "AP002",
       "label": "Asfyxie of perinatale sterfte in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere intra-uteriene vruchtdood, neonatale sterfte, ernstige asfyxie, reanimatie, lage Apgar-scores, NICU-opname, hypoxisch-ischemische encefalopathie of neonatale insulten."
+      "betekenis": "Asfyxie bij een eerder kind of foetale/neonatale sterfte rond een eerdere zwangerschap. Positief wanneer: Intra-uteriene sterfte vanaf 22+0 weken is vastgelegd; of neonatale sterfte van een kind geboren vanaf 22+0 weken is vermeld; of een eerdere diagnose ernstige/perinatale asfyxie, HIE of expliciet hypoxisch letsel staat beschreven. Reanimatie en lage Apgar kunnen ondersteunen als de samenhang met asfyxie wordt vermeld. Niet positief wanneer: Alleen miskraam vóór 22+0 weken, extra-uteriene zwangerschap, zwangerschapsafbreking, hyperemesis, vroeggeboorte, NICU-opname wegens prematuriteit, lage Apgar zonder verdere duiding of neonatale insulten zonder hypoxische verklaring staat vermeld. Grenswaarden: Zwangerschapsduur bij sterfte: ≥22+0 weken. Geen Apgar-grens."
     },
     {
       "id": "AP003",
       "label": "Asherman in anamnese",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar intra-uteriene adhesies, Asherman-syndroom, adhesiolyse, cavumafwijkingen, post-curettage klachten, subfertiliteit of hypomenorroe/amenorroe."
+      "betekenis": "Eerder vastgestelde intra-uteriene adhesies/Asherman-syndroom. Positief wanneer: Asherman, intra-uteriene adhesies of hysteroscopisch bevestigde adhesies zijn vermeld, of adhesiolyse van intra-uteriene adhesies daadwerkelijk is uitgevoerd. Niet positief wanneer: Alleen curettage, subfertiliteit, hypomenorroe, amenorroe, post-curettage klachten, een niet nader omschreven cavumafwijking of congenitale uterusafwijking is vermeld. Adhesies buiten het cavum tellen niet mee."
     },
     {
       "id": "AP004",
       "label": "Bariatrische chirurgie i.a. BMI 30-40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar bariatrische chirurgie (gastric bypass, sleeve, banding) in voorgeschiedenis bij huidig BMI 30–40, inclusief gewijzigde glucoseabsorptie, malabsorptie of vitaminesuppletie."
+      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI in de betreffende categorie. Positief wanneer: Gastric bypass, sleeve, maagband of andere bariatrische ingreep daadwerkelijk is uitgevoerd én de geselecteerde BMI ≥30 en <40 kg/m² bedraagt. Gebruik de preconceptionele/intake-BMI; gebruik bij ontbreken daarvan de expliciet als actuele BMI gerapporteerde waarde en benoem het meetmoment. Niet positief wanneer: Alleen obesitas, malabsorptie, dumping, WLS-suppletie, een dagcurve of een geplande bariatrische ingreep is genoemd; de ingreep niet vaststaat; of BMI ontbreekt/buiten de categorie valt. Grenswaarden: BMI ≥30,0 en <40,0 kg/m² bij intake."
     },
     {
       "id": "AP005",
       "label": "Bariatrische chirurgie i.a. BMI >40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar bariatrische chirurgie in voorgeschiedenis met huidig BMI >40, inclusief comorbiditeit, metabole problematiek, malabsorptie of dumpingklachten."
+      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI ≥40 kg/m². Positief wanneer: Een bariatrische ingreep daadwerkelijk is uitgevoerd én BMI ≥40 blijkt uit een betrouwbare gerapporteerde of berekende uitgangswaarde. Gebruik hetzelfde BMI-meetmoment als AP004/AP006. Niet positief wanneer: Alleen morbide obesitas of een geplande bariatrische ingreep is vermeld; de BMI ontbreekt; of BMI <40 is. Comorbiditeit of dumping vervangt geen BMI-waarde. Grenswaarden: BMI ≥40,0 kg/m² bij intake."
     },
     {
       "id": "AP006",
       "label": "Bariatrische chirurgie i.a. BMI <30",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar bariatrische chirurgie bij huidig BMI <30, inclusief gebruik van WLS-suppletie, dagcurves i.p.v. OGTT en aanwijzingen voor voedingstekorten."
+      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI <30 kg/m². Positief wanneer: De ingreep daadwerkelijk is uitgevoerd én de geselecteerde BMI <30 is. Gebruik hetzelfde meetmoment als AP004/AP005. Niet positief wanneer: Alleen supplementen, gewijzigde glucosescreening, voedingstekorten of een operatievoornemen zijn vermeld; of de BMI ontbreekt of ≥30 is. Grenswaarden: BMI <30,0 kg/m² bij intake"
     },
     {
       "id": "AP007",
       "label": "Schouderdystocie in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere schouderdystocie, gebruik van McRoberts, suprapubische druk, plexus brachialis letsel, macrosomie of noodmanoeuvres tijdens partus."
+      "betekenis": "Schouderdystocie tijdens een eerdere bevalling. Positief wanneer: Schouderdystocie expliciet is vermeld of gerichte manoeuvres zoals McRoberts met suprapubische druk duidelijk zijn toegepast wegens vastzittende schouders. Niet positief wanneer: Alleen macrosomie, vermoeden van een groot kind, plexusletsel zonder beschreven schouderdystocie, moeilijke bevalling of voorbereiding op mogelijke schouderdystocie staat vermeld."
     },
     {
       "id": "AP008",
-      "label": "SSRI gebruik",
+      "label": "SSRI-gebruik",
       "categorie": "Indicatie",
-      "betekenis": "Markeer dit aandachtspunt UITSLUITEND positief wanneer een SSRI of ander antidepressivum (bijv. sertraline, fluoxetine, citalopram, paroxetine) daadwerkelijk als medicatie wordt VOORGESCHREVEN of GEBRUIKT. Psychische klachten, depressieve gevoelens of contact met POH/psycholoog ZONDER vermelding van daadwerkelijk medicatiegebruik tellen NIET mee — dat is geen SSRI-gebruik."
+      "betekenis": "Daadwerkelijk gebruik van een SSRI in de huidige zwangerschap. Positief wanneer: Actueel gebruik of een geldig voorschrift voor een SSRI staat vermeld, bijvoorbeeld sertraline, citalopram, escitalopram, fluoxetine, paroxetine of fluvoxamine. Een actueel medicatieoverzicht geldt als bewijs tenzij expliciet staat dat het middel niet wordt gebruikt. Niet positief wanneer: Alleen depressie, angst, POH-, psycholoog- of POP-contact, een medicatieoverweging, of een SSRI dat vóór de zwangerschap definitief is gestopt staat vermeld. Andere antidepressiva zijn geen SSRI. Grenswaarden: Geen dosisgrens; elk actueel gebruik telt."
     },
     {
       "id": "AP009",
       "label": "(Sub)totaalruptuur in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar OASIS (graad 3–4), sfincterletsel, fecale incontinentie, endo-anale echo of perineale reconstructieve ingrepen."
+      "betekenis": "Obstetrisch anale-sfincterletsel bij een eerdere bevalling. Positief wanneer: Graad 3/4, 3a/3b/3c, derde-/vierdegraadsruptuur, OASIS, subtotaalruptuur, totaalruptuur of expliciet obstetrisch sfincterletsel is vastgelegd. Niet positief wanneer: Alleen graad 1/2, episiotomie, vaginawand-, labium-, schaamlip- of clitorisruptuur, ‘ruptuur gehecht’, fecale incontinentie, endo-anale echo of bekkenbodembehandeling zonder vastgesteld sfincterletsel staat vermeld. Grenswaarden: Ruptuurgraad ≥3 (dus graad 3a, 3b, 3c of 4)."
     },
     {
       "id": "AP010",
       "label": "Obesitas BMI tussen 30 en 35",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar een BMI die LETTERLIJK tussen 30 en 35 ligt (dus BMI 30,0 t/m 34,9), of gewicht/lengte-combinaties die hierop uitkomen. Markeer NIET positief als de BMI 35 of hoger is — dat valt onder het aparte aandachtspunt 'Obesitas BMI tussen 35 en 40'."
+      "betekenis": "BMI in de eerste obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: De preconceptionele/intake-BMI 30 ≤ BMI <35 is; bij ontbreken daarvan een expliciete actuele BMI in die categorie. Bereken alleen uit betrouwbare lengte en gewicht van hetzelfde relevante meetmoment. Niet positief wanneer: Alleen ‘obesitas’, een zorgpadnaam, hoog gewicht zonder lengte of een BMI buiten deze categorie is vermeld. Gebruik geen BMI van vóór bariatrische chirurgie als huidige uitgangswaarde. Grenswaarden: BMI ≥30,0 en <35,0 kg/m² bij intake."
     },
     {
       "id": "AP011",
-      "label": "Obesitas BMI tussen 35 en 40",
+      "label": "Obesitas met BMI 35 tot onder 40",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar een BMI die LETTERLIJK tussen 35 en 40 ligt (dus BMI 35,0 t/m 39,9), of gewicht/lengte-combinaties die hierop uitkomen. Markeer NIET positief als de BMI lager dan 35 is — dat valt onder het aparte aandachtspunt 'Obesitas BMI tussen 30 en 35' — en NIET als de BMI 40 of hoger is."
+      "betekenis": "BMI in de tweede obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: Dezelfde BMI-selectieregel als AP010 een waarde 35 ≤ BMI <40 oplevert. Niet positief wanneer: Alleen ‘ernstige obesitas’ staat vermeld of BMI <35 of ≥40 is; een niet-gekwantificeerde categorie mag geen exacte waarde vervangen. Grenswaarden: BMI ≥35,0 en <40,0 kg/m² bij intake."
     },
     {
       "id": "AP012",
       "label": "Obesitas BMI >40",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar BMI >40 of termen als morbide obesitas. Let op respiratoire, cardiovasculaire of metabole comorbiditeit en eerdere zwangerschapscomplicaties gerelateerd aan obesitas."
+      "betekenis": "BMI in de hoogste obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: Dezelfde BMI-selectieregel als AP010 een waarde ≥40 oplevert. Niet positief wanneer: Alleen comorbiditeit of de term ‘morbide obesitas’ zonder betrouwbare BMI staat vermeld, of BMI <40 is. Grenswaarden: BMI ≥40,0 kg/m² bij intake."
     },
     {
       "id": "AP013",
       "label": "Chronische hypertensie",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar hypertensie vóór de zwangerschap of verhoogde RR <20 weken, gebruik van antihypertensiva (bijv. labetalol, nifedipine), internist/cardioloog in voorgeschiedenis of eerdere hypertensieve zwangerschap."
+      "betekenis": "Hypertensie die vóór de zwangerschap bestond of in de kaart als chronisch/pre-existent is vastgesteld. Positief wanneer: Chronische/pre-existente hypertensie expliciet staat vermeld, of een vastgestelde hypertensiediagnose vóór 20+0 weken duidelijk uit de kaart blijkt. Antihypertensiva ondersteunen alleen als hun indicatie hypertensie is. Niet positief wanneer: Alleen één verhoogde bloeddruk, gebruik van nifedipine zonder indicatie, cardioloogcontact, PIH/PE in een eerdere zwangerschap of pas na 20 weken ontstane hypertensie is vermeld. Grenswaarden: Hypertensie vastgesteld vóór 20+0 weken. Geen RR-grens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP014",
       "label": "Conisatie in anamnese",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar eerdere conisatie, LLETZ of excisie wegens CIN2/3, verkorte cervix, cervixchirurgie of pathologieverslagen passend bij cervicale dysplasie."
+      "betekenis": "Eerder uitgevoerde conisatie van de cervix. Positief wanneer: Conisatie, kegelbiopsie of een daadwerkelijk uitgevoerde cervicale conusexcisie expliciet is vermeld. Niet positief wanneer: Alleen CIN, HPV, afwijkende cytologie, colposcopie, een kleine diagnostische biopsie, verkorte cervix of een geplande conisatie staat vermeld."
     },
     {
       "id": "AP015",
       "label": "COPD of ernstige astma",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar COPD of matig-ernstige/ernstige astma, onderhoudsmedicatie (ICS/LABA/tiotropium), frequente exacerbaties, prednisonkuren of eerdere ziekenhuisopnames."
+      "betekenis": "Vastgestelde COPD of expliciet ernstige astma. Positief wanneer: COPD is vastgesteld of astma expliciet als ernstig wordt beschreven. De kaart mag een specialistische classificatie bevatten die deze ernst bevestigt. Niet positief wanneer: Alleen astma zonder ernstclassificatie, inhalatiemedicatie, ICS/LABA, een enkele prednisonkuur, benauwdheid, hoesten of longartscontact is vermeld. Deze gegevens ondersteunen, maar bepalen de ernst niet zelfstandig. Grenswaarden: Geen numerieke ernstgrens; de vastgelegde classificatie is leidend."
     },
     {
       "id": "AP016",
-      "label": "Colitis ulcerosa/MC met medicatie",
+      "label": "Colitis ulcerosa of ziekte van Crohn met medicatie",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar inflammatoire darmziekte (Crohn of colitis ulcerosa) met gebruik van mesalazine, thiopurines, azathioprine of biologicals (bijv. infliximab/adalimumab)."
+      "betekenis": "Vastgestelde inflammatoire darmziekte waarvoor in de huidige zwangerschap medicatie wordt gebruikt. Positief wanneer: Crohn of colitis ulcerosa vaststaat én actuele bijbehorende medicatie is vermeld, zoals mesalazine, thiopurine/azathioprine of een biological. Niet positief wanneer: Alleen buikklachten, prikkelbaredarmsyndroom, familieanamnese, IBD zonder actuele medicatie of een middel zonder vastgestelde IBD-indicatie staat vermeld. Grenswaarden: Geen dosisgrens; actueel gebruik in deze zwangerschap telt."
     },
     {
       "id": "AP017",
-      "label": "Diabetes mellitus pre-existent",
+      "label": "Pre-existente diabetes mellitus",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar diabetes mellitus type 1 of 2 vóór conceptie, insulinegebruik, orale antidiabetica, verhoogde HbA1c-waarden of diabetische complicaties."
+      "betekenis": "Diabetes mellitus type 1 of 2 die vóór de huidige zwangerschap bestond. Positief wanneer: Type 1/2 of pre-existente diabetes expliciet is vermeld, met duidelijke tijdsrelatie vóór conceptie. Niet positief wanneer: Alleen huidige/eerdere zwangerschapsdiabetes, metformine wegens PCOS, insuline zonder tijdsduiding, diabetes bij familieleden, screening of een ongeduide HbA1c-waarde staat vermeld."
     },
     {
       "id": "AP018",
       "label": "Diabetes gravidarum in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere zwangerschapsdiabetes, afwijkende OGTT in vorige zwangerschap, dieet- of insulinebehandeling en postpartum glucosecontrole."
+      "betekenis": "Vastgestelde zwangerschapsdiabetes in een eerdere zwangerschap. Positief wanneer: ‘Diabetes gravidarum i.a.’, ‘DG ia.’, ‘GDM vorige zwangerschap’ of een eerdere bevestigde afwijkende OGTT met diagnose zwangerschapsdiabetes is vermeld. Behandeling telt als bewijs als zij expliciet voor eerdere zwangerschapsdiabetes was. Niet positief wanneer: Alleen huidige GDM, vroege OGTT wegens risico, geplande screening, dieetadvies zonder diagnose of postpartum glucosecontrole zonder eerdere GDM staat vermeld. Grenswaarden: Geen OGTT-grens; de eerdere diagnose is leidend."
     },
     {
       "id": "AP019",
-      "label": "Diabetes gravidarum (huidige)",
+      "label": "Diabetes gravidarum in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar afwijkende OGTT in deze zwangerschap, verhoogde glucoseprofielen, dieettherapie, insuline- of metforminegebruik en documentatie van hyperglykemie."
+      "betekenis": "Vastgestelde zwangerschapsdiabetes in de huidige zwangerschap. Positief wanneer: Huidige GDM/DG expliciet is vastgesteld, of de actuele 75-grams OGTT een waarde in de GDM-categorie heeft: nuchter ≥6,1 en ≤6,9 mmol/L; 1 uur ≥12,0 mmol/L indien deze waarde is bepaald; of 2 uur ≥7,8 en ≤11,0 mmol/L. Eén afwijkende veneuze OGTT-waarde is voldoende. Controleer tevens of waarden in de categorie ‘verdacht voor DM2’ vallen: nuchter ≥7,0 of 2 uur ≥11,1 mmol/L. Bij zulke waarden zonder definitieve diabetestypering is de OGTT wel afwijkend (AP082 als de eerstelijnscontext vaststaat), maar ken niet automatisch GDM of pre-existente DM toe. Dieet-, insuline- of metforminebehandeling ondersteunt als de GDM-indicatie vaststaat. Niet positief wanneer: Alleen GDM in anamnese, een geplande/vroege OGTT, normale OGTT, metformine voor PCOS, polyhydramnion, macrosomie of glucosemonitoring zonder bevestigde GDM staat vermeld. Grenswaarden: OGTT, veneus, in mmol/L. GDM: nuchter 6,1–6,9; 1 uur ≥12,0; 2 uur 7,8–11,0. Verdacht voor DM2: nuchter ≥7,0 of 2 uur ≥11,1. Niet toepassen op dagcurve of random glucose."
     },
     {
       "id": "AP020",
-      "label": "Harddrugs gebruik",
+      "label": "Harddrugsgebruik",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar gebruik van cocaïne, heroïne, amfetamine, XTC, GHB of andere harddrugs, inclusief verslavingszorg, substitutietherapie of afhankelijkheid."
+      "betekenis": "Harddrugsgebruik dat betrekking heeft op de huidige zwangerschap. Positief wanneer: Gebruik tijdens de zwangerschap of bij intake als actueel beschreven gebruik van cocaïne, heroïne, amfetamine, XTC/MDMA, GHB of andere expliciet als harddrug beschreven middelen is vermeld. Actuele substitutiebehandeling wegens opioïdafhankelijkheid kan meetellen als die context duidelijk is. Niet positief wanneer: Alleen gebruik door een partner, algemene screening, een ontkenning, medisch voorgeschreven stimulantia zonder misbruik of gebruik dat aantoonbaar vóór de zwangerschap eindigde staat vermeld. Grenswaarden: Geen hoeveelheidsgrens; elk gebruik telt."
     },
     {
       "id": "AP021",
-      "label": "Softdrugs gebruik",
+      "label": "Softdrugsgebruik",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar cannabisgebruik (wiet, hasj, blowen, joints), THC-positieve urine, frequent gebruik in het jaar vóór of tijdens de zwangerschap en documentatie van afhankelijkheid of stoppogingen."
+      "betekenis": "Cannabisgebruik tijdens de huidige zwangerschap of frequent cannabisgebruik in het voorafgaande jaar volgens de oorspronkelijke scope. Positief wanneer: Wiet, hasj, blowen, joints of cannabisgebruik tijdens de zwangerschap is vastgelegd, of expliciet frequent gebruik in het jaar vóór conceptie staat beschreven. Een bevestigde THC-uitslag telt als deze aan deze tijdsperiode en patiënte is gekoppeld. Niet positief wanneer: Alleen partnergebruik, passieve blootstelling, een geplande drugstest, gebruik in een verder verleden of een niet nader gedateerde rookgeschiedenis staat vermeld. Grenswaarden: Terugkijkperiode: 12 maanden vóór de zwangerschap. Geen frequentiegrens."
     },
     {
       "id": "AP022",
-      "label": "Dysmatuur in anamnese",
+      "label": "Dysmaturiteit in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere foetale groeirestrictie of dysmaturiteit, geboortegewicht <p10, lage AC/EFW-percentielen, placenta-insufficiëntie of afwijkende dopplers in voorgeschiedenis."
+      "betekenis": "Eerder geboren kind met geboortegewicht <p10, of expliciet vastgestelde dysmaturiteit/FGR in een eerdere zwangerschap. Positief wanneer: Geboortegewicht <p10 voor de zwangerschapsduur is vastgelegd, of dysmaturiteit/SGA/FGR bij een eerder kind expliciet is vastgesteld. Als een definitief geboortepercentiel bekend is dat de eerdere verdenking weerlegt, gebruik dat voor de geboortegewichtcomponent; een bewezen eerdere FGR-diagnose mag afzonderlijk meetellen. Niet positief wanneer: Alleen miskraam, laag absoluut gewicht wegens prematuriteit zonder laag percentiel, maternale ondervoeding/gewichtsverlies, hyperemesis, een groeiecho of een ongeduide Dopplerafwijking staat vermeld. Grenswaarden: Geboortegewicht <p10 voor de zwangerschapsduur."
     },
     {
       "id": "AP023",
       "label": "Epilepsie met medicatie",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar epilepsie met gebruik van anti-epileptica zoals valproïnezuur, levetiracetam, lamotrigine, carbamazepine of fenytoïne, inclusief neurologische follow-up of insultfrequentie."
+      "betekenis": "Vastgestelde epilepsie met actuele anti-epileptische behandeling. Positief wanneer: Epilepsie vaststaat én actueel bijbehorend gebruik van bijvoorbeeld levetiracetam, lamotrigine, carbamazepine, valproaat of fenytoïne staat vermeld. Niet positief wanneer: Alleen insulten zonder epilepsiediagnose, eclampsie, epilepsie zonder actuele medicatie, of lamotrigine/valproaat voor een psychiatrische indicatie is genoemd. Grenswaarden: Geen dosis- of insultfrequentiegrens; actueel gebruik telt."
     },
     {
       "id": "AP024",
-      "label": "Ernstige PE/HELLP <34w in anamnese",
+      "label": "Ernstige pre-eclampsie of HELLP vóór 34 weken in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar pre-eclampsie of HELLP vóór 34 weken, opname wegens hypertensie, magnesiumsulfaat, ernstige toxlabafwijkingen (verhoogde leverenzymen, hemolyse, trombocytopenie) of vroegtijdige partus om maternale indicatie."
+      "betekenis": "Eerdere ernstige PE of HELLP die vóór 34+0 weken optrad. Positief wanneer: Ernstige PE of HELLP expliciet is vastgesteld én de aanvang/diagnose vóór 34+0 weken blijkt. Een partus vóór 34 weken expliciet wegens ernstige PE/HELLP kan de combinatie bevestigen. Niet positief wanneer: Alleen PIH, milde/niet nader gespecificeerde PE, opname, magnesium, afwijkend toxlab of vroeggeboorte zonder bevestigde ernstige PE/HELLP is vermeld. Familieanamnese telt niet. Grenswaarden: Aanvang PE of HELLP: <34+0 weken."
     },
     {
       "id": "AP025",
-      "label": "GBS ziek kind in anamnese",
+      "label": "Eerder kind met GBS-ziekte",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere neonatale GBS-sepsis, meningitis, bacteriëmie of opname van het kind wegens groep-B-streptokokkeninfectie."
+      "betekenis": "Een eerder kind met bevestigde ziekte door groep-B-streptokokken. Positief wanneer: GBS-sepsis, GBS-meningitis, GBS-bacteriëmie of expliciet neonatale GBS-ziekte bij een eerder kind is vastgesteld. Niet positief wanneer: Alleen maternale GBS-kolonisatie, eerdere GBS-urie, antibiotica tijdens de bevalling, neonatale opname of sepsis zonder bekende GBS-verwekker staat vermeld."
     },
     {
       "id": "AP026",
-      "label": "GBS-urie in huidige graviditeit",
+      "label": "GBS-urie in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar GBS-positieve urinekweek, asymptomatische bacteriurie door GBS of GBS-gerelateerde urineweginfectie in deze zwangerschap."
+      "betekenis": "GBS aangetoond in urine tijdens de huidige zwangerschap. Positief wanneer: GBS-positieve urinekweek, GBS-bacteriurie of GBS-gerelateerde urineweginfectie in deze zwangerschap is vermeld. Niet positief wanneer: Alleen vaginale/rectale GBS-kolonisatie, eerdere GBS-urie, urineonderzoek zonder uitslag of UWI door een andere/onbekende bacterie is vermeld. Grenswaarden: Geen kolonietellingsgrens; aangetoonde GBS in urine telt."
     },
     {
       "id": "AP027",
       "label": "Bichoriale gemelli",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar dichoriale tweeling (DCDA), twee placenta’s, twee vruchtzakken of expliciete vermelding van bichorialiteit op echo."
+      "betekenis": "Huidige tweelingzwangerschap met twee chorions. Positief wanneer: Bichoriaal, dichoriaal of DCDA expliciet is vastgesteld; of een echoverslag duidelijk twee chorions beschrijft. Niet positief wanneer: Alleen ‘gemelli’, twee vruchtzakken, twee foetussen, twee placentadelen zonder chorioniciteitsduiding, of een eerdere tweelingzwangerschap is vermeld. Twee vruchtzakken kunnen ook bij monochoriale tweelingen voorkomen."
     },
     {
       "id": "AP028",
       "label": "Monochoriale gemelli",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar monochoriale tweeling (MCDA of MCMA), gedeelde placenta, risico op TTTS/TAPS of expliciete vermelding van monochorialiteit."
+      "betekenis": "Huidige tweelingzwangerschap met een gedeeld chorion. Positief wanneer: Monochoriaal, MCDA of MCMA expliciet is vastgesteld of een gedeeld chorion/monochoriale placenta duidelijk is beschreven. Niet positief wanneer: Alleen ‘gemelli’, controles op TTTS/TAPS, twee vruchtzakken, één zichtbaar placentapakket zonder chorioniciteitsbeoordeling of een eerdere monochoriale zwangerschap staat vermeld."
     },
     {
       "id": "AP029",
-      "label": "Hepatitis-B dragerschap",
+      "label": "Hepatitis B-dragerschap",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar HBsAg-positiviteit, eerdere HBV-diagnose, virale load, HBeAg-status of antivirale behandeling."
+      "betekenis": "Vastgestelde actuele HBV-infectie/dragerschap. Positief wanneer: HBsAg-positiviteit, chronische hepatitis B of expliciet HBV-dragerschap is vermeld. Niet positief wanneer: Alleen HBV-screening, vaccinatie, anti-HBs-positiviteit, een negatieve HBsAg-uitslag, hepatitis bij een familielid of een doorgemaakte infectie met expliciet verdwenen dragerschap is vermeld. Grenswaarden: Geen viral-loadgrens; HBsAg-positief of de diagnose volstaat."
     },
     {
       "id": "AP030",
-      "label": "Herhaalde miskramen (>=3)",
+      "label": "Herhaalde miskramen vanaf drie",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar drie of meer spontane miskramen, fertiliteitsonderzoek, APS-screening of uterusanomalieën in voorgeschiedenis."
+      "betekenis": "Ten minste drie eerdere spontane miskramen. Positief wanneer: Drie of meer spontane miskramen expliciet zijn genoemd of betrouwbaar uit afzonderlijke zwangerschapsuitkomsten kunnen worden geteld. Niet positief wanneer: Minder dan drie, alleen fertiliteitsonderzoek, APS-screening, abortus provocatus, extra-uteriene zwangerschappen of een ongeduide gravidity/paritynotatie staat vermeld. Tel dezelfde miskraam niet dubbel. Grenswaarden: Aantal miskramen: ≥3 (niet per se opeenvolgend)."
     },
     {
       "id": "AP031",
       "label": "HIV",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar HIV-positieve serologie, gebruik van cART, vermelding van viral load of CD4-waarden, eerdere HIV-diagnose of follow-up bij infectiologie."
+      "betekenis": "Vastgestelde HIV-infectie bij de patiënte. Positief wanneer: HIV-diagnose of bevestigde HIV-positiviteit expliciet is vermeld; cART kan ondersteunen als de HIV-indicatie vaststaat. Niet positief wanneer: Alleen screening, negatieve serologie, PrEP/PEP, HIV bij een partner, risicoblootstelling of CD4/viral-loadonderzoek zonder infectiediagnose is vermeld. Grenswaarden: Geen viral-loadgrens; ondetecteerbaar blijft positief."
     },
     {
       "id": "AP032",
-      "label": "Hyperthyreoidie i.a. met pos TSHRAb",
+      "label": "Hyperthyreoïdie in anamnese met positieve TSHRAb",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar voorgeschiedenis van hyperthyreoïdie met positieve TSH-receptorantistoffen (Graves), eerdere antithyreoïdale medicatie en documentatie van TSHR-Ab in labresultaten."
+      "betekenis": "Eerder vastgestelde hyperthyreoïdie met vastgelegde positieve TSH-receptorantistoffen. Positief wanneer: Hyperthyreoïdie/te snel werkende schildklier in de voorgeschiedenis vaststaat én een positieve TSHRAb/TRAb/TSI-uitslag of expliciete positieve antistofstatus is vermeld. Vermeld de datum van de antistofuitslag als die bekend is. Niet positief wanneer: Alleen ongespecificeerde schildklierproblemen, hypothyreoïdie, hyperthyreoïdie bij een familielid, Graves zonder antistofuitslag of een geplande antistofbepaling staat vermeld. Grenswaarden: TSHR-Ab positief volgens de labreferentie; geen eigen antistofgrens."
     },
     {
       "id": "AP033",
-      "label": "Hyperthyreoidie met pos TSHRAb (huidig)",
+      "label": "Huidige hyperthyreoïdie met positieve TSHRAb",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar actuele hyperthyreoïdie met positieve TSHR-Ab, afwijkend TSH/FT4, gebruik van antithyreoïdale medicatie en recente antistofmetingen."
+      "betekenis": "Actuele hyperthyreoïdie met vastgelegde positieve TSH-receptorantistoffen. Positief wanneer: Actuele hyperthyreoïdie vaststaat én positieve TSHRAb/TRAb/TSI zijn vermeld. Een expliciet nog relevante positieve antistofstatus mag meetellen; benoem als de meting historisch is. Niet positief wanneer: Alleen historische hyperthyreoïdie in remissie, hypothyreoïdie, laag TSH zonder diagnose, antithyreoïdale medicatie zonder actuele duiding of onbekende/negatieve antistofstatus staat vermeld. Grenswaarden: TSHR-Ab positief volgens de labreferentie; geen eigen TSH/FT4-grens."
     },
     {
       "id": "AP034",
-      "label": "Hyperthyreoidie i.a. zonder pos TSHRAb",
+      "label": "Hyperthyreoïdie in anamnese zonder bekende positieve TSHRAb",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar voorgeschiedenis van hyperthyreoïdie zonder positieve TSHR-Ab, zoals nodulair struma of Graves in remissie, inclusief historische TSH/FT4-afwijkingen."
+      "betekenis": "Eerdere hyperthyreoïdie zonder aangetoonde positieve TSH-receptorantistoffen in de kaart. Positief wanneer: Eerdere hyperthyreoïdie, te snel werkende schildklier of overactieve schildklier bij de patiënte vaststaat en geen positieve TSHRAb-status is vastgelegd. Zowel expliciet negatieve als ontbrekende antistofinformatie telt volgens de onderzoeksafspraak mee; onderscheid die in de onderbouwing. Niet positief wanneer: Alleen hypothyreoïdie, ongespecificeerde ‘schildklierafwijking’, familieanamnese of expliciet positieve relevante TSHRAb bij de eerdere hyperthyreoïdie is vermeld."
     },
     {
       "id": "AP035",
-      "label": "Hypothyreoidie in anamnese",
+      "label": "Hypothyreoïdie in anamnese",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar diagnose hypothyreoïdie in voorgeschiedenis, gebruik van levothyroxine, auto-immuunthyreoïditis of eerdere afwijkende TSH/FT4-waarden."
+      "betekenis": "Eerder vastgestelde hypothyreoïdie, inclusief subklinische hypothyreoïdie. Positief wanneer: Hypothyreoïdie, subklinische hypothyreoïdie of te traag werkende schildklier vóór de huidige zwangerschap is vermeld; of levothyroxinegebruik met expliciete historische hypothyreoïdie-indicatie staat beschreven. Niet positief wanneer: Alleen hyperthyreoïdie, ongespecificeerde schildklierproblemen, TPO-antistoffen zonder hypothyreoïdie, schildklierproblemen bij familie of levothyroxine zonder bekende indicatie is vermeld. Grenswaarden: Geen eigen TSH/FT4-grens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP036",
-      "label": "Hypothyreoidie (huidige)",
+      "label": "Huidige hypothyreoïdie",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar actuele hypothyreoïdie met verhoogd TSH, verlaagd FT4, huidig levothyroxinegebruik of recente dosisaanpassingen."
+      "betekenis": "Actuele hypothyreoïdie, inclusief subklinische hypothyreoïdie en behandelde hypothyreoïdie. Positief wanneer: De huidige hypothyreoïdiediagnose expliciet is vermeld of actueel levothyroxinegebruik duidelijk aan behandeling van hypothyreoïdie is gekoppeld. Normale waarden onder behandeling sluiten de aandoening niet uit. Niet positief wanneer: Alleen een herstelde historische aandoening, hyperthyreoïdie, ongespecificeerde schildklierproblemen, geïsoleerde antistofpositiviteit of ongeduide TSH/FT4-waarden is vermeld. Grenswaarden: Geen eigen TSH/FT4-grens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP037",
-      "label": "Zwanger na ART (IVF/IUI/ICSI)",
+      "label": "Zwanger na fertiliteitsbehandeling",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar conceptie via ART zoals IVF, ICSI of IUI, embryo-transfer, cryo-terugplaatsing of verwijzing naar fertiliteitscentrum."
+      "betekenis": "De huidige zwangerschap is ontstaan na IVF, ICSI, IUI, ovulatie-inductie of embryotransfer. ‘Fertiliteitsbehandeling’ omvat hier de ruimere onderzoeksdefinitie van ART. Positief wanneer: Het ontstaan van deze zwangerschap via IVF/ICSI/IUI, verse of cryo-embryotransfer, ovulatie-inductie met bijvoorbeeld letrozol/clomifeen of eiceldonatie duidelijk is vermeld. Niet positief wanneer: Alleen fertiliteitsonderzoek/verwijzing, POP-poli, toestemming van een specialist om zwanger te worden, PCOS, eerdere ART of een behandeling waarna de huidige zwangerschap expliciet spontaan ontstond is genoemd."
     },
     {
       "id": "AP038",
-      "label": "Irregulaire antistoffen relevant",
+      "label": "Klinisch relevante irregulaire antistoffen",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar klinisch relevante erytrocytenantistoffen zoals anti-D, anti-c of anti-K, positieve antistofscreening en titerbepalingen."
+      "betekenis": "Maternale erytrocytenantistoffen die klinisch relevant zijn voor hemolytische ziekte van foetus/neonaat. Positief wanneer: Klinisch relevante antistoffen expliciet zijn benoemd, bijvoorbeeld anti-D, anti-c of anti-K, met relevante duiding in het lab-/zorgverslag. Niet positief wanneer: Alleen een aangevraagde screening, negatieve uitslag, onbekende positieve antistofscreening zonder specificatie, RhD-/c-negativiteit of expliciet passief anti-D na profylaxe staat vermeld. Grenswaarden: Geen titergrens; aanwezigheid van een relevante antistof telt."
     },
     {
       "id": "AP039",
-      "label": "Irregulaire antistoffen niet relevant (variant 1)",
+      "label": "Niet klinisch relevante irregulaire antistoffen variant 1",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar positieve irregulaire antistoffen die expliciet als niet-klinisch relevant voor hemolytische ziekte worden beschreven."
+      "betekenis": "Positieve erytrocytenantistoffen die expliciet niet klinisch relevant voor foetale/neonatale hemolyse zijn beoordeeld. Positief wanneer: Een positieve uitslag én expliciete beoordeling ‘niet klinisch relevant’ voor hemolytische ziekte zijn vastgelegd. Niet positief wanneer: Alleen een negatieve screening, ongespecificeerde positieve screening, lage titer, bloedgroepnegativiteit of relevante anti-D/anti-c/anti-K is vermeld. Lage titer betekent niet automatisch niet-relevant."
     },
     {
       "id": "AP040",
-      "label": "Jehova’s getuige",
+      "label": "Jehovah’s Getuige of weigering van bloedproducten",
       "categorie": "Overig",
-      "betekenis": "Zoek naar expliciete vermelding van Jehovah’s Getuige of vastgelegde weigering van bloedproducten in anamnese of wilsverklaring."
+      "betekenis": "Expliciet Jehovah’s Getuige zijn of vastgelegde weigering van bloedproducten, volgens de oorspronkelijke gecombineerde scope. Positief wanneer: De patiënte expliciet als Jehovah’s Getuige is vermeld, of een persoonlijke weigering van transfusie/bloedproducten is vastgelegd. Benoem welke van beide gronden aanwezig is. Niet positief wanneer: Alleen een ander geloof, weigering door een familielid, angst voor transfusie of een algemene bespreking van bloedproducten staat vermeld."
     },
     {
       "id": "AP041",
       "label": "LLETZ in anamnese",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar eerdere LLETZ-procedure of andere cervicale excisie wegens CIN2/3, pathologieverslagen van dysplasie of verkorte cervix in voorgeschiedenis."
+      "betekenis": "Eerder uitgevoerde lisexcisie van de cervix. Positief wanneer: LLETZ, LEEP, lisexcisie, lisbehandeling of ‘LIS ia.’ duidelijk als uitgevoerde cervicale ingreep (ingreep aan de cervix) is vermeld. Niet positief wanneer: Alleen CIN/HPV, afwijkend uitstrijkje, colposcopie, kleine diagnostische biopsie, verkorte cervix of een geplande lisexcisie is vermeld."
     },
     {
       "id": "AP042",
-      "label": "Lithium gebruik",
+      "label": "Lithiumgebruik",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar actueel of recent lithiumgebruik, bipolaire stoornis in voorgeschiedenis, lithiumspiegelcontroles of documentatie van stemmingsstabilisatoren."
+      "betekenis": "Daadwerkelijk lithiumgebruik in de huidige zwangerschap. Positief wanneer: Lithium als actueel gebruikt/voorgeschreven medicijn is vermeld of expliciet lithiumgebruik tijdens deze zwangerschap staat beschreven. Niet positief wanneer: Alleen bipolaire stoornis, andere stemmingsstabilisatoren, psychiatrisch contact, geplande lithiumspiegels zonder gebruik of lithium dat vóór de zwangerschap is gestopt is vermeld. Grenswaarden: Geen dosis- of spiegelgrens; actueel gebruik telt."
     },
     {
       "id": "AP043",
-      "label": "MPV/HPP in anamnese",
+      "label": "MPV of HPP in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere fluxus postpartum, groot bloedverlies, transfusiebehoefte, uterusatone, ballon-tamponade, curettage of invasieve hemostatische interventies."
+      "betekenis": "Eerdere manuele placentaverwijdering of hemorragia postpartum. Positief wanneer: MPV/manuele placentaverwijdering is uitgevoerd; postpartum bloedverlies ≥1000 ml is vastgelegd; of ‘HPP’, ‘fluxus postpartum’ of een ondubbelzinnige postpartum ‘fluxus’ letterlijk als doorgemaakte gebeurtenis staat vermeld, ook zonder hoeveelheid. Niet positief wanneer: Alleen sectio, myoomoperatie, curettage na miskraam/abortus, zware zwangerschap, vroeggeboorte, uterusatone, transfusie of hemostatische ingreep zonder HPP/MPV of passende hoeveelheid staat vermeld. Grenswaarden: Postpartum bloedverlies ≥1000 ml. MPV telt onafhankelijk van bloedverlies."
     },
     {
       "id": "AP044",
       "label": "Ondergewicht BMI <18.5",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar BMI <18.5 of gewicht/lengte-combinaties die hierop wijzen, inclusief signalen van ondervoeding, eetstoornis of inadequate gewichtstoename."
+      "betekenis": "BMI <18,5 kg/m² bij aanvang van de huidige zwangerschap. Positief wanneer: Dezelfde BMI-selectieregel als AP010 een BMI <18,5 oplevert, gerapporteerd of betrouwbaar berekend. Niet positief wanneer: Alleen verwijzing naar een zorgpad ‘BMI <18,5’, eetstoornis, ondervoeding, laag gewicht zonder lengte of onvoldoende gewichtstoename is vermeld. Bij BMI 18,69 is de numerieke grens niet gehaald. Grenswaarden: BMI <18,5 kg/m² bij intake"
     },
     {
       "id": "AP045",
       "label": "Uterus myomatosus",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar myomen, uterus myomatosus, myoom >5 cm, multipele myomen, myoomchirurgie of echo-bevindingen passend bij myomateuze uterus."
+      "betekenis": "Vastgestelde uterusmyomen of een voorgeschiedenis van myoomchirurgie volgens de oorspronkelijke scope. Positief wanneer: Myoom/myomen, uterus myomatosus of eerdere myomectomie expliciet is vermeld of echografisch is vastgesteld. Benoem of het huidige myomen of uitsluitend geopereerde myomen betreft. Niet positief wanneer: Alleen Asherman, congenitale uterusafwijking, ongespecificeerde uterusoperatie, buikpijn of een ongeduide uterusmassa is vermeld. Grenswaarden: Myoomgrootte: geen ondergrens (>5 cm is een voorbeeld, geen eis)."
     },
     {
       "id": "AP046",
       "label": "Vaginisme",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar vermelding van vaginisme, dyspareunie, pijn bij penetratie, vermijding van gynaecologisch onderzoek of verwijzing naar bekkenbodemfysiotherapie/seksuologie."
+      "betekenis": "Vastgesteld vaginisme bij de patiënte. Positief wanneer: Vaginisme expliciet is benoemd of een zorgverlener klachten duidelijk als vaginisme heeft vastgesteld. Niet positief wanneer: Alleen dyspareunie, pijn bij onderzoek, onderzoekweigering, eerdere negatieve ervaring, bekkenbodemfysiotherapie of seksuologieverwijzing is vermeld zonder vaginismediagnose."
     },
     {
       "id": "AP047",
       "label": "Vroeggeboorte <34w in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere bevalling vóór 34 weken, spontane partus prematurus, PPROM <34 weken of neonatale prematuriteit gerelateerd aan vroeggeboorte."
+      "betekenis": "Eerdere daadwerkelijke bevalling vóór 34+0 weken, spontaan of medisch geïnitieerd. Positief wanneer: Een eerdere partus vóór 34+0 weken expliciet is vastgelegd en het geen als miskraam beschreven zwangerschap is. Noteer spontane/medische aanleiding indien bekend. Niet positief wanneer: Alleen dreigende vroeggeboorte, contracties, korte cervix, opname, PPROM zonder bevallingstermijn of een eerdere miskraam is vermeld. De termijn van gebroken vliezen is niet automatisch de bevallingstermijn. Grenswaarden: Zwangerschapsduur bij bevalling: <34+0 weken (34+0 telt niet)."
     },
     {
       "id": "AP048",
       "label": "Vluchteling/asielzoeker",
       "categorie": "Overig",
-      "betekenis": "Zoek naar status als vluchteling of asielzoeker, verblijf in AZC, recente migratie, beperkte medische voorgeschiedenis of onvolledige documentatie."
+      "betekenis": "Expliciet vastgelegde vluchtelingen-/asielzoekersstatus bij de patiënte. Positief wanneer: Vluchteling, asielzoeker, verblijf in een AZC in asielcontext of statushouder met expliciet vluchtelingenachtergrond is vermeld. Niet positief wanneer: Alleen buitenlandse geboorte, migratie, niet-Nederlandse nationaliteit, taalbarrière, onvolledige documentatie of beperkte voorgeschiedenis is vermeld."
     },
     {
       "id": "AP049",
       "label": "Maternale leeftijd >40 jaar",
       "categorie": "Overig",
-      "betekenis": "Zoek naar maternale leeftijd ≥40 jaar op de uitgerekende datum."
+      "betekenis": "Leeftijd ≥40 jaar op de uitgerekende datum. Positief wanneer: De geboortedatum en uitgerekende datum een leeftijd van minstens 40 jaar opleveren, of leeftijd ≥40 expliciet voor dat moment staat vermeld. Niet positief wanneer: Alleen ‘oudere gravida’, leeftijd 39 op intake zonder bewijs dat zij vóór/op de uitgerekende datum 40 wordt, of de leeftijd van een partner staat vermeld. Grenswaarden: Leeftijd ≥40 jaar op de uitgerekende datum."
     },
     {
       "id": "AP050",
       "label": "Vroeggeboorte >34w in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere bevalling tussen 34 en 37 weken, spontane vroeggeboorte of PPROM >34 weken."
+      "betekenis": "Eerdere daadwerkelijke bevalling bij 34+0 tot en met 36+6 weken. Positief wanneer: De eerdere bevallingstermijn binnen dit interval ligt, spontaan, na inleiding of na sectio. Een inleiding/sectio bij 36 weken wegens PE telt mee. Niet positief wanneer: De geboorte bij ≥37+0 of <34+0 weken was; of alleen PPROM, dreigende vroeggeboorte of een voorgenomen inleiding zonder daadwerkelijke bevallingstermijn staat vermeld. Grenswaarden: Zwangerschapsduur bij bevalling: ≥34+0 en <37+0 weken."
     },
     {
       "id": "AP051",
       "label": "Zwangerschap na eiceldonatie",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar conceptie via eiceldonatie, donor-oöcyten, buitenlandse donorprogramma’s of expliciete vermelding van een ED-traject."
+      "betekenis": "De huidige zwangerschap is ontstaan met donor-eicellen. Positief wanneer: Eiceldonatie, donor-oöcyten of een expliciet eiceldonatietraject aan deze conceptie is gekoppeld. Niet positief wanneer: Alleen IVF/ICSI met eigen eicellen, spermadonatie, fertiliteitsbehandeling in het buitenland of een voorgenomen donortraject is vermeld."
     },
     {
       "id": "AP052",
-      "label": "Tromboseprofylaxe zwangerschap en kraambed",
+      "label": "Tromboseprofylaxe tijdens zwangerschap en kraambed",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar gebruik van profylactische LMWH tijdens zwangerschap én kraambed, voorgeschiedenis van trombose of trombofilie die aanleiding geeft tot antistollingsprofylaxe."
+      "betekenis": "Een vastgestelde of uit volledige lokale criteria aantoonbare indicatie voor antepartum én postpartum VTE-profylaxe in de huidige zwangerschap. Positief wanneer: Een expliciet profylaxeplan voor beide perioden bestaat, of de kaart een van de volgende indicaties volledig beschrijft: een eerdere eenmalige VTE door pil/oestrogenen, zwangerschap, kraambed of zonder uitlokkende factor; recidiverende VTE; of zonder eerdere VTE een homozygote factor V Leiden, antitrombinedeficiëntie of homozygote protrombinemutatie met positieve familieanamnese voor VTE. Controleer alle benodigde kenmerken; ‘VTE i.a.’ zonder verdere duiding is niet genoeg om de categorie te kiezen. Niet positief wanneer: Alleen familiaire VTE zonder eigen VTE/trombofilie, alleen postpartumprofylaxe, tijdelijke profylaxe bij opname, alleen postsectioprofylaxe of therapeutische antistolling is beschreven. LMWH zonder indicatie/tijdsperiode is onvoldoende. Grenswaarden: Duur: antepartum vanaf positieve zwangerschapstest, postpartum 6 weken. Geen dosisgrens."
     },
     {
       "id": "AP053",
-      "label": "Tromboseprofylaxe kraambed",
+      "label": "Tromboseprofylaxe uitsluitend in het kraambed",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar start van LMWH uitsluitend postpartum, inclusief voorgeschiedenis van postpartum trombose of verhoogd tromboserisico rond bevalling."
+      "betekenis": "Een vastgestelde of uit volledige lokale criteria aantoonbare indicatie voor uitsluitend postpartum VTE-profylaxe. Positief wanneer: Een expliciet plan voor uitsluitend postpartumprofylaxe bestaat, of een van de volgende indicaties volledig van toepassing is: eenmalige eerdere VTE door operatie onder narcose >30 minuten, strikte immobilisatie of kanker; zonder eerdere VTE een laagrisico-erfelijke trombofilie met positieve eerstegraads familieanamnese; of zonder eerdere VTE homozygote factor V Leiden, antitrombinedeficiëntie of homozygote protrombinemutatie zonder familieanamnese. Laagrisicotrombofilie volgens de tabel: proteïne C/S-deficiëntie, heterozygote factor V Leiden, heterozygote protrombinemutatie of dubbelheterozygotie. Eerste graad: ouder, broer/zus of kind. Niet positief wanneer: Antepartum én postpartumprofylaxe of therapeutische antistolling is beschreven; alleen postpartum VTE in anamnese staat vermeld (die valt juist onder ante- én postpartumprofylaxe); of noodzakelijke risicokenmerken ontbreken. Grenswaarden: Postpartum profylaxe: 6 weken. Eerdere VTE na operatie onder narcose: >30 minuten. Verlengde profylaxe na sectio: ≥1 ernstige risicofactor, of ≥2 matige bij primaire en ≥1 matige bij secundaire sectio; HPP ≥1000 ml; BMI >30; roken >10 sigaretten/dag; geboortegewicht <p2,3."
     },
     {
       "id": "AP054",
       "label": "Sectio in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere keizersnede (primaire of secundaire sectio), indicatie, uterusscar, complicaties of meerdere eerdere sectio’s."
+      "betekenis": "Een daadwerkelijk uitgevoerde keizersnede bij een eerdere bevalling. Positief wanneer: Een eerdere primaire/secundaire sectio, keizersnede of expliciet sectiolitteken na eerdere geboorte is vermeld. Niet positief wanneer: Alleen een aanbevolen, overwogen of geplande sectio, myomectomie, andere uterusoperatie, ongespecificeerd uterusscar of ‘PC’s gehad’ voor trombocytentransfusie is genoemd."
     },
     {
       "id": "AP055",
-      "label": "Foetale groeirestrictie (FGR) verdenking",
+      "label": "Verdenking FGR in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar EFW of AC <p10, afbuigende groeicurve, discrepantie tussen termijn en groei, placenta-insufficiëntie of afwijkende dopplers."
+      "betekenis": "Expliciete verdenking of vaststelling van FGR, of de afgesproken screeningssignalen daarvoor. Positief wanneer: Actuele verdenking FGR/groeirestrictie/dysmaturiteit duidelijk is vermeld, of EFW of AC <p10 is vastgelegd. Een expliciet beoordeelde afbuigende groeicurve met verdenking FGR kan eveneens meetellen. Niet positief wanneer: Alleen een geplande groeiecho, FGR in een eerdere zwangerschap, een klein fundusgetal zonder beoordeling, één ongeduide groeidiscrepantie of Doppleronderzoek zonder afwijkende duiding is vermeld. Grenswaarden: EFW of AC <p10 (p10 telt niet)."
     },
     {
       "id": "AP056",
-      "label": "Anemie",
+      "label": "Anemie of ijzertekort",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar verlaagd Hb, afwijkend MCV of laag ferritine, ijzergebreksanemie, hemoglobinopathie-screening of eerdere ijzertherapie."
+      "betekenis": "Verlaagd Hb of laag ferritine in de huidige zwangerschap volgens de afgesproken onderzoeksgrenzen. Positief wanneer: Hb <7,1 mmol/L óf ferritine <15 µg/L is gemeten tijdens deze zwangerschap. Ferritine <15 met normaal Hb telt mee. Een expliciete huidige diagnose anemie/ijzergebreksanemie/ijzertekort kan meetellen als waarden ontbreken; vermeld dan dat de markering op de diagnose berust. Niet positief wanneer: Alleen ferrofumaraat/ijzersuppletie, afwijkend MCV, hemoglobinopathiescreening, een eerdere zwangerschapsanemie of normale waarden zijn vermeld. Preventieve suppletie telt niet. Ferritine 15 en Hb 7,1 halen de respectieve grenzen niet. Grenswaarden: Hb <7,1 mmol/L. Ferritine <15 µg/L. Omrekening Hb: 1 mmol/L ≈ 1,61 g/dL. Geen trimesterafhankelijke grens."
     },
     {
       "id": "AP057",
-      "label": "Rhesus-D negatief",
+      "label": "Rhesus D-negatief",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar Rhesus-D-negatieve bloedgroep of vermelding van RhD-negativiteit in serologie."
+      "betekenis": "RhD-negatieve bloedgroep bij de patiënte. Positief wanneer: RhD-negatief, rhesus D-negatief, O/A/B/AB negatief of een ondubbelzinnige vergelijkbare bloedgroepuitslag is vermeld. Niet positief wanneer: Alleen Rhc-negativiteit, een geplande bloedgroepbepaling, anti-D-profylaxe zonder vastgestelde bloedgroep of bloedgroep van partner/kind is vermeld. ‘O positief’ betekent D-positief, niet c-positief."
     },
     {
       "id": "AP058",
-      "label": "Rhesus-c negatief",
+      "label": "Rhesus c-negatief",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar Rhesus-c-negatieve bloedgroep of expliciete vermelding van c-negativiteit in bloedgroepserologie."
+      "betekenis": "Negatieve kleine-c-status bij de patiënte. Positief wanneer: Rhc-negatief, c-neg, kleine c negatief of een ondubbelzinnig volledig gerapporteerd fenotype met afwezig kleine c is vastgelegd, bijvoorbeeld CCDee/R1R1. Niet positief wanneer: Alleen ‘O positief’, ‘A negatief’, RhD-status, afwezige anti-c-antistoffen, een geplande c-bepaling of een uitslag over partner/kind is vermeld. D-positiviteit zegt niets over de c-negativiteit."
     },
     {
       "id": "AP059",
       "label": "Zwangerschapsinterval <1 jaar",
       "categorie": "Overig",
-      "betekenis": "Zoek naar interpregnancy interval korter dan 12 maanden tussen vorige bevalling en huidige conceptie."
+      "betekenis": "Minder dan 12 maanden tussen de vorige bevalling en conceptie van de huidige zwangerschap. Positief wanneer: Dit interval expliciet <12 maanden is of uit betrouwbare vorige bevallingsdatum en huidige conceptiedatum kan worden berekend. Als conceptiedatum ontbreekt, mag die uit een betrouwbare uitgerekende datum minus 266 dagen worden geschat; vermeld die schatting. Niet positief wanneer: Alleen de tijd tussen twee bevallingen, korte tijd sinds een miskraam of een onduidelijke datumcombinatie is vermeld. Grenswaarden: Interval vorige bevalling tot conceptie: <12 maanden. Conceptiedatum zo nodig: uitgerekende datum min 266 dagen."
     },
     {
       "id": "AP060",
-      "label": "Cholestase (zwangerschapscholestase)",
+      "label": "Zwangerschapscholestase",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar verhoogde galzuren, jeuk zonder huidafwijkingen, afwijkende leverwaarden of diagnose intrahepatische zwangerschapscholestase."
+      "betekenis": "Vastgestelde intrahepatische cholestase in de huidige zwangerschap. Positief wanneer: Zwangerschapscholestase/ICP expliciet is vastgesteld, of verhoogde galzuren met duidelijke klinische beoordeling als zwangerschapscholestase zijn vermeld. Niet positief wanneer: Alleen jeuk, afwijkende leverenzymen, aangevraagde galzuren, normale galzuren, cholestase in anamnese of een andere leveraandoening is vermeld. Grenswaarden: Geen galzuurgrens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP061",
       "label": "PCOS",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar diagnose PCOS op basis van oligo- of amenorroe, anovulatie, hyperandrogenisme (klinisch of biochemisch), polycysteus ovariumbeeld op echo, verhoogd AMH of fertiliteitstraject wegens ovulatiestoornis."
+      "betekenis": "Vastgesteld polycysteus-ovariumsyndroom. Positief wanneer: PCOS expliciet als diagnose is vermeld. Niet positief wanneer: Alleen onregelmatige menstruatie, amenorroe, anovulatie, verhoogd AMH, hyperandrogenisme, polycysteus ovariumbeeld, metformine of fertiliteitsbehandeling is genoemd zonder PCOS-diagnose. Een losse bevinding is geen zelfstandig bewijs."
     },
     {
       "id": "AP062",
-      "label": "Pre-eclampsie (huidige)",
+      "label": "Pre-eclampsie in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar nieuwe hypertensie in combinatie met proteïnurie of orgaandisfunctie. Herken klachten passend bij pre-eclampsie: persisterende hoofdpijn, visusstoornissen (wazig zien, flitsen, sterretjes), tinnitus, misselijkheid of braken, epigastrische of rechterbovenbuikspijn, plotselinge toename van oedeem (handen/gezicht), snelle gewichtstoename door vochtretentie, dyspneu, malaise of insulten (eclampsie). Let op afwijkend toxlab: verhoogde leverenzymen, hemolyseparameters, trombocytopenie, verhoogd creatinine, proteïnurie of tekenen van orgaandisfunctie."
+      "betekenis": "Vastgestelde pre-eclampsie in deze zwangerschap, inclusief expliciet vastgestelde gesuperponeerde PE. Positief wanneer: Huidige PE/pre-eclampsie expliciet is vastgesteld of de zorgverlener de combinatie van hypertensie met proteïnurie/orgaandisfunctie expliciet als PE beoordeelt. Niet positief wanneer: Alleen hoofdpijn, visusklachten, oedeem, misselijkheid, epigastrische pijn, dyspneu, aangevraagd toxlab, hypertensie zonder PE-diagnose, risicofactoren, Ascalgebruik of eerdere PE is vermeld. Een losse klacht of labafwijking is onvoldoende. Grenswaarden: Geen RR- of labgrens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP063",
       "label": "Zwangerschapshypertensie (PIH)",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar nieuw ontstane hypertensie na 20 weken zonder proteïnurie of orgaandisfunctie, verhoogde RR-trends of eerdere PIH in voorgeschiedenis."
+      "betekenis": "Nieuw ontstane, vastgestelde hypertensie vanaf 20+0 weken zonder vastgestelde pre-eclampsie, in deze zwangerschap. Positief wanneer: PIH/zwangerschapshypertensie/gestationele hypertensie expliciet actueel is vastgesteld. Een latere expliciete diagnose PE vervangt de eerdere PIH-classificatie voor de huidige eindstatus, tenzij jullie beide gebeurtenissen willen registreren. Niet positief wanneer: Alleen PIH in anamnese, chronische hypertensie, één verhoogde RR, bloeddrukcontrole, antihypertensiva zonder indicatie of expliciete huidige PE is vermeld. Grenswaarden: Ontstaan vanaf 20+0 weken. Geen RR-grens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP064",
-      "label": "Macrosomie in anamnese",
+      "label": "Macrosomie of LGA in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Zoek naar eerdere geboortegewicht >4000–4500 g of >p95, vermelding van macrosomie, groot kind of schouderdystocie in voorgeschiedenis."
+      "betekenis": "Eerder kind met hoog geboortegewicht volgens de afgesproken criteria, of eerdere echoscopische LGA als het geboortegewicht ontbreekt. Positief wanneer: Geboortegewicht ≥4000 gram óf geboortegewicht >p95 voor de zwangerschapsduur is vastgelegd. Als het geboortegewicht ontbreekt: eerdere echoscopische LGA, EFW >p95 of AC ≥p95 telt mee. Een bekend geboortegewicht <4000 met geboortepercentiel >p95 blijft positief. Niet positief wanneer: Alleen schouderdystocie, ‘groot kind’ zonder vastgestelde macrosomie/LGA, huidige LGA of screening voor groei is vermeld. Eerdere echoscopische LGA wordt niet als bewijs gebruikt wanneer het definitieve geboortegewicht <4000 én geboortepercentiel ≤p95 is. Bij gewicht <4000 zonder geboortepercentiel is de eerdere echoscopische verdenking onvoldoende volgens de voorlopig gekozen regel; vermeld dat het percentiel ontbreekt. Grenswaarden: Geboortegewicht ≥4000 g of >p95. Alleen als het geboortegewicht ontbreekt: EFW >p95 of AC ≥p95."
     },
     {
       "id": "AP065",
-      "label": "Antistolling therapeutisch zw/kraambed",
+      "label": "Therapeutische antistolling tijdens zwangerschap of kraambed",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar therapeutische dosering LMWH of andere anticoagulantia tijdens zwangerschap of kraambed, inclusief voorgeschiedenis van DVT, longembolie, ernstige trombofilie of mechanische hartklep."
+      "betekenis": "Therapeutische, niet alleen profylactische, anticoagulatie in de huidige zwangerschap/kraambedperiode. Positief wanneer: Therapeutische antistolling/therapeutische LMWH expliciet is voorgeschreven of gepland, bijvoorbeeld voor actuele DVT/longembolie of doorlopende therapeutische behandeling. Een middel en dosis mogen dit bevestigen als ook gewicht, tijdsperiode en therapeutische indicatie bekend zijn. Niet positief wanneer: Alleen trombofilie, DVT/LE in anamnese zonder actuele therapeutische indicatie, Ascal, laagprofylactische LMWH of intermediaire postpartumprofylaxe is vermeld. Anticoagulansnaam zonder doel/dosis is onvoldoende voor dit subtype. Grenswaarden: Geen vaste dosisgrens; therapeutische dosering volgens het lokale doseerschema (middel- en gewichtsafhankelijk)."
     },
     {
       "id": "AP066",
       "label": "Antifosfolipidensyndroom (APS)",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar diagnose APS met positieve lupus anticoagulans, anticardiolipine of β2-glycoproteïne I-antistoffen, voorgeschiedenis van trombose of herhaalde miskramen."
+      "betekenis": "Vastgesteld APS bij de patiënte. Positief wanneer: Antifosfolipidensyndroom/APS expliciet is vastgesteld of een specialistisch verslag expliciet bevestigt dat de diagnostische criteria zijn gehaald. Niet positief wanneer: Alleen herhaalde miskramen, trombose, APS-screening, één positieve lupus-anticoagulans/anticardiolipine/β2-glycoproteïne-I-uitslag, Ascal of LMWH is vermeld zonder APS-diagnose."
     },
     {
       "id": "AP067",
-      "label": "Niet-relevante irregulaire antistoffen (variant 2)",
+      "label": "Niet klinisch relevante irregulaire antistoffen variant 2",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar positieve irregulaire antistoffen die expliciet als niet-klinisch relevant voor hemolytische ziekte van de foetus worden benoemd."
+      "betekenis": "Positieve erytrocytenantistoffen die expliciet niet klinisch relevant voor foetale/neonatale hemolyse zijn beoordeeld. Positief wanneer: Positieve erytrocytenantistoffen expliciet als niet klinisch relevant voor hemolytische ziekte van foetus/neonaat zijn beoordeeld. Niet positief wanneer: Alleen lage titer, ongespecificeerde positieve screening, negatieve screening of bloedgroepnegativiteit is vermeld."
     },
     {
       "id": "AP068",
-      "label": "TNF-α remmers gebruik",
+      "label": "Gebruik van TNF-alfa-remmers",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar gebruik van TNF-α-remmers zoals infliximab, adalimumab, golimumab of certolizumab, inclusief onderliggende IBD, reumatologische of dermatologische aandoeningen."
+      "betekenis": "Actueel TNF-alfa-remmergebruik in de huidige zwangerschap. Positief wanneer: Actueel gebruik van infliximab, adalimumab, golimumab, certolizumab of etanercept is vermeld, inclusief ondubbelzinnige merknaam/medicatielijst. Niet positief wanneer: Alleen IBD, reuma, psoriasis, ‘biological’ zonder middelidentificatie, een ander type biological, medicatieoverweging of vóór conceptie gestaakt gebruik is vermeld. Grenswaarden: Geen dosisgrens; actueel gebruik telt."
     },
     {
       "id": "AP069",
       "label": "Roken in de zwangerschap",
       "categorie": "Indicatie",
-      "betekenis": "Zoek naar actief tabaksgebruik tijdens de zwangerschap, aantal sigaretten per dag, rookgeschiedenis, CO-metingen of documentatie van rookgedrag."
+      "betekenis": "Actief tabaksgebruik tijdens de huidige zwangerschap. Positief wanneer: Roken tijdens deze zwangerschap, een actueel aantal sigaretten of stoppen ná conceptie is vermeld. Vermeld bij stoppen dat het om eerder gebruik in deze zwangerschap gaat. Niet positief wanneer: Alleen roken door partner, passieve blootstelling, roken in een eerdere zwangerschap, rookgeschiedenis met stoppen vóór conceptie of een ongeduide CO-meting is vermeld. Grenswaarden: Aantal sigaretten: geen ondergrens; elk tabaksgebruik telt."
     },
     {
       "id": "AP070",
-      "label": "Velamenteuze insertie navelstreng (vasa praevia uitgesloten)",
+      "label": "Velamenteuze navelstrenginsertie met vasa praevia uitgesloten",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar echo-diagnose van velamenteuze insertie waarbij de navelstreng in de vliezen aanhecht, met vermelding van vrije vaatbanen of afwijkende insertieplaats."
+      "betekenis": "Vastgestelde velamenteuze insertie in de huidige zwangerschap én uitsluiting van vasa praevia. Positief wanneer: Beide onderdelen expliciet uit echo-/zorgverslag blijken: velamenteuze insertie en geen vasa praevia. Niet positief wanneer: Alleen marginale insertie, ongespecificeerde afwijkende insertie, vasa praevia zelf of een geplande uitsluiting van vasa praevia is vermeld. Niet vermelde vasa praevia is niet hetzelfde als uitgesloten vasa praevia."
     },
     {
       "id": "AP071",
-      "label": "Uterus anomalie",
+      "label": "Congenitale uterusanomalie",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar congenitale uterusafwijkingen zoals uterus bicornis, unicornis, didelphys, septus of arcuatus, inclusief afwijkende cavumvorm op echo, MRI of hysteroscopie en voorgeschiedenis van miskramen of fertiliteitsproblemen."
+      "betekenis": "Een vastgestelde aangeboren uterusafwijking. Positief wanneer: Uterus bicornis, unicornis, didelphys, septus of een andere expliciet vastgestelde congenitale uterusanomalie is vermeld. Uterus arcuatus telt voorlopig mee zoals in de oorspronkelijke lijst. Niet positief wanneer: Alleen myomen, Asherman/intra-uteriene adhesies, ontstekingen, uterusoperaties, miskramen, subfertiliteit, ongespecificeerde cavumafwijkingen of congenitale afwijkingen van andere organen zoals een extra nier is vermeld."
     },
     {
       "id": "AP072",
       "label": "Trombocytopenie",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar trombocyten <150 x 10^9/L, dalende trombocytentrend, ITP, hypertensieve aandoeningen, HELLP, infecties of medicatiegerelateerde trombocytopenie."
+      "betekenis": "Een laag trombocytenaantal in de huidige zwangerschap. Positief wanneer: Trombocyten <150 ×10^9/L in deze zwangerschap zijn gemeten of actuele trombocytopenie expliciet is vastgesteld als de waarde ontbreekt. Niet positief wanneer: Alleen dalende maar nog normale waarden, trombocytencontrole, trombocytentransfusie in een eerdere zwangerschap, HELLP/ITP in anamnese zonder actuele duiding of een oorzaak zonder laag aantal is vermeld. Grenswaarden: Trombocyten <150 x10^9/L (150 telt niet)."
     },
     {
       "id": "AP073",
       "label": "Langdurig/prematuur gebroken vliezen (PROM/PPROM)",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar verlies van vruchtwater >24 uur (PROM) of gebroken vliezen <37 weken (PPROM), positieve vruchtwatertesten, speculumbevindingen of oligohydramnion passend bij gebroken vliezen."
+      "betekenis": "Bevestigd gebroken vliezen vóór 37 weken, of bevestigd gebroken vliezen gedurende langer dan 24 uur, in deze zwangerschap. Positief wanneer: PPROM bevestigd is vóór 37+0 weken, of bij bevestigde ruptuur de tijd tot beoordeling/bevalling >24 uur bedraagt. Een expliciete diagnose ‘langdurig gebroken vliezen’ kan bij ontbrekende tijden meetellen. Niet positief wanneer: Alleen vochtverlies, verdenking zonder bevestiging, geplande test, negatieve vruchtwatertest, oligohydramnion, PPROM in anamnese of à terme gebroken vliezen ≤24 uur is vermeld. Grenswaarden: PPROM: <37+0 weken. Langdurig gebroken vliezen: >24 uur."
     },
     {
       "id": "AP074",
-      "label": "Ehlers-Danlos (hypermobiliteitssyndroom)",
+      "label": "Ehlers-Danlos of hypermobiliteitssyndroom",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Zoek naar diagnose Ehlers-Danlos of hypermobiliteitssyndroom, gewrichtshyperlaxiteit, recidiverende luxaties, hyperextensibele huid, littekenproblemen of easy bruising."
+      "betekenis": "Vastgesteld Ehlers-Danlos-syndroom of hypermobiliteitssyndroom volgens de oorspronkelijke gecombineerde scope. Positief wanneer: EDS/Ehlers-Danlos of hypermobiliteitssyndroom expliciet als diagnose is vermeld. Benoem het subtype alleen als de kaart dit vermeldt. Niet positief wanneer: Alleen soepele gewrichten, hyperlaxiteit, luxaties, blauwe plekken, hyperextensibele huid of littekenproblemen is vermeld zonder syndroomdiagnose. Grenswaarden: Geen Beighton-scoregrens; de vastgestelde diagnose is leidend."
     },
     {
       "id": "AP075",
       "label": "Placenta praevia",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar placenta die geheel of gedeeltelijk over het ostium internum ligt, echo-rapport met placenta praevia of bloedingen in tweede/derde trimester passend bij lage placentaligging."
+      "betekenis": "Placenta die in de huidige zwangerschap het ostium internum geheel of gedeeltelijk bedekt. Positief wanneer: Placenta praevia expliciet actueel is vastgesteld met bedekking van het ostium, of een echo die bedekking duidelijk beschrijft. Niet positief wanneer: Alleen vaginaal bloedverlies, lage placenta zonder bedekking, placenta anterior/posterior, eerdere praevia of een later expliciet opgeheven eerdere verdenking is vermeld. ‘Praevia marginalis’ zonder bedekking valt onder AP076 volgens de anatomische indeling."
     },
     {
       "id": "AP076",
-      "label": "Placenta laagliggend",
+      "label": "Laagliggende placenta",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Zoek naar placenta die laag in het onderste uterine segment ligt zonder het ostium te bedekken, inclusief vermelde afstand tot het ostium op echo."
+      "betekenis": "Actueel laagliggende placenta zonder bedekking van het ostium internum. Positief wanneer: Laagliggende placenta expliciet is vastgesteld zonder bedekking, of de placentarand <20 mm van het ostium ligt zonder dit te bedekken. ‘Praevia marginalis’ met deze anatomie kan hieronder vallen. Niet positief wanneer: Alleen placenta anterior/posterior, vaginaal bloedverlies, placenta die het ostium bedekt (AP075), een onbekende afstand zonder beoordeling of een later expliciet normaal geworden placentaligging is vermeld. Grenswaarden: Afstand placentarand tot ostium <20 mm (20 mm telt niet)."
     },
     {
       "id": "AP077",
       "label": "Taalbarrière",
       "categorie": "Overig",
-      "betekenis": "Zoek naar beperkte beheersing van de Nederlandse taal, noodzaak tot tolkgebruik, communicatieproblemen of documentatie van taal als zorgbelemmering."
+      "betekenis": "Een vastgelegde taalgerelateerde belemmering voor voldoende zorgcommunicatie. Positief wanneer: Communicatieproblemen door taal, beperkte beheersing van de beschikbare gedeelde taal, noodzakelijke tolk of expliciete taalbarrière is vermeld. Niet positief wanneer: Alleen buitenlandse herkomst, migratie, Engelstaligheid of voorkeur voor Engels bij goed verlopende communicatie is vermeld. Beperkt Nederlands is niet automatisch een barrière als adequate communicatie in een gedeelde taal expliciet mogelijk is."
     },
     {
       "id": "AP078",
-      "label": "Engelssprekend",
+      "label": "Engelstalige communicatie",
       "categorie": "Overig",
-      "betekenis": "Zoek naar expliciete vermelding dat patiënt uitsluitend Engels spreekt of geen Nederlands beheerst."
+      "betekenis": "De patiënte communiceert in de zorg bij voorkeur of noodzakelijk in het Engels. Positief wanneer: Een voorkeur/verzoek voor Engels, expliciete Engelse zorgcommunicatie of uitsluitend Engels spreken is vermeld. ‘Graag duidelijke communicatie in het Engels’ telt mee; niet vereist is dat zij helemaal geen Nederlands spreekt. Niet positief wanneer: Alleen een Engelstalige standaardfolder, Engelse tekst in een document, Engelse gesprekken met uitsluitend de partner of buitenlandse nationaliteit zonder patiëntgebonden taalvermelding is vermeld."
     },
     {
       "id": "AP079",
-      "label": "Kwetsbare zwangere",
+      "label": "Mogelijke kwetsbaarheden in de zwangerschap",
       "categorie": "Overig",
-      "betekenis": "Zoek naar risicofactoren voor sociale, psychische of praktische kwetsbaarheid. Let op: vermoeden of voorgeschiedenis van huiselijk geweld of kindermishandeling; laaggeletterdheid of moeite met begrijpen van medische informatie; ongecontroleerde of laat aangevangen zwangerschap; psychische of psychiatrische problematiek (depressie, angst, PTSS, bipolaire stoornis, persoonlijkheidsproblematiek); traumatische partus; sociale problemen zoals relatieproblemen, financiële zorgen, schulden, instabiele huisvesting of dakloosheid; tienerzwangerschap; gebruik van alcohol of drugs; laag IQ of begeleiding door instelling; ongedocumenteerde status, recent statushouderschap of verblijf in AZC; ongeplande of ongewenste zwangerschap; gebrek aan sociaal vangnet; zorgmijding, moeite met afspraken nakomen of beperkte zelfredzaamheid. Signaleer ook stapeling van meerdere van deze factoren."
+      "betekenis": "Duidelijk beschreven sociale, psychische of praktische omstandigheden die de zorg in de huidige zwangerschap mogelijk beïnvloeden. Het aandachtspunt beschrijft omstandigheden en labelt de persoon niet. Positief wanneer: Er concrete aanwijzingen zijn voor één of meer van de volgende omstandigheden: vermoeden/voorgeschiedenis van huiselijk geweld of kindermishandeling; laaggeletterdheid of moeite met begrijpen van zorginformatie; expliciet ongecontroleerde of laat gestarte zwangerschapszorg; actuele psychische/psychiatrische problematiek, of voorgeschiedenis waarvoor psychiater/GGZ/POP-zorg of psychofarmaca nodig was; expliciet traumatische bevalling, PTSS-klachten of traumabehandeling; financiële zorgen/schulden, problematische huisvesting, dakloosheid of relevante relatieproblemen; tienerzwangerschap; alcohol-/drugsgebruik; laag IQ/begeleiding wegens beperkte zelfredzaamheid; ongedocumenteerde status, recent statushouderschap of AZC-verblijf; ongeplande/ongewenste zwangerschap; gebrek aan sociaal vangnet; zorgmijding of herhaald problemen met afspraken door beperkte zelfredzaamheid. Benoem de concrete factor en eventuele stapeling. Niet positief wanneer: Alleen een bevalling als ‘pittig/zwaar/intens’ is beschreven zonder verdere gevolgen; kortdurend psycholoog-/coach-/POH-contact of herstelde psychische klachten zonder specialistische behandeling staat vermeld; algemene spanning/stress rond zwangerschap of een eenmalig gemiste afspraak staat vermeld. Sociale kenmerken niet afleiden uit naam, taal, herkomst of geloof. Grenswaarden: Tienerzwangerschap: leeftijd <20 jaar. Geen minimumaantal factoren."
+    },
+    {
+      "id": "AP080",
+      "label": "Algemene schildklierproblemen",
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Een expliciet beschreven schildklieraandoening bij de patiënte, in de voorgeschiedenis of huidige zwangerschap, ook als het subtype onvoldoende duidelijk is. Positief wanneer: Schildklierprobleem/-afwijking/-aandoening, hypo-/hyperthyreoïdie, subklinische hypothyreoïdie, Graves, Hashimoto, struma of een andere vastgestelde schildklieraandoening is vermeld. Gebruik van levothyroxine of antithyreoïdale medicatie mag meetellen als de schildklierindicatie duidelijk is. Bij tegenstrijdige hypo-/hypervermeldingen blijft AP080 positief als duidelijk is dat de patiënte een schildklierprobleem heeft; benoem dat het subtype onzeker is. Niet positief wanneer: Alleen schildklierziekte bij een familielid, geplande screening, normale schildklierwaarden, een losse ongeduide waarde of een vraag ‘schildklierprobleem?’ zonder bevestiging staat vermeld."
+    },
+    {
+      "id": "AP081",
+      "label": "Verhoogd risico op diabetes gravidarum",
+      "categorie": "Indicatie",
+      "betekenis": "Ten minste één gedocumenteerde risicofactor voor diabetes gravidarum in de huidige zwangerschap. Dit aandachtspunt beoordeelt risico, niet of diabetes daadwerkelijk aanwezig is. Positief wanneer: Minstens één van de volgende factoren uit de kaart blijkt: (1) GDM/DG in een eerdere zwangerschap; (2) expliciet vastgelegde Zuid-Oost-Aziatische, Hindoestaanse, Afro-Caribische, Midden-Oosterse, Marokkaanse of Egyptische etniciteit/herkomst; (3) BMI >30 bij intake; (4) daadwerkelijk doorgemaakte bariatrische chirurgie, ongeacht huidige BMI; (5) eerder kind met geboortegewicht >p95 of >4500 g; (6) expliciet onverklaarde IUVD in de voorgeschiedenis; (7) vastgestelde PCOS; (8) diabetes type 2 bij een eerstegraads familielid, dus ouder, broer/zus of kind; (9) verwacht macrosoom kind in de huidige zwangerschap met AC en/of EFW >p95, of expliciete klinische vaststelling van huidige macrosomie; (10) vastgestelde polyhydramnion in de huidige zwangerschap. Benoem de concrete factor(en), met waarde en periode indien van toepassing. Niet positief wanneer: Alleen geplande OGTT, algemeen dieetadvies, een normale glucosetest of diabetes bij de partner staat vermeld zonder een van bovenstaande factoren. Een familielid met type 1, ongespecificeerd diabetes-type of een tweedegraads familielid is onvoldoende voor factor 8. Een eerdere miskraam of IUVD met een expliciet bekende andere oorzaak is onvoldoende voor factor 6. Leid etniciteit/herkomst niet af uit naam, uiterlijk, taal, geloof of nationaliteit alleen; gebruik uitsluitend expliciete persoonsgebonden documentatie die een genoemde groep vastlegt. Leid ‘onverklaard’ niet af uit het ontbreken van een oorzaak. Bariatrische chirurgie hoeft niet met obesitas gecombineerd te zijn. Grenswaarden: Minstens 1 factor. BMI >30,0 kg/m² bij intake. Eerder geboortegewicht >4500 g of >p95. Huidige AC of EFW >p95."
+    },
+    {
+      "id": "AP083",
+      "label": "Hyperemesis gravidarum in de huidige zwangerschap",
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Vastgestelde hyperemesis gravidarum tijdens deze zwangerschap, ook als de klachten inmiddels zijn verminderd. Positief wanneer: Hyperemesis gravidarum, HG of hyperemesis duidelijk als huidige-zwangerschapsdiagnose is vermeld, of een opname/behandeling expliciet wegens hyperemesis gravidarum is beschreven. Gebruik ‘HG’ alleen als de context deze betekenis bevestigt. Vermeld zo mogelijk het tijdstip en of het probleem nog actief is. Niet positief wanneer: Alleen gebruikelijke zwangerschapsmisselijkheid, incidenteel braken, anti-emetica, infuus, gewichtsverlies of dehydratie zonder duiding als hyperemesis is vermeld. Hyperemesis uitsluitend in een eerdere zwangerschap telt niet. Braken door een andere vastgestelde oorzaak, zoals gastro-enteritis, telt niet als HG. Grenswaarden: Geen grens voor gewichtsverlies, ketonen of PUQE-score; de vastgestelde diagnose is leidend."
+    },
+    {
+      "id": "AP084",
+      "label": "Herpes genitalis primo-infectie in de huidige zwangerschap",
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Een in deze zwangerschap vastgestelde eerste/primo genitale HSV-infectie, in tegenstelling tot een recidief. Positief wanneer: Een zorgverlener expliciet ‘primo-infectie herpes genitalis’, ‘primaire genitale HSV-infectie’ of een bevestigde eerste genitale HSV-episode in deze zwangerschap heeft vastgesteld. Positieve HSV-1/HSV-2-PCR op genitaal blaasjes-/laesievocht ondersteunt de infectie; deze telt voor dit specifieke punt alleen als de primo-/eerste-episodeclassificatie tevens uit de kaart blijkt. Een expliciete klinische primo-diagnose kan ook zonder gerapporteerde PCR meetellen. Niet positief wanneer: Alleen een positieve genitale HSV-PCR zonder primo-/recidiefduiding, een PCR-aanvraag, blaasjes zonder diagnose, HSV-IgG, koortslip, herpes zoster, herpes bij de partner of een expliciet recidief is vermeld. Een nooit eerder genoteerde infectie is niet automatisch een primo-infectie. Grenswaarden: Geen viral-loadgrens; kwalitatief positieve PCR volstaat."
+    },
+    {
+      "id": "AP085",
+      "label": "Recidief herpes genitalis in de huidige zwangerschap",
+      "categorie": "Huidige zwangerschap",
+      "betekenis": "Een daadwerkelijke nieuwe episode van bekende genitale HSV-infectie tijdens de huidige zwangerschap. Positief wanneer: ‘Recidief herpes genitalis’, ‘reactivatie genitale HSV’ of een hernieuwde genitale herpesepisode na eerder vastgestelde genitale herpes expliciet in deze zwangerschap is vermeld. Een positieve PCR uit genitale laesies ondersteunt wanneer de recidiefcontext vaststaat; een expliciete klinische recidiefdiagnose kan zonder gerapporteerde PCR meetellen. Niet positief wanneer: Alleen herpes genitalis in anamnese zonder huidige episode, suppressieve/profylactische aciclovir of valaciclovir zonder beschreven recidief, positieve HSV-serologie, ongespecificeerd positieve PCR, orale herpes of een actuele primo-infectie is vermeld. Grenswaarden: Aantal recidieven: ≥1. Geen PCR-grens."
+    },
+    {
+      "id": "AP086",
+      "label": "Acute fatty liver of pregnancy in anamnese",
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Eerder doorgemaakte acute zwangerschapsleververvetting (AFLP). Positief wanneer: AFLP, acute fatty liver of pregnancy of acute zwangerschapsleververvetting expliciet als vastgestelde aandoening bij een eerdere zwangerschap/peripartumperiode is vermeld. Een als doorgemaakt vastgelegde episode telt ook als de leverwaarden daarna normaliseerden. Niet positief wanneer: Alleen algemene leververvetting/NAFLD/MASLD, obesitas, afwijkende leverwaarden, zwangerschapscholestase, HELLP, hepatitis of een eerdere differentiaaldiagnose ‘AFLP?’ zonder bevestiging staat vermeld. Een aandoening uitsluitend in de huidige zwangerschap telt niet voor dit anamnestische punt. Grenswaarden: Geen labgrens of Swansea-score; de vastgestelde diagnose is leidend."
+    },
+    {
+      "id": "AP087",
+      "label": "Systemische lupus erythematodes met of zonder positieve ENA",
+      "categorie": "Medische voorgeschiedenis",
+      "betekenis": "Vastgestelde SLE bij de patiënte, onafhankelijk van de gerapporteerde ENA-status of actuele ziekteactiviteit. Positief wanneer: SLE/systemische lupus erythematodes expliciet als diagnose is vermeld. Positieve, negatieve of ontbrekende ENA-informatie verandert deze score niet bij een vastgestelde SLE-diagnose. Vermeld ENA-status en eventuele specifiek gerapporteerde antistoffen afzonderlijk in de onderbouwing; ontbrekend is niet hetzelfde als negatief. Een bekende SLE in remissie telt mee. Niet positief wanneer: Alleen positieve ANA/ENA, lupus anticoagulans, APS, reumatologische screening, hydroxychloroquine zonder bekende indicatie, een familieanamnese of uitsluitend cutane/discoïde lupus zonder vastgestelde systemische ziekte is vermeld. Lupus anticoagulans is op zichzelf geen SLE-diagnose. De algemene term ‘lupus’ zonder duidelijke systemische context is onvoldoende om het subtype aan te nemen."
+    },
+    {
+      "id": "AP088",
+      "label": "ABO-bloedgroepantagonisme in anamnese",
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "In een eerdere zwangerschap/neonatale periode vastgesteld ABO-bloedgroepantagonisme tussen moeder en kind, in de obstetrische voorgeschiedenis van de patiënte. Positief wanneer: ‘ABO-antagonisme’, ‘ABO-immunisatie’ met maternale-neonatale context, of hemolytische ziekte/neonatale hemolyse expliciet door ABO-incompatibiliteit/anti-A/anti-B bij een eerder kind is vastgesteld. Vermeld een eventueel beschreven icterus/behandeling als onderbouwing, niet als zelfstandig criterium. Niet positief wanneer: Alleen verschillende ABO-bloedgroepen van moeder en kind, maternale bloedgroep O, neonatale geelzucht, fototherapie, een positieve DAT/Coombs zonder ABO-duiding, RhD-/Rhc-/Kell-antagonisme of een ABO-transfusiereactie bij de moeder is vermeld. Alleen een ABO-mismatch is onvoldoende voor deze ziekte-/antagonismemarkering. Grenswaarden: Geen bilirubine-, Hb- of titergrens; de vastgestelde diagnose is leidend."
     }
   ]
 }
