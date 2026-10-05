@@ -452,7 +452,7 @@
       "id": "AP075",
       "label": "Placenta praevia",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Placenta die in de huidige zwangerschap het ostium internum geheel of gedeeltelijk bedekt. Positief wanneer: Placenta praevia expliciet actueel is vastgesteld met bedekking van het ostium, of een echo die bedekking duidelijk beschrijft. Niet positief wanneer: Alleen vaginaal bloedverlies, lage placenta zonder bedekking, placenta anterior/posterior, eerdere praevia of een later expliciet opgeheven eerdere verdenking is vermeld. ‘Praevia marginalis’ zonder bedekking valt onder AP076 volgens de anatomische indeling."
+      "betekenis": "Placenta die in de huidige zwangerschap het ostium internum geheel of gedeeltelijk bedekt. Positief wanneer: Placenta praevia (dus een placenta die OVER het ostium heen ligt) expliciet actueel is vastgesteld met bedekking van het ostium, of een echo die bedekking duidelijk beschrijft. Niet positief wanneer: Alleen vaginaal bloedverlies, lage placenta zonder bedekking, placenta 'tot aan' ostium, 'reikend tot aan', etc placenta anterior/posterior, eerdere praevia of een later expliciet opgeheven eerdere verdenking is vermeld. ‘Praevia marginalis’ zonder bedekking valt onder AP076 volgens de anatomische indeling."
     },
     {
       "id": "AP076",
