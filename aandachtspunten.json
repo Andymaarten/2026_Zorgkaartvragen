@@ -1,5 +1,5 @@
-# version 3.1
-# updated at 01-10-2026
+# version 3.2
+# updated at 08-10-2026
 # gegenereerd uit 261001_Prompts_aandachtspunten_v3.2.xlsx met build_aandachtspunten_json.py
 
 {
@@ -489,6 +489,12 @@
       "label": "Verhoogd risico op diabetes gravidarum",
       "categorie": "Indicatie",
       "betekenis": "Ten minste één gedocumenteerde risicofactor voor diabetes gravidarum in de huidige zwangerschap. Dit aandachtspunt beoordeelt risico, niet of diabetes daadwerkelijk aanwezig is. Positief wanneer: Minstens één van de volgende factoren uit de kaart blijkt: (1) GDM/DG in een eerdere zwangerschap; (2) expliciet vastgelegde Zuid-Oost-Aziatische, Hindoestaanse, Afro-Caribische, Midden-Oosterse, Marokkaanse of Egyptische etniciteit/herkomst; (3) BMI >30 bij intake; (4) daadwerkelijk doorgemaakte bariatrische chirurgie, ongeacht huidige BMI; (5) eerder kind met geboortegewicht >p95 of >4500 g; (6) expliciet onverklaarde IUVD in de voorgeschiedenis; (7) vastgestelde PCOS; (8) diabetes type 2 bij een eerstegraads familielid, dus ouder, broer/zus of kind; (9) verwacht macrosoom kind in de huidige zwangerschap met AC en/of EFW >p95, of expliciete klinische vaststelling van huidige macrosomie; (10) vastgestelde polyhydramnion in de huidige zwangerschap. Benoem de concrete factor(en), met waarde en periode indien van toepassing. Niet positief wanneer: Alleen geplande OGTT, algemeen dieetadvies, een normale glucosetest of diabetes bij de partner staat vermeld zonder een van bovenstaande factoren. Een familielid met type 1, ongespecificeerd diabetes-type of een tweedegraads familielid is onvoldoende voor factor 8. Een eerdere miskraam of IUVD met een expliciet bekende andere oorzaak is onvoldoende voor factor 6. Leid etniciteit/herkomst niet af uit naam, uiterlijk, taal, geloof of nationaliteit alleen; gebruik uitsluitend expliciete persoonsgebonden documentatie die een genoemde groep vastlegt. Leid ‘onverklaard’ niet af uit het ontbreken van een oorzaak. Bariatrische chirurgie hoeft niet met obesitas gecombineerd te zijn. Grenswaarden: Minstens 1 factor. BMI >30,0 kg/m² bij intake. Eerder geboortegewicht >4500 g of >p95. Huidige AC of EFW >p95."
+    },
+    {
+      "id": "AP082",
+      "label": "Congenitale afwijking bij eerder kind",
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Een kind of foetus met een congenitale (aangeboren) afwijking, erfelijk of niet-erfelijk, in een eerdere zwangerschap van de patiënte. Positief wanneer: Een eerder kind of een eerdere zwangerschap van de patiënte met een vastgestelde aangeboren afwijking: structureel (bijv. hartafwijking, neuralebuisdefect, schisis), chromosomaal (bijv. trisomie 21, 18 of 13) of erfelijk/genetisch, ongeacht of het kind leeft. Ook een eerdere zwangerschapsafbreking (APLA) wegens een prenataal vastgestelde congenitale afwijking, of een intra-uteriene of neonatale sterfte die expliciet aan een congenitale afwijking wordt toegeschreven. Niet positief wanneer: Alleen een verhoogd risico of dragerschap bij de ouders zonder aangedaan kind; een afwijkende screening (NIPT, combinatietest, SEO) of softmarker zonder bevestigde diagnose; een aangeboren afwijking bij een familielid dat geen eigen kind is; een zwangerschapsafbreking om een andere reden; een afwijking die alleen in de huidige zwangerschap is vastgesteld; of een verworven aandoening bij een eerder kind (prematuriteit, asfyxie, infectie, geboortetrauma)."
     },
     {
       "id": "AP083",
