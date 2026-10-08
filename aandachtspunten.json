@@ -32,13 +32,13 @@
       "id": "AP005",
       "label": "Bariatrische chirurgie i.a. BMI >40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI ≥40 kg/m². Positief wanneer: Een bariatrische ingreep daadwerkelijk is uitgevoerd én BMI ≥40 blijkt uit een betrouwbare gerapporteerde of berekende uitgangswaarde. Gebruik hetzelfde BMI-meetmoment als AP004/AP006. Niet positief wanneer: Alleen morbide obesitas of een geplande bariatrische ingreep is vermeld; de BMI ontbreekt; of BMI <40 is. Comorbiditeit of dumping vervangt geen BMI-waarde. Grenswaarden: BMI ≥40,0 kg/m² bij intake."
+      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI ≥40 kg/m². Positief wanneer: Een bariatrische ingreep daadwerkelijk is uitgevoerd én BMI ≥40 blijkt uit een betrouwbare gerapporteerde of berekende uitgangswaarde. Gebruik de preconceptionele/intake-BMI; bij ontbreken daarvan de expliciet als actuele BMI gerapporteerde waarde. Niet positief wanneer: Alleen morbide obesitas of een geplande bariatrische ingreep is vermeld; de BMI ontbreekt; of BMI <40 is. Comorbiditeit of dumping vervangt geen BMI-waarde. Grenswaarden: BMI ≥40,0 kg/m² bij intake."
     },
     {
       "id": "AP006",
       "label": "Bariatrische chirurgie i.a. BMI <30",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI <30 kg/m². Positief wanneer: De ingreep daadwerkelijk is uitgevoerd én de geselecteerde BMI <30 is. Gebruik hetzelfde meetmoment als AP004/AP005. Niet positief wanneer: Alleen supplementen, gewijzigde glucosescreening, voedingstekorten of een operatievoornemen zijn vermeld; of de BMI ontbreekt of ≥30 is. Grenswaarden: BMI <30,0 kg/m² bij intake"
+      "betekenis": "Eerder uitgevoerde bariatrische chirurgie met BMI <30 kg/m². Positief wanneer: De ingreep daadwerkelijk is uitgevoerd én de geselecteerde BMI <30 is. Gebruik de preconceptionele/intake-BMI; bij ontbreken daarvan de expliciet als actuele BMI gerapporteerde waarde. Niet positief wanneer: Alleen supplementen, gewijzigde glucosescreening, voedingstekorten of een operatievoornemen zijn vermeld; of de BMI ontbreekt of ≥30 is. Grenswaarden: BMI <30,0 kg/m² bij intake"
     },
     {
       "id": "AP007",
@@ -68,13 +68,13 @@
       "id": "AP011",
       "label": "Obesitas met BMI 35 tot onder 40",
       "categorie": "Indicatie",
-      "betekenis": "BMI in de tweede obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: Dezelfde BMI-selectieregel als AP010 een waarde 35 ≤ BMI <40 oplevert. Niet positief wanneer: Alleen ‘ernstige obesitas’ staat vermeld of BMI <35 of ≥40 is; een niet-gekwantificeerde categorie mag geen exacte waarde vervangen. Grenswaarden: BMI ≥35,0 en <40,0 kg/m² bij intake."
+      "betekenis": "BMI in de tweede obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: De preconceptionele/intake-BMI 35 ≤ BMI <40 is; bij ontbreken daarvan een expliciete actuele BMI in die categorie. Niet positief wanneer: Alleen ‘ernstige obesitas’ staat vermeld of BMI <35 of ≥40 is; een niet-gekwantificeerde categorie mag geen exacte waarde vervangen. Grenswaarden: BMI ≥35,0 en <40,0 kg/m² bij intake."
     },
     {
       "id": "AP012",
       "label": "Obesitas BMI >40",
       "categorie": "Indicatie",
-      "betekenis": "BMI in de hoogste obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: Dezelfde BMI-selectieregel als AP010 een waarde ≥40 oplevert. Niet positief wanneer: Alleen comorbiditeit of de term ‘morbide obesitas’ zonder betrouwbare BMI staat vermeld, of BMI <40 is. Grenswaarden: BMI ≥40,0 kg/m² bij intake."
+      "betekenis": "BMI in de hoogste obesitascategorie bij aanvang van de huidige zwangerschap. Positief wanneer: De preconceptionele/intake-BMI ≥40 is; bij ontbreken daarvan een expliciete actuele BMI in die categorie. Niet positief wanneer: Alleen comorbiditeit of de term ‘morbide obesitas’ zonder betrouwbare BMI staat vermeld, of BMI <40 is. Grenswaarden: BMI ≥40,0 kg/m² bij intake."
     },
     {
       "id": "AP013",
@@ -116,7 +116,7 @@
       "id": "AP019",
       "label": "Diabetes gravidarum in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Vastgestelde zwangerschapsdiabetes in de huidige zwangerschap. Positief wanneer: Huidige GDM/DG expliciet is vastgesteld, of de actuele 75-grams OGTT een waarde in de GDM-categorie heeft: nuchter ≥6,1 en ≤6,9 mmol/L; 1 uur ≥12,0 mmol/L indien deze waarde is bepaald; of 2 uur ≥7,8 en ≤11,0 mmol/L. Eén afwijkende veneuze OGTT-waarde is voldoende. Controleer tevens of waarden in de categorie ‘verdacht voor DM2’ vallen: nuchter ≥7,0 of 2 uur ≥11,1 mmol/L. Bij zulke waarden zonder definitieve diabetestypering is de OGTT wel afwijkend (AP082 als de eerstelijnscontext vaststaat), maar ken niet automatisch GDM of pre-existente DM toe. Dieet-, insuline- of metforminebehandeling ondersteunt als de GDM-indicatie vaststaat. Niet positief wanneer: Alleen GDM in anamnese, een geplande/vroege OGTT, normale OGTT, metformine voor PCOS, polyhydramnion, macrosomie of glucosemonitoring zonder bevestigde GDM staat vermeld. Grenswaarden: OGTT, veneus, in mmol/L. GDM: nuchter 6,1–6,9; 1 uur ≥12,0; 2 uur 7,8–11,0. Verdacht voor DM2: nuchter ≥7,0 of 2 uur ≥11,1. Niet toepassen op dagcurve of random glucose."
+      "betekenis": "Vastgestelde zwangerschapsdiabetes in de huidige zwangerschap. Positief wanneer: Huidige GDM/DG expliciet is vastgesteld, of de actuele 75-grams OGTT een waarde in de GDM-categorie heeft: nuchter ≥6,1 en ≤6,9 mmol/L; 1 uur ≥12,0 mmol/L indien deze waarde is bepaald; of 2 uur ≥7,8 en ≤11,0 mmol/L. Eén afwijkende veneuze OGTT-waarde is voldoende. Controleer tevens of waarden in de categorie ‘verdacht voor DM2’ vallen: nuchter ≥7,0 of 2 uur ≥11,1 mmol/L. Bij zulke waarden zonder definitieve diabetestypering is de OGTT wel afwijkend, maar ken niet automatisch GDM of pre-existente DM toe. Dieet-, insuline- of metforminebehandeling ondersteunt als de GDM-indicatie vaststaat. Niet positief wanneer: Alleen GDM in anamnese, een geplande/vroege OGTT, normale OGTT, metformine voor PCOS, polyhydramnion, macrosomie of glucosemonitoring zonder bevestigde GDM staat vermeld. Grenswaarden: OGTT, veneus, in mmol/L. GDM: nuchter 6,1–6,9; 1 uur ≥12,0; 2 uur 7,8–11,0. Verdacht voor DM2: nuchter ≥7,0 of 2 uur ≥11,1. Niet toepassen op dagcurve of random glucose."
     },
     {
       "id": "AP020",
@@ -266,7 +266,7 @@
       "id": "AP044",
       "label": "Ondergewicht BMI <18.5",
       "categorie": "Indicatie",
-      "betekenis": "BMI <18,5 kg/m² bij aanvang van de huidige zwangerschap. Positief wanneer: Dezelfde BMI-selectieregel als AP010 een BMI <18,5 oplevert, gerapporteerd of betrouwbaar berekend. Niet positief wanneer: Alleen verwijzing naar een zorgpad ‘BMI <18,5’, eetstoornis, ondervoeding, laag gewicht zonder lengte of onvoldoende gewichtstoename is vermeld. Bij BMI 18,69 is de numerieke grens niet gehaald. Grenswaarden: BMI <18,5 kg/m² bij intake"
+      "betekenis": "BMI <18,5 kg/m² bij aanvang van de huidige zwangerschap. Positief wanneer: De preconceptionele/intake-BMI <18,5 is, gerapporteerd of betrouwbaar berekend; bij ontbreken daarvan een expliciete actuele BMI <18,5. Niet positief wanneer: Alleen verwijzing naar een zorgpad ‘BMI <18,5’, eetstoornis, ondervoeding, laag gewicht zonder lengte of onvoldoende gewichtstoename is vermeld. Bij BMI 18,69 is de numerieke grens niet gehaald. Grenswaarden: BMI <18,5 kg/m² bij intake"
     },
     {
       "id": "AP045",
@@ -452,13 +452,13 @@
       "id": "AP075",
       "label": "Placenta praevia",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Placenta die in de huidige zwangerschap het ostium internum geheel of gedeeltelijk bedekt. Positief wanneer: Placenta praevia (dus een placenta die OVER het ostium heen ligt) expliciet actueel is vastgesteld met bedekking van het ostium, of een echo die bedekking duidelijk beschrijft. Niet positief wanneer: Alleen vaginaal bloedverlies, lage placenta zonder bedekking, placenta 'tot aan' ostium, 'reikend tot aan', etc placenta anterior/posterior, eerdere praevia of een later expliciet opgeheven eerdere verdenking is vermeld. ‘Praevia marginalis’ zonder bedekking valt onder AP076 volgens de anatomische indeling."
+      "betekenis": "Placenta die in de huidige zwangerschap het ostium internum geheel of gedeeltelijk bedekt. Positief wanneer: Placenta praevia (dus een placenta die OVER het ostium heen ligt) expliciet actueel is vastgesteld met bedekking van het ostium, of een echo die bedekking duidelijk beschrijft. Niet positief wanneer: Alleen vaginaal bloedverlies, lage placenta zonder bedekking, placenta 'tot aan' ostium, 'reikend tot aan', etc placenta anterior/posterior, eerdere praevia of een later expliciet opgeheven eerdere verdenking is vermeld. ‘Praevia marginalis’ zonder bedekking telt niet als placenta praevia maar als laagliggende placenta."
     },
     {
       "id": "AP076",
       "label": "Laagliggende placenta",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Actueel laagliggende placenta zonder bedekking van het ostium internum. Positief wanneer: Laagliggende placenta expliciet is vastgesteld zonder bedekking, of de placentarand <20 mm van het ostium ligt zonder dit te bedekken. ‘Praevia marginalis’ met deze anatomie kan hieronder vallen. Niet positief wanneer: Alleen placenta anterior/posterior, vaginaal bloedverlies, placenta die het ostium bedekt (AP075), een onbekende afstand zonder beoordeling of een later expliciet normaal geworden placentaligging is vermeld. Grenswaarden: Afstand placentarand tot ostium <20 mm (20 mm telt niet)."
+      "betekenis": "Actueel laagliggende placenta zonder bedekking van het ostium internum. Positief wanneer: Laagliggende placenta expliciet is vastgesteld zonder bedekking, of de placentarand <20 mm van het ostium ligt zonder dit te bedekken. ‘Praevia marginalis’ met deze anatomie kan hieronder vallen. Niet positief wanneer: Alleen placenta anterior/posterior, vaginaal bloedverlies, placenta die het ostium bedekt (placenta praevia), een onbekende afstand zonder beoordeling of een later expliciet normaal geworden placentaligging is vermeld. Grenswaarden: Afstand placentarand tot ostium <20 mm (20 mm telt niet)."
     },
     {
       "id": "AP077",
@@ -482,7 +482,7 @@
       "id": "AP080",
       "label": "Algemene schildklierproblemen",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Een expliciet beschreven schildklieraandoening bij de patiënte, in de voorgeschiedenis of huidige zwangerschap, ook als het subtype onvoldoende duidelijk is. Positief wanneer: Schildklierprobleem/-afwijking/-aandoening, hypo-/hyperthyreoïdie, subklinische hypothyreoïdie, Graves, Hashimoto, struma of een andere vastgestelde schildklieraandoening is vermeld. Gebruik van levothyroxine of antithyreoïdale medicatie mag meetellen als de schildklierindicatie duidelijk is. Bij tegenstrijdige hypo-/hypervermeldingen blijft AP080 positief als duidelijk is dat de patiënte een schildklierprobleem heeft; benoem dat het subtype onzeker is. Niet positief wanneer: Alleen schildklierziekte bij een familielid, geplande screening, normale schildklierwaarden, een losse ongeduide waarde of een vraag ‘schildklierprobleem?’ zonder bevestiging staat vermeld."
+      "betekenis": "Een expliciet beschreven schildklieraandoening bij de patiënte, in de voorgeschiedenis of huidige zwangerschap, ook als het subtype onvoldoende duidelijk is. Positief wanneer: Schildklierprobleem/-afwijking/-aandoening, hypo-/hyperthyreoïdie, subklinische hypothyreoïdie, Graves, Hashimoto, struma of een andere vastgestelde schildklieraandoening is vermeld. Gebruik van levothyroxine of antithyreoïdale medicatie mag meetellen als de schildklierindicatie duidelijk is. Bij tegenstrijdige hypo-/hypervermeldingen blijft dit aandachtspunt positief als duidelijk is dat de patiënte een schildklierprobleem heeft; benoem dat het subtype onzeker is. Niet positief wanneer: Alleen schildklierziekte bij een familielid, geplande screening, normale schildklierwaarden, een losse ongeduide waarde of een vraag ‘schildklierprobleem?’ zonder bevestiging staat vermeld."
     },
     {
       "id": "AP081",
