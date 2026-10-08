@@ -492,45 +492,45 @@
     },
     {
       "id": "AP082",
-      "label": "Congenitale afwijking bij eerder kind",
-      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Een kind of foetus met een congenitale (aangeboren) afwijking, erfelijk of niet-erfelijk, in een eerdere zwangerschap van de patiënte. Positief wanneer: Een eerder kind of een eerdere zwangerschap van de patiënte met een vastgestelde aangeboren afwijking: structureel (bijv. hartafwijking, neuralebuisdefect, schisis), chromosomaal (bijv. trisomie 21, 18 of 13) of erfelijk/genetisch, ongeacht of het kind leeft. Ook een eerdere zwangerschapsafbreking (APLA) wegens een prenataal vastgestelde congenitale afwijking, of een intra-uteriene of neonatale sterfte die expliciet aan een congenitale afwijking wordt toegeschreven. Niet positief wanneer: Alleen een verhoogd risico of dragerschap bij de ouders zonder aangedaan kind; een afwijkende screening (NIPT, combinatietest, SEO) of softmarker zonder bevestigde diagnose; een aangeboren afwijking bij een familielid dat geen eigen kind is; een zwangerschapsafbreking om een andere reden; een afwijking die alleen in de huidige zwangerschap is vastgesteld; of een verworven aandoening bij een eerder kind (prematuriteit, asfyxie, infectie, geboortetrauma)."
-    },
-    {
-      "id": "AP083",
       "label": "Hyperemesis gravidarum in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
       "betekenis": "Vastgestelde hyperemesis gravidarum tijdens deze zwangerschap, ook als de klachten inmiddels zijn verminderd. Positief wanneer: Hyperemesis gravidarum, HG of hyperemesis duidelijk als huidige-zwangerschapsdiagnose is vermeld, of een opname/behandeling expliciet wegens hyperemesis gravidarum is beschreven. Gebruik ‘HG’ alleen als de context deze betekenis bevestigt. Vermeld zo mogelijk het tijdstip en of het probleem nog actief is. Niet positief wanneer: Alleen gebruikelijke zwangerschapsmisselijkheid, incidenteel braken, anti-emetica, infuus, gewichtsverlies of dehydratie zonder duiding als hyperemesis is vermeld. Hyperemesis uitsluitend in een eerdere zwangerschap telt niet. Braken door een andere vastgestelde oorzaak, zoals gastro-enteritis, telt niet als HG. Grenswaarden: Geen grens voor gewichtsverlies, ketonen of PUQE-score; de vastgestelde diagnose is leidend."
     },
     {
-      "id": "AP084",
+      "id": "AP083",
       "label": "Herpes genitalis primo-infectie in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
       "betekenis": "Een in deze zwangerschap vastgestelde eerste/primo genitale HSV-infectie, in tegenstelling tot een recidief. Positief wanneer: Een zorgverlener expliciet ‘primo-infectie herpes genitalis’, ‘primaire genitale HSV-infectie’ of een bevestigde eerste genitale HSV-episode in deze zwangerschap heeft vastgesteld. Positieve HSV-1/HSV-2-PCR op genitaal blaasjes-/laesievocht ondersteunt de infectie; deze telt voor dit specifieke punt alleen als de primo-/eerste-episodeclassificatie tevens uit de kaart blijkt. Een expliciete klinische primo-diagnose kan ook zonder gerapporteerde PCR meetellen. Niet positief wanneer: Alleen een positieve genitale HSV-PCR zonder primo-/recidiefduiding, een PCR-aanvraag, blaasjes zonder diagnose, HSV-IgG, koortslip, herpes zoster, herpes bij de partner of een expliciet recidief is vermeld. Een nooit eerder genoteerde infectie is niet automatisch een primo-infectie. Grenswaarden: Geen viral-loadgrens; kwalitatief positieve PCR volstaat."
     },
     {
-      "id": "AP085",
+      "id": "AP084",
       "label": "Recidief herpes genitalis in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
       "betekenis": "Een daadwerkelijke nieuwe episode van bekende genitale HSV-infectie tijdens de huidige zwangerschap. Positief wanneer: ‘Recidief herpes genitalis’, ‘reactivatie genitale HSV’ of een hernieuwde genitale herpesepisode na eerder vastgestelde genitale herpes expliciet in deze zwangerschap is vermeld. Een positieve PCR uit genitale laesies ondersteunt wanneer de recidiefcontext vaststaat; een expliciete klinische recidiefdiagnose kan zonder gerapporteerde PCR meetellen. Niet positief wanneer: Alleen herpes genitalis in anamnese zonder huidige episode, suppressieve/profylactische aciclovir of valaciclovir zonder beschreven recidief, positieve HSV-serologie, ongespecificeerd positieve PCR, orale herpes of een actuele primo-infectie is vermeld. Grenswaarden: Aantal recidieven: ≥1. Geen PCR-grens."
     },
     {
-      "id": "AP086",
+      "id": "AP085",
       "label": "Acute fatty liver of pregnancy in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Eerder doorgemaakte acute zwangerschapsleververvetting (AFLP). Positief wanneer: AFLP, acute fatty liver of pregnancy of acute zwangerschapsleververvetting expliciet als vastgestelde aandoening bij een eerdere zwangerschap/peripartumperiode is vermeld. Een als doorgemaakt vastgelegde episode telt ook als de leverwaarden daarna normaliseerden. Niet positief wanneer: Alleen algemene leververvetting/NAFLD/MASLD, obesitas, afwijkende leverwaarden, zwangerschapscholestase, HELLP, hepatitis of een eerdere differentiaaldiagnose ‘AFLP?’ zonder bevestiging staat vermeld. Een aandoening uitsluitend in de huidige zwangerschap telt niet voor dit anamnestische punt. Grenswaarden: Geen labgrens of Swansea-score; de vastgestelde diagnose is leidend."
     },
     {
-      "id": "AP087",
+      "id": "AP086",
       "label": "Systemische lupus erythematodes met of zonder positieve ENA",
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Vastgestelde SLE bij de patiënte, onafhankelijk van de gerapporteerde ENA-status of actuele ziekteactiviteit. Positief wanneer: SLE/systemische lupus erythematodes expliciet als diagnose is vermeld. Positieve, negatieve of ontbrekende ENA-informatie verandert deze score niet bij een vastgestelde SLE-diagnose. Vermeld ENA-status en eventuele specifiek gerapporteerde antistoffen afzonderlijk in de onderbouwing; ontbrekend is niet hetzelfde als negatief. Een bekende SLE in remissie telt mee. Niet positief wanneer: Alleen positieve ANA/ENA, lupus anticoagulans, APS, reumatologische screening, hydroxychloroquine zonder bekende indicatie, een familieanamnese of uitsluitend cutane/discoïde lupus zonder vastgestelde systemische ziekte is vermeld. Lupus anticoagulans is op zichzelf geen SLE-diagnose. De algemene term ‘lupus’ zonder duidelijke systemische context is onvoldoende om het subtype aan te nemen."
     },
     {
-      "id": "AP088",
+      "id": "AP087",
       "label": "ABO-bloedgroepantagonisme in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "In een eerdere zwangerschap/neonatale periode vastgesteld ABO-bloedgroepantagonisme tussen moeder en kind, in de obstetrische voorgeschiedenis van de patiënte. Positief wanneer: ‘ABO-antagonisme’, ‘ABO-immunisatie’ met maternale-neonatale context, of hemolytische ziekte/neonatale hemolyse expliciet door ABO-incompatibiliteit/anti-A/anti-B bij een eerder kind is vastgesteld. Vermeld een eventueel beschreven icterus/behandeling als onderbouwing, niet als zelfstandig criterium. Niet positief wanneer: Alleen verschillende ABO-bloedgroepen van moeder en kind, maternale bloedgroep O, neonatale geelzucht, fototherapie, een positieve DAT/Coombs zonder ABO-duiding, RhD-/Rhc-/Kell-antagonisme of een ABO-transfusiereactie bij de moeder is vermeld. Alleen een ABO-mismatch is onvoldoende voor deze ziekte-/antagonismemarkering. Grenswaarden: Geen bilirubine-, Hb- of titergrens; de vastgestelde diagnose is leidend."
+    },
+    {
+      "id": "AP088",
+      "label": "Congenitale afwijking bij eerder kind",
+      "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
+      "betekenis": "Een kind of foetus met een congenitale (aangeboren) afwijking, erfelijk of niet-erfelijk, in een eerdere zwangerschap van de patiënte. Positief wanneer: Een eerder kind of een eerdere zwangerschap van de patiënte met een vastgestelde aangeboren afwijking: structureel (bijv. hartafwijking, neuralebuisdefect, schisis), chromosomaal (bijv. trisomie 21, 18 of 13) of erfelijk/genetisch, ongeacht of het kind leeft. Ook een eerdere zwangerschapsafbreking (APLA) wegens een prenataal vastgestelde congenitale afwijking, of een intra-uteriene of neonatale sterfte die expliciet aan een congenitale afwijking wordt toegeschreven. Niet positief wanneer: Alleen een verhoogd risico of dragerschap bij de ouders zonder aangedaan kind; een afwijkende screening (NIPT, combinatietest, SEO) of softmarker zonder bevestigde diagnose; een aangeboren afwijking bij een familielid dat geen eigen kind is; een zwangerschapsafbreking om een andere reden; een afwijking die alleen in de huidige zwangerschap is vastgesteld; of een verworven aandoening bij een eerder kind (prematuriteit, asfyxie, infectie, geboortetrauma)."
     }
   ]
 }
