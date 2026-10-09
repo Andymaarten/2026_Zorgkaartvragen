@@ -1,6 +1,6 @@
-# version 3.2
-# updated at 08-10-2026
-# gegenereerd uit 261001_Prompts_aandachtspunten_v3.2.xlsx met build_aandachtspunten_json.py
+# version 3.3
+# updated at 09-10-2026
+# gegenereerd uit 261001_Prompts_aandachtspunten_v3.3.xlsx met build_aandachtspunten_json.py
 
 {
   "AANDACHTSPUNTEN": [
@@ -90,9 +90,9 @@
     },
     {
       "id": "AP015",
-      "label": "COPD of ernstige astma",
+      "label": "COPD of astma",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Vastgestelde COPD of expliciet ernstige astma. Positief wanneer: COPD is vastgesteld of astma expliciet als ernstig wordt beschreven. De kaart mag een specialistische classificatie bevatten die deze ernst bevestigt. Niet positief wanneer: Alleen astma zonder ernstclassificatie, inhalatiemedicatie, ICS/LABA, een enkele prednisonkuur, benauwdheid, hoesten of longartscontact is vermeld. Deze gegevens ondersteunen, maar bepalen de ernst niet zelfstandig. Grenswaarden: Geen numerieke ernstgrens; de vastgelegde classificatie is leidend."
+      "betekenis": "Vastgestelde of vermelde astma of COPD bij de patiënte; de ernst beoordeelt de zorgverlener zelf. Positief wanneer: Eén van de volgende is vermeld: een diagnose astma of COPD; inhalatiemedicatie voor astma of COPD (bijv. salbutamol, ICS, LABA, tiotropium); een verwijzing naar of controle bij een longarts wegens astma of COPD; of een exacerbatie of prednisonkuur wegens astma of COPD. Niet positief wanneer: Alleen benauwdheid of hoesten zonder diagnose of medicatie, een inhalator met onbekende indicatie, astma of COPD bij een familielid, of een expliciet uitgesloten diagnose is vermeld."
     },
     {
       "id": "AP016",
@@ -122,7 +122,7 @@
       "id": "AP020",
       "label": "Harddrugsgebruik",
       "categorie": "Indicatie",
-      "betekenis": "Harddrugsgebruik dat betrekking heeft op de huidige zwangerschap. Positief wanneer: Gebruik tijdens de zwangerschap of bij intake als actueel beschreven gebruik van cocaïne, heroïne, amfetamine, XTC/MDMA, GHB of andere expliciet als harddrug beschreven middelen is vermeld. Actuele substitutiebehandeling wegens opioïdafhankelijkheid kan meetellen als die context duidelijk is. Niet positief wanneer: Alleen gebruik door een partner, algemene screening, een ontkenning, medisch voorgeschreven stimulantia zonder misbruik of gebruik dat aantoonbaar vóór de zwangerschap eindigde staat vermeld. Grenswaarden: Geen hoeveelheidsgrens; elk gebruik telt."
+      "betekenis": "Harddrugsgebruik door de patiënte, tijdens de huidige zwangerschap of in de anamnese (vóór de zwangerschap, ook incidenteel). Positief wanneer: Eén van de volgende is vermeld: gebruik van cocaïne, heroïne, amfetamine/speed, XTC/MDMA, GHB, ketamine of een ander expliciet als harddrug beschreven middel, tijdens de zwangerschap óf in het verleden (ook eenmalig of incidenteel); of een (eerdere) verslaving of substitutiebehandeling (methadon, buprenorfine) wegens opioïdafhankelijkheid. Noem in de reden wanneer het gebruik plaatsvond: huidige zwangerschap, vóór de zwangerschap, of beide. Niet positief wanneer: Alleen gebruik door een partner of familielid, een algemene screeningsvraag zonder bevestigd gebruik, een expliciete ontkenning, softdrugs (cannabis), of medisch voorgeschreven stimulantia zonder misbruik is vermeld. Grenswaarden: Geen hoeveelheidsgrens; elk gebruik telt, ook eenmalig."
     },
     {
       "id": "AP021",
@@ -164,7 +164,7 @@
       "id": "AP027",
       "label": "Bichoriale gemelli",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Huidige tweelingzwangerschap met twee chorions. Positief wanneer: Bichoriaal, dichoriaal of DCDA expliciet is vastgesteld; of een echoverslag duidelijk twee chorions beschrijft. Niet positief wanneer: Alleen ‘gemelli’, twee vruchtzakken, twee foetussen, twee placentadelen zonder chorioniciteitsduiding, of een eerdere tweelingzwangerschap is vermeld. Twee vruchtzakken kunnen ook bij monochoriale tweelingen voorkomen."
+      "betekenis": "Huidige tweelingzwangerschap die bichoriaal is, of waarvan de chorioniciteit niet is vermeld. Positief wanneer: Eén van de volgende: bichoriaal, dichoriaal of DCDA is vastgesteld; een echoverslag beschrijft twee chorions of twee placenta's; of er staat alleen 'gemelli' of 'tweeling' zonder vermelding van de chorioniciteit. In dat laatste geval: positief, en in de reden vermelden dat mono- of bichoriaal niet bekend is. Niet positief wanneer: Alleen een eerdere tweelingzwangerschap, een expliciet monochoriale tweeling (MCDA/MCMA), of een eenlingzwangerschap is vermeld."
     },
     {
       "id": "AP028",
@@ -380,7 +380,7 @@
       "id": "AP063",
       "label": "Zwangerschapshypertensie (PIH)",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Nieuw ontstane, vastgestelde hypertensie vanaf 20+0 weken zonder vastgestelde pre-eclampsie, in deze zwangerschap. Positief wanneer: PIH/zwangerschapshypertensie/gestationele hypertensie expliciet actueel is vastgesteld. Een latere expliciete diagnose PE vervangt de eerdere PIH-classificatie voor de huidige eindstatus, tenzij jullie beide gebeurtenissen willen registreren. Niet positief wanneer: Alleen PIH in anamnese, chronische hypertensie, één verhoogde RR, bloeddrukcontrole, antihypertensiva zonder indicatie of expliciete huidige PE is vermeld. Grenswaarden: Ontstaan vanaf 20+0 weken. Geen RR-grens; de vastgestelde diagnose is leidend."
+      "betekenis": "Nieuw ontstane hypertensie vanaf 20+0 weken in deze zwangerschap bij een vrouw met eerder normale bloeddruk, zonder vastgestelde pre-eclampsie. Positief wanneer: Eén van de volgende: PIH, zwangerschapshypertensie of gestationele hypertensie is als diagnose vermeld; of de kaart bevat ten minste twee bloeddrukmetingen na 20+0 weken van ≥140 mmHg systolisch en/of ≥90 mmHg diastolisch bij een vrouw met eerder normale bloeddruk. Een expliciete diagnose is dan niet nodig. Niet positief wanneer: Alleen PIH in een eerdere zwangerschap, chronische of pre-existente hypertensie (vóór 20 weken of vóór de zwangerschap), één enkele verhoogde meting, bloeddrukcontrole zonder verhoogde waarden, antihypertensiva zonder indicatie, of een vastgestelde pre-eclampsie is vermeld. Grenswaarden: Ontstaan vanaf 20+0 weken. RR ≥140 mmHg systolisch en/of ≥90 mmHg diastolisch, bij ten minste twee metingen."
     },
     {
       "id": "AP064",
@@ -410,7 +410,7 @@
       "id": "AP068",
       "label": "Gebruik van TNF-alfa-remmers",
       "categorie": "Indicatie",
-      "betekenis": "Actueel TNF-alfa-remmergebruik in de huidige zwangerschap. Positief wanneer: Actueel gebruik van infliximab, adalimumab, golimumab, certolizumab of etanercept is vermeld, inclusief ondubbelzinnige merknaam/medicatielijst. Niet positief wanneer: Alleen IBD, reuma, psoriasis, ‘biological’ zonder middelidentificatie, een ander type biological, medicatieoverweging of vóór conceptie gestaakt gebruik is vermeld. Grenswaarden: Geen dosisgrens; actueel gebruik telt."
+      "betekenis": "Gebruik van een TNF-alfa-remmer door de patiënte, zoals vermeld in de kaart. Positief wanneer: Elke vermelding van gebruik van een TNF-alfa-remmer: infliximab (Remicade), adalimumab (Humira), golimumab (Simponi), certolizumab (Cimzia) of etanercept (Enbrel), als generieke naam of merknaam, op een medicatielijst of in de tekst. Het woord 'actueel' hoeft niet vermeld te zijn. Niet positief wanneer: Alleen IBD, reuma of psoriasis zonder genoemd middel, 'biological' zonder middelidentificatie, een ander type biological, een medicatieoverweging zonder gebruik, of expliciet vóór de zwangerschap gestopt gebruik is vermeld. Grenswaarden: Geen dosisgrens."
     },
     {
       "id": "AP069",
@@ -458,7 +458,7 @@
       "id": "AP076",
       "label": "Laagliggende placenta",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Actueel laagliggende placenta zonder bedekking van het ostium internum. Positief wanneer: Laagliggende placenta expliciet is vastgesteld zonder bedekking, of de placentarand <20 mm van het ostium ligt zonder dit te bedekken. ‘Praevia marginalis’ met deze anatomie kan hieronder vallen. Niet positief wanneer: Alleen placenta anterior/posterior, vaginaal bloedverlies, placenta die het ostium bedekt (placenta praevia), een onbekende afstand zonder beoordeling of een later expliciet normaal geworden placentaligging is vermeld. Grenswaarden: Afstand placentarand tot ostium <20 mm (20 mm telt niet)."
+      "betekenis": "Actueel laagliggende placenta zonder bedekking van het ostium internum. Positief wanneer: Eén van de volgende is voldoende: de placenta wordt beschreven als laagliggend, 'laag', 'laag doorlopend', 'reikend tot (aan) het ostium' of 'praevia marginalis' zonder bedekking van het ostium; of de placentarand ligt <20 mm van het ostium internum zonder het te bedekken. Niet positief wanneer: Alleen placenta anterior/posterior, vaginaal bloedverlies, placenta die het ostium bedekt (placenta praevia), een onbekende afstand zonder beoordeling of een later expliciet normaal geworden placentaligging is vermeld. Grenswaarden: Afstand placentarand tot ostium <20 mm (20 mm telt niet)."
     },
     {
       "id": "AP077",
@@ -494,7 +494,7 @@
       "id": "AP082",
       "label": "Hyperemesis gravidarum in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Vastgestelde hyperemesis gravidarum tijdens deze zwangerschap, ook als de klachten inmiddels zijn verminderd. Positief wanneer: Hyperemesis gravidarum, HG of hyperemesis duidelijk als huidige-zwangerschapsdiagnose is vermeld, of een opname/behandeling expliciet wegens hyperemesis gravidarum is beschreven. Gebruik ‘HG’ alleen als de context deze betekenis bevestigt. Vermeld zo mogelijk het tijdstip en of het probleem nog actief is. Niet positief wanneer: Alleen gebruikelijke zwangerschapsmisselijkheid, incidenteel braken, anti-emetica, infuus, gewichtsverlies of dehydratie zonder duiding als hyperemesis is vermeld. Hyperemesis uitsluitend in een eerdere zwangerschap telt niet. Braken door een andere vastgestelde oorzaak, zoals gastro-enteritis, telt niet als HG. Grenswaarden: Geen grens voor gewichtsverlies, ketonen of PUQE-score; de vastgestelde diagnose is leidend."
+      "betekenis": "Hyperemesis gravidarum in deze zwangerschap: vastgesteld, als werkdiagnose of als verwijsreden; ook als de klachten inmiddels zijn verminderd. Positief wanneer: Eén van de volgende: hyperemesis gravidarum of HG is als diagnose, werkdiagnose of differentiaaldiagnose (dd) vermeld; een verwijzing, opname of behandeling wegens (verdenking) hyperemesis is beschreven; of er is sprake van aanhoudende misselijkheid en/of braken na 20 weken. Gebruik 'HG' alleen als de context deze betekenis bevestigt. Niet positief wanneer: Alleen gebruikelijke zwangerschapsmisselijkheid of incidenteel braken in het eerste trimester zonder duiding als hyperemesis, anti-emetica zonder verdere duiding, hyperemesis uitsluitend in een eerdere zwangerschap, of braken door een andere vastgestelde oorzaak (bijv. gastro-enteritis) is vermeld. Grenswaarden: Aanhoudende misselijkheid of braken: na 20+0 weken. Geen grens voor gewichtsverlies, ketonen of PUQE-score."
     },
     {
       "id": "AP083",
