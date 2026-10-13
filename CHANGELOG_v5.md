@@ -23,9 +23,9 @@ AP001, AP052, AP053, AP081 (eerstegraads: ouder, broer/zus, kind)
 - **AP001 Risicofactoren pre-eclampsie (Ascal)**: Tel- en toetsregels naar `toetsregels`; factorlijst in `factoren` (zonder 'alleen als samenhang blijkt'); samengesteld, familie telt (moeder/zus).
 - **AP002 Asfyxie of perinatale sterfte in anamnese**: Over wie (eerder kind) en periode expliciet; grens 22+0 als getal; uitsluitingen compact.
 - **AP003 Asherman in anamnese**: Ingekort; normale hysteroscopie als ontkenning toegevoegd.
-- **AP004 Bariatrische chirurgie i.a. BMI 30-40**: Geen halve treffers: BMI alleen is nooit positief; operatie is de kernvoorwaarde.
-- **AP005 Bariatrische chirurgie i.a. BMI >40**: Zie AP004.
-- **AP006 Bariatrische chirurgie i.a. BMI <30**: Zie AP004 (dit was het gemelde geval 'BMI 23.7' zonder operatie).
+- **AP004 Bariatrische chirurgie i.a. BMI 30-40**: Geen halve treffers: BMI alleen is nooit positief; operatie is de kernvoorwaarde. Formulering twee voorwaarden overgenomen van de bouwer (13-10): operatiepassage ja, BMI alleen nee.
+- **AP005 Bariatrische chirurgie i.a. BMI >40**: Zie AP004. Idem.
+- **AP006 Bariatrische chirurgie i.a. BMI <30**: Zie AP004 (dit was het gemelde geval 'BMI 23.7' zonder operatie). Idem.
 - **AP007 Schouderdystocie in anamnese**: Ingekort; over wie/periode expliciet.
 - **AP008 SSRI-gebruik**: Ontkenning/gestopt expliciet; periode huidig.
 - **AP009 (Sub)totaalruptuur in anamnese**: Ingekort; graad als getal; uitsluitingen expliciet.
@@ -78,7 +78,7 @@ AP001, AP052, AP053, AP081 (eerstegraads: ouder, broer/zus, kind)
 - **AP056 Anemie of ijzertekort**: Periode (huidig; geen Hb van na een vorige bevalling) en normale waarde expliciet.
 - **AP057 Rhesus D-negatief**: 'O pos' expliciet niet positief.
 - **AP058 Rhesus c-negatief**: Ingekort; D-status als ontkenning.
-- **AP059 Zwangerschapsinterval <1 jaar**: Geformuleerd met datums (AD − 266 dagen); grootste ruisbron.
+- **AP059 Zwangerschapsinterval <1 jaar**: Geformuleerd met datums (AD − 266 dagen); grootste ruisbron. python_regel `interval_maanden < 12`; de grootheid bouwt de bouwer na de rooktest, de betekenis blijft voor onbepaalde datums.
 - **AP060 Zwangerschapscholestase**: Normale/aangevraagde galzuren als ontkenning.
 - **AP061 PCOS**: Ingekort.
 - **AP062 Pre-eclampsie in de huidige zwangerschap**: Normaal toxlab/'geen PE' als ontkenning; periode expliciet.
@@ -89,7 +89,7 @@ AP001, AP052, AP053, AP081 (eerstegraads: ouder, broer/zus, kind)
 - **AP067 Niet klinisch relevante irregulaire antistoffen variant 2**: Gelijk aan AP039 (duplicaat, bewust behouden).
 - **AP068 Gebruik van TNF-alfa-remmers**: Besluit 9-10 behouden; ingekort.
 - **AP069 Roken in de zwangerschap**: Ontkenning bij de zwangere expliciet niet positief ('Tabak niet gerookt'); woordfamilie uitgebreid.
-- **AP070 Velamenteuze navelstrenginsertie met vasa praevia uitgesloten**: Twee voorwaarden benoemd; ingekort.
+- **AP070 Velamenteuze navelstrenginsertie met vasa praevia uitgesloten**: Twee voorwaarden benoemd; ingekort. Zelfde aanpak als AP004–006: insertiepassage ja, vasa praevia alleen nee (13-10).
 - **AP071 Congenitale uterusanomalie**: Ingekort; normale echo als ontkenning.
 - **AP072 Trombocytopenie**: Getal en periode expliciet.
 - **AP073 Langdurig/prematuur gebroken vliezen (PROM/PPROM)**: Ontkenning ('vliezen staan', negatieve test) expliciet.
@@ -109,11 +109,15 @@ AP001, AP052, AP053, AP081 (eerstegraads: ouder, broer/zus, kind)
 - **AP087 ABO-bloedgroepantagonisme in anamnese**: Ingekort.
 - **AP088 Congenitale afwijking bij eerder kind**: Ingekort; 'gezond kind' als ontkenning. Open vraag (miskraam met chromosoomafwijking) blijft.
 
+## Afhankelijkheid vóór samenvoegen met main
+
+- AP059 heeft `python_regel: interval_maanden < 12`. De grootheid `interval_maanden` bestaat nog niet in de code (bouwer bouwt die na de rooktest). Pas samenvoegen als de code onbekende grootheden netjes negeert of de grootheid bestaat.
+
 ## Open vragen aan Andreas
 
 1. **Familiefilter en 'eerder kind'.** Het Python-filter verwijdert passages over partner of familie. Passages over een eerder kind (AP002, AP007, AP009, AP022, AP025, AP043, AP064, AP087, AP088) mogen daar niet onder vallen. Klopt dat in de code?
 2. **AP079 en de partner.** Huiselijk geweld of drugsgebruik door de partner is relevant voor kwetsbaarheid. Nu `familie_telt = false`. Moet dat `true`, of een apart partnerfilter?
-3. **AP004–006 en AP070 (twee voorwaarden).** In call 2 kan één passage niet beide voorwaarden bevatten. Gekozen: de operatie-/insertiepassage is positief, de BMI-band resp. 'vasa praevia uitgesloten' combineert de zorgverlener (en Python filtert BMI). Akkoord? Past de Python-BMI-lijst de band toe bij AP004/005/006?
+3. ~~AP004–006 en AP070 (twee voorwaarden)~~ Afgehandeld 13-10: formulering van de bouwer overgenomen.
 4. **AP016 en AP023 (ziekte met medicatie).** Gekozen: een passage met alleen het medicijn telt (impliceert behandelde ziekte). Akkoord?
 5. **AP052/AP053 familieanamnese.** Gekozen: eerstegraads (ouder, broer/zus, kind). Het protocol noemt bij sterke trombofilie 'familieanamnese' zonder graad. Eerstegraads aanhouden?
 6. **AP067** blijft een duplicaat van AP039 (bewust, conform besluit 12-10). Laten staan?
