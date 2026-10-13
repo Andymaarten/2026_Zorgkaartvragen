@@ -406,7 +406,7 @@
         "dietist",
         "diëtist"
       ],
-      "python_regel": "",
+      "python_regel": "bmi >= 30 en < 35",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -440,7 +440,7 @@
         "dietist",
         "diëtist"
       ],
-      "python_regel": "",
+      "python_regel": "bmi >= 35 en < 40",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -475,7 +475,7 @@
         "dietist",
         "diëtist"
       ],
-      "python_regel": "",
+      "python_regel": "bmi >= 40",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -1139,7 +1139,7 @@
         "hepatitis b",
         "hep b"
       ],
-      "python_regel": "",
+      "python_regel": "hbsag == positief",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -1209,7 +1209,7 @@
         "hiv-neg",
         "seropos"
       ],
-      "python_regel": "",
+      "python_regel": "hiv == positief",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -1703,7 +1703,7 @@
         "kg/m²",
         "zorgpad ondergewicht"
       ],
-      "python_regel": "",
+      "python_regel": "bmi < 18.5",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -1870,7 +1870,7 @@
         "[jr]",
         "jaar oud"
       ],
-      "python_regel": "",
+      "python_regel": "leeftijd >= 40",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -2167,7 +2167,7 @@
         "ijzersuppl",
         "[Fe]"
       ],
-      "python_regel": "",
+      "python_regel": "hb < 7.1 of ferritine < 15",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -2206,7 +2206,7 @@
         "b neg",
         "ab neg"
       ],
-      "python_regel": "",
+      "python_regel": "rhesus_d == negatief",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -2237,7 +2237,7 @@
         "c neg",
         "rhesus c"
       ],
-      "python_regel": "",
+      "python_regel": "rhesus_c == negatief",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
@@ -2777,7 +2777,7 @@
         "transfusie",
         "trombo's"
       ],
-      "python_regel": "",
+      "python_regel": "trombocyten < 150",
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,

@@ -7,7 +7,8 @@ Basis: v4.0 (12-10-2026) en BRIEFING_aandachtspunten_v5.md. Ids, volgorde, label
 - `betekenis` van alle 88 AP's herschreven (§4): per passage beoordeelbaar, ontkenning expliciet, over wie, periode, grenswaarden als getallen, geen halve treffers. Mediaan 485 tekens; 9 AP's >600 (de 5 samengestelde omdat call 1 de factorlijst nodig heeft, plus AP063, AP075, AP082, AP088 net erboven).
 - Nieuwe velden: `factoren` (tekst), `toetsregels` (tekst, niet door code gebruikt), `samengesteld` (bool), `familie_telt` (bool).
 - Zoekwoorden: kapotte patronen `[p2`/`3]` (AP022, AP055) en `[p97`/`7]` (AP064) vervangen door `[p2,3]`/`[p2.3]` en `[p97,7]`/`[p97.7]`; de generator splitst niet meer op komma's binnen `[ ]`. Woordfamilies toegevoegd (o.a. AP077 `[NL]`, anderstalig, engelstalig, nederlandstalig, taalbarrière, beheerst; AP022/AP064 `[gew]`, geb.gew, geboortegew, `[GG]`; AP069 rook/gerookt/roker/smok/vape…). Eerdere kolom 'extra' samengevoegd. Geen AP zonder zoekwoorden (min 9, max 48).
-- Velden `zoek_naar`, `blokken`, `python_regel` staan er nog maar worden niet gebruikt (§3).
+- `python_regel` gevuld voor 11 deterministische AP's (AP010, AP011, AP012, AP044, AP049, AP057, AP058, AP029, AP031, AP056, AP072) in de notatie uit briefing §3; leeg bij alle andere. Principe 13-10: alles over een AP staat in de json (`FAMILIE_TELT`, `PYTHON_REGEL`, `SAMENGESTELD` uit de code).
+- Velden `zoek_naar`, `blokken` staan er nog maar worden niet gebruikt (§3).
 
 ## samengesteld = true
 
