@@ -1,6 +1,6 @@
-# version 5.0
-# updated at 13-10-2026
-# gegenereerd uit 261013_Prompts_aandachtspunten_v5.0.xlsx met build_aandachtspunten_json.py
+# version 5.1
+# updated at 14-10-2026
+# gegenereerd uit 261014_Prompts_aandachtspunten_v5.1.xlsx met build_aandachtspunten_json.py
 
 {
   "AANDACHTSPUNTEN": [
@@ -846,10 +846,10 @@
       "id": "AP022",
       "label": "Dysmaturiteit in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht <P10 (bijv. P8, P5, p2,3), dysmaturiteit, SGA, FGR/IUGR of groeivertraging, of 'dysmatuur i.a.'. Niet positief wanneer: Een miskraam; een laag gewicht door prematuriteit met normaal percentiel; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'; gewichtsverlies van de moeder. Grenswaarden: Geboortegewicht <P10.",
+      "betekenis": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht met een percentiel onder P10 (genoteerd als P8, P5, P2.2, p2,3, <p2.3), of dysmaturiteit, SGA, FGR/IUGR of groeivertraging, ook afgekort als 'dysm i.a.', 'dysmatuur ia' of 'zorgpad dysmatuur (i.a.)'. Het percentiel is leidend: een percentiel <P10 telt ook als het gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'. Grenswaarden: Geboortegewicht <P10.",
       "omschrijving": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap.",
       "zoek_naar": "Een EERDER kind dat klein was voor de termijn: dysmaturiteit, SGA, FGR/IUGR, groeivertraging, geboortegewicht met percentiel onder of rond p10, of een laag geboortegewicht met termijn. Ook: groei-echo's, afwijkende doppler of placenta-insufficiëntie in een eerdere zwangerschap, zorgpad dysmatuur, en 'dysmatuur i.a.'.",
-      "niet_positief_wanneer": "Een miskraam; een laag gewicht door prematuriteit met normaal percentiel; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'; gewichtsverlies van de moeder.",
+      "niet_positief_wanneer": "Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'.",
       "grenswaarden": "Geboortegewicht <P10.",
       "blokken": [
         "obstetrische_voorgeschiedenis"
@@ -884,7 +884,10 @@
         "[GG]",
         "dysmatuur",
         "small for",
-        "groeirestr"
+        "groeirestr",
+        "dysm",
+        "[p2.2]",
+        "[p2,2]"
       ],
       "python_regel": "",
       "factoren": "",
@@ -2091,10 +2094,10 @@
       "id": "AP055",
       "label": "Verdenking FGR in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Verdenking op foetale groeirestrictie (FGR) in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een verdenking FGR/groeirestrictie/dysmaturiteit, een EFW of AC <P10 (bijv. p2,3, P5, P8), of een afbuigende groeicurve met verdenking FGR. Niet positief wanneer: Een geplande groeiecho zonder uitslag; 'goede groei', 'groei conform' of percentielen ≥P10; FGR in een eerdere zwangerschap; een klein fundusgetal zonder beoordeling; een normale doppler. Grenswaarden: EFW of AC <P10.",
+      "betekenis": "Verdenking op foetale groeirestrictie (FGR) in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een verdenking FGR/groeirestrictie/dysmaturiteit, een EFW of AC met een percentiel onder P10 (bijv. p2,3, P2.2, P5, P8), of een afbuigende groeicurve met verdenking FGR. Het percentiel is leidend: een percentiel <P10 telt ook als het geschatte gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger ('goede groei', 'groei conform', 'p10-p50'), ook als het gewicht in grammen laag lijkt; een geschat gewicht zonder percentiel; een geplande groeiecho zonder uitslag; FGR in een eerdere zwangerschap; een normale doppler. Grenswaarden: EFW of AC <P10.",
       "omschrijving": "Verdenking op foetale groeirestrictie (FGR) in de huidige zwangerschap.",
       "zoek_naar": "Foetale groei in DEZE zwangerschap: verdenking FGR, FGR, IUGR, groeirestrictie, groeivertraging, dysmatuur, SGA, klein kind, afbuigende groeicurve. Ook: alle biometrie en percentielen (EFW, AC, HC, FL, p5, p10, p2,3), fundushoogte, doppler (a. umbilicalis, UA-PI, MCA, CPR), placenta-insufficiëntie, groei-echo's, zorgpad of verwijzing wegens groei.",
-      "niet_positief_wanneer": "Een geplande groeiecho zonder uitslag; 'goede groei', 'groei conform' of percentielen ≥P10; FGR in een eerdere zwangerschap; een klein fundusgetal zonder beoordeling; een normale doppler.",
+      "niet_positief_wanneer": "Een percentiel van P10 of hoger ('goede groei', 'groei conform', 'p10-p50'), ook als het gewicht in grammen laag lijkt; een geschat gewicht zonder percentiel; een geplande groeiecho zonder uitslag; FGR in een eerdere zwangerschap; een normale doppler.",
       "grenswaarden": "EFW of AC <P10.",
       "blokken": [
         "echos",
@@ -2123,7 +2126,9 @@
         "groei-echo",
         "[p2.3]",
         "groeiecho",
-        "groeirestr"
+        "groeirestr",
+        "[p2.2]",
+        "[p2,2]"
       ],
       "python_regel": "",
       "factoren": "",
@@ -2438,10 +2443,10 @@
       "id": "AP064",
       "label": "Macrosomie of LGA in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Macrosomie of LGA bij een eerder kind van de zwangere. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht ≥4000 g of >P95 (bijv. p97,7), of 'macrosomie'/'LGA'/'groot kind' met gewicht; zonder geboortegewicht telt een eerdere echoscopische LGA (EFW >P95, AC ≥P95). Niet positief wanneer: Een geboortegewicht <4000 g met percentiel ≤P95; LGA in de huidige zwangerschap; schouderdystocie zonder gewicht; een normaal geboortegewicht. Grenswaarden: Geboortegewicht ≥4000 g of >P95.",
+      "betekenis": "Macrosomie of LGA bij een eerder kind van de zwangere. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht ≥4000 g, of een percentiel boven P95 (bijv. p97,7, P98), of 'macrosomie', 'LGA' of 'groot kind' met gewicht of percentiel; zonder geboortegewicht telt een eerdere echoscopische LGA (EFW >P95, AC ≥P95). Een percentiel >P95 telt ook als het gewicht in grammen onder 4000 ligt. Niet positief wanneer: Een geboortegewicht <4000 g met een percentiel van P95 of lager (bijv. 'p50-p90'); LGA in de huidige zwangerschap; schouderdystocie zonder gewicht; een normaal geboortegewicht. Grenswaarden: Geboortegewicht ≥4000 g of >P95.",
       "omschrijving": "Macrosomie of LGA bij een eerder kind van de zwangere.",
       "zoek_naar": "Een EERDER kind met een hoog geboortegewicht: macrosomie, macrosoom, LGA, large for gestational age, groot kind, geboortegewicht in gram, percentiel (p90, p95, p97,7). Ook: echoscopische LGA, EFW of AC boven percentiel in een eerdere zwangerschap, schouderdystocie, zwangerschapsdiabetes in die zwangerschap, en elk eerder geboortegewicht.",
-      "niet_positief_wanneer": "Een geboortegewicht <4000 g met percentiel ≤P95; LGA in de huidige zwangerschap; schouderdystocie zonder gewicht; een normaal geboortegewicht.",
+      "niet_positief_wanneer": "Een geboortegewicht <4000 g met een percentiel van P95 of lager (bijv. 'p50-p90'); LGA in de huidige zwangerschap; schouderdystocie zonder gewicht; een normaal geboortegewicht.",
       "grenswaarden": "Geboortegewicht ≥4000 g of >P95.",
       "blokken": [
         "obstetrische_voorgeschiedenis"
@@ -2464,7 +2469,9 @@
         "[gew]",
         "geb.gew",
         "geboortegew",
-        "[GG]"
+        "[GG]",
+        "[p98]",
+        "[P96]"
       ],
       "python_regel": "",
       "factoren": "",
