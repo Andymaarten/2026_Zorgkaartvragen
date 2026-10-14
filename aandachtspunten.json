@@ -527,10 +527,10 @@
       "id": "AP014",
       "label": "Conisatie in anamnese",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Conisatie van de cervix in de voorgeschiedenis van de zwangere. Positief wanneer: De passage noemt een uitgevoerde conisatie, kegelbiopsie of conusexcisie bij de zwangere. Niet positief wanneer: Alleen CIN, HPV, een afwijkend uitstrijkje, colposcopie of een kleine biopsie; een geplande conisatie; een normale cytologie. Een lisexcisie of LLETZ; die valt onder AP041.",
+      "betekenis": "Conisatie van de cervix in de voorgeschiedenis van de zwangere. Positief wanneer: De passage noemt een uitgevoerde conisatie, kegelbiopsie of conusexcisie bij de zwangere. Niet positief wanneer: Alleen CIN, HPV, een afwijkend uitstrijkje, colposcopie of een kleine biopsie; een geplande conisatie; een normale cytologie. Een lisexcisie of LLETZ; dat is een andere ingreep dan een conisatie.",
       "omschrijving": "Conisatie van de cervix in de voorgeschiedenis van de zwangere.",
       "zoek_naar": "Een conisatie van de baarmoederhals in de VOORGESCHIEDENIS: conisatie, conus, kegelbiopsie, cold knife conisatie, conusexcisie. Ook: CIN, afwijkend uitstrijkje, colposcopie, HPV, andere cervixbehandeling, verkorte cervix, cervixlengtemeting of cerclage wegens eerdere ingreep.",
-      "niet_positief_wanneer": "Alleen CIN, HPV, een afwijkend uitstrijkje, colposcopie of een kleine biopsie; een geplande conisatie; een normale cytologie. Een lisexcisie of LLETZ; die valt onder AP041.",
+      "niet_positief_wanneer": "Alleen CIN, HPV, een afwijkend uitstrijkje, colposcopie of een kleine biopsie; een geplande conisatie; een normale cytologie. Een lisexcisie of LLETZ; dat is een andere ingreep dan een conisatie.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "medische_voorgeschiedenis"
@@ -1222,10 +1222,10 @@
       "id": "AP032",
       "label": "Hyperthyreoïdie in anamnese met positieve TSHRAb",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere met positieve TSH-receptorantistoffen (TSHRAb/TRAb/TSI). Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves of te snel werkende schildklier met een positieve TSHRAb/TRAb/TSI-uitslag. Niet positief wanneer: hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; dat valt onder AP034.",
+      "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere met positieve TSH-receptorantistoffen (TSHRAb/TRAb/TSI). Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves of te snel werkende schildklier met een positieve TSHRAb/TRAb/TSI-uitslag. Niet positief wanneer: hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; zonder positieve antistofuitslag telt het hier niet.",
       "omschrijving": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere met positieve TSH-receptorantistoffen (TSHRAb/TRAb/TSI).",
       "zoek_naar": "Hyperthyreoïdie in de VOORGESCHIEDENIS en de bijbehorende antistofuitslagen: hyperthyreoïdie, hyperthyreose, thyreotoxicose, te snel werkende schildklier, overactieve schildklier, Graves, Basedow. Ook: TSH-receptorantistoffen, TSHR-Ab, TRAb, TSI met uitslag en datum, TSH, FT4, T3, thiamazol, Strumazol, propylthiouracil, PTU, radioactief jodium, schildklieroperatie, internist of endocrinoloog, 'schildklierafwijking' met toelichting.",
-      "niet_positief_wanneer": "hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; dat valt onder AP034.",
+      "niet_positief_wanneer": "hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; zonder positieve antistofuitslag telt het hier niet.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "medische_voorgeschiedenis",
@@ -1302,10 +1302,10 @@
       "id": "AP034",
       "label": "Hyperthyreoïdie in anamnese zonder bekende positieve TSHRAb",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere zonder bekende positieve TSH-receptorantistoffen. Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves, Basedow, toxisch struma of 'te snel werkende schildklier' zonder positieve TSHRAb-uitslag (negatief of niet vermeld). Graves zonder vermelde TSHRAb-uitslag hoort hier. Niet positief wanneer: Hypothyreoïdie (te traag) of 'schildklierafwijking' zonder richting; een normale schildklieruitslag; schildklierziekte bij een familielid; een positieve TSHRAb (dat is AP032).",
+      "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere zonder bekende positieve TSH-receptorantistoffen. Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves, Basedow, toxisch struma of 'te snel werkende schildklier' zonder positieve TSHRAb-uitslag (negatief of niet vermeld). Graves zonder vermelde TSHRAb-uitslag hoort hier. Niet positief wanneer: Hypothyreoïdie (te traag) of 'schildklierafwijking' zonder richting; een normale schildklieruitslag; schildklierziekte bij een familielid; een hyperthyreoïdie mét vermelde positieve TSHRAb.",
       "omschrijving": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere zonder bekende positieve TSH-receptorantistoffen.",
       "zoek_naar": "Hyperthyreoïdie in de VOORGESCHIEDENIS: hyperthyreoïdie, hyperthyreose, thyreotoxicose, te snel werkende schildklier, overactieve schildklier, Graves, Basedow, toxisch struma, nodus. Ook: antistofuitslagen (TSHR-Ab, TRAb, TSI) of het ontbreken daarvan, TSH, FT4, T3, thiamazol, Strumazol, PTU, radioactief jodium, schildklieroperatie, internist of endocrinoloog, 'schildklierafwijking' met toelichting.",
-      "niet_positief_wanneer": "Hypothyreoïdie (te traag) of 'schildklierafwijking' zonder richting; een normale schildklieruitslag; schildklierziekte bij een familielid; een positieve TSHRAb (dat is AP032).",
+      "niet_positief_wanneer": "Hypothyreoïdie (te traag) of 'schildklierafwijking' zonder richting; een normale schildklieruitslag; schildklierziekte bij een familielid; een hyperthyreoïdie mét vermelde positieve TSHRAb.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "medische_voorgeschiedenis",
@@ -1775,10 +1775,10 @@
       "id": "AP047",
       "label": "Vroeggeboorte <34w in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Vroeggeboorte vóór 34 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt een eerdere bevalling (spontaan, ingeleid of sectio) bij een zwangerschapsduur <34+0 weken, bijv. 'partus bij 31+4', 'prematuur 28 weken'. Niet positief wanneer: Een bevalling bij 34+0 weken of later (34+6 is AP050); een miskraam; dreigende vroeggeboorte, PPROM of opname zonder bevalling; de termijn van gebroken vliezen zonder bevallingstermijn. Grenswaarden: Zwangerschapsduur bij bevalling <34+0 weken.",
+      "betekenis": "Vroeggeboorte vóór 34 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt een eerdere bevalling (spontaan, ingeleid of sectio) bij een zwangerschapsduur <34+0 weken, bijv. 'partus bij 31+4', 'prematuur 28 weken'. Niet positief wanneer: Een bevalling bij 34+0 weken of later (34+6 valt niet vóór 34 weken); een miskraam; dreigende vroeggeboorte, PPROM of opname zonder bevalling; de termijn van gebroken vliezen zonder bevallingstermijn. Grenswaarden: Zwangerschapsduur bij bevalling <34+0 weken.",
       "omschrijving": "Vroeggeboorte vóór 34 weken in een eerdere zwangerschap van de zwangere.",
       "zoek_naar": "Een EERDERE bevalling vóór de uitgerekende datum, met de zwangerschapsduur: vroeggeboorte, prematuur, prematuriteit, partus prematurus, partus immaturus, preterm, bevalling bij AD of amenorroeduur in weken en dagen. Ook: PPROM met bevallingstermijn, weeënremming, atosiban, longrijping, Celestone, couveuse, NICU, cerclage of progesteron wegens eerdere vroeggeboorte, en elke eerdere bevallingstermijn.",
-      "niet_positief_wanneer": "Een bevalling bij 34+0 weken of later (34+6 is AP050); een miskraam; dreigende vroeggeboorte, PPROM of opname zonder bevalling; de termijn van gebroken vliezen zonder bevallingstermijn.",
+      "niet_positief_wanneer": "Een bevalling bij 34+0 weken of later (34+6 valt niet vóór 34 weken); een miskraam; dreigende vroeggeboorte, PPROM of opname zonder bevalling; de termijn van gebroken vliezen zonder bevallingstermijn.",
       "grenswaarden": "Zwangerschapsduur bij bevalling <34+0 weken.",
       "blokken": [
         "obstetrische_voorgeschiedenis"
@@ -1883,10 +1883,10 @@
       "id": "AP050",
       "label": "Vroeggeboorte >34w in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Vroeggeboorte tussen 34+0 en 36+6 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt een eerdere bevalling (spontaan, ingeleid of sectio) bij een zwangerschapsduur van 34+0 tot en met 36+6 weken, bijv. 'inleiding bij 36 weken wegens PE'. Niet positief wanneer: Een bevalling bij 37+0 weken of later (bijv. 37+3); een miskraam; PPROM of dreigende vroeggeboorte zonder bevallingstermijn. Een bevalling vóór 34+0 weken (bijv. 33+6); die valt onder AP047. Grenswaarden: Zwangerschapsduur bij bevalling ≥34+0 en <37+0 weken.",
+      "betekenis": "Vroeggeboorte tussen 34+0 en 36+6 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt een eerdere bevalling (spontaan, ingeleid of sectio) bij een zwangerschapsduur van 34+0 tot en met 36+6 weken, bijv. 'inleiding bij 36 weken wegens PE'. Niet positief wanneer: Een bevalling bij 37+0 weken of later (bijv. 37+3); een miskraam; PPROM of dreigende vroeggeboorte zonder bevallingstermijn. Een bevalling vóór 34+0 weken (bijv. 33+6); dat is een vroeggeboorte vóór 34 weken, niet erna. Grenswaarden: Zwangerschapsduur bij bevalling ≥34+0 en <37+0 weken.",
       "omschrijving": "Vroeggeboorte tussen 34+0 en 36+6 weken in een eerdere zwangerschap van de zwangere.",
       "zoek_naar": "Een EERDERE bevalling vóór de uitgerekende datum, met de zwangerschapsduur: vroeggeboorte, prematuur, late prematuur, partus prematurus, preterm, bevalling bij AD of amenorroeduur in weken en dagen. Ook: PPROM met bevallingstermijn, inleiding of sectio vóór de uitgerekende datum (bijv. wegens PE), kinderafdeling of couveuse, en elke eerdere bevallingstermijn.",
-      "niet_positief_wanneer": "Een bevalling bij 37+0 weken of later (bijv. 37+3); een miskraam; PPROM of dreigende vroeggeboorte zonder bevallingstermijn. Een bevalling vóór 34+0 weken (bijv. 33+6); die valt onder AP047.",
+      "niet_positief_wanneer": "Een bevalling bij 37+0 weken of later (bijv. 37+3); een miskraam; PPROM of dreigende vroeggeboorte zonder bevallingstermijn. Een bevalling vóór 34+0 weken (bijv. 33+6); dat is een vroeggeboorte vóór 34 weken, niet erna.",
       "grenswaarden": "Zwangerschapsduur bij bevalling ≥34+0 en <37+0 weken.",
       "blokken": [
         "obstetrische_voorgeschiedenis"
@@ -1920,10 +1920,10 @@
       "id": "AP051",
       "label": "Zwangerschap na eiceldonatie",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "De huidige zwangerschap is ontstaan met donoreicellen (eiceldonatie). Positief wanneer: De passage noemt dat deze zwangerschap is ontstaan via eiceldonatie, donoreicellen, donor-oöcyten of een ED-traject. Niet positief wanneer: alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat valt onder AP037.",
+      "betekenis": "De huidige zwangerschap is ontstaan met donoreicellen (eiceldonatie). Positief wanneer: De passage noemt dat deze zwangerschap is ontstaan via eiceldonatie, donoreicellen, donor-oöcyten of een ED-traject. Niet positief wanneer: alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat is een fertiliteitsbehandeling zonder eiceldonatie.",
       "omschrijving": "De huidige zwangerschap is ontstaan met donoreicellen (eiceldonatie).",
       "zoek_naar": "Het ontstaan van DEZE zwangerschap met donoreicellen: eiceldonatie, ED, eiceldonor, donoreicel, donor-oöcyt, oöcytdonatie, donorembryo, embryodonatie. Ook: IVF of ICSI met donoreicel, buitenlandse kliniek, counseling of Ascal wegens eiceldonatie, 'ED-traject'.",
-      "niet_positief_wanneer": "alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat valt onder AP037.",
+      "niet_positief_wanneer": "alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat is een fertiliteitsbehandeling zonder eiceldonatie.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "huidige_zwangerschap"
@@ -2861,10 +2861,10 @@
       "id": "AP075",
       "label": "Placenta praevia",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Placenta praevia in de huidige zwangerschap: placenta die het ostium internum (geheel of gedeeltelijk) bedekt. Positief wanneer: De passage noemt in deze zwangerschap een placenta praevia (totalis, partialis, centralis), een placenta die het ostium bedekt of eroverheen ligt, of een afstand tot het ostium van 0 mm. Niet positief wanneer: Een laagliggende placenta zonder bedekking (afstand >0 mm, 'tot aan het ostium'); 'placenta voorwand/achterwand' of 'hoog' zonder afstand; een praevia in een eerdere zwangerschap of een later opgeheven verdenking. Een placenta die laag ligt of tot (aan) het ostium internum reikt zonder het te bedekken; dat is een laagliggende placenta (AP076). Grenswaarden: Afstand placentarand tot ostium = 0 mm (bedekking).",
+      "betekenis": "Placenta praevia in de huidige zwangerschap: placenta die het ostium internum (geheel of gedeeltelijk) bedekt. Positief wanneer: De passage noemt in deze zwangerschap een placenta praevia (totalis, partialis, centralis), een placenta die het ostium bedekt of eroverheen ligt, of een afstand tot het ostium van 0 mm. Niet positief wanneer: Een laagliggende placenta zonder bedekking (afstand >0 mm, 'tot aan het ostium'); 'placenta voorwand/achterwand' of 'hoog' zonder afstand; een praevia in een eerdere zwangerschap of een later opgeheven verdenking. Een placenta die laag ligt of tot (aan) het ostium internum reikt zonder het te bedekken; dat is een laagliggende placenta, geen praevia. Grenswaarden: Afstand placentarand tot ostium = 0 mm (bedekking).",
       "omschrijving": "Placenta praevia in de huidige zwangerschap: placenta die het ostium internum (geheel of gedeeltelijk) bedekt.",
       "zoek_naar": "De ligging van de placenta ten opzichte van de baarmoedermond in DEZE zwangerschap: placenta praevia, placenta previa, praevia totalis, partialis, marginalis, centralis, placenta over het ostium, ostium bedekt. Ook: elke placentalokalisatie op echo (SEO, GUO, controle-echo) met afstand tot het ostium in mm, laagliggende placenta, bloedverlies in het tweede of derde trimester, advies sectio wegens placentaligging.",
-      "niet_positief_wanneer": "Een laagliggende placenta zonder bedekking (afstand >0 mm, 'tot aan het ostium'); 'placenta voorwand/achterwand' of 'hoog' zonder afstand; een praevia in een eerdere zwangerschap of een later opgeheven verdenking. Een placenta die laag ligt of tot (aan) het ostium internum reikt zonder het te bedekken; dat is een laagliggende placenta (AP076).",
+      "niet_positief_wanneer": "Een laagliggende placenta zonder bedekking (afstand >0 mm, 'tot aan het ostium'); 'placenta voorwand/achterwand' of 'hoog' zonder afstand; een praevia in een eerdere zwangerschap of een later opgeheven verdenking. Een placenta die laag ligt of tot (aan) het ostium internum reikt zonder het te bedekken; dat is een laagliggende placenta, geen praevia.",
       "grenswaarden": "Afstand placentarand tot ostium = 0 mm (bedekking).",
       "blokken": [
         "echos",
@@ -2933,10 +2933,10 @@
       "id": "AP077",
       "label": "Taalbarrière",
       "categorie": "Overig",
-      "betekenis": "Taalbarrière: beperkte beheersing van een gedeelde taal die de zorgcommunicatie met de zwangere belemmert. Positief wanneer: De passage noemt bij de zwangere een taalbarrière, dat zij geen of beperkt Nederlands spreekt, anderstalig is, een tolk (ook tolkentelefoon) nodig heeft, of dat de communicatie door taal moeizaam is. Niet positief wanneer: 'Spreekt goed Nederlands' of 'geen taalbarrière'; alleen een buitenlandse herkomst; een voorkeur voor Engels bij goede communicatie (AP078); een tolk voor de partner.",
+      "betekenis": "Taalbarrière: beperkte beheersing van een gedeelde taal die de zorgcommunicatie met de zwangere belemmert. Positief wanneer: De passage noemt bij de zwangere een taalbarrière, dat zij geen of beperkt Nederlands spreekt, anderstalig is, een tolk (ook tolkentelefoon) nodig heeft, of dat de communicatie door taal moeizaam is. Niet positief wanneer: 'Spreekt goed Nederlands' of 'geen taalbarrière'; alleen een buitenlandse herkomst; een voorkeur voor Engels bij goede communicatie (dat is geen taalbarrière); een tolk voor de partner.",
       "omschrijving": "Taalbarrière: beperkte beheersing van een gedeelde taal die de zorgcommunicatie met de zwangere belemmert.",
       "zoek_naar": "Taal en communicatie met de zwangere, nu of eerder: taalbarrière, taalprobleem, spreekt geen of beperkt Nederlands, tolk, tolkentelefoon, TVcN, tolk nodig, communicatie moeizaam. Ook: de gesproken taal of moedertaal (Arabisch, Turks, Pools, Tigrinya, Oekraïens, Engels), familielid dat tolkt, laaggeletterdheid, Engelstalige of vertaalde informatie.",
-      "niet_positief_wanneer": "'Spreekt goed Nederlands' of 'geen taalbarrière'; alleen een buitenlandse herkomst; een voorkeur voor Engels bij goede communicatie (AP078); een tolk voor de partner.",
+      "niet_positief_wanneer": "'Spreekt goed Nederlands' of 'geen taalbarrière'; alleen een buitenlandse herkomst; een voorkeur voor Engels bij goede communicatie (dat is geen taalbarrière); een tolk voor de partner.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "kerngegevens"
@@ -3227,10 +3227,10 @@
       "id": "AP083",
       "label": "Herpes genitalis primo-infectie in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Primo-infectie (eerste episode) van herpes genitalis bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een door een zorgverlener vastgestelde eerste episode/primo-infectie van genitale herpes (HSV-1 of HSV-2), al dan niet met positieve PCR van genitale laesies. Niet positief wanneer: Herpes labialis/koortslip; alleen HSV-serologie (IgG, ook HSV-1) zonder genitale episode; een positieve PCR zonder primo-/recidiefduiding; herpes zoster; herpes bij de partner; een expliciet recidief (AP084).",
+      "betekenis": "Primo-infectie (eerste episode) van herpes genitalis bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een door een zorgverlener vastgestelde eerste episode/primo-infectie van genitale herpes (HSV-1 of HSV-2), al dan niet met positieve PCR van genitale laesies. Niet positief wanneer: Herpes labialis/koortslip; alleen HSV-serologie (IgG, ook HSV-1) zonder genitale episode; een positieve PCR zonder primo-/recidiefduiding; herpes zoster; herpes bij de partner; een expliciet recidief van bekende herpes (geen eerste episode).",
       "omschrijving": "Primo-infectie (eerste episode) van herpes genitalis bij de zwangere in de huidige zwangerschap.",
       "zoek_naar": "Genitale herpes in DEZE zwangerschap, met de vermelding of het een eerste episode is: primo-infectie herpes genitalis, primaire genitale HSV-infectie, eerste episode, herpes genitalis, genitale herpes, HSV, HSV-1, HSV-2, herpes simplex. Ook: genitale blaasjes of laesies, HSV-PCR of serologie (IgG, IgM) met uitslag, aciclovir, Zovirax, valaciclovir, Zelitrex, herpes bij de partner, GGD of soa-poli, sectio-advies wegens herpes.",
-      "niet_positief_wanneer": "Herpes labialis/koortslip; alleen HSV-serologie (IgG, ook HSV-1) zonder genitale episode; een positieve PCR zonder primo-/recidiefduiding; herpes zoster; herpes bij de partner; een expliciet recidief (AP084).",
+      "niet_positief_wanneer": "Herpes labialis/koortslip; alleen HSV-serologie (IgG, ook HSV-1) zonder genitale episode; een positieve PCR zonder primo-/recidiefduiding; herpes zoster; herpes bij de partner; een expliciet recidief van bekende herpes (geen eerste episode).",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "huidige_zwangerschap"
@@ -3267,10 +3267,10 @@
       "id": "AP084",
       "label": "Recidief herpes genitalis in de huidige zwangerschap",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Recidief van genitale herpes bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een recidief/reactivatie van bekende genitale herpes (HSV), al dan niet met positieve PCR, of suppressietherapie wegens recidiverende genitale herpes. Niet positief wanneer: Herpes labialis/koortslip; genitale herpes in de anamnese zonder episode nu; alleen HSV-serologie; een primo-infectie (AP083); herpes bij de partner; profylactisch aciclovir zonder beschreven recidief.",
+      "betekenis": "Recidief van genitale herpes bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een recidief/reactivatie van bekende genitale herpes (HSV), al dan niet met positieve PCR, of suppressietherapie wegens recidiverende genitale herpes. Niet positief wanneer: Herpes labialis/koortslip; genitale herpes in de anamnese zonder episode nu; alleen HSV-serologie; een primo-infectie (eerste episode, geen recidief); herpes bij de partner; profylactisch aciclovir zonder beschreven recidief.",
       "omschrijving": "Recidief van genitale herpes bij de zwangere in de huidige zwangerschap.",
       "zoek_naar": "Genitale herpes in DEZE zwangerschap, met de vermelding of het een recidief is: recidief herpes genitalis, reactivatie genitale HSV, herpes genitalis in de anamnese met nieuwe episode, bekende genitale herpes, HSV, HSV-1, HSV-2. Ook: genitale blaasjes of laesies, HSV-PCR met uitslag, aciclovir, Zovirax, valaciclovir, Zelitrex, suppressietherapie of profylactisch aciclovir aan het einde van de zwangerschap, sectio-advies wegens herpes.",
-      "niet_positief_wanneer": "Herpes labialis/koortslip; genitale herpes in de anamnese zonder episode nu; alleen HSV-serologie; een primo-infectie (AP083); herpes bij de partner; profylactisch aciclovir zonder beschreven recidief.",
+      "niet_positief_wanneer": "Herpes labialis/koortslip; genitale herpes in de anamnese zonder episode nu; alleen HSV-serologie; een primo-infectie (eerste episode, geen recidief); herpes bij de partner; profylactisch aciclovir zonder beschreven recidief.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "huidige_zwangerschap"
