@@ -1,4 +1,4 @@
-# version 5.3
+# version 5.4
 # updated at 15-10-2026
 # gegenereerd uit 261015_Prompts_aandachtspunten_v5.3.xlsx met build_aandachtspunten_json.py
 
@@ -45,16 +45,22 @@
         "acetylsalicylzuur",
         "[ASA]",
         "insufficiëntie",
-        "[P10]",
-        "[P8]",
-        "[P5]",
-        "[P3]",
+        "[p10]",
+        "[p8]",
+        "[p5]",
+        "[p3]",
         "zorgpad dysmat",
         "moeder",
         "zus",
         "zuster",
         "[G1]",
-        "donor"
+        "donor",
+        "insuffici",
+        "aspirin",
+        "preeclamp",
+        "auto-immuun",
+        "autoimmuun",
+        "[ZD]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -92,7 +98,10 @@
         "overleden kind",
         "hypoxisch",
         "asfyct",
-        "navelstreng-pH"
+        "navelstreng-pH",
+        "beadem",
+        "koeling",
+        "gekoeld"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -115,7 +124,8 @@
         "hysteroscop",
         "synechi",
         "cavumafwijk",
-        "intra-uterien"
+        "intra-uterien",
+        "[IUA]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -139,12 +149,20 @@
         "[WLS]",
         "roux",
         "maagballon",
-        "[B12]",
         "dumping",
-        "bariatrisch centrum",
         "obesitaschirurg",
-        "bariatrisch",
-        "maagoperatie"
+        "maagoperatie",
+        "gastrectom",
+        "[RYGB]",
+        "[LSG]",
+        "[OAGB]",
+        "[MGB]",
+        "duodenal switch",
+        "[SADI]",
+        "lapband",
+        "lap-band",
+        "obesitasoperatie",
+        "afvaloperatie"
       ],
       "python_regel": "",
       "python_voorwaarde": "bmi >= 30 en < 40",
@@ -168,12 +186,20 @@
         "[WLS]",
         "roux",
         "maagballon",
-        "[B12]",
         "dumping",
-        "bariatrisch centrum",
         "obesitaschirurg",
-        "bariatrisch",
-        "maagoperatie"
+        "maagoperatie",
+        "gastrectom",
+        "[RYGB]",
+        "[LSG]",
+        "[OAGB]",
+        "[MGB]",
+        "duodenal switch",
+        "[SADI]",
+        "lapband",
+        "lap-band",
+        "obesitasoperatie",
+        "afvaloperatie"
       ],
       "python_regel": "",
       "python_voorwaarde": "bmi >= 40",
@@ -197,12 +223,20 @@
         "[WLS]",
         "roux",
         "maagballon",
-        "[B12]",
         "dumping",
-        "bariatrisch centrum",
         "obesitaschirurg",
-        "bariatrisch",
-        "maagoperatie"
+        "maagoperatie",
+        "gastrectom",
+        "[RYGB]",
+        "[LSG]",
+        "[OAGB]",
+        "[MGB]",
+        "duodenal switch",
+        "[SADI]",
+        "lapband",
+        "lap-band",
+        "obesitasoperatie",
+        "afvaloperatie"
       ],
       "python_regel": "",
       "python_voorwaarde": "bmi < 30",
@@ -230,7 +264,8 @@
         "zavanelli",
         "erbse",
         "clavicula",
-        "sleutelbeen"
+        "sleutelbeen",
+        "[erb]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -300,7 +335,8 @@
         "graad 3",
         "graad 4",
         "3e graads",
-        "4e graads"
+        "4e graads",
+        "perine"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -420,7 +456,8 @@
         "internist",
         "pre-existent",
         "essenti",
-        "tensie"
+        "tensie",
+        "bloeddrukverl"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -447,7 +484,9 @@
         "uitstrijk",
         "colposcop",
         "[HPV]",
-        "dysplas"
+        "dysplas",
+        "conisat",
+        "exconis"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -485,7 +524,12 @@
         "longfunctie",
         "spirometr",
         "exacerbat",
-        "luchtweg"
+        "luchtweg",
+        "[CARA]",
+        "bronchit",
+        "flixotide",
+        "relvar",
+        "pulmicort"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -523,7 +567,11 @@
         "ustekinumab",
         "stelara",
         "calprotectine",
-        "remissie"
+        "remissie",
+        "tofacitinib",
+        "upadacitinib",
+        "risankizumab",
+        "[UC]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -556,7 +604,12 @@
         "suikerziekte",
         "insulinepomp",
         "[IDDM]",
-        "[NIDDM]"
+        "[NIDDM]",
+        "glucosesensor",
+        "libre",
+        "dexcom",
+        "fiasp",
+        "toujeo"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -659,7 +712,12 @@
         "3-mmc",
         "designerdrug",
         "drugsscreen",
-        "verslaving"
+        "verslaving",
+        "cocaï",
+        "heroï",
+        "methamfet",
+        "crystal",
+        "lachgas"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -709,16 +767,16 @@
         "groeivertrag",
         "groeirestrictie",
         "percentiel",
-        "[P1]",
-        "[P2]",
-        "[P3]",
-        "[P4]",
-        "[P5]",
-        "[P6]",
-        "[P7]",
-        "[P8]",
-        "[P9]",
-        "[P10]",
+        "[p1]",
+        "[p2]",
+        "[p3]",
+        "[p4]",
+        "[p5]",
+        "[p6]",
+        "[p7]",
+        "[p8]",
+        "[p9]",
+        "[p10]",
         "geboortegewicht",
         "[p2,3]",
         "[p2.3]",
@@ -734,7 +792,12 @@
         "groeirestr",
         "dysm",
         "[p2.2]",
-        "[p2,2]"
+        "[p2,2]",
+        "[p0]",
+        "groeiachter",
+        "te klein",
+        "[P<10]",
+        "<p10"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -771,7 +834,14 @@
         "anti-epilept",
         "[AED]",
         "convuls",
-        "toeval"
+        "toeval",
+        "toevallen",
+        "lacosamide",
+        "vimpat",
+        "brivaracetam",
+        "briviact",
+        "zonisamide",
+        "absence"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -801,7 +871,8 @@
         "[HELLP]",
         "eclamps",
         "magnesiumsulfaat",
-        "weken"
+        "weken",
+        "preeclamp"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -855,7 +926,9 @@
         "strept",
         "kweek",
         "bacteriur",
-        "cystitis"
+        "cystitis",
+        "antibiotic",
+        "urineweginf"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -883,7 +956,12 @@
         "lambda",
         "placenta's",
         "meerlingpoli",
-        "chorionicit"
+        "chorionicit",
+        "[DC]",
+        "foetus a",
+        "foetus b",
+        "foetus 1",
+        "foetus 2"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -911,7 +989,12 @@
         "monoamniot",
         "t-sign",
         "gedeelde placenta",
-        "tweelingtransfusie"
+        "tweelingtransfusie",
+        "[MC]",
+        "laser",
+        "fetoscop",
+        "foetus a",
+        "foetus b"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -942,7 +1025,9 @@
         "anti-hbc",
         "anti-hbs",
         "hepatitis b",
-        "hep b"
+        "hep b",
+        "vemlidy",
+        "baraclude"
       ],
       "python_regel": "hbsag == positief",
       "python_voorwaarde": "",
@@ -975,7 +1060,8 @@
         "karyotyp",
         "miskraampoli",
         "[sp.ab]",
-        "spontane abortus"
+        "spontane abortus",
+        "zwangerschapsverl"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1000,7 +1086,10 @@
         "infectiolo",
         "hiv-pos",
         "hiv-neg",
-        "seropos"
+        "seropos",
+        "dolutegravir",
+        "biktarvy",
+        "triumeq"
       ],
       "python_regel": "hiv == positief",
       "python_voorwaarde": "",
@@ -1034,7 +1123,12 @@
         "[FT4]",
         "[T3]",
         "endocrino",
-        "tshr"
+        "tshr",
+        "receptorantistof",
+        "receptor antistof",
+        "thyreoïdectom",
+        "thyroidectom",
+        "propylthio"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1066,7 +1160,10 @@
         "[FT4]",
         "[T3]",
         "endocrino",
-        "tshr"
+        "tshr",
+        "receptorantistof",
+        "receptor antistof",
+        "propylthio"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1099,7 +1196,10 @@
         "[FT4]",
         "[T3]",
         "endocrino",
-        "struma"
+        "struma",
+        "thyreoïdectom",
+        "thyroidectom",
+        "propylthio"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1129,7 +1229,9 @@
         "subklinisch",
         "te traag",
         "endocrino",
-        "thyreoidit"
+        "thyreoidit",
+        "thyreoïdit",
+        "thyroidit"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1198,7 +1300,13 @@
         "punctie",
         "kinderwens",
         "subfertil",
-        "spontaan zwanger"
+        "spontaan zwanger",
+        "follikel",
+        "[KID]",
+        "[KIE]",
+        "voortplant",
+        "[TESE]",
+        "gestimuleerd"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1232,7 +1340,15 @@
         "[anti-Fya]",
         "[anti-Jka]",
         "immunisat",
-        "antistofscreen"
+        "antistofscreen",
+        "irr",
+        "[PSIE]",
+        "erytrocyt",
+        "bloedgroepantistof",
+        "[anti-Fyb]",
+        "[anti-Jkb]",
+        "[anti-S]",
+        "[anti-Cw]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1262,7 +1378,14 @@
         "koude",
         "koude antistof",
         "niet relevant",
-        "antistofscreen"
+        "antistofscreen",
+        "irr",
+        "[PSIE]",
+        "erytrocyt",
+        "bloedgroepantistof",
+        "lewis",
+        "[anti-Lua]",
+        "[anti-HI]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1289,7 +1412,11 @@
         "jehovah",
         "geen bloed",
         "weigert bloed",
-        "transfusieweiger"
+        "transfusieweiger",
+        "religie",
+        "levensovertuig",
+        "bloedweiger",
+        "[JG]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1323,7 +1450,9 @@
         "uitstrijk",
         "colposcop",
         "[HPV]",
-        "dysplas"
+        "dysplas",
+        "lus exc",
+        "lus-exc"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1346,7 +1475,8 @@
         "spiegel",
         "stemmingsstab",
         "[POP]",
-        "lithiumcarbonaat"
+        "lithiumcarbonaat",
+        "bipolar"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1382,7 +1512,11 @@
         "placentaretentie",
         "vastzittende placenta",
         "[EBL]",
-        "bloedverlies"
+        "bloedverlies",
+        "nageboorte",
+        "placentarest",
+        "manue",
+        "nabloed"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1434,7 +1568,11 @@
         "leiomyoom",
         "enucleat",
         "embolisat",
-        "[cm]"
+        "[cm]",
+        "fibroid",
+        "intramura",
+        "subseros",
+        "submucos"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1457,7 +1595,12 @@
         "[VT]",
         "inwendig onderzoek",
         "pijn bij",
-        "bekkenfysio"
+        "bekkenfysio",
+        "vrijen",
+        "gemeenschap",
+        "coïtus",
+        "coitus",
+        "penetratie"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1492,7 +1635,9 @@
         "premature",
         "te vroeg geboren",
         "[wk]",
-        "weken"
+        "weken",
+        "prematur",
+        "pessarium"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1520,7 +1665,10 @@
         "[GZA]",
         "gevlucht",
         "vluchteling",
-        "asielzoek"
+        "asielzoek",
+        "noodopvang",
+        "oekra",
+        "ontheemd"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1578,7 +1726,8 @@
         "te vroeg geboren",
         "[wk]",
         "weken",
-        "late prematuur"
+        "late prematuur",
+        "prematur"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1601,7 +1750,10 @@
         "oöcyt",
         "embryodon",
         "donorembryo",
-        "donoreicel"
+        "donoreicel",
+        "donatie",
+        "eicelbank",
+        "draagmoeder"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1645,7 +1797,11 @@
         "profylax",
         "trombofil",
         "oestrogeen",
-        "pilgebruik"
+        "pilgebruik",
+        "proteïne",
+        "factor v",
+        "[MTHFR]",
+        "stolling"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1690,7 +1846,11 @@
         "profylax",
         "postpartum",
         "trombofil",
-        "kraambed"
+        "kraambed",
+        "proteïne",
+        "factor v",
+        "[MTHFR]",
+        "stolling"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1720,7 +1880,9 @@
         "[TOLAC]",
         "accreta",
         "keizersne",
-        "caesarea"
+        "caesarea",
+        "[CS]",
+        "uterusrupt"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1759,7 +1921,15 @@
         "groeiecho",
         "groeirestr",
         "[p2.2]",
-        "[p2,2]"
+        "[p2,2]",
+        "zorgpad dysmat",
+        "zorgpad groei",
+        "groeiachter",
+        "te klein",
+        "[P<10]",
+        "<p10",
+        "[PI]",
+        "notch"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1795,7 +1965,8 @@
         "hemoglobinopath",
         "ijzertablet",
         "ijzersuppl",
-        "[Fe]"
+        "[Fe]",
+        "sikkelcel"
       ],
       "python_regel": "hb < 7.1 of ferritine < 15",
       "python_voorwaarde": "",
@@ -1910,7 +2081,10 @@
         "bilirubine",
         "ursochol",
         "ursofalk",
-        "intrahepat"
+        "intrahepat",
+        "cholestas",
+        "galzu",
+        "leverwaard"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1936,7 +2110,9 @@
         "[AMH]",
         "clomi",
         "letrozol",
-        "cyclusstoornis"
+        "cyclusstoornis",
+        "insulineresist",
+        "hyperandrog"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -1977,7 +2153,10 @@
         "magnesium",
         "zwangerschapsvergiftiging",
         "[HELLP]",
-        "eclamps"
+        "eclamps",
+        "preeclamp",
+        "proteïnurie",
+        "bloeddruk"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2009,7 +2188,8 @@
         "systol",
         "diastol",
         "tensie",
-        "gestationele"
+        "gestationele",
+        "[GH]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2028,10 +2208,10 @@
         "[LGA]",
         "groot kind",
         "geboortegewicht",
-        "[P90]",
-        "[P95]",
-        "[P97]",
-        "[P99]",
+        "[p90]",
+        "[p95]",
+        "[p97]",
+        "[p99]",
         "gram",
         "[p97,7]",
         "[EFW]",
@@ -2043,7 +2223,11 @@
         "geboortegew",
         "[GG]",
         "[p98]",
-        "[P96]"
+        "[p96]",
+        "[P>90]",
+        ">p90",
+        "fors kind",
+        "zwaar kind"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2086,7 +2270,12 @@
         "trombosedienst",
         "kunstklep",
         "[IE]",
-        "[mg]"
+        "[mg]",
+        "eliquis",
+        "xarelto",
+        "dabigatran",
+        "pradaxa",
+        "edoxaban"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2115,7 +2304,8 @@
         "hematolo",
         "reumatolo",
         "glycoprot",
-        "[aPL]"
+        "[aPL]",
+        "cardiolip"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2145,7 +2335,14 @@
         "koude",
         "koude antistof",
         "niet relevant",
-        "antistofscreen"
+        "antistofscreen",
+        "irr",
+        "[PSIE]",
+        "erytrocyt",
+        "bloedgroepantistof",
+        "lewis",
+        "[anti-Lua]",
+        "[anti-HI]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2182,7 +2379,14 @@
         "reumatolo",
         "[MDL]",
         "tnf-alfa",
-        "biological"
+        "biological",
+        "biosimilar",
+        "reuma",
+        "artritis",
+        "bechterew",
+        "psoriasis",
+        "spondyl",
+        "[RA]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2220,7 +2424,12 @@
         "cigar",
         "gestopt met roken",
         "stoppen met roken",
-        "rookvrij"
+        "rookvrij",
+        "e-cig",
+        "rookstop",
+        "stoppog",
+        "snus",
+        "pakje"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2247,7 +2456,10 @@
         "[SEO]",
         "[GUO]",
         "vliezig",
-        "vasa previa"
+        "vasa previa",
+        "[VCI]",
+        "vliezige vat",
+        "bijlob"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2278,7 +2490,13 @@
         "[3D]",
         "[MRI]",
         "hysteroscop",
-        "arcuat"
+        "arcuat",
+        "uterussept",
+        "hartvorm",
+        "tweehoorn",
+        "[MRKH]",
+        "t-vorm",
+        "[DES]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2302,7 +2520,10 @@
         "[IVIG]",
         "[HELLP]",
         "transfusie",
-        "trombo's"
+        "trombo's",
+        "[PLT]",
+        "plaatjes",
+        "hematolo"
       ],
       "python_regel": "trombocyten < 150",
       "python_voorwaarde": "",
@@ -2331,7 +2552,11 @@
         "tijdstip",
         "[uur]",
         "antibiotic",
-        "inleid"
+        "inleid",
+        "vruchtwaterverl",
+        "[SROM]",
+        "lekk",
+        "nitrazine"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2357,7 +2582,10 @@
         "luxatie",
         "bindweefsel",
         "marfan",
-        "geneticus"
+        "geneticus",
+        "overbeweeg",
+        "collageen",
+        "subluxat"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2386,7 +2614,11 @@
         "[SEO]",
         "[GUO]",
         "afstand",
-        "placentaligging"
+        "placentaligging",
+        "[OUI]",
+        "voorligg",
+        "ligging placenta",
+        "[plac]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2415,7 +2647,11 @@
         "[SEO]",
         "[GUO]",
         "placenta laag",
-        "placentaligging"
+        "placentaligging",
+        "[OUI]",
+        "voorligg",
+        "ligging placenta",
+        "[plac]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2453,7 +2689,18 @@
         "beheerst",
         "beheersing",
         "spreekt geen",
-        "spreekt slecht"
+        "spreekt slecht",
+        "oekra",
+        "farsi",
+        "dari",
+        "somali",
+        "spaans",
+        "roemeens",
+        "bulgaars",
+        "russisch",
+        "frans",
+        "translate",
+        "inburger"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2477,7 +2724,9 @@
         "internationa",
         "voorkeurstaal",
         "spreekt engels",
-        "in het engels"
+        "in het engels",
+        "brits",
+        "amerikaan"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2539,7 +2788,34 @@
         "huisbezoek",
         "kwetsbaar",
         "pittig",
-        "maatschappelijk werk"
+        "maatschappelijk werk",
+        "jonge moeder",
+        "jonge zwangere",
+        "verslav",
+        "eetstoornis",
+        "suïcid",
+        "suicid",
+        "automutil",
+        "detentie",
+        "justiti",
+        "uitkering",
+        "bijstand",
+        "bewindvoer",
+        "analfabe",
+        "[ADHD]",
+        "autis",
+        "[ASS]",
+        "burn",
+        "antidepress",
+        "verstandelijk",
+        "misbruik",
+        "mishandel",
+        "uithuis",
+        "[OTS]",
+        "pleeg",
+        "hulpverlen",
+        "[CJG]",
+        "voorzorg"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2575,7 +2851,8 @@
         "euthyrox",
         "[PTU]",
         "endocrino",
-        "schildklier"
+        "schildklier",
+        "[T4]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2625,7 +2902,22 @@
         "[DVP]",
         "vruchtwater",
         "vroege ogtt",
-        "etnicit"
+        "etnicit",
+        "diabet",
+        "[DM]",
+        "suiker",
+        "overgewicht",
+        "obesitas",
+        "glucosur",
+        "glucose",
+        "pakist",
+        "india",
+        "afghaan",
+        "irak",
+        "iran",
+        "antill",
+        "ghan",
+        "somali"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2668,7 +2960,13 @@
         "dd hyperemesis",
         "braakt",
         "nausea",
-        "emesis"
+        "emesis",
+        "[NVP]",
+        "cariban",
+        "xonvea",
+        "doxylamine",
+        "uitdrog",
+        "vochtinf"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2702,7 +3000,11 @@
         "zelitrex",
         "soa",
         "herpes genitalis",
-        "genitale herpes"
+        "genitale herpes",
+        "primaire inf",
+        "eerste infectie",
+        "famciclovir",
+        "genitaal"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2736,7 +3038,10 @@
         "[i.a.]",
         "reactivat",
         "herpes genitalis",
-        "genitale herpes"
+        "genitale herpes",
+        "famciclovir",
+        "uitbraak",
+        "opvlamming"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2762,7 +3067,8 @@
         "bilirubine",
         "stolling",
         "hypoglyk",
-        "swansea"
+        "swansea",
+        "vervet"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2797,7 +3103,12 @@
         "prednison",
         "hartblok",
         "discoïde",
-        "cutane"
+        "cutane",
+        "mycofenol",
+        "cellcept",
+        "belimumab",
+        "auto-immuun",
+        "autoimmuun"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2827,7 +3138,11 @@
         "hyperbilirubin",
         "wisseltransfusie",
         "icterus",
-        "pasgeboren"
+        "pasgeboren",
+        "bloedgroepantagon",
+        "onder de lamp",
+        "lichttherap",
+        "[AB0]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2874,7 +3189,22 @@
         "amniocent",
         "vlokkentest",
         "dragerschap",
-        "congenit"
+        "congenit",
+        "chromosom",
+        "spina",
+        "neurale buis",
+        "zwangerschapsafbr",
+        "afgebroken",
+        "hazenlip",
+        "gespleten",
+        "gastroschis",
+        "omfaloc",
+        "hydrocef",
+        "taaislijm",
+        "[CF]",
+        "[SMA]",
+        "fragiele",
+        "22q"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
