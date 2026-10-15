@@ -2370,7 +2370,7 @@ kaart;AP;label;juist;opmerking
 027;AP081;Risicofactoren diabetes gravidarum;1;
 027;AP082;Hyperemesis gravidarum in de huidige zwangerschap;0;
 027;AP083;Herpes genitalis primo-infectie in de huidige zwangerschap;1;
-027;AP084;Recidief herpes genitalis in de huidige zwangerschap;1;
+027;AP084;Recidief herpes genitalis in de huidige zwangerschap;0;eerste episode in deze zwangerschap (AP083), geen recidief beschreven
 027;AP085;Acute fatty liver of pregnancy in anamnese;0;
 027;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 027;AP087;ABO-bloedgroepantagonisme in anamnese;0;

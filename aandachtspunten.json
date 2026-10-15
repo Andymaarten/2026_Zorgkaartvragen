@@ -1,5 +1,5 @@
-# version 5.2
-# updated at 14-10-2026
+# version 5.3
+# updated at 15-10-2026
 # gegenereerd uit 261014_Prompts_aandachtspunten_v5.2.xlsx met build_aandachtspunten_json.py
 
 {
@@ -148,10 +148,10 @@
       "id": "AP004",
       "label": "Bariatrische chirurgie i.a. BMI 30-40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 30 tot 40 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Een BMI-waarde alleen, zonder operatie, is niet positief; de BMI-grens (30 tot 40) combineert de zorgverlener. Niet positief wanneer: Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep; een BMI buiten 30–40. Grenswaarden: BMI ≥30 en <40 bij intake.",
+      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 30 tot 40 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Beoordeel alleen of er een operatie was; de BMI-klasse toetst het systeem zelf. Niet positief wanneer: Een BMI, lengte of gewicht zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep. Grenswaarden: BMI ≥30 en <40 bij intake.",
       "omschrijving": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 30 tot 40 bij intake.",
-      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: alle BMI-, lengte- en gewichtsvermeldingen, dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
-      "niet_positief_wanneer": "Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep; een BMI buiten 30–40.",
+      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
+      "niet_positief_wanneer": "Een BMI, lengte of gewicht zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep.",
       "grenswaarden": "BMI ≥30 en <40 bij intake.",
       "blokken": [
         "medische_voorgeschiedenis",
@@ -165,9 +165,6 @@
         "sleeve",
         "maagband",
         "[WLS]",
-        "[BMI]",
-        "gewicht",
-        "lengte",
         "roux",
         "maagballon",
         "[B12]",
@@ -181,16 +178,17 @@
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
-      "familie_telt": false
+      "familie_telt": false,
+      "python_voorwaarde": "bmi >= 30 en < 40"
     },
     {
       "id": "AP005",
       "label": "Bariatrische chirurgie i.a. BMI >40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 40 of hoger bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Een BMI-waarde alleen, zonder operatie, is niet positief; de BMI-grens (≥40) combineert de zorgverlener. Niet positief wanneer: Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen morbide obesitas of een geplande ingreep; een BMI <40. Grenswaarden: BMI ≥40 bij intake.",
+      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 40 of hoger bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Beoordeel alleen of er een operatie was; de BMI-klasse toetst het systeem zelf. Niet positief wanneer: Een BMI, lengte of gewicht zonder operatie; alleen morbide obesitas of een geplande ingreep. Grenswaarden: BMI ≥40 bij intake.",
       "omschrijving": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 40 of hoger bij intake.",
-      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: alle BMI-, lengte- en gewichtsvermeldingen, dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
-      "niet_positief_wanneer": "Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen morbide obesitas of een geplande ingreep; een BMI <40.",
+      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
+      "niet_positief_wanneer": "Een BMI, lengte of gewicht zonder operatie; alleen morbide obesitas of een geplande ingreep.",
       "grenswaarden": "BMI ≥40 bij intake.",
       "blokken": [
         "medische_voorgeschiedenis",
@@ -204,9 +202,6 @@
         "sleeve",
         "maagband",
         "[WLS]",
-        "[BMI]",
-        "gewicht",
-        "lengte",
         "roux",
         "maagballon",
         "[B12]",
@@ -220,16 +215,17 @@
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
-      "familie_telt": false
+      "familie_telt": false,
+      "python_voorwaarde": "bmi >= 40"
     },
     {
       "id": "AP006",
       "label": "Bariatrische chirurgie i.a. BMI <30",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI onder 30 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Een BMI-waarde alleen, zonder operatie, is niet positief; de BMI-grens (<30) combineert de zorgverlener. Niet positief wanneer: Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen suppletie, dagcurve of een geplande ingreep; een BMI ≥30. Grenswaarden: BMI <30 bij intake.",
+      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI onder 30 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Beoordeel alleen of er een operatie was; de BMI-klasse toetst het systeem zelf. Niet positief wanneer: Een BMI, lengte of gewicht zonder operatie; alleen suppletie, dagcurve of een geplande ingreep. Grenswaarden: BMI <30 bij intake.",
       "omschrijving": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI onder 30 bij intake.",
-      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: alle BMI-, lengte- en gewichtsvermeldingen, dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
-      "niet_positief_wanneer": "Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen suppletie, dagcurve of een geplande ingreep; een BMI ≥30.",
+      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
+      "niet_positief_wanneer": "Een BMI, lengte of gewicht zonder operatie; alleen suppletie, dagcurve of een geplande ingreep.",
       "grenswaarden": "BMI <30 bij intake.",
       "blokken": [
         "medische_voorgeschiedenis",
@@ -243,9 +239,6 @@
         "sleeve",
         "maagband",
         "[WLS]",
-        "[BMI]",
-        "gewicht",
-        "lengte",
         "roux",
         "maagballon",
         "[B12]",
@@ -259,7 +252,8 @@
       "factoren": "",
       "toetsregels": "",
       "samengesteld": false,
-      "familie_telt": false
+      "familie_telt": false,
+      "python_voorwaarde": "bmi < 30"
     },
     {
       "id": "AP007",
@@ -846,7 +840,7 @@
       "id": "AP022",
       "label": "Dysmaturiteit in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht met een percentiel onder P10 (genoteerd als P8, P5, P2.2, p2,3, <p2.3), of dysmaturiteit, SGA, FGR/IUGR of groeivertraging, ook afgekort als 'dysm i.a.', 'dysmatuur ia' of 'zorgpad dysmatuur (i.a.)'. Het percentiel is leidend: een percentiel <P10 telt ook als het gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'. Grenswaarden: Geboortegewicht <P10.",
+      "betekenis": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht met een percentiel onder P10 (genoteerd als P8, P5, P2.2, p2,3, <p2.3), of dysmaturiteit, SGA, FGR/IUGR of groeivertraging, ook afgekort als 'dysm i.a.', 'dysmatuur ia' of 'zorgpad dysmatuur (i.a.)'. Een percentielbereik onder P10 telt ook (bijv. p5-P10, P2.3-P5). Het percentiel is leidend: een percentiel <P10 telt ook als het gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'. Grenswaarden: Geboortegewicht <P10.",
       "omschrijving": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap.",
       "zoek_naar": "Een EERDER kind dat klein was voor de termijn: dysmaturiteit, SGA, FGR/IUGR, groeivertraging, geboortegewicht met percentiel onder of rond p10, of een laag geboortegewicht met termijn. Ook: groei-echo's, afwijkende doppler of placenta-insufficiëntie in een eerdere zwangerschap, zorgpad dysmatuur, en 'dysmatuur i.a.'.",
       "niet_positief_wanneer": "Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'.",
@@ -1501,10 +1495,10 @@
       "id": "AP039",
       "label": "Niet klinisch relevante irregulaire antistoffen variant 1",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld. Positief wanneer: De passage noemt bij de zwangere nu een positieve antistofscreening met de beoordeling 'niet klinisch relevant' (bijv. anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen). Niet positief wanneer: Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder beoordeling.",
+      "betekenis": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld. Positief wanneer: De passage noemt bij de zwangere nu een positieve antistofscreening met de beoordeling 'niet klinisch relevant' (bijv. anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen). Ook positief: een aangetoonde irregulaire antistof waarbij een laag risico op hemolytische ziekte of een lage of negatieve titer is gemeld; de antistof is dan wél aanwezig en dat lage risico is juist de beoordeling 'niet klinisch relevant'. Niet positief wanneer: Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder dat er een antistof is aangetoond.",
       "omschrijving": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld.",
       "zoek_naar": "Irregulaire erytrocytenantistoffen bij de zwangere in DEZE zwangerschap die als niet klinisch relevant zijn beschreven: irregulaire antistoffen, IEA, antistofscreening positief, niet klinisch relevant, niet relevant, lage titer, anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen. Ook: de specificiteit, titer en het Sanquin-advies, en elke positieve antistofscreening.",
-      "niet_positief_wanneer": "Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder beoordeling.",
+      "niet_positief_wanneer": "Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder dat er een antistof is aangetoond.",
       "grenswaarden": "Niet relevant voor dit aandachtspunt.",
       "blokken": [
         "kerngegevens"
