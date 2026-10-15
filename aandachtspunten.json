@@ -1,6 +1,6 @@
-# version 5.2
-# updated at 14-10-2026
-# gegenereerd uit 261014_Prompts_aandachtspunten_v5.2.xlsx met build_aandachtspunten_json.py
+# version 5.3
+# updated at 15-10-2026
+# gegenereerd uit 261015_Prompts_aandachtspunten_v5.3.xlsx met build_aandachtspunten_json.py
 
 {
   "AANDACHTSPUNTEN": [
@@ -10,15 +10,6 @@
       "categorie": "Indicatie",
       "betekenis": "Risicofactoren voor pre-eclampsie bij de zwangere (reden voor acetylsalicylzuur), nu of in een eerdere zwangerschap. Positief wanneer: De passage noemt Ascal/acetylsalicylzuur voor deze of een eerdere zwangerschap, of één van de factoren: eerdere pre-eclampsie of HELLP; chronische nierziekte; SLE; APS; diabetes type 1 of 2; chronische hypertensie; nullipara; leeftijd ≥40 op de AD; zwangerschapsinterval >10 jaar; pre-eclampsie bij moeder of zus; BMI >35; meerling; eerder kind <P10 of placenta-insufficiëntie; onverklaarde perinatale sterfte; eiceldonatie. Niet positief wanneer: Ascal om een andere reden; een factor die expliciet ontkend wordt (bijv. 'geen hypertensie'); een normale uitslag. Grenswaarden: Leeftijd ≥40 jaar op de AD; interval >10 jaar; BMI >35; eerder geboortegewicht <P10.",
       "omschrijving": "Risicofactoren voor pre-eclampsie bij de zwangere (reden voor acetylsalicylzuur), nu of in een eerdere zwangerschap.",
-      "zoek_naar": "Elke aanwijzing voor (risico op) pre-eclampsie of placentaire insufficiëntie, nu of in een EERDERE zwangerschap: Ascal, aspirine, acetylsalicylzuur of carbasalaatcalcium nu of eerder; eerdere pre-eclampsie, HELLP, FGR of perinatale sterfte; chronische hypertensie, nierziekte, SLE, APS, diabetes type 1 of 2; nullipariteit, leeftijd, zwangerschapsinterval, alle BMI-, lengte- en gewichtsvermeldingen, meerling, eiceldonatie, pre-eclampsie bij moeder of zus. Ook: calciumadvies, counseling over Ascal, Ascal op eigen verzoek.",
-      "niet_positief_wanneer": "Ascal om een andere reden; een factor die expliciet ontkend wordt (bijv. 'geen hypertensie'); een normale uitslag.",
-      "grenswaarden": "Leeftijd ≥40 jaar op de AD; interval >10 jaar; BMI >35; eerder geboortegewicht <P10.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "obstetrische_voorgeschiedenis",
-        "medicatie",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "ascal",
         "acetylsalicyl",
@@ -66,8 +57,8 @@
         "donor"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "Ascal/acetylsalicylzuur in deze of een eerdere zwangerschap; eerdere pre-eclampsie of HELLP; chronische nierziekte; SLE; antifosfolipidensyndroom (APS); diabetes mellitus type 1 of 2; chronische hypertensie; nullipariteit; leeftijd ≥40 jaar op de AD; zwangerschapsinterval >10 jaar; pre-eclampsie bij moeder of zus; BMI >35; meerlingzwangerschap; eerder kind met geboortegewicht <P10, FGR of placenta-insufficiëntie; onverklaarde perinatale sterfte; zwangerschap na eiceldonatie.",
-      "toetsregels": "Indicatie volgens protocol bij ≥1 hoge factor (eerdere PE/HELLP, nierziekte, SLE/APS, DM1/2, chronische hypertensie) of ≥2 matige factoren (de overige). Eén factor niet dubbel tellen. Beoordeling door de zorgverlener.",
       "samengesteld": true,
       "familie_telt": true
     },
@@ -77,12 +68,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Sterfte of ernstige asfyxie van een eerder kind van de zwangere, rond een eerdere zwangerschap of geboorte. Positief wanneer: De passage noemt bij een eerder kind: intra-uteriene vruchtdood (IUVD) of doodgeboorte vanaf 22 weken; neonatale sterfte; asfyxie, HIE of hypoxisch letsel; reanimatie of NICU-opname wegens asfyxie. Niet positief wanneer: Miskraam <22 weken, abortus, EUG; NICU-opname alleen wegens prematuriteit; lage Apgar zonder asfyxie; een levend en gezond kind; sterfte van een familielid. Alleen een kunstverlossing (vacuüm, forceps), een spoedsectio of een verdenking foetale nood, of een Apgarscore van 7 of hoger. Grenswaarden: Zwangerschapsduur bij sterfte ≥22+0 weken.",
       "omschrijving": "Sterfte of ernstige asfyxie van een eerder kind van de zwangere, rond een eerdere zwangerschap of geboorte.",
-      "zoek_naar": "Een EERDER kind dat rond de geboorte is overleden of zuurstoftekort had: intra-uteriene vruchtdood, IUVD, doodgeboorte, stilgeboorte, neonatale sterfte, perinatale sterfte, asfyxie, hypoxie, HIE. Ook: reanimatie van het kind, lage Apgar, NICU-opname, neonatale insulten, navelstreng-pH, en elke (late) miskraam met termijn.",
-      "niet_positief_wanneer": "Miskraam <22 weken, abortus, EUG; NICU-opname alleen wegens prematuriteit; lage Apgar zonder asfyxie; een levend en gezond kind; sterfte van een familielid. Alleen een kunstverlossing (vacuüm, forceps), een spoedsectio of een verdenking foetale nood, of een Apgarscore van 7 of hoger.",
-      "grenswaarden": "Zwangerschapsduur bij sterfte ≥22+0 weken.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "asfyx",
         "[HIE]",
@@ -110,8 +95,8 @@
         "navelstreng-pH"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -121,12 +106,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Asherman-syndroom of intra-uteriene verklevingen in de voorgeschiedenis van de zwangere. Positief wanneer: De passage noemt Asherman, intra-uteriene adhesies/synechiae of een adhesiolyse bij de zwangere. Niet positief wanneer: Alleen curettage, subfertiliteit, hypomenorroe of amenorroe zonder adhesies; adhesies buiten het cavum; een normale hysteroscopie.",
       "omschrijving": "Asherman-syndroom of intra-uteriene verklevingen in de voorgeschiedenis van de zwangere.",
-      "zoek_naar": "Asherman of intra-uteriene verklevingen in de VOORGESCHIEDENIS: Asherman, syndroom van Asherman, intra-uteriene adhesies, synechiae, verklevingen in de baarmoederholte. Ook: adhesiolyse, hysteroscopie wegens adhesies, cavumafwijking na curettage, hypomenorroe of amenorroe na curettage, eerdere curettages.",
-      "niet_positief_wanneer": "Alleen curettage, subfertiliteit, hypomenorroe of amenorroe zonder adhesies; adhesies buiten het cavum; een normale hysteroscopie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "asherman",
         "adhesie",
@@ -139,8 +118,8 @@
         "intra-uterien"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -148,15 +127,8 @@
       "id": "AP004",
       "label": "Bariatrische chirurgie i.a. BMI 30-40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 30 tot 40 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Een BMI-waarde alleen, zonder operatie, is niet positief; de BMI-grens (30 tot 40) combineert de zorgverlener. Niet positief wanneer: Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep; een BMI buiten 30–40. Grenswaarden: BMI ≥30 en <40 bij intake.",
+      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 30 tot 40 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Beoordeel alleen of er een operatie was; de BMI-klasse toetst het systeem zelf. Niet positief wanneer: Een BMI, lengte of gewicht zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep.",
       "omschrijving": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 30 tot 40 bij intake.",
-      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: alle BMI-, lengte- en gewichtsvermeldingen, dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
-      "niet_positief_wanneer": "Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen obesitas, dumping, suppletie of een geplande ingreep; een BMI buiten 30–40.",
-      "grenswaarden": "BMI ≥30 en <40 bij intake.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "bariatr",
         "maagverklein",
@@ -165,9 +137,6 @@
         "sleeve",
         "maagband",
         "[WLS]",
-        "[BMI]",
-        "gewicht",
-        "lengte",
         "roux",
         "maagballon",
         "[B12]",
@@ -178,8 +147,8 @@
         "maagoperatie"
       ],
       "python_regel": "",
+      "python_voorwaarde": "bmi >= 30 en < 40",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -187,15 +156,8 @@
       "id": "AP005",
       "label": "Bariatrische chirurgie i.a. BMI >40",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 40 of hoger bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Een BMI-waarde alleen, zonder operatie, is niet positief; de BMI-grens (≥40) combineert de zorgverlener. Niet positief wanneer: Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen morbide obesitas of een geplande ingreep; een BMI <40. Grenswaarden: BMI ≥40 bij intake.",
+      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 40 of hoger bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Beoordeel alleen of er een operatie was; de BMI-klasse toetst het systeem zelf. Niet positief wanneer: Een BMI, lengte of gewicht zonder operatie; alleen morbide obesitas of een geplande ingreep.",
       "omschrijving": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI van 40 of hoger bij intake.",
-      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: alle BMI-, lengte- en gewichtsvermeldingen, dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
-      "niet_positief_wanneer": "Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen morbide obesitas of een geplande ingreep; een BMI <40.",
-      "grenswaarden": "BMI ≥40 bij intake.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "bariatr",
         "maagverklein",
@@ -204,9 +166,6 @@
         "sleeve",
         "maagband",
         "[WLS]",
-        "[BMI]",
-        "gewicht",
-        "lengte",
         "roux",
         "maagballon",
         "[B12]",
@@ -217,8 +176,8 @@
         "maagoperatie"
       ],
       "python_regel": "",
+      "python_voorwaarde": "bmi >= 40",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -226,15 +185,8 @@
       "id": "AP006",
       "label": "Bariatrische chirurgie i.a. BMI <30",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI onder 30 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Een BMI-waarde alleen, zonder operatie, is niet positief; de BMI-grens (<30) combineert de zorgverlener. Niet positief wanneer: Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen suppletie, dagcurve of een geplande ingreep; een BMI ≥30. Grenswaarden: BMI <30 bij intake.",
+      "betekenis": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI onder 30 bij intake. Positief wanneer: Een doorgemaakte bariatrische operatie (gastric bypass, sleeve, maagband, maagverkleining, WLS) bij de zwangere is vermeld. Beoordeel alleen of er een operatie was; de BMI-klasse toetst het systeem zelf. Niet positief wanneer: Een BMI, lengte of gewicht zonder operatie; alleen suppletie, dagcurve of een geplande ingreep.",
       "omschrijving": "Bariatrische operatie in de voorgeschiedenis van de zwangere, met een BMI onder 30 bij intake.",
-      "zoek_naar": "Een bariatrische operatie in de VOORGESCHIEDENIS: gastric bypass, Roux-en-Y, sleeve, maagband, maagballon, maagverkleining, WLS, obesitaschirurgie. Ook: alle BMI-, lengte- en gewichtsvermeldingen, dumping, malabsorptie, WLS-suppletie, vitamine B12, dagcurve in plaats van OGTT, verwijzing bariatrisch centrum.",
-      "niet_positief_wanneer": "Een BMI-, lengte- of gewichtsvermelding zonder operatie; alleen suppletie, dagcurve of een geplande ingreep; een BMI ≥30.",
-      "grenswaarden": "BMI <30 bij intake.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "bariatr",
         "maagverklein",
@@ -243,9 +195,6 @@
         "sleeve",
         "maagband",
         "[WLS]",
-        "[BMI]",
-        "gewicht",
-        "lengte",
         "roux",
         "maagballon",
         "[B12]",
@@ -256,8 +205,8 @@
         "maagoperatie"
       ],
       "python_regel": "",
+      "python_voorwaarde": "bmi < 30",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -267,12 +216,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Schouderdystocie bij een eerdere bevalling van de zwangere. Positief wanneer: De passage noemt schouderdystocie of vastzittende schouders bij een eerdere bevalling, of manoeuvres daarvoor (McRoberts, suprapubische druk, Woods, Zavanelli). Niet positief wanneer: Alleen macrosomie of 'groot kind'; plexusletsel zonder schouderdystocie; een 'moeizame bevalling' zonder schouders; voorbereiding op mogelijke schouderdystocie.",
       "omschrijving": "Schouderdystocie bij een eerdere bevalling van de zwangere.",
-      "zoek_naar": "Een schouderdystocie bij een EERDERE bevalling: schouderdystocie, vastzittende schouders, McRoberts, suprapubische druk, Woods, Zavanelli. Ook: plexus brachialis letsel, Erbse parese of claviculafractuur bij het kind, macrosomie of groot kind bij die bevalling, moeizame geboorte van de schouders.",
-      "niet_positief_wanneer": "Alleen macrosomie of 'groot kind'; plexusletsel zonder schouderdystocie; een 'moeizame bevalling' zonder schouders; voorbereiding op mogelijke schouderdystocie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "schouderdystoc",
         "schouder",
@@ -290,8 +233,8 @@
         "sleutelbeen"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -301,13 +244,6 @@
       "categorie": "Indicatie",
       "betekenis": "Gebruik van een SSRI door de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt actueel gebruik of een voorschrift van sertraline, citalopram, escitalopram, fluoxetine, paroxetine of fluvoxamine (ook merknamen, medicatielijst) door de zwangere. Niet positief wanneer: Depressie, angst of psycholoogcontact zonder SSRI; een SSRI die vóór de zwangerschap is gestopt ('gestopt', 'niet meer'); een ander antidepressivum; een overweging zonder voorschrift.",
       "omschrijving": "Gebruik van een SSRI door de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Gebruik van een SSRI of ander antidepressivum, nu of in de voorgeschiedenis: sertraline, citalopram, escitalopram, fluoxetine, paroxetine, fluvoxamine, en de merknamen Zoloft, Cipramil, Lexapro, Prozac, Seroxat, Fevarin. Ook: antidepressiva op de medicatielijst, afbouwen, stoppen of hervatten, de reden (depressie, angst, paniek), POP-poli of psychiater wegens medicatie.",
-      "niet_positief_wanneer": "Depressie, angst of psycholoogcontact zonder SSRI; een SSRI die vóór de zwangerschap is gestopt ('gestopt', 'niet meer'); een ander antidepressivum; een overweging zonder voorschrift.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "[SSRI]",
         "sertraline",
@@ -331,8 +267,8 @@
         "serotonine"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -342,12 +278,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Totaal- of subtotaalruptuur (sfincterletsel, graad 3 of 4) bij een eerdere bevalling van de zwangere. Positief wanneer: De passage noemt bij een eerdere bevalling een totaalruptuur, subtotaalruptuur, ruptuur graad 3 (3a/3b/3c) of 4, OASIS of sfincterletsel. Niet positief wanneer: Ruptuur graad 1 of 2; episiotomie; vaginawand-, labium- of clitorisruptuur; 'ruptuur gehecht' zonder graad; incontinentie of bekkenbodemklachten zonder vermeld sfincterletsel. Grenswaarden: Ruptuurgraad ≥3.",
       "omschrijving": "Totaal- of subtotaalruptuur (sfincterletsel, graad 3 of 4) bij een eerdere bevalling van de zwangere.",
-      "zoek_naar": "Een totaal- of subtotaalruptuur bij een EERDERE bevalling: totaalruptuur, subtotaalruptuur, ruptuur graad 3 of 4, 3a, 3b, 3c, derdegraads, vierdegraads, OASIS, OASI, sfincterletsel. Ook: elke ruptuur of episiotomie met vermelde graad, sfincterherstel, fecale of flatusincontinentie na de bevalling, endo-anale echo, bekkenbodemfysiotherapie wegens ruptuur.",
-      "niet_positief_wanneer": "Ruptuur graad 1 of 2; episiotomie; vaginawand-, labium- of clitorisruptuur; 'ruptuur gehecht' zonder graad; incontinentie of bekkenbodemklachten zonder vermeld sfincterletsel.",
-      "grenswaarden": "Ruptuurgraad ≥3.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "ruptuur",
         "totaalruptuur",
@@ -373,8 +303,8 @@
         "4e graads"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -384,12 +314,6 @@
       "categorie": "Indicatie",
       "betekenis": "BMI van de zwangere van 30 tot 35 bij intake (preconceptioneel) in de huidige zwangerschap. Positief wanneer: De passage noemt een BMI tussen 30,0 en 34,9, of lengte en gewicht waaruit die BMI volgt, bij intake of preconceptioneel. Niet positief wanneer: Een BMI <30 of ≥35; alleen 'obesitas' of een zorgpadnaam zonder getal; gewicht zonder lengte; een BMI van vóór een bariatrische operatie. Grenswaarden: BMI ≥30 en <35 bij intake.",
       "omschrijving": "BMI van de zwangere van 30 tot 35 bij intake (preconceptioneel) in de huidige zwangerschap.",
-      "zoek_naar": "Alle BMI-, lengte- en gewichtsvermeldingen van de zwangere in DEZE zwangerschap, bij intake of preconceptioneel. Ook: obesitas, adipositas, overgewicht, zorgpad obesitas, verwijzing diëtist of leefstijl wegens gewicht, gewichtstoename.",
-      "niet_positief_wanneer": "Een BMI <30 of ≥35; alleen 'obesitas' of een zorgpadnaam zonder getal; gewicht zonder lengte; een BMI van vóór een bariatrische operatie.",
-      "grenswaarden": "BMI ≥30 en <35 bij intake.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "[BMI]",
         "gewicht",
@@ -407,8 +331,8 @@
         "diëtist"
       ],
       "python_regel": "bmi >= 30 en < 35",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -418,12 +342,6 @@
       "categorie": "Indicatie",
       "betekenis": "BMI van de zwangere van 35 tot 40 bij intake (preconceptioneel) in de huidige zwangerschap. Positief wanneer: De passage noemt een BMI tussen 35,0 en 39,9, of lengte en gewicht waaruit die BMI volgt, bij intake of preconceptioneel. Niet positief wanneer: Een BMI <35 of ≥40; alleen 'ernstige obesitas' zonder getal; gewicht zonder lengte. Grenswaarden: BMI ≥35 en <40 bij intake.",
       "omschrijving": "BMI van de zwangere van 35 tot 40 bij intake (preconceptioneel) in de huidige zwangerschap.",
-      "zoek_naar": "Alle BMI-, lengte- en gewichtsvermeldingen van de zwangere in DEZE zwangerschap, bij intake of preconceptioneel. Ook: obesitas, ernstige obesitas, adipositas, overgewicht, zorgpad obesitas, verwijzing diëtist of leefstijl wegens gewicht, gewichtstoename.",
-      "niet_positief_wanneer": "Een BMI <35 of ≥40; alleen 'ernstige obesitas' zonder getal; gewicht zonder lengte.",
-      "grenswaarden": "BMI ≥35 en <40 bij intake.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "[BMI]",
         "gewicht",
@@ -441,8 +359,8 @@
         "diëtist"
       ],
       "python_regel": "bmi >= 35 en < 40",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -452,12 +370,6 @@
       "categorie": "Indicatie",
       "betekenis": "BMI van de zwangere van 40 of hoger bij intake (preconceptioneel) in de huidige zwangerschap. Positief wanneer: De passage noemt een BMI ≥40,0, of lengte en gewicht waaruit die BMI volgt, bij intake of preconceptioneel. Niet positief wanneer: Een BMI <40; alleen 'morbide obesitas' zonder getal; gewicht zonder lengte. Grenswaarden: BMI ≥40 bij intake.",
       "omschrijving": "BMI van de zwangere van 40 of hoger bij intake (preconceptioneel) in de huidige zwangerschap.",
-      "zoek_naar": "Alle BMI-, lengte- en gewichtsvermeldingen van de zwangere in DEZE zwangerschap, bij intake of preconceptioneel. Ook: obesitas, morbide obesitas, adipositas, zorgpad obesitas, verwijzing diëtist of leefstijl wegens gewicht, gewichtstoename.",
-      "niet_positief_wanneer": "Een BMI <40; alleen 'morbide obesitas' zonder getal; gewicht zonder lengte.",
-      "grenswaarden": "BMI ≥40 bij intake.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "[BMI]",
         "gewicht",
@@ -476,8 +388,8 @@
         "diëtist"
       ],
       "python_regel": "bmi >= 40",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -487,13 +399,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Chronische (pre-existente) hypertensie bij de zwangere: hoge bloeddruk die al vóór de zwangerschap of vóór 20 weken bestond. Positief wanneer: De passage noemt chronische, pre-existente of essentiële hypertensie bij de zwangere, antihypertensiva vóór de zwangerschap, of een hypertensiediagnose vóór 20+0 weken. Niet positief wanneer: Eén verhoogde meting zonder diagnose; hypertensie die pas na 20 weken ontstond (PIH/PE); PIH of PE in een eerdere zwangerschap; hypertensie bij een familielid; een normale bloeddruk ('RR normaal', 'geen hypertensie'). Grenswaarden: Diagnose vóór 20+0 weken.",
       "omschrijving": "Chronische (pre-existente) hypertensie bij de zwangere: hoge bloeddruk die al vóór de zwangerschap of vóór 20 weken bestond.",
-      "zoek_naar": "Hoge bloeddruk die al vóór de zwangerschap bestond of in de vroege zwangerschap is beschreven: chronische hypertensie, pre-existente hypertensie, essentiële hypertensie, bekende hypertensie. Ook: alle bloeddrukmetingen (RR, tensie) in de voorgeschiedenis of het eerste trimester, antihypertensiva (labetalol, Trandate, nifedipine, Adalat, methyldopa, Aldomet, enalapril, losartan, amlodipine), controle bij cardioloog of internist wegens bloeddruk, hypertensie in een eerdere zwangerschap.",
-      "niet_positief_wanneer": "Eén verhoogde meting zonder diagnose; hypertensie die pas na 20 weken ontstond (PIH/PE); PIH of PE in een eerdere zwangerschap; hypertensie bij een familielid; een normale bloeddruk ('RR normaal', 'geen hypertensie').",
-      "grenswaarden": "Diagnose vóór 20+0 weken.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "hypertens",
         "[HT]",
@@ -518,8 +423,8 @@
         "tensie"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -529,12 +434,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Conisatie van de cervix in de voorgeschiedenis van de zwangere. Positief wanneer: De passage noemt een uitgevoerde conisatie, kegelbiopsie of conusexcisie bij de zwangere. Niet positief wanneer: Alleen CIN, HPV, een afwijkend uitstrijkje, colposcopie of een kleine biopsie; een geplande conisatie; een normale cytologie. Een lisexcisie of LLETZ; dat is een andere ingreep dan een conisatie.",
       "omschrijving": "Conisatie van de cervix in de voorgeschiedenis van de zwangere.",
-      "zoek_naar": "Een conisatie van de baarmoederhals in de VOORGESCHIEDENIS: conisatie, conus, kegelbiopsie, cold knife conisatie, conusexcisie. Ook: CIN, afwijkend uitstrijkje, colposcopie, HPV, andere cervixbehandeling, verkorte cervix, cervixlengtemeting of cerclage wegens eerdere ingreep.",
-      "niet_positief_wanneer": "Alleen CIN, HPV, een afwijkend uitstrijkje, colposcopie of een kleine biopsie; een geplande conisatie; een normale cytologie. Een lisexcisie of LLETZ; dat is een andere ingreep dan een conisatie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "conisatie",
         "kegelbiops",
@@ -551,8 +450,8 @@
         "dysplas"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -562,13 +461,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Astma of COPD bij de zwangere, nu of in de voorgeschiedenis; de ernst beoordeelt de zorgverlener. Positief wanneer: De passage noemt bij de zwangere astma of COPD, inhalatiemedicatie daarvoor (salbutamol/Ventolin, ICS, LABA, Seretide, Symbicort, Foster, Spiriva), een exacerbatie of prednisonkuur, of controle bij een longarts wegens astma/COPD. Niet positief wanneer: Benauwdheid of hoesten zonder diagnose of medicatie; een inhalator met onbekende indicatie; astma bij een familielid; 'geen astma' of een uitgesloten diagnose.",
       "omschrijving": "Astma of COPD bij de zwangere, nu of in de voorgeschiedenis; de ernst beoordeelt de zorgverlener.",
-      "zoek_naar": "COPD of astma (elke ernst) bij de zwangere, nu of in de voorgeschiedenis: COPD, astma, chronische longziekte. Ook: inhalatiemedicatie (puffers, salbutamol, Ventolin, Airomir, ICS, budesonide, fluticasone, LABA, Seretide, Symbicort, Foster, montelukast, tiotropium, Spiriva), prednisonkuren, exacerbaties, longarts- of opnamebezoeken wegens benauwdheid, longfunctie, en elke ernstclassificatie.",
-      "niet_positief_wanneer": "Benauwdheid of hoesten zonder diagnose of medicatie; een inhalator met onbekende indicatie; astma bij een familielid; 'geen astma' of een uitgesloten diagnose.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "[COPD]",
         "astma",
@@ -596,8 +488,8 @@
         "luchtweg"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -607,13 +499,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Ziekte van Crohn of colitis ulcerosa bij de zwangere waarvoor medicatie wordt gebruikt. Positief wanneer: De passage noemt Crohn, colitis ulcerosa of IBD bij de zwangere met medicatie, of IBD-medicatie zelf (mesalazine, Pentasa, Asacol, sulfasalazine, azathioprine, Imuran, thiopurine, budesonide, infliximab, adalimumab, vedolizumab, ustekinumab). Niet positief wanneer: Buikklachten of PDS zonder IBD; IBD bij een familielid; IBD expliciet zonder medicatie of in remissie zonder behandeling; een middel dat vóór de zwangerschap is gestopt.",
       "omschrijving": "Ziekte van Crohn of colitis ulcerosa bij de zwangere waarvoor medicatie wordt gebruikt.",
-      "zoek_naar": "De ziekte van Crohn of colitis ulcerosa bij de zwangere, nu of in de voorgeschiedenis: Crohn, colitis ulcerosa, CU, IBD, inflammatoire darmziekte. Ook: alle bijbehorende medicatie (mesalazine, Pentasa, Asacol, Salofalk, sulfasalazine, azathioprine, Imuran, 6-mercaptopurine, thiopurine, budesonide, prednison, infliximab, Remicade, adalimumab, Humira, vedolizumab, Entyvio, ustekinumab, Stelara), MDL-arts, coloscopie, calprotectine, ziekteactiviteit of remissie.",
-      "niet_positief_wanneer": "Buikklachten of PDS zonder IBD; IBD bij een familielid; IBD expliciet zonder medicatie of in remissie zonder behandeling; een middel dat vóór de zwangerschap is gestopt.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "crohn",
         "colitis",
@@ -641,8 +526,8 @@
         "remissie"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -652,13 +537,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Diabetes mellitus type 1 of 2 bij de zwangere die al vóór de zwangerschap bestond. Positief wanneer: De passage noemt bij de zwangere diabetes type 1 of 2, pre-existente diabetes, of insuline/metformine wegens diabetes van vóór de zwangerschap. Niet positief wanneer: Zwangerschapsdiabetes (nu of eerder); metformine wegens PCOS; diabetes bij een familielid; een normale glucose of HbA1c; een screening zonder uitslag.",
       "omschrijving": "Diabetes mellitus type 1 of 2 bij de zwangere die al vóór de zwangerschap bestond.",
-      "zoek_naar": "Diabetes mellitus die al vóór DEZE zwangerschap bestond: diabetes mellitus, DM, DM1, DM2, type 1, type 2, pre-existente diabetes, suikerziekte. Ook: insuline of insulinepomp (NovoRapid, Lantus, Levemir, Tresiba, Humalog), metformine, HbA1c, internist of diabetesverpleegkundige, retinopathie, nefropathie, diabetes sinds (jaartal).",
-      "niet_positief_wanneer": "Zwangerschapsdiabetes (nu of eerder); metformine wegens PCOS; diabetes bij een familielid; een normale glucose of HbA1c; een screening zonder uitslag.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "diabet",
         "[DM]",
@@ -681,8 +559,8 @@
         "[NIDDM]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -692,12 +570,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Zwangerschapsdiabetes (diabetes gravidarum) van de zwangere in een eerdere zwangerschap. Positief wanneer: De passage noemt diabetes gravidarum, DG, GDM of een afwijkende OGTT in een eerdere zwangerschap ('DG i.a.', 'DG ia.'), of dieet/insuline wegens DG in een vorige zwangerschap. Niet positief wanneer: DG in de huidige zwangerschap; een geplande of vroege OGTT zonder eerdere DG; een normale OGTT in een eerdere zwangerschap; diabetes bij een familielid.",
       "omschrijving": "Zwangerschapsdiabetes (diabetes gravidarum) van de zwangere in een eerdere zwangerschap.",
-      "zoek_naar": "Zwangerschapsdiabetes in een EERDERE zwangerschap: diabetes gravidarum, DG, DMG, GDM, zwangerschapsdiabetes, 'DG i.a.', 'DG ia.'. Ook: OGTT, dagcurve, dieet, insuline of metformine in een vorige zwangerschap, glucosecontrole postpartum, vroege OGTT in deze zwangerschap wegens eerdere DG.",
-      "niet_positief_wanneer": "DG in de huidige zwangerschap; een geplande of vroege OGTT zonder eerdere DG; een normale OGTT in een eerdere zwangerschap; diabetes bij een familielid.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "diabetes gravidarum",
         "[DG]",
@@ -715,8 +587,8 @@
         "suikertest"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -726,13 +598,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Zwangerschapsdiabetes (diabetes gravidarum) van de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een diagnose DG/GDM, een afwijkende of gestoorde OGTT (nuchter ≥6,1; 1 uur ≥12,0; 2 uur ≥7,8 mmol/L), of dieet, insuline of metformine gestart wegens DG. Niet positief wanneer: DG in een eerdere zwangerschap; een geplande of nog uit te voeren OGTT; een normale OGTT of normale glucose; metformine wegens PCOS; macrosomie of polyhydramnion zonder DG. Grenswaarden: OGTT veneus (mmol/L): nuchter ≥6,1; 1 uur ≥12,0; 2 uur ≥7,8.",
       "omschrijving": "Zwangerschapsdiabetes (diabetes gravidarum) van de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Zwangerschapsdiabetes of glucoseonderzoek in DEZE zwangerschap: diabetes gravidarum, DG, DMG, GDM, zwangerschapsdiabetes, afwijkende of gestoorde OGTT. Ook: alle OGTT- en glucosewaarden (nuchter, 1 uur, 2 uur, dagcurve, HbA1c) met uitslag, dieet of diëtist wegens glucose, insuline of metformine gestart in deze zwangerschap, verwijzing GDM, diabetesverpleegkundige, macrosomie of polyhydramnion als aanleiding.",
-      "niet_positief_wanneer": "DG in een eerdere zwangerschap; een geplande of nog uit te voeren OGTT; een normale OGTT of normale glucose; metformine wegens PCOS; macrosomie of polyhydramnion zonder DG.",
-      "grenswaarden": "OGTT veneus (mmol/L): nuchter ≥6,1; 1 uur ≥12,0; 2 uur ≥7,8.",
-      "blokken": [
-        "huidige_zwangerschap",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "diabetes gravidarum",
         "[DG]",
@@ -757,8 +622,8 @@
         "diabetesverpleeg"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -768,12 +633,6 @@
       "categorie": "Indicatie",
       "betekenis": "Harddrugsgebruik door de zwangere, nu of in het verleden (ook eenmalig). Positief wanneer: De passage noemt gebruik van cocaïne, heroïne, opiaten, amfetamine/speed, XTC/MDMA, GHB, ketamine of een ander harddrug door de zwangere, nu of vroeger, of substitutie (methadon, buprenorfine) of verslavingszorg wegens harddrugs. Niet positief wanneer: Gebruik door partner of familie; een ontkenning ('gebruikt geen drugs'); alleen cannabis; medisch voorgeschreven stimulantia.",
       "omschrijving": "Harddrugsgebruik door de zwangere, nu of in het verleden (ook eenmalig).",
-      "zoek_naar": "Harddrugsgebruik door de zwangere, nu of in het verleden (ook incidenteel): cocaïne, coke, crack, heroïne, opiaten, amfetamine, speed, methamfetamine, XTC, MDMA, GHB, ketamine, LSD, 3-MMC. Ook: verslaving, verslavingszorg, methadon, buprenorfine, Subutex, Suboxone, substitutiebehandeling, drugsscreening of urinetox, en wanneer het gebruik plaatsvond.",
-      "niet_positief_wanneer": "Gebruik door partner of familie; een ontkenning ('gebruikt geen drugs'); alleen cannabis; medisch voorgeschreven stimulantia.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "drugs",
         "harddrug",
@@ -803,8 +662,8 @@
         "verslaving"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -814,12 +673,6 @@
       "categorie": "Indicatie",
       "betekenis": "Cannabisgebruik door de zwangere in de huidige zwangerschap of in het jaar ervoor. Positief wanneer: De passage noemt gebruik van cannabis, wiet, hasj, blowen of joints door de zwangere in deze zwangerschap of het jaar ervoor, of een positieve THC-uitslag. Niet positief wanneer: Gebruik door partner of familie; een ontkenning ('blowt niet'); gebruik dat langer dan een jaar vóór de zwangerschap is gestopt; passieve blootstelling.",
       "omschrijving": "Cannabisgebruik door de zwangere in de huidige zwangerschap of in het jaar ervoor.",
-      "zoek_naar": "Cannabisgebruik door de zwangere in DEZE zwangerschap of in het jaar ervoor: cannabis, wiet, weed, hasj, blowen, joint, THC, softdrugs. Ook: hoe vaak en wanneer, gestopt bij zwangerschap, THC in urine, gebruik langer geleden.",
-      "niet_positief_wanneer": "Gebruik door partner of familie; een ontkenning ('blowt niet'); gebruik dat langer dan een jaar vóór de zwangerschap is gestopt; passieve blootstelling.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "cannabis",
         "wiet",
@@ -837,8 +690,8 @@
         "marijuana"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -846,14 +699,8 @@
       "id": "AP022",
       "label": "Dysmaturiteit in anamnese",
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
-      "betekenis": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht met een percentiel onder P10 (genoteerd als P8, P5, P2.2, p2,3, <p2.3), of dysmaturiteit, SGA, FGR/IUGR of groeivertraging, ook afgekort als 'dysm i.a.', 'dysmatuur ia' of 'zorgpad dysmatuur (i.a.)'. Het percentiel is leidend: een percentiel <P10 telt ook als het gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'. Grenswaarden: Geboortegewicht <P10.",
+      "betekenis": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht met een percentiel onder P10 (genoteerd als P8, P5, P2.2, p2,3, <p2.3), of dysmaturiteit, SGA, FGR/IUGR of groeivertraging, ook afgekort als 'dysm i.a.', 'dysmatuur ia' of 'zorgpad dysmatuur (i.a.)'. Een percentielbereik onder P10 telt ook (bijv. p5-P10, P2.3-P5). Het percentiel is leidend: een percentiel <P10 telt ook als het gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'. Grenswaarden: Geboortegewicht <P10.",
       "omschrijving": "Een eerder kind van de zwangere met dysmaturiteit: geboortegewicht onder P10 of vastgestelde FGR/SGA in een eerdere zwangerschap.",
-      "zoek_naar": "Een EERDER kind dat klein was voor de termijn: dysmaturiteit, SGA, FGR/IUGR, groeivertraging, geboortegewicht met percentiel onder of rond p10, of een laag geboortegewicht met termijn. Ook: groei-echo's, afwijkende doppler of placenta-insufficiëntie in een eerdere zwangerschap, zorgpad dysmatuur, en 'dysmatuur i.a.'.",
-      "niet_positief_wanneer": "Een percentiel van P10 of hoger (bijv. 'p10-p50'), ook als het gewicht in grammen laag lijkt; een gewicht in grammen zonder percentiel; een miskraam; FGR in de huidige zwangerschap; een normaal geboortegewicht of 'goede groei'.",
-      "grenswaarden": "Geboortegewicht <P10.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "dysmat",
         "[SGA]",
@@ -890,8 +737,8 @@
         "[p2,2]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -901,13 +748,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Epilepsie bij de zwangere met actuele anti-epileptische medicatie. Positief wanneer: De passage noemt epilepsie bij de zwangere met medicatie, of een anti-epilepticum zelf (levetiracetam/Keppra, lamotrigine/Lamictal, carbamazepine, valproaat/Depakine, fenytoïne, topiramaat, oxcarbazepine, clobazam). Niet positief wanneer: Insulten zonder epilepsiediagnose; eclampsie; epilepsie expliciet zonder medicatie of medicatie gestopt; lamotrigine of valproaat voor een psychiatrische indicatie; epilepsie bij een familielid.",
       "omschrijving": "Epilepsie bij de zwangere met actuele anti-epileptische medicatie.",
-      "zoek_naar": "Epilepsie bij de zwangere, nu of in de voorgeschiedenis: epilepsie, insulten, toevallen, convulsies, aanvallen, absences. Ook: alle anti-epileptica (levetiracetam, Keppra, lamotrigine, Lamictal, carbamazepine, Tegretol, valproaat, Depakine, fenytoïne, topiramaat, Topamax, oxcarbazepine, clobazam), neuroloog, laatste insult, aanvalsvrij sinds, hoge dosis foliumzuur.",
-      "niet_positief_wanneer": "Insulten zonder epilepsiediagnose; eclampsie; epilepsie expliciet zonder medicatie of medicatie gestopt; lamotrigine of valproaat voor een psychiatrische indicatie; epilepsie bij een familielid.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "epilep",
         "insult",
@@ -934,8 +774,8 @@
         "toeval"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -945,12 +785,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Ernstige pre-eclampsie of HELLP vóór 34 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt pre-eclampsie, HELLP of eclampsie in een eerdere zwangerschap met aanvang of bevalling vóór 34+0 weken, of 'ernstige PE' in een eerdere zwangerschap. Niet positief wanneer: PIH zonder PE; PE of HELLP met aanvang vanaf 34+0 weken (bijv. 35+5); PE in de huidige zwangerschap; een eerdere zwangerschap expliciet zonder PE; PE bij een familielid. Grenswaarden: Aanvang PE/HELLP <34+0 weken.",
       "omschrijving": "Ernstige pre-eclampsie of HELLP vóór 34 weken in een eerdere zwangerschap van de zwangere.",
-      "zoek_naar": "Pre-eclampsie of HELLP in een EERDERE zwangerschap, met de termijn waarop het optrad: pre-eclampsie, PE, zwangerschapsvergiftiging, HELLP, eclampsie, 'PE i.a.'. Ook: opname wegens hoge bloeddruk, magnesiumsulfaat, afwijkend toxlab, inleiding of sectio wegens PE, vroeggeboorte wegens PE, en de zwangerschapsduur bij die bevalling.",
-      "niet_positief_wanneer": "PIH zonder PE; PE of HELLP met aanvang vanaf 34+0 weken (bijv. 35+5); PE in de huidige zwangerschap; een eerdere zwangerschap expliciet zonder PE; PE bij een familielid.",
-      "grenswaarden": "Aanvang PE/HELLP <34+0 weken.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "pre-eclamp",
         "[PE]",
@@ -970,8 +804,8 @@
         "weken"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -981,12 +815,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Een eerder kind van de zwangere met een infectie door groep-B-streptokokken (GBS). Positief wanneer: De passage noemt bij een eerder kind GBS-sepsis, GBS-meningitis, GBS-bacteriëmie of neonatale GBS-ziekte. Niet positief wanneer: GBS-dragerschap of GBS-urie van de zwangere zelf; antibiotica tijdens de bevalling zonder ziek kind; neonatale sepsis zonder GBS als verwekker; een gezond eerder kind.",
       "omschrijving": "Een eerder kind van de zwangere met een infectie door groep-B-streptokokken (GBS).",
-      "zoek_naar": "Een EERDER kind met een infectie door groep-B-streptokokken: GBS-sepsis, GBS-meningitis, neonatale GBS-infectie, GBS-ziek kind, Streptococcus agalactiae. Ook: neonatale sepsis of meningitis met verwekker, opname van het kind wegens infectie, GBS-profylaxe geadviseerd wegens eerder kind, GBS-dragerschap in een eerdere zwangerschap.",
-      "niet_positief_wanneer": "GBS-dragerschap of GBS-urie van de zwangere zelf; antibiotica tijdens de bevalling zonder ziek kind; neonatale sepsis zonder GBS als verwekker; een gezond eerder kind.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "[GBS]",
         "streptok",
@@ -1001,8 +829,8 @@
         "neonatale sepsis"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1012,12 +840,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "GBS aangetoond in de urine van de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een GBS-positieve urinekweek, GBS-bacteriurie of een urineweginfectie door GBS. Niet positief wanneer: Vaginale of rectale GBS-kolonisatie; GBS-urie in een eerdere zwangerschap; een urinekweek zonder uitslag of negatief; een UWI door een andere bacterie.",
       "omschrijving": "GBS aangetoond in de urine van de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Groep-B-streptokokken in de urine in DEZE zwangerschap: GBS-urie, GBS-bacteriurie, GBS in urinekweek, Streptococcus agalactiae. Ook: urinekweken en uitslagen, urineweginfectie, blaasontsteking, bacteriurie, antibiotica wegens urine, GBS-profylaxe durante partu.",
-      "niet_positief_wanneer": "Vaginale of rectale GBS-kolonisatie; GBS-urie in een eerdere zwangerschap; een urinekweek zonder uitslag of negatief; een UWI door een andere bacterie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "[GBS]",
         "streptok",
@@ -1036,8 +858,8 @@
         "cystitis"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1047,13 +869,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Bichoriale tweelingzwangerschap in de huidige zwangerschap, of een tweeling waarvan de chorioniciteit niet is vermeld. Positief wanneer: De passage noemt in deze zwangerschap een bichoriale/dichoriale tweeling (DCDA, twee placenta's, twee chorions), of 'gemelli'/'tweeling' zonder chorioniciteit. Niet positief wanneer: Een expliciet monochoriale tweeling (MCDA/MCMA); een tweeling in een eerdere zwangerschap; een eenling.",
       "omschrijving": "Bichoriale tweelingzwangerschap in de huidige zwangerschap, of een tweeling waarvan de chorioniciteit niet is vermeld.",
-      "zoek_naar": "Een tweeling of meerling in DEZE zwangerschap met bichoriale of niet vermelde chorioniciteit: gemelli, tweeling, meerling, duplex, bichoriaal, dichoriaal, DCDA, twee placenta's, twee chorions, lambda sign. Ook: elke tweelingvermelding zonder chorioniciteit, meerlingpoli, extra echo's wegens tweeling.",
-      "niet_positief_wanneer": "Een expliciet monochoriale tweeling (MCDA/MCMA); een tweeling in een eerdere zwangerschap; een eenling.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "echos",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "gemelli",
         "tweeling",
@@ -1071,8 +886,8 @@
         "chorionicit"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1082,13 +897,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Monochoriale tweelingzwangerschap in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een monochoriale tweeling (MCDA, MCMA, gedeelde placenta, T-sign) of TTTS/TAPS-controles. Niet positief wanneer: 'Gemelli' zonder chorioniciteit; een bichoriale tweeling; een tweeling in een eerdere zwangerschap; twee vruchtzakken zonder beoordeling van het chorion.",
       "omschrijving": "Monochoriale tweelingzwangerschap in de huidige zwangerschap.",
-      "zoek_naar": "Een monochoriale tweeling in DEZE zwangerschap: monochoriaal, MCDA, MCMA, monochoriaal diamniotisch, monoamniotisch, gedeelde placenta, één placenta, T-sign. Ook: TTTS, tweelingtransfusiesyndroom, TAPS, sFGR, tweewekelijkse echo's of meerlingpoli wegens monochoriale tweeling, en elke tweelingvermelding.",
-      "niet_positief_wanneer": "'Gemelli' zonder chorioniciteit; een bichoriale tweeling; een tweeling in een eerdere zwangerschap; twee vruchtzakken zonder beoordeling van het chorion.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "echos",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "gemelli",
         "tweeling",
@@ -1106,8 +914,8 @@
         "tweelingtransfusie"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1117,12 +925,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Hepatitis B-infectie of -dragerschap bij de zwangere. Positief wanneer: De passage noemt bij de zwangere HBsAg-positief, chronische hepatitis B, HBV-dragerschap of behandeling daarvoor (tenofovir, entecavir). Niet positief wanneer: Een negatieve HBsAg; alleen vaccinatie of anti-HBs; hepatitis B bij partner of familie; een doorgemaakte infectie met expliciet verdwenen dragerschap; hepatitis A of C.",
       "omschrijving": "Hepatitis B-infectie of -dragerschap bij de zwangere.",
-      "zoek_naar": "Hepatitis B bij de zwangere, nu of in de voorgeschiedenis: hepatitis B, HBV, HBsAg positief, dragerschap, drager, chronische hepatitis B. Ook: HBeAg, anti-HBc, anti-HBs, HBV-DNA, viral load, leverwaarden, tenofovir, Viread, entecavir, MDL-arts of infectioloog, HBIG en vaccinatie van de pasgeborene, hepatitis-B-screening met uitslag.",
-      "niet_positief_wanneer": "Een negatieve HBsAg; alleen vaccinatie of anti-HBs; hepatitis B bij partner of familie; een doorgemaakte infectie met expliciet verdwenen dragerschap; hepatitis A of C.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "hepatitis",
         "[HBV]",
@@ -1143,8 +945,8 @@
         "hep b"
       ],
       "python_regel": "hbsag == positief",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1154,12 +956,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Drie of meer eerdere spontane miskramen bij de zwangere. Positief wanneer: De passage noemt bij de zwangere drie of meer miskramen, 'herhaalde miskramen' of habituele abortus, of een notatie waarin drie of meer miskramen expliciet staan. Niet positief wanneer: Minder dan drie miskramen; abortus provocatus; EUG; alleen fertiliteitsonderzoek; een eerste zwangerschap. Alleen een gravida/para-notatie (bijv. 'G5P2', 'Grav/par 3/0') zonder dat drie miskramen genoemd worden; reken het aantal miskramen niet zelf uit G en P. Grenswaarden: Aantal miskramen ≥3.",
       "omschrijving": "Drie of meer eerdere spontane miskramen bij de zwangere.",
-      "zoek_naar": "Miskramen in de VOORGESCHIEDENIS, met het aantal: herhaalde miskramen, habituele abortus, recurrent miscarriage, miskraam, miskramen, abortus spontanea, missed abortion. Ook: curettage of misoprostol wegens miskraam, G/P-notatie zoals G5P1, fertiliteitsonderzoek, APS-screening of karyotypering wegens miskramen, verwijzing miskraampoli.",
-      "niet_positief_wanneer": "Minder dan drie miskramen; abortus provocatus; EUG; alleen fertiliteitsonderzoek; een eerste zwangerschap. Alleen een gravida/para-notatie (bijv. 'G5P2', 'Grav/par 3/0') zonder dat drie miskramen genoemd worden; reken het aantal miskramen niet zelf uit G en P.",
-      "grenswaarden": "Aantal miskramen ≥3.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "miskra",
         "abortus",
@@ -1182,8 +978,8 @@
         "spontane abortus"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1193,12 +989,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "HIV-infectie bij de zwangere. Positief wanneer: De passage noemt bij de zwangere een HIV-diagnose, hiv-positief, of antiretrovirale behandeling (cART/HAART) wegens HIV. Niet positief wanneer: Een negatieve HIV-test; PrEP of PEP zonder infectie; HIV bij de partner; alleen een CD4- of viral-loadbepaling zonder diagnose.",
       "omschrijving": "HIV-infectie bij de zwangere.",
-      "zoek_naar": "Hiv bij de zwangere, nu of in de voorgeschiedenis: HIV, hiv-positief, hiv-infectie, aids. Ook: cART, HAART, antiretrovirale therapie, viral load, CD4, hiv-behandelaar of infectioloog, hiv-screening met uitslag, PrEP of PEP.",
-      "niet_positief_wanneer": "Een negatieve HIV-test; PrEP of PEP zonder infectie; HIV bij de partner; alleen een CD4- of viral-loadbepaling zonder diagnose.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "[HIV]",
         "[cART]",
@@ -1213,8 +1003,8 @@
         "seropos"
       ],
       "python_regel": "hiv == positief",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1222,15 +1012,8 @@
       "id": "AP032",
       "label": "Hyperthyreoïdie in anamnese met positieve TSHRAb",
       "categorie": "Medische voorgeschiedenis",
-      "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere met positieve TSH-receptorantistoffen (TSHRAb/TRAb/TSI). Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves of te snel werkende schildklier met een positieve TSHRAb/TRAb/TSI-uitslag. Niet positief wanneer: hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; zonder positieve antistofuitslag telt het hier niet.",
+      "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere met positieve TSH-receptorantistoffen (TSHRAb/TRAb/TSI). Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves of te snel werkende schildklier met een positieve TSHRAb/TRAb/TSI-uitslag. Niet positief wanneer: Hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; zonder positieve antistofuitslag telt het hier niet.",
       "omschrijving": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere met positieve TSH-receptorantistoffen (TSHRAb/TRAb/TSI).",
-      "zoek_naar": "Hyperthyreoïdie in de VOORGESCHIEDENIS en de bijbehorende antistofuitslagen: hyperthyreoïdie, hyperthyreose, thyreotoxicose, te snel werkende schildklier, overactieve schildklier, Graves, Basedow. Ook: TSH-receptorantistoffen, TSHR-Ab, TRAb, TSI met uitslag en datum, TSH, FT4, T3, thiamazol, Strumazol, propylthiouracil, PTU, radioactief jodium, schildklieroperatie, internist of endocrinoloog, 'schildklierafwijking' met toelichting.",
-      "niet_positief_wanneer": "hypothyreoïdie; een normale TSH/FT4; een aangevraagde of nog volgende antistofbepaling; schildklierziekte bij een familielid. Graves of hyperthyreoïdie zonder vermelde positieve TSHRAb-uitslag; zonder positieve antistofuitslag telt het hier niet.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "hyperthyr",
         "graves",
@@ -1254,8 +1037,8 @@
         "tshr"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1265,13 +1048,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Hyperthyreoïdie van de zwangere in de huidige zwangerschap met positieve TSH-receptorantistoffen. Positief wanneer: De passage noemt bij de zwangere nu hyperthyreoïdie of Graves met positieve TSHRAb/TRAb/TSI, of actuele behandeling (thiamazol/Strumazol, PTU) met positieve antistoffen. Niet positief wanneer: Hyperthyreoïdie in remissie zonder actuele ziekte; hypothyreoïdie; een normale TSH/FT4 ('schildklier normaal'); een laag TSH zonder diagnose; een aangevraagde antistofbepaling; onbekende of negatieve antistoffen.",
       "omschrijving": "Hyperthyreoïdie van de zwangere in de huidige zwangerschap met positieve TSH-receptorantistoffen.",
-      "zoek_naar": "Hyperthyreoïdie in DEZE zwangerschap en de bijbehorende antistofuitslagen: hyperthyreoïdie, hyperthyreose, thyreotoxicose, te snel werkende schildklier, Graves. Ook: laag TSH, verhoogd FT4 of T3, TSH-receptorantistoffen, TSHR-Ab, TRAb, TSI met uitslag, thiamazol, Strumazol, propylthiouracil, PTU, propranolol, schildkliercontrole bij internist of endocrinoloog in deze zwangerschap.",
-      "niet_positief_wanneer": "Hyperthyreoïdie in remissie zonder actuele ziekte; hypothyreoïdie; een normale TSH/FT4 ('schildklier normaal'); een laag TSH zonder diagnose; een aangevraagde antistofbepaling; onbekende of negatieve antistoffen.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "hyperthyr",
         "graves",
@@ -1293,8 +1069,8 @@
         "tshr"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1304,13 +1080,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere zonder bekende positieve TSH-receptorantistoffen. Positief wanneer: De passage noemt bij de zwangere een eerdere hyperthyreoïdie, Graves, Basedow, toxisch struma of 'te snel werkende schildklier' zonder positieve TSHRAb-uitslag (negatief of niet vermeld). Graves zonder vermelde TSHRAb-uitslag hoort hier. Niet positief wanneer: Hypothyreoïdie (te traag) of 'schildklierafwijking' zonder richting; een normale schildklieruitslag; schildklierziekte bij een familielid; een hyperthyreoïdie mét vermelde positieve TSHRAb.",
       "omschrijving": "Hyperthyreoïdie in de voorgeschiedenis van de zwangere zonder bekende positieve TSH-receptorantistoffen.",
-      "zoek_naar": "Hyperthyreoïdie in de VOORGESCHIEDENIS: hyperthyreoïdie, hyperthyreose, thyreotoxicose, te snel werkende schildklier, overactieve schildklier, Graves, Basedow, toxisch struma, nodus. Ook: antistofuitslagen (TSHR-Ab, TRAb, TSI) of het ontbreken daarvan, TSH, FT4, T3, thiamazol, Strumazol, PTU, radioactief jodium, schildklieroperatie, internist of endocrinoloog, 'schildklierafwijking' met toelichting.",
-      "niet_positief_wanneer": "Hypothyreoïdie (te traag) of 'schildklierafwijking' zonder richting; een normale schildklieruitslag; schildklierziekte bij een familielid; een hyperthyreoïdie mét vermelde positieve TSHRAb.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "hyperthyr",
         "graves",
@@ -1333,8 +1102,8 @@
         "struma"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1344,13 +1113,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Hypothyreoïdie (ook subklinisch) in de voorgeschiedenis van de zwangere. Positief wanneer: De passage noemt bij de zwangere een eerdere hypothyreoïdie, subklinische hypothyreoïdie, Hashimoto of 'te traag werkende schildklier', of levothyroxine (Thyrax, Euthyrox) gestart vóór de zwangerschap. Niet positief wanneer: Hyperthyreoïdie (te snel); een normale TSH/FT4; alleen TPO-antistoffen zonder diagnose; een aangevraagde schildklierbepaling; schildklierziekte bij een familielid.",
       "omschrijving": "Hypothyreoïdie (ook subklinisch) in de voorgeschiedenis van de zwangere.",
-      "zoek_naar": "Hypothyreoïdie in de VOORGESCHIEDENIS, ook subklinisch: hypothyreoïdie, hypothyreose, subklinische hypothyreoïdie, te traag werkende schildklier, Hashimoto, auto-immuun thyreoïditis. Ook: verhoogd TSH, laag FT4, anti-TPO, TPO-antistoffen, levothyroxine, Thyrax, Euthyrox, Eltroxin, L-thyroxine, internist of endocrinoloog, 'schildklierafwijking' met toelichting.",
-      "niet_positief_wanneer": "Hyperthyreoïdie (te snel); een normale TSH/FT4; alleen TPO-antistoffen zonder diagnose; een aangevraagde schildklierbepaling; schildklierziekte bij een familielid.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "hypothyr",
         "hashimoto",
@@ -1370,8 +1132,8 @@
         "thyreoidit"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1381,13 +1143,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Hypothyreoïdie (ook subklinisch of behandeld) van de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt bij de zwangere nu hypothyreoïdie of subklinische hypothyreoïdie, actueel levothyroxinegebruik (Thyrax, Euthyrox) of een dosisaanpassing daarvan, of een verhoogd TSH met diagnose. Niet positief wanneer: Hyperthyreoïdie; een normale TSH/FT4 zonder behandeling; een aangevraagde bepaling of 'lab volgt'; een vroeger herstelde hypothyreoïdie zonder behandeling nu.",
       "omschrijving": "Hypothyreoïdie (ook subklinisch of behandeld) van de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Hypothyreoïdie in DEZE zwangerschap, ook subklinisch of behandeld: hypothyreoïdie, hypothyreose, subklinische hypothyreoïdie, te traag werkende schildklier, Hashimoto. Ook: TSH- en FT4-waarden, anti-TPO, levothyroxine, Thyrax, Euthyrox, Eltroxin, L-thyroxine, dosisaanpassing in de zwangerschap, schildkliercontrole bij internist of endocrinoloog.",
-      "niet_positief_wanneer": "Hyperthyreoïdie; een normale TSH/FT4 zonder behandeling; een aangevraagde bepaling of 'lab volgt'; een vroeger herstelde hypothyreoïdie zonder behandeling nu.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "hypothyr",
         "hashimoto",
@@ -1408,8 +1163,8 @@
         "endocrino"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1419,12 +1174,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "De huidige zwangerschap is ontstaan na een fertiliteitsbehandeling (IVF, ICSI, IUI, ovulatie-inductie, embryotransfer, eiceldonatie). Positief wanneer: De passage noemt dat deze zwangerschap is ontstaan via IVF, ICSI, IUI, (cryo-)embryotransfer, ovulatie-inductie (clomifeen, letrozol, FSH) of eiceldonatie. Niet positief wanneer: Fertiliteitsonderzoek of een verwijzing zonder dat deze zwangerschap via behandeling ontstond; 'spontaan zwanger'; ART in een eerdere zwangerschap; POP-poli; toestemming om zwanger te worden.",
       "omschrijving": "De huidige zwangerschap is ontstaan na een fertiliteitsbehandeling (IVF, ICSI, IUI, ovulatie-inductie, embryotransfer, eiceldonatie).",
-      "zoek_naar": "Het ontstaan van DEZE zwangerschap na een vruchtbaarheidsbehandeling: IVF, ICSI, IUI, inseminatie, embryotransfer, ET, cryo-embryo, FET, terugplaatsing, ovulatie-inductie, OI, clomifeen, Clomid, letrozol, Femara, FSH-injecties, punctie, eiceldonatie, zaaddonor. Ook: fertiliteitskliniek, voortplantingsgeneeskunde, fertiliteitsonderzoek, subfertiliteit, kinderwenstraject, eerdere fertiliteitsbehandelingen.",
-      "niet_positief_wanneer": "Fertiliteitsonderzoek of een verwijzing zonder dat deze zwangerschap via behandeling ontstond; 'spontaan zwanger'; ART in een eerdere zwangerschap; POP-poli; toestemming om zwanger te worden.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "[IVF]",
         "[ICSI]",
@@ -1452,8 +1201,8 @@
         "spontaan zwanger"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1463,12 +1212,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Klinisch relevante irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt bij de zwangere nu een positieve antistofscreening met een klinisch relevante specificiteit (anti-D, anti-c, anti-K/Kell, anti-E, anti-C, anti-e, anti-Fya, anti-Jka) of een verwijzing/MCA-doppler wegens antistoffen. Niet positief wanneer: Een negatieve antistofscreening; een positieve screening zonder specificiteit; antistoffen beschreven als niet klinisch relevant; passief anti-D na profylaxe; RhD- of c-negativiteit zonder antistoffen.",
       "omschrijving": "Klinisch relevante irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Irregulaire erytrocytenantistoffen bij de zwangere in DEZE zwangerschap: irregulaire antistoffen, IEA, antistofscreening positief, anti-D, anti-c, anti-K, anti-Kell, anti-E, anti-C, anti-e, anti-Fya, anti-Jka. Ook: specificiteit en titer, ADCC, Sanquin-advies, verwijzing wegens antistoffen, MCA-doppler of controles wegens antistoffen, foetale typering, elke positieve antistofscreening.",
-      "niet_positief_wanneer": "Een negatieve antistofscreening; een positieve screening zonder specificiteit; antistoffen beschreven als niet klinisch relevant; passief anti-D na profylaxe; RhD- of c-negativiteit zonder antistoffen.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "antistof",
         "irregul",
@@ -1492,8 +1235,8 @@
         "antistofscreen"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1501,14 +1244,8 @@
       "id": "AP039",
       "label": "Niet klinisch relevante irregulaire antistoffen variant 1",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld. Positief wanneer: De passage noemt bij de zwangere nu een positieve antistofscreening met de beoordeling 'niet klinisch relevant' (bijv. anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen). Niet positief wanneer: Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder beoordeling.",
+      "betekenis": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld. Positief wanneer: De passage noemt bij de zwangere nu een positieve antistofscreening met de beoordeling 'niet klinisch relevant' (bijv. anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen). Ook positief: een aangetoonde irregulaire antistof waarbij een laag risico op hemolytische ziekte of een lage of negatieve titer is gemeld; de antistof is dan wél aanwezig en dat lage risico is juist de beoordeling 'niet klinisch relevant'. Niet positief wanneer: Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder dat er een antistof is aangetoond.",
       "omschrijving": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld.",
-      "zoek_naar": "Irregulaire erytrocytenantistoffen bij de zwangere in DEZE zwangerschap die als niet klinisch relevant zijn beschreven: irregulaire antistoffen, IEA, antistofscreening positief, niet klinisch relevant, niet relevant, lage titer, anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen. Ook: de specificiteit, titer en het Sanquin-advies, en elke positieve antistofscreening.",
-      "niet_positief_wanneer": "Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder beoordeling.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "antistof",
         "irregul",
@@ -1528,8 +1265,8 @@
         "antistofscreen"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1539,12 +1276,6 @@
       "categorie": "Overig",
       "betekenis": "De zwangere is Jehova's getuige of weigert bloedproducten. Positief wanneer: De passage noemt dat de zwangere Jehova's getuige is, of dat zij bloedtransfusie of bloedproducten weigert (ook wilsverklaring). Niet positief wanneer: Weigering door een familielid; angst voor transfusie zonder weigering; een ander geloof; een algemene bespreking van bloedproducten; 'akkoord met bloedproducten'.",
       "omschrijving": "De zwangere is Jehova's getuige of weigert bloedproducten.",
-      "zoek_naar": "Jehova's getuige zijn of bloedproducten weigeren, nu of in de voorgeschiedenis: Jehova, Jehovah's Getuige, getuige van Jehova, weigert bloedtransfusie, geen bloedproducten, transfusieweigering. Ook: wilsverklaring of patiëntenverklaring over bloed, bespreking van bloedproducten, bloedbesparende technieken, cell saver, geloofsovertuiging.",
-      "niet_positief_wanneer": "Weigering door een familielid; angst voor transfusie zonder weigering; een ander geloof; een algemene bespreking van bloedproducten; 'akkoord met bloedproducten'.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "jehova",
         "getuige",
@@ -1561,8 +1292,8 @@
         "transfusieweiger"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1572,12 +1303,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Lisexcisie (LLETZ/LEEP) van de cervix in de voorgeschiedenis van de zwangere. Positief wanneer: De passage noemt bij de zwangere een uitgevoerde LLETZ, LEEP, lisexcisie, lisbehandeling of 'lis ia.' (ingreep aan de cervix). Niet positief wanneer: Alleen CIN, HPV, een afwijkend uitstrijkje of colposcopie; een geplande lisexcisie; een normale cytologie.",
       "omschrijving": "Lisexcisie (LLETZ/LEEP) van de cervix in de voorgeschiedenis van de zwangere.",
-      "zoek_naar": "Een lisexcisie van de baarmoederhals in de VOORGESCHIEDENIS: LLETZ, LEEP, lis, lisexcisie, lisbehandeling, 'lis ia.', 'LIS i.a.', lusexcisie. Ook: CIN, afwijkend uitstrijkje, colposcopie, HPV, andere cervixbehandeling, verkorte cervix, cervixlengtemeting of cerclage wegens eerdere ingreep.",
-      "niet_positief_wanneer": "Alleen CIN, HPV, een afwijkend uitstrijkje of colposcopie; een geplande lisexcisie; een normale cytologie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "lletz",
         "[LEEP]",
@@ -1601,8 +1326,8 @@
         "dysplas"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1612,13 +1337,6 @@
       "categorie": "Indicatie",
       "betekenis": "Lithiumgebruik door de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt actueel lithiumgebruik of een lithiumvoorschrift (lithiumcarbonaat, Camcolit, Priadel) bij de zwangere, of lithiumspiegels wegens gebruik. Niet positief wanneer: Bipolaire stoornis zonder lithium; een andere stemmingsstabilisator; lithium gestopt vóór de zwangerschap; alleen psychiatrisch contact.",
       "omschrijving": "Lithiumgebruik door de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Lithiumgebruik door de zwangere, nu of in de voorgeschiedenis: lithium, lithiumcarbonaat, Camcolit, Priadel. Ook: lithiumspiegel, lithium op de medicatielijst, doorgebruiken, afbouwen of gestopt, bipolaire stoornis, manisch-depressief, psychiater of POP-poli wegens lithium.",
-      "niet_positief_wanneer": "Bipolaire stoornis zonder lithium; een andere stemmingsstabilisator; lithium gestopt vóór de zwangerschap; alleen psychiatrisch contact.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "lithium",
         "priadel",
@@ -1631,8 +1349,8 @@
         "lithiumcarbonaat"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1642,12 +1360,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Manuele placentaverwijdering (MPV) of fluxus postpartum (HPP) bij een eerdere bevalling van de zwangere. Positief wanneer: De passage noemt bij een eerdere bevalling een MPV/manuele placentaverwijdering, postpartum bloedverlies ≥1000 ml, of 'HPP', 'fluxus (postpartum)' (ook zonder hoeveelheid). Niet positief wanneer: Een sectio of andere uterusoperatie zonder fluxus; curettage na miskraam of abortus; bloedverlies <1000 ml zonder diagnose fluxus; 'normaal bloedverlies'; een transfusie om een andere reden. Grenswaarden: Postpartum bloedverlies ≥1000 ml.",
       "omschrijving": "Manuele placentaverwijdering (MPV) of fluxus postpartum (HPP) bij een eerdere bevalling van de zwangere.",
-      "zoek_naar": "Een fluxus of manuele placentaverwijdering bij een EERDERE bevalling: fluxus, fluxus postpartum, HPP, haemorrhagia postpartum, PPH, MPV, manuele placentaverwijdering, placentaretentie, vastzittende placenta, retentio placentae. Ook: elke hoeveelheid bloedverlies na een bevalling (ml, liter, TBV), uterusatonie, ballontamponade, Bakri, bloedtransfusie of packed cells, ijzerinfuus postpartum, curettage postpartum, laag Hb na de bevalling.",
-      "niet_positief_wanneer": "Een sectio of andere uterusoperatie zonder fluxus; curettage na miskraam of abortus; bloedverlies <1000 ml zonder diagnose fluxus; 'normaal bloedverlies'; een transfusie om een andere reden.",
-      "grenswaarden": "Postpartum bloedverlies ≥1000 ml.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "[MPV]",
         "manuele placenta",
@@ -1673,8 +1385,8 @@
         "bloedverlies"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1684,12 +1396,6 @@
       "categorie": "Indicatie",
       "betekenis": "BMI van de zwangere onder 18,5 bij intake (preconceptioneel) in de huidige zwangerschap. Positief wanneer: De passage noemt een BMI <18,5, of lengte en gewicht waaruit die BMI volgt, bij intake of preconceptioneel. Niet positief wanneer: Een BMI ≥18,5 (bijv. 18,69); alleen 'ondergewicht', een zorgpadnaam of eetstoornis zonder getal; gewicht zonder lengte. Grenswaarden: BMI <18,5 bij intake.",
       "omschrijving": "BMI van de zwangere onder 18,5 bij intake (preconceptioneel) in de huidige zwangerschap.",
-      "zoek_naar": "Alle BMI-, lengte- en gewichtsvermeldingen van de zwangere in DEZE zwangerschap, bij intake of preconceptioneel. Ook: ondergewicht, laag gewicht, eetstoornis, anorexia, boulimia, ondervoeding, zorgpad ondergewicht, diëtist wegens laag gewicht, geringe gewichtstoename.",
-      "niet_positief_wanneer": "Een BMI ≥18,5 (bijv. 18,69); alleen 'ondergewicht', een zorgpadnaam of eetstoornis zonder getal; gewicht zonder lengte.",
-      "grenswaarden": "BMI <18,5 bij intake.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "[BMI]",
         "gewicht",
@@ -1707,8 +1413,8 @@
         "zorgpad ondergewicht"
       ],
       "python_regel": "bmi < 18.5",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1718,12 +1424,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Myomen (uterus myomatosus) bij de zwangere, nu of in de voorgeschiedenis (ook geopereerd). Positief wanneer: De passage noemt bij de zwangere een myoom, myomen, uterus myomatosus, fibroom of een myomectomie/myoomenucleatie. Niet positief wanneer: Asherman of een congenitale uterusafwijking; een ongespecificeerde uterusoperatie; 'geen myomen' of een normale echo van de uterus.",
       "omschrijving": "Myomen (uterus myomatosus) bij de zwangere, nu of in de voorgeschiedenis (ook geopereerd).",
-      "zoek_naar": "Myomen bij de zwangere, nu of in de voorgeschiedenis: myoom, myomen, uterus myomatosus, fibroom, leiomyoom, vleesboom. Ook: grootte en ligging (cm, intramuraal, subsereus, submukeus), myomectomie, myoomenucleatie, embolisatie, echo met myoom, advies sectio wegens myoomoperatie.",
-      "niet_positief_wanneer": "Asherman of een congenitale uterusafwijking; een ongespecificeerde uterusoperatie; 'geen myomen' of een normale echo van de uterus.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "myoom",
         "myomen",
@@ -1737,8 +1437,8 @@
         "[cm]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1748,12 +1448,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Vaginisme bij de zwangere. Positief wanneer: De passage noemt vaginisme bij de zwangere, of dat inwendig onderzoek/speculum door vaginisme niet mogelijk is. Niet positief wanneer: Dyspareunie, pijn of angst bij onderzoek zonder diagnose vaginisme; bekkenfysiotherapie of seksuoloog om een andere reden. Pijn bij een vaginale echo (TVE), inwendig onderzoek of seks zonder de diagnose vaginisme.",
       "omschrijving": "Vaginisme bij de zwangere.",
-      "zoek_naar": "Vaginisme bij de zwangere, nu of in de voorgeschiedenis: vaginisme. Ook: pijn of angst bij inwendig onderzoek, inwendig onderzoek, speculum of VT niet mogelijk, dyspareunie, pijn bij gemeenschap, bekkenbodemfysiotherapie, seksuoloog, eerdere negatieve ervaring met onderzoek.",
-      "niet_positief_wanneer": "Dyspareunie, pijn of angst bij onderzoek zonder diagnose vaginisme; bekkenfysiotherapie of seksuoloog om een andere reden. Pijn bij een vaginale echo (TVE), inwendig onderzoek of seks zonder de diagnose vaginisme.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "vaginism",
         "dyspareun",
@@ -1766,8 +1460,8 @@
         "bekkenfysio"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1777,12 +1471,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Vroeggeboorte vóór 34 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt een eerdere bevalling (spontaan, ingeleid of sectio) bij een zwangerschapsduur <34+0 weken, bijv. 'partus bij 31+4', 'prematuur 28 weken'. Niet positief wanneer: Een bevalling bij 34+0 weken of later (34+6 valt niet vóór 34 weken); een miskraam; dreigende vroeggeboorte, PPROM of opname zonder bevalling; de termijn van gebroken vliezen zonder bevallingstermijn. Grenswaarden: Zwangerschapsduur bij bevalling <34+0 weken.",
       "omschrijving": "Vroeggeboorte vóór 34 weken in een eerdere zwangerschap van de zwangere.",
-      "zoek_naar": "Een EERDERE bevalling vóór de uitgerekende datum, met de zwangerschapsduur: vroeggeboorte, prematuur, prematuriteit, partus prematurus, partus immaturus, preterm, bevalling bij AD of amenorroeduur in weken en dagen. Ook: PPROM met bevallingstermijn, weeënremming, atosiban, longrijping, Celestone, couveuse, NICU, cerclage of progesteron wegens eerdere vroeggeboorte, en elke eerdere bevallingstermijn.",
-      "niet_positief_wanneer": "Een bevalling bij 34+0 weken of later (34+6 valt niet vóór 34 weken); een miskraam; dreigende vroeggeboorte, PPROM of opname zonder bevalling; de termijn van gebroken vliezen zonder bevallingstermijn.",
-      "grenswaarden": "Zwangerschapsduur bij bevalling <34+0 weken.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "partus",
         "bevall",
@@ -1807,8 +1495,8 @@
         "weken"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1818,12 +1506,6 @@
       "categorie": "Overig",
       "betekenis": "Vluchteling- of asielzoekerstatus van de zwangere. Positief wanneer: De passage noemt dat de zwangere vluchteling of asielzoeker is, in een AZC verblijft (asiel), of statushouder is met vluchtelingenachtergrond. Niet positief wanneer: Alleen een buitenlandse geboorte, migratie of nationaliteit; een taalbarrière; de status van de partner.",
       "omschrijving": "Vluchteling- of asielzoekerstatus van de zwangere.",
-      "zoek_naar": "Vluchteling- of asielzoekerstatus van de zwangere, nu of in het verleden: vluchteling, asielzoeker, asiel, AZC, asielzoekerscentrum, COA, statushouder. Ook: verblijfsvergunning asiel, verblijfsstatus, gevlucht uit, ongedocumenteerd, IND, RMA, GZA, recente migratie met asielcontext.",
-      "niet_positief_wanneer": "Alleen een buitenlandse geboorte, migratie of nationaliteit; een taalbarrière; de status van de partner.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "vluchtel",
         "asiel",
@@ -1841,8 +1523,8 @@
         "asielzoek"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1852,12 +1534,6 @@
       "categorie": "Overig",
       "betekenis": "Maternale leeftijd van 40 jaar of ouder op de uitgerekende datum (AD). Positief wanneer: De passage noemt een leeftijd ≥40 jaar van de zwangere, of een geboortedatum en uitgerekende datum waaruit ≥40 jaar op de AD volgt. Niet positief wanneer: Een leeftijd <40 op de AD (bijv. 39 bij intake zonder dat zij vóór de AD 40 wordt); 'oudere gravida' zonder getal; de leeftijd van de partner. Grenswaarden: Leeftijd ≥40 jaar op de AD.",
       "omschrijving": "Maternale leeftijd van 40 jaar of ouder op de uitgerekende datum (AD).",
-      "zoek_naar": "De leeftijd van de zwangere in DEZE zwangerschap: geboortedatum, leeftijd in jaren, uitgerekende datum, à terme datum, AT, ATD. Ook: oudere zwangere, oudere gravida, AMA, leeftijd bij intake, verwijzing of counseling wegens leeftijd.",
-      "niet_positief_wanneer": "Een leeftijd <40 op de AD (bijv. 39 bij intake zonder dat zij vóór de AD 40 wordt); 'oudere gravida' zonder getal; de leeftijd van de partner.",
-      "grenswaarden": "Leeftijd ≥40 jaar op de AD.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "geboortedatum",
         "[geb]",
@@ -1874,8 +1550,8 @@
         "jaar oud"
       ],
       "python_regel": "leeftijd >= 40",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1885,12 +1561,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Vroeggeboorte tussen 34+0 en 36+6 weken in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt een eerdere bevalling (spontaan, ingeleid of sectio) bij een zwangerschapsduur van 34+0 tot en met 36+6 weken, bijv. 'inleiding bij 36 weken wegens PE'. Niet positief wanneer: Een bevalling bij 37+0 weken of later (bijv. 37+3); een miskraam; PPROM of dreigende vroeggeboorte zonder bevallingstermijn. Een bevalling vóór 34+0 weken (bijv. 33+6); dat is een vroeggeboorte vóór 34 weken, niet erna. Grenswaarden: Zwangerschapsduur bij bevalling ≥34+0 en <37+0 weken.",
       "omschrijving": "Vroeggeboorte tussen 34+0 en 36+6 weken in een eerdere zwangerschap van de zwangere.",
-      "zoek_naar": "Een EERDERE bevalling vóór de uitgerekende datum, met de zwangerschapsduur: vroeggeboorte, prematuur, late prematuur, partus prematurus, preterm, bevalling bij AD of amenorroeduur in weken en dagen. Ook: PPROM met bevallingstermijn, inleiding of sectio vóór de uitgerekende datum (bijv. wegens PE), kinderafdeling of couveuse, en elke eerdere bevallingstermijn.",
-      "niet_positief_wanneer": "Een bevalling bij 37+0 weken of later (bijv. 37+3); een miskraam; PPROM of dreigende vroeggeboorte zonder bevallingstermijn. Een bevalling vóór 34+0 weken (bijv. 33+6); dat is een vroeggeboorte vóór 34 weken, niet erna.",
-      "grenswaarden": "Zwangerschapsduur bij bevalling ≥34+0 en <37+0 weken.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "partus",
         "bevall",
@@ -1911,8 +1581,8 @@
         "late prematuur"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1920,14 +1590,8 @@
       "id": "AP051",
       "label": "Zwangerschap na eiceldonatie",
       "categorie": "Huidige zwangerschap",
-      "betekenis": "De huidige zwangerschap is ontstaan met donoreicellen (eiceldonatie). Positief wanneer: De passage noemt dat deze zwangerschap is ontstaan via eiceldonatie, donoreicellen, donor-oöcyten of een ED-traject. Niet positief wanneer: alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat is een fertiliteitsbehandeling zonder eiceldonatie.",
+      "betekenis": "De huidige zwangerschap is ontstaan met donoreicellen (eiceldonatie). Positief wanneer: De passage noemt dat deze zwangerschap is ontstaan via eiceldonatie, donoreicellen, donor-oöcyten of een ED-traject. Niet positief wanneer: Alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat is een fertiliteitsbehandeling zonder eiceldonatie.",
       "omschrijving": "De huidige zwangerschap is ontstaan met donoreicellen (eiceldonatie).",
-      "zoek_naar": "Het ontstaan van DEZE zwangerschap met donoreicellen: eiceldonatie, ED, eiceldonor, donoreicel, donor-oöcyt, oöcytdonatie, donorembryo, embryodonatie. Ook: IVF of ICSI met donoreicel, buitenlandse kliniek, counseling of Ascal wegens eiceldonatie, 'ED-traject'.",
-      "niet_positief_wanneer": "alleen een zaaddonor; een voorgenomen donortraject zonder zwangerschap; eiceldonatie in een eerdere zwangerschap. IVF, ICSI of IUI met eigen eicellen zonder vermelding van donoreicellen; dat is een fertiliteitsbehandeling zonder eiceldonatie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "eiceldon",
         "donor",
@@ -1940,8 +1604,8 @@
         "donoreicel"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -1951,16 +1615,6 @@
       "categorie": "Indicatie",
       "betekenis": "Risicofactoren bij de zwangere voor tromboseprofylaxe tijdens de zwangerschap én het kraambed (volgens het lokale protocol). Positief wanneer: De passage noemt één van de factoren: een eerdere trombose/DVT/longembolie (en de uitlokking: pil, zwangerschap, kraambed, geen aanleiding); recidiverende trombose; trombofilie (factor V Leiden, protrombinemutatie, antitrombine-, proteïne C- of S-deficiëntie, homo-/heterozygoot); trombose bij een eerstegraads familielid; LMWH of een profylaxeplan voor beide perioden. Niet positief wanneer: 'Geen trombose in de voorgeschiedenis'; trombofilie expliciet uitgesloten; antistolling om een niet-trombotische reden; alleen steunkousen.",
       "omschrijving": "Risicofactoren bij de zwangere voor tromboseprofylaxe tijdens de zwangerschap én het kraambed (volgens het lokale protocol).",
-      "zoek_naar": "Elke aanwijzing voor trombose, trombofilie of tromboseprofylaxe, nu of in de voorgeschiedenis: eerdere trombose, DVT, longembolie, LE, VTE, trombosebeen, trombose bij pil, zwangerschap of kraambed, recidiverende trombose; trombofilie, factor V Leiden, protrombinemutatie, antitrombinedeficiëntie, proteïne C- of S-deficiëntie, homozygoot, heterozygoot; trombose bij ouder, broer, zus of kind; LMWH, fraxiparine, enoxaparine, Clexane, dalteparine, Fragmin, tinzaparine, Innohep, nadroparine. Ook: profylaxeplan en periode (antepartum, postpartum, zes weken), hematoloog, steunkousen, immobilisatie.",
-      "niet_positief_wanneer": "'Geen trombose in de voorgeschiedenis'; trombofilie expliciet uitgesloten; antistolling om een niet-trombotische reden; alleen steunkousen.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "obstetrische_voorgeschiedenis",
-        "medicatie",
-        "kerngegevens",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "trombo",
         "[DVT]",
@@ -1994,8 +1648,8 @@
         "pilgebruik"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "Eerdere trombose (DVT, longembolie, VTE) met de uitlokking: pil/oestrogenen, zwangerschap, kraambed, of zonder aanleiding; recidiverende trombose; trombofilie: factor V Leiden, protrombinemutatie, antitrombinedeficiëntie, proteïne C-deficiëntie, proteïne S-deficiëntie (homozygoot of heterozygoot); trombose bij een eerstegraads familielid (ouder, broer/zus, kind); gebruik van LMWH of een plan voor tromboseprofylaxe tijdens zwangerschap en/of kraambed.",
-      "toetsregels": "Protocol tabel 1: profylaxe ante- en postpartum bij eenmalige VTE door pil/zwangerschap/kraambed/zonder aanleiding, bij recidiverende VTE, of bij homozygote FVL, antitrombinedeficiëntie of homozygote protrombinemutatie met positieve familieanamnese. Welke periode van toepassing is beoordeelt de zorgverlener.",
       "samengesteld": true,
       "familie_telt": true
     },
@@ -2005,16 +1659,6 @@
       "categorie": "Indicatie",
       "betekenis": "Risicofactoren bij de zwangere voor tromboseprofylaxe uitsluitend in het kraambed (volgens het lokale protocol). Positief wanneer: De passage noemt één van de factoren: een eerdere trombose na operatie/narcose, immobilisatie of kanker; trombofilie (ook laagrisico: proteïne C/S-deficiëntie, heterozygote FVL of protrombinemutatie); trombose bij een eerstegraads familielid; LMWH of profylaxe na de bevalling of na sectio; risicofactoren rond de bevalling (sectio, fluxus ≥1000 ml, BMI >30, roken >10/dag, pre-eclampsie, infectie, transfusie). Niet positief wanneer: 'Geen trombose in de voorgeschiedenis'; trombofilie expliciet uitgesloten; een eerdere zwangerschap zonder complicaties.",
       "omschrijving": "Risicofactoren bij de zwangere voor tromboseprofylaxe uitsluitend in het kraambed (volgens het lokale protocol).",
-      "zoek_naar": "Elke aanwijzing voor trombose, trombofilie of tromboseprofylaxe rond de bevalling, nu of in de voorgeschiedenis: eerdere trombose, DVT, longembolie, LE, VTE, trombose na operatie, narcose, immobilisatie of kanker; trombofilie, factor V Leiden, protrombinemutatie, proteïne C- of S-deficiëntie, antitrombinedeficiëntie, homozygoot, heterozygoot; trombose bij ouder, broer, zus of kind; LMWH, fraxiparine, enoxaparine, Clexane, dalteparine, Fragmin, tinzaparine, Innohep. Ook: profylaxeplan postpartum of na sectio, en risicofactoren rond de bevalling: sectio, fluxus, HPP, BMI, roken, pre-eclampsie, infectie, bloedtransfusie.",
-      "niet_positief_wanneer": "'Geen trombose in de voorgeschiedenis'; trombofilie expliciet uitgesloten; een eerdere zwangerschap zonder complicaties.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "obstetrische_voorgeschiedenis",
-        "medicatie",
-        "kerngegevens",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "trombo",
         "[DVT]",
@@ -2049,8 +1693,8 @@
         "kraambed"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "Eerdere trombose (DVT, longembolie) na operatie onder narcose, immobilisatie of kanker; trombofilie: proteïne C-deficiëntie, proteïne S-deficiëntie, heterozygote factor V Leiden, heterozygote protrombinemutatie, dubbelheterozygotie, homozygote factor V Leiden, antitrombinedeficiëntie, homozygote protrombinemutatie; trombose bij een eerstegraads familielid (ouder, broer/zus, kind); LMWH of tromboseprofylaxe na de bevalling of na een sectio; risicofactoren rond de bevalling: sectio, fluxus/HPP ≥1000 ml, BMI >30, roken >10 sigaretten per dag, pre-eclampsie, infectie, bloedtransfusie.",
-      "toetsregels": "Protocol tabel 1 (postpartum 6 weken) en tabel 4 (na sectio: ≥1 ernstige factor, of ≥2 matige bij primaire en ≥1 matige bij secundaire sectio). Welke profylaxe van toepassing is beoordeelt de zorgverlener.",
       "samengesteld": true,
       "familie_telt": true
     },
@@ -2060,12 +1704,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Keizersnede (sectio caesarea) bij een eerdere bevalling van de zwangere. Positief wanneer: De passage noemt een uitgevoerde eerdere sectio: primaire of secundaire sectio, 'sec. SC', spoedsectio, status na sectio, sectiolitteken, VBAC/TOLAC. Niet positief wanneer: Een geadviseerde, overwogen of geplande sectio die niet is uitgevoerd; een myomectomie of andere uterusoperatie; 'PC's' (trombocyten); een vaginale bevalling.",
       "omschrijving": "Keizersnede (sectio caesarea) bij een eerdere bevalling van de zwangere.",
-      "zoek_naar": "Een EERDERE sectio of keizersnede: sectio, sectio caesarea, SC, keizersnede, primaire sectio, PSC, secundaire sectio, SSC, 'sec. SC', spoedsectio, re-sectio, status na sectio. Ook: sectiolitteken, uterusscar, uterotomie, uterusoperatie met litteken, VBAC, TOLAC, counseling VBAC, geplande sectio wegens eerdere sectio, uterusruptuur na sectio, placenta accreta na sectio.",
-      "niet_positief_wanneer": "Een geadviseerde, overwogen of geplande sectio die niet is uitgevoerd; een myomectomie of andere uterusoperatie; 'PC's' (trombocyten); een vaginale bevalling.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "sectio",
         "keizersnede",
@@ -2085,8 +1723,8 @@
         "caesarea"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2096,13 +1734,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Verdenking op foetale groeirestrictie (FGR) in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een verdenking FGR/groeirestrictie/dysmaturiteit, een EFW of AC met een percentiel onder P10 (bijv. p2,3, P2.2, P5, P8), of een afbuigende groeicurve met verdenking FGR. Het percentiel is leidend: een percentiel <P10 telt ook als het geschatte gewicht in grammen normaal lijkt. Niet positief wanneer: Een percentiel van P10 of hoger ('goede groei', 'groei conform', 'p10-p50'), ook als het gewicht in grammen laag lijkt; een geschat gewicht zonder percentiel; een geplande groeiecho zonder uitslag; FGR in een eerdere zwangerschap; een normale doppler. Grenswaarden: EFW of AC <P10.",
       "omschrijving": "Verdenking op foetale groeirestrictie (FGR) in de huidige zwangerschap.",
-      "zoek_naar": "Foetale groei in DEZE zwangerschap: verdenking FGR, FGR, IUGR, groeirestrictie, groeivertraging, dysmatuur, SGA, klein kind, afbuigende groeicurve. Ook: alle biometrie en percentielen (EFW, AC, HC, FL, p5, p10, p2,3), fundushoogte, doppler (a. umbilicalis, UA-PI, MCA, CPR), placenta-insufficiëntie, groei-echo's, zorgpad of verwijzing wegens groei.",
-      "niet_positief_wanneer": "Een percentiel van P10 of hoger ('goede groei', 'groei conform', 'p10-p50'), ook als het gewicht in grammen laag lijkt; een geschat gewicht zonder percentiel; een geplande groeiecho zonder uitslag; FGR in een eerdere zwangerschap; een normale doppler.",
-      "grenswaarden": "EFW of AC <P10.",
-      "blokken": [
-        "echos",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "[FGR]",
         "[IUGR]",
@@ -2131,8 +1762,8 @@
         "[p2,2]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2142,12 +1773,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Anemie of ijzertekort bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een Hb <7,1 mmol/L, een ferritine <15 µg/L, een diagnose anemie/ijzergebreksanemie, of ijzertherapie gestart wegens anemie. Niet positief wanneer: Een Hb ≥7,1 of ferritine ≥15 (bijv. 'Hb 8,0'); een Hb-waarde van vóór of na een eerdere zwangerschap; preventieve ijzersuppletie zonder anemie; alleen een afwijkend MCV; een hemoglobinopathie-screening. Grenswaarden: Hb <7,1 mmol/L; ferritine <15 µg/L (1 mmol/L ≈ 1,61 g/dL).",
       "omschrijving": "Anemie of ijzertekort bij de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Anemie of ijzertekort bij de zwangere in DEZE zwangerschap: anemie, bloedarmoede, laag Hb, ijzertekort, ijzergebrek. Ook: alle Hb-, ferritine-, MCV- en Ht-waarden met eenheid, ijzertabletten (ferrofumaraat, ferrogluconaat, Losferron, gentle iron), ijzerinfuus (Ferinject, Monofer), extra Hb-controle, verwijzing wegens anemie, hemoglobinopathie of thalassemie.",
-      "niet_positief_wanneer": "Een Hb ≥7,1 of ferritine ≥15 (bijv. 'Hb 8,0'); een Hb-waarde van vóór of na een eerdere zwangerschap; preventieve ijzersuppletie zonder anemie; alleen een afwijkend MCV; een hemoglobinopathie-screening.",
-      "grenswaarden": "Hb <7,1 mmol/L; ferritine <15 µg/L (1 mmol/L ≈ 1,61 g/dL).",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "[Hb]",
         "hemoglobine",
@@ -2173,8 +1798,8 @@
         "[Fe]"
       ],
       "python_regel": "hb < 7.1 of ferritine < 15",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2184,12 +1809,6 @@
       "categorie": "Indicatie",
       "betekenis": "Rhesus D-negatieve bloedgroep van de zwangere. Positief wanneer: De passage noemt bij de zwangere RhD-negatief, rhesus D negatief, of een bloedgroep met 'neg' of '-' (O neg, A-, B negatief, AB-). Niet positief wanneer: Een D-positieve bloedgroep ('O pos', 'A+'); alleen Rhc-negativiteit; de bloedgroep van partner of kind; anti-D-profylaxe zonder vermelde bloedgroep.",
       "omschrijving": "Rhesus D-negatieve bloedgroep van de zwangere.",
-      "zoek_naar": "De bloedgroep en rhesus D-factor van de zwangere in DEZE zwangerschap: rhesus D negatief, RhD negatief, D-negatief, Rh-, rhesusnegatief, O negatief, A negatief, B negatief, AB negatief, 'O neg'. Ook: elke bloedgroepuitslag, anti-D-profylaxe, anti-D-injectie, Rhophylac, foetale RhD-typering.",
-      "niet_positief_wanneer": "Een D-positieve bloedgroep ('O pos', 'A+'); alleen Rhc-negativiteit; de bloedgroep van partner of kind; anti-D-profylaxe zonder vermelde bloedgroep.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "rhesus",
         "[RhD]",
@@ -2212,8 +1831,8 @@
         "ab neg"
       ],
       "python_regel": "rhesus_d == negatief",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2223,12 +1842,6 @@
       "categorie": "Indicatie",
       "betekenis": "Rhesus c-negatieve bloedgroep (kleine c) van de zwangere. Positief wanneer: De passage noemt bij de zwangere Rhc-negatief, 'c neg', kleine c negatief, of een volledig fenotype zonder kleine c (CCDee, R1R1). Niet positief wanneer: 'O positief' of een andere D-status (zegt niets over c); c-positief; afwezige anti-c-antistoffen; de bloedgroep van partner of kind.",
       "omschrijving": "Rhesus c-negatieve bloedgroep (kleine c) van de zwangere.",
-      "zoek_naar": "De rhesus c-factor en het bloedgroepfenotype van de zwangere in DEZE zwangerschap: rhesus c negatief, kleine c negatief, c-negatief, 'c neg', Rhc negatief, fenotype, CCDee, R1R1. Ook: elke bloedgroep- en fenotypeuitslag, anti-c, foetale c-typering, Sanquin-uitslag.",
-      "niet_positief_wanneer": "'O positief' of een andere D-status (zegt niets over c); c-positief; afwezige anti-c-antistoffen; de bloedgroep van partner of kind.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "rhesus",
         "[Rhc]",
@@ -2243,8 +1856,8 @@
         "rhesus c"
       ],
       "python_regel": "rhesus_c == negatief",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2254,13 +1867,6 @@
       "categorie": "Overig",
       "betekenis": "Zwangerschapsinterval korter dan een jaar: minder dan 12 maanden tussen het einde van de vorige zwangerschap en de conceptie van deze zwangerschap. Positief wanneer: De passage noemt datums waaruit volgt dat de conceptie (à terme datum − 266 dagen, of LM) minder dan 12 maanden na de vorige bevalling of het einde van de vorige zwangerschap valt, of noemt expliciet een interval <12 maanden. Niet positief wanneer: Een interval ≥12 maanden; alleen 'snel weer zwanger' zonder datums; een eerste zwangerschap. Grenswaarden: Interval <12 maanden; conceptie = AD − 266 dagen.",
       "omschrijving": "Zwangerschapsinterval korter dan een jaar: minder dan 12 maanden tussen het einde van de vorige zwangerschap en de conceptie van deze zwangerschap.",
-      "zoek_naar": "De tijd tussen de vorige bevalling en DEZE zwangerschap: datum vorige bevalling, geboortedatum vorig kind, datum partus, kort zwangerschapsinterval, snel weer zwanger. Ook: conceptiedatum, laatste menstruatie, LM, uitgerekende datum, à terme datum, AT, ATD, en de data van alle eerdere bevallingen en miskramen.",
-      "niet_positief_wanneer": "Een interval ≥12 maanden; alleen 'snel weer zwanger' zonder datums; een eerste zwangerschap.",
-      "grenswaarden": "Interval <12 maanden; conceptie = AD − 266 dagen.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "partus",
         "bevall",
@@ -2279,8 +1885,8 @@
         "à terme"
       ],
       "python_regel": "interval_maanden < 12",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2290,12 +1896,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Zwangerschapscholestase (ICP) van de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een diagnose zwangerschapscholestase/ICP, verhoogde galzuren met die beoordeling, of ursodeoxycholzuur wegens cholestase. Niet positief wanneer: Jeuk zonder diagnose; aangevraagde of normale galzuren; afwijkende leverwaarden zonder cholestase; cholestase in een eerdere zwangerschap.",
       "omschrijving": "Zwangerschapscholestase (ICP) van de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Zwangerschapscholestase in DEZE zwangerschap: zwangerschapscholestase, cholestase, ICP, intrahepatische cholestase, verhoogde galzuren. Ook: jeuk, pruritus, alle galzuur- en leverwaarden (ALAT, ASAT, bilirubine), ursodeoxycholzuur, Ursochol, Ursofalk, controles of verwijzing wegens jeuk, cholestase in een eerdere zwangerschap.",
-      "niet_positief_wanneer": "Jeuk zonder diagnose; aangevraagde of normale galzuren; afwijkende leverwaarden zonder cholestase; cholestase in een eerdere zwangerschap.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "cholestase",
         "[ICP]",
@@ -2313,8 +1913,8 @@
         "intrahepat"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2324,12 +1924,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Polycysteus-ovariumsyndroom (PCOS) bij de zwangere. Positief wanneer: De passage noemt bij de zwangere een diagnose PCOS/PCO, of behandeling expliciet wegens PCOS (metformine, clomifeen, letrozol). Niet positief wanneer: Onregelmatige cyclus, anovulatie of hirsutisme zonder diagnose; metformine zonder indicatie; een fertiliteitsbehandeling om een andere reden; een normale echo van de ovaria.",
       "omschrijving": "Polycysteus-ovariumsyndroom (PCOS) bij de zwangere.",
-      "zoek_naar": "PCOS bij de zwangere, nu of in de voorgeschiedenis: PCOS, PCO, polycysteus ovarium syndroom, polycysteuze ovaria. Ook: anovulatie, cyclusstoornis, oligomenorroe, amenorroe, hirsutisme, hyperandrogenisme, verhoogd AMH, metformine, clomifeen of letrozol wegens PCOS, fertiliteitsbehandeling wegens PCOS.",
-      "niet_positief_wanneer": "Onregelmatige cyclus, anovulatie of hirsutisme zonder diagnose; metformine zonder indicatie; een fertiliteitsbehandeling om een andere reden; een normale echo van de ovaria.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "[PCOS]",
         "polycyst",
@@ -2345,8 +1939,8 @@
         "cyclusstoornis"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2356,14 +1950,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Pre-eclampsie (PE) of HELLP van de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een diagnose pre-eclampsie, HELLP, eclampsie of gesuperponeerde PE, of hypertensie met proteïnurie/orgaandisfunctie die als PE wordt beoordeeld, of magnesiumsulfaat/opname wegens PE. Niet positief wanneer: Alleen klachten (hoofdpijn, oedeem, visus) of een aangevraagd toxlab zonder diagnose; hypertensie zonder PE (PIH); PE in een eerdere zwangerschap; 'geen PE' of een normaal toxlab; Ascal als profylaxe.",
       "omschrijving": "Pre-eclampsie (PE) of HELLP van de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Pre-eclampsie of HELLP in DEZE zwangerschap: pre-eclampsie, PE, zwangerschapsvergiftiging, HELLP, eclampsie, gesuperponeerde PE. Ook: hypertensie met proteïnurie, alle bloeddrukmetingen, eiwit in urine, eiwit-kreatinine ratio, toxlab (ALAT, ASAT, LDH, trombocyten, kreatinine, urinezuur), klachten (hoofdpijn, visusklachten, sterretjes zien, bovenbuikpijn, oedeem), sFlt-1/PlGF, labetalol, nifedipine, methyldopa, magnesiumsulfaat, opname wegens PE, pre-eclampsie in een eerdere zwangerschap.",
-      "niet_positief_wanneer": "Alleen klachten (hoofdpijn, oedeem, visus) of een aangevraagd toxlab zonder diagnose; hypertensie zonder PE (PIH); PE in een eerdere zwangerschap; 'geen PE' of een normaal toxlab; Ascal als profylaxe.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap",
-        "medicatie",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "pre-eclamp",
         "[PE]",
@@ -2394,8 +1980,8 @@
         "eclamps"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2405,14 +1991,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Zwangerschapshypertensie (PIH): nieuw ontstane hypertensie na 20 weken bij de zwangere in de huidige zwangerschap, zonder pre-eclampsie. Positief wanneer: De passage noemt in deze zwangerschap een diagnose PIH/zwangerschapshypertensie, of een bloeddruk ≥140 systolisch en/of ≥90 diastolisch na 20+0 weken, of antihypertensiva gestart in de zwangerschap. Niet positief wanneer: Een normale bloeddruk (<140/90); hypertensie van vóór de zwangerschap of vóór 20 weken; PIH in een eerdere zwangerschap; een vastgestelde pre-eclampsie. Grenswaarden: RR ≥140 systolisch en/of ≥90 diastolisch, ≥2 metingen, na 20+0 weken.",
       "omschrijving": "Zwangerschapshypertensie (PIH): nieuw ontstane hypertensie na 20 weken bij de zwangere in de huidige zwangerschap, zonder pre-eclampsie.",
-      "zoek_naar": "Hoge bloeddruk die in DEZE zwangerschap is ontstaan: PIH, zwangerschapshypertensie, gestationele hypertensie, hypertensie. Ook: alle bloeddrukmetingen (RR, tensie, systolisch, diastolisch, mmHg, thuismeting) met datum of termijn, extra bloeddrukcontroles, antihypertensiva gestart in de zwangerschap (labetalol, Trandate, nifedipine, Adalat, methyldopa, Aldomet), verwijzing wegens bloeddruk, bloeddruk vóór de zwangerschap ter vergelijking.",
-      "niet_positief_wanneer": "Een normale bloeddruk (<140/90); hypertensie van vóór de zwangerschap of vóór 20 weken; PIH in een eerdere zwangerschap; een vastgestelde pre-eclampsie.",
-      "grenswaarden": "RR ≥140 systolisch en/of ≥90 diastolisch, ≥2 metingen, na 20+0 weken.",
-      "blokken": [
-        "huidige_zwangerschap",
-        "medicatie",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "[PIH]",
         "zwangerschapshypertens",
@@ -2434,8 +2012,8 @@
         "gestationele"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2445,12 +2023,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Macrosomie of LGA bij een eerder kind van de zwangere. Positief wanneer: De passage noemt bij een eerder kind een geboortegewicht ≥4000 g, of een percentiel boven P95 (bijv. p97,7, P98), of 'macrosomie', 'LGA' of 'groot kind' met gewicht of percentiel; zonder geboortegewicht telt een eerdere echoscopische LGA (EFW >P95, AC ≥P95). Een percentiel >P95 telt ook als het gewicht in grammen onder 4000 ligt. Niet positief wanneer: Een geboortegewicht <4000 g met een percentiel van P95 of lager (bijv. 'p50-p90'); LGA in de huidige zwangerschap; schouderdystocie zonder gewicht; een normaal geboortegewicht. Grenswaarden: Geboortegewicht ≥4000 g of >P95.",
       "omschrijving": "Macrosomie of LGA bij een eerder kind van de zwangere.",
-      "zoek_naar": "Een EERDER kind met een hoog geboortegewicht: macrosomie, macrosoom, LGA, large for gestational age, groot kind, geboortegewicht in gram, percentiel (p90, p95, p97,7). Ook: echoscopische LGA, EFW of AC boven percentiel in een eerdere zwangerschap, schouderdystocie, zwangerschapsdiabetes in die zwangerschap, en elk eerder geboortegewicht.",
-      "niet_positief_wanneer": "Een geboortegewicht <4000 g met een percentiel van P95 of lager (bijv. 'p50-p90'); LGA in de huidige zwangerschap; schouderdystocie zonder gewicht; een normaal geboortegewicht.",
-      "grenswaarden": "Geboortegewicht ≥4000 g of >P95.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "macrosom",
         "[LGA]",
@@ -2474,8 +2046,8 @@
         "[P96]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2485,14 +2057,6 @@
       "categorie": "Indicatie",
       "betekenis": "Therapeutische antistolling bij de zwangere in de huidige zwangerschap of het kraambed. Positief wanneer: De passage noemt therapeutische antistolling of een therapeutische dosering LMWH (fraxiparine, enoxaparine/Clexane, dalteparine/Fragmin, tinzaparine) bij de zwangere, of antistolling wegens een actuele DVT, longembolie, kunstklep of doorlopende behandeling (ook acenocoumarol, DOAC). Niet positief wanneer: Profylactische (lage) LMWH-dosering; Ascal; trombofilie of eerdere trombose zonder actuele antistolling; antistolling gestopt vóór de zwangerschap.",
       "omschrijving": "Therapeutische antistolling bij de zwangere in de huidige zwangerschap of het kraambed.",
-      "zoek_naar": "Antistolling bij de zwangere in DEZE zwangerschap of het kraambed: therapeutische antistolling, therapeutische dosering, LMWH, fraxiparine, enoxaparine, Clexane, dalteparine, Fragmin, tinzaparine, Innohep, nadroparine, heparine, acenocoumarol, Sintrom, fenprocoumon, Marcoumar, warfarine, DOAC, apixaban, rivaroxaban. Ook: dosering (mg, IE, eenmaal of tweemaal daags), gewicht, INR, anti-Xa, trombosedienst, de indicatie (DVT, longembolie, kunstklep, trombofilie), en elk profylactisch LMWH-gebruik.",
-      "niet_positief_wanneer": "Profylactische (lage) LMWH-dosering; Ascal; trombofilie of eerdere trombose zonder actuele antistolling; antistolling gestopt vóór de zwangerschap.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "antistolling",
         "therapeutisch",
@@ -2525,8 +2089,8 @@
         "[mg]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2536,12 +2100,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Antifosfolipidensyndroom (APS) bij de zwangere. Positief wanneer: De passage noemt bij de zwangere een diagnose APS/antifosfolipidensyndroom, of antistolling/Ascal expliciet wegens APS. Niet positief wanneer: Eén positieve lupus-anticoagulans-, anticardiolipine- of β2-glycoproteïne-uitslag zonder diagnose; APS-screening of een negatieve uitslag; alleen herhaalde miskramen of trombose; SLE zonder APS.",
       "omschrijving": "Antifosfolipidensyndroom (APS) bij de zwangere.",
-      "zoek_naar": "Het antifosfolipidensyndroom bij de zwangere, nu of in de voorgeschiedenis: APS, antifosfolipidensyndroom, Hughes syndroom. Ook: antifosfolipide antistoffen (aPL, lupus anticoagulans, LAC, anticardiolipine, aCL, anti-bèta2-glycoproteïne) met uitslag en datum, trombose of herhaalde miskramen als aanleiding, Ascal of LMWH wegens APS, hydroxychloroquine, Plaquenil, hematoloog of reumatoloog.",
-      "niet_positief_wanneer": "Eén positieve lupus-anticoagulans-, anticardiolipine- of β2-glycoproteïne-uitslag zonder diagnose; APS-screening of een negatieve uitslag; alleen herhaalde miskramen of trombose; SLE zonder APS.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "[APS]",
         "antifosfolip",
@@ -2560,8 +2118,8 @@
         "[aPL]"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2571,12 +2129,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld (variant 2). Positief wanneer: De passage noemt bij de zwangere nu een positieve antistofscreening met de beoordeling 'niet klinisch relevant' (bijv. anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen). Niet positief wanneer: Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder beoordeling.",
       "omschrijving": "Irregulaire erytrocytenantistoffen bij de zwangere in de huidige zwangerschap die als niet klinisch relevant zijn beoordeeld (variant 2).",
-      "zoek_naar": "Irregulaire erytrocytenantistoffen bij de zwangere in DEZE zwangerschap die als niet klinisch relevant zijn beschreven: irregulaire antistoffen, IEA, antistofscreening positief, niet klinisch relevant, niet relevant, lage titer, anti-Lea, anti-Leb, anti-M, anti-N, anti-P1, koude antistoffen. Ook: de specificiteit, titer en het Sanquin-advies, en elke positieve antistofscreening.",
-      "niet_positief_wanneer": "Een negatieve screening; een positieve screening zonder beoordeling; anti-D, anti-c of anti-K; een lage titer zonder beoordeling.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "antistof",
         "irregul",
@@ -2596,8 +2148,8 @@
         "antistofscreen"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2607,13 +2159,6 @@
       "categorie": "Indicatie",
       "betekenis": "Gebruik van een TNF-alfaremmer door de zwangere. Positief wanneer: De passage noemt gebruik van infliximab/Remicade, adalimumab/Humira, golimumab/Simponi, certolizumab/Cimzia of etanercept/Enbrel door de zwangere (medicatielijst of tekst); 'actueel' hoeft niet vermeld te zijn. Niet positief wanneer: 'Biological' zonder naam; een ander type biological (vedolizumab, ustekinumab); IBD, reuma of psoriasis zonder middel; een middel expliciet gestopt vóór de zwangerschap; een overweging zonder gebruik.",
       "omschrijving": "Gebruik van een TNF-alfaremmer door de zwangere.",
-      "zoek_naar": "Gebruik van een TNF-alfaremmer door de zwangere, nu of in de voorgeschiedenis: TNF-alfaremmer, anti-TNF, infliximab, Remicade, Inflectra, Remsima, adalimumab, Humira, Amgevita, Hyrimoz, Idacio, golimumab, Simponi, certolizumab, Cimzia, etanercept, Enbrel, Benepali. Ook: 'biological' op de medicatielijst of in de tekst, de indicatie (reuma, Crohn, colitis, psoriasis, Bechterew), doorgebruiken of gestopt, reumatoloog of MDL-arts.",
-      "niet_positief_wanneer": "'Biological' zonder naam; een ander type biological (vedolizumab, ustekinumab); IBD, reuma of psoriasis zonder middel; een middel expliciet gestopt vóór de zwangerschap; een overweging zonder gebruik.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "[TNF]",
         "infliximab",
@@ -2640,8 +2185,8 @@
         "biological"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2651,12 +2196,6 @@
       "categorie": "Indicatie",
       "betekenis": "Roken door de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt dat de zwangere in deze zwangerschap rookt, een aantal sigaretten per dag, vapen/e-sigaret, of is gestopt ná de conceptie. Niet positief wanneer: Een ontkenning bij de zwangere is NIET positief: 'rookt niet', 'niet-roker', 'nooit gerookt', 'tabak: nee', 'gestopt vóór de zwangerschap'; roken door partner of familie; passief meeroken; een CO-meting zonder uitslag.",
       "omschrijving": "Roken door de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Roken door de zwangere in DEZE zwangerschap: roken, rookt, rookster, sigaretten, sigaretten per dag, shag, tabak, nicotine, vapen, e-sigaret, waterpijp. Ook: gestopt met roken en wanneer, CO-meting, koolmonoxide, nicotinepleister of -vervanging, rookgedrag vóór de zwangerschap, roken door partner of huisgenoten.",
-      "niet_positief_wanneer": "Een ontkenning bij de zwangere is NIET positief: 'rookt niet', 'niet-roker', 'nooit gerookt', 'tabak: nee', 'gestopt vóór de zwangerschap'; roken door partner of familie; passief meeroken; een CO-meting zonder uitslag.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "rook",
         "roken",
@@ -2684,8 +2223,8 @@
         "rookvrij"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2695,13 +2234,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Velamenteuze navelstrenginsertie in de huidige zwangerschap, met uitgesloten vasa praevia. Positief wanneer: Een velamenteuze (vliezige) insertie van de navelstreng in deze zwangerschap is vermeld. Een vermelding over vasa praevia alleen is niet positief; of vasa praevia is uitgesloten combineert de zorgverlener. Niet positief wanneer: Een marginale of ongespecificeerde insertie; vasa praevia zonder velamenteuze insertie; een normale insertie.",
       "omschrijving": "Velamenteuze navelstrenginsertie in de huidige zwangerschap, met uitgesloten vasa praevia.",
-      "zoek_naar": "De aanhechting van de navelstreng aan de placenta in DEZE zwangerschap: velamenteuze insertie, velamenteus, vliezige insertie, marginale insertie, randinsertie, navelstrenginsertie. Ook: vasa praevia (aanwezig, afwezig of niet beoordeeld), SEO of GUO met beoordeling van de insertie, placenta bilobata, bijplacenta, succenturiate lob, controle-echo wegens insertie.",
-      "niet_positief_wanneer": "Een marginale of ongespecificeerde insertie; vasa praevia zonder velamenteuze insertie; een normale insertie.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "echos",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "velament",
         "insertie",
@@ -2718,8 +2250,8 @@
         "vasa previa"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2729,12 +2261,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Congenitale (aangeboren) uterusanomalie bij de zwangere. Positief wanneer: De passage noemt bij de zwangere een uterus bicornis, unicornis, didelphys, duplex, septus, (sub)septus, arcuatus of een andere aangeboren uterusafwijking, of een septumresectie. Niet positief wanneer: Myomen; Asherman of adhesies; een uterusoperatie zonder aangeboren afwijking; aangeboren afwijkingen van andere organen (bijv. een extra nier); een normale uterus op echo.",
       "omschrijving": "Congenitale (aangeboren) uterusanomalie bij de zwangere.",
-      "zoek_naar": "Een aangeboren vormafwijking van de baarmoeder bij de zwangere, nu of in de voorgeschiedenis: uterusanomalie, congenitale uterusafwijking, uterus bicornis, unicornis, didelphys, duplex, septus, septum, arcuatus, subseptus, Müllerse afwijking. Ook: septumresectie, 3D-echo, MRI of hysteroscopie van de uterus, afwijkende uterusvorm op echo, miskramen of vroeggeboorte toegeschreven aan de uterusvorm.",
-      "niet_positief_wanneer": "Myomen; Asherman of adhesies; een uterusoperatie zonder aangeboren afwijking; aangeboren afwijkingen van andere organen (bijv. een extra nier); een normale uterus op echo.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "bicorn",
         "unicorn",
@@ -2755,8 +2281,8 @@
         "arcuat"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2766,12 +2292,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Trombocytopenie bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap trombocyten <150 x10^9/L, of een diagnose trombocytopenie/ITP/zwangerschapstrombocytopenie. Niet positief wanneer: Trombocyten ≥150; een dalende maar normale waarde; trombocytopenie of ITP in een eerdere zwangerschap zonder actuele waarde; een trombocytentransfusie om een andere reden. Grenswaarden: Trombocyten <150 x10^9/L.",
       "omschrijving": "Trombocytopenie bij de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Het trombocytenaantal van de zwangere in DEZE zwangerschap: trombocytopenie, trombocyten, trombo's, Tr, bloedplaatjes, laag trombocytenaantal. Ook: alle trombocytenwaarden met eenheid, ITP, immuun trombocytopenie, zwangerschapstrombocytopenie, gestationele trombocytopenie, HELLP, hematoloog, prednison of IVIG wegens ITP, trombocytentransfusie.",
-      "niet_positief_wanneer": "Trombocyten ≥150; een dalende maar normale waarde; trombocytopenie of ITP in een eerdere zwangerschap zonder actuele waarde; een trombocytentransfusie om een andere reden.",
-      "grenswaarden": "Trombocyten <150 x10^9/L.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "trombocyt",
         "[Tr]",
@@ -2785,8 +2305,8 @@
         "trombo's"
       ],
       "python_regel": "trombocyten < 150",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2796,12 +2316,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Prematuur (<37 weken) of langdurig (>24 uur) gebroken vliezen bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap bevestigd gebroken vliezen (PPROM/PROM, positieve vruchtwatertest) vóór 37+0 weken, of meer dan 24 uur vóór de bevalling/beoordeling, of de diagnose 'langdurig gebroken vliezen'. Niet positief wanneer: Vochtverlies of verdenking zonder bevestiging; een negatieve vruchtwatertest; à terme gebroken vliezen ≤24 uur; PPROM in een eerdere zwangerschap; 'vliezen staan'. Kunstmatig breken van de vliezen (amniotomie, AROM) of gebroken vliezen tijdens de baring. Grenswaarden: PPROM <37+0 weken; langdurig >24 uur.",
       "omschrijving": "Prematuur (<37 weken) of langdurig (>24 uur) gebroken vliezen bij de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Gebroken vliezen in DEZE zwangerschap, met termijn en tijdstip: PROM, PPROM, gebroken vliezen, vliezen gebroken, prelabour rupture of membranes, GBV. Ook: vochtverlies, vruchtwaterverlies, vruchtwatertest (amnisure, Actim PROM, varentest) met uitslag, speculumonderzoek, oligohydramnion, tijdstip waarop de vliezen braken, antibiotica of inleiding wegens gebroken vliezen.",
-      "niet_positief_wanneer": "Vochtverlies of verdenking zonder bevestiging; een negatieve vruchtwatertest; à terme gebroken vliezen ≤24 uur; PPROM in een eerdere zwangerschap; 'vliezen staan'. Kunstmatig breken van de vliezen (amniotomie, AROM) of gebroken vliezen tijdens de baring.",
-      "grenswaarden": "PPROM <37+0 weken; langdurig >24 uur.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "vliezen",
         "[PROM]",
@@ -2820,8 +2334,8 @@
         "inleid"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2831,12 +2345,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Ehlers-Danlos-syndroom of hypermobiliteitssyndroom bij de zwangere. Positief wanneer: De passage noemt bij de zwangere een diagnose Ehlers-Danlos (EDS, hEDS) of hypermobiliteitssyndroom (HSD). Niet positief wanneer: Soepele gewrichten, hyperlaxiteit, luxaties of een Beighton-score zonder diagnose; EDS bij een familielid; 'EDS uitgesloten'.",
       "omschrijving": "Ehlers-Danlos-syndroom of hypermobiliteitssyndroom bij de zwangere.",
-      "zoek_naar": "Ehlers-Danlos of een hypermobiliteitssyndroom bij de zwangere, nu of in de voorgeschiedenis: Ehlers-Danlos, EDS, hEDS, hypermobiliteitssyndroom, HSD, hypermobiliteit, hyperlaxiteit. Ook: Beighton-score, recidiverende luxaties, bindweefselziekte, Marfan, klinisch geneticus of reumatoloog, subtype indien vermeld.",
-      "niet_positief_wanneer": "Soepele gewrichten, hyperlaxiteit, luxaties of een Beighton-score zonder diagnose; EDS bij een familielid; 'EDS uitgesloten'.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "ehlers",
         "danlos",
@@ -2852,8 +2360,8 @@
         "geneticus"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2863,13 +2371,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Placenta praevia in de huidige zwangerschap: placenta die het ostium internum (geheel of gedeeltelijk) bedekt. Positief wanneer: De passage noemt in deze zwangerschap een placenta praevia (totalis, partialis, centralis), een placenta die het ostium bedekt of eroverheen ligt, of een afstand tot het ostium van 0 mm. Niet positief wanneer: Een laagliggende placenta zonder bedekking (afstand >0 mm, 'tot aan het ostium'); 'placenta voorwand/achterwand' of 'hoog' zonder afstand; een praevia in een eerdere zwangerschap of een later opgeheven verdenking. Een placenta die laag ligt of tot (aan) het ostium internum reikt zonder het te bedekken; dat is een laagliggende placenta, geen praevia. Grenswaarden: Afstand placentarand tot ostium = 0 mm (bedekking).",
       "omschrijving": "Placenta praevia in de huidige zwangerschap: placenta die het ostium internum (geheel of gedeeltelijk) bedekt.",
-      "zoek_naar": "De ligging van de placenta ten opzichte van de baarmoedermond in DEZE zwangerschap: placenta praevia, placenta previa, praevia totalis, partialis, marginalis, centralis, placenta over het ostium, ostium bedekt. Ook: elke placentalokalisatie op echo (SEO, GUO, controle-echo) met afstand tot het ostium in mm, laagliggende placenta, bloedverlies in het tweede of derde trimester, advies sectio wegens placentaligging.",
-      "niet_positief_wanneer": "Een laagliggende placenta zonder bedekking (afstand >0 mm, 'tot aan het ostium'); 'placenta voorwand/achterwand' of 'hoog' zonder afstand; een praevia in een eerdere zwangerschap of een later opgeheven verdenking. Een placenta die laag ligt of tot (aan) het ostium internum reikt zonder het te bedekken; dat is een laagliggende placenta, geen praevia.",
-      "grenswaarden": "Afstand placentarand tot ostium = 0 mm (bedekking).",
-      "blokken": [
-        "echos",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "praevia",
         "placenta",
@@ -2888,8 +2389,8 @@
         "placentaligging"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2899,13 +2400,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Laagliggende placenta in de huidige zwangerschap: placentarand <20 mm van het ostium internum, zonder bedekking. Positief wanneer: De passage noemt in deze zwangerschap een laagliggende placenta, 'placenta laag', 'laag doorlopend', 'reikend tot (aan) het ostium', 'praevia marginalis' zonder bedekking, of een afstand placentarand–ostium <20 mm. Niet positief wanneer: Een placenta die het ostium bedekt; een afstand ≥20 mm; 'placenta voorwand/achterwand' of 'hoog' zonder afstand of 'laag'; een later genormaliseerde ligging. Grenswaarden: Afstand placentarand tot ostium <20 mm (20 mm telt niet).",
       "omschrijving": "Laagliggende placenta in de huidige zwangerschap: placentarand <20 mm van het ostium internum, zonder bedekking.",
-      "zoek_naar": "De ligging van de placenta ten opzichte van de baarmoedermond in DEZE zwangerschap: laagliggende placenta, placenta laag, laag doorlopend, reikend tot het ostium, tot aan ostium, praevia marginalis. Ook: elke placentalokalisatie op echo (SEO, GUO, controle-echo) met afstand placentarand tot ostium in mm, placenta praevia, herbeoordeling van de placentaligging, bloedverlies.",
-      "niet_positief_wanneer": "Een placenta die het ostium bedekt; een afstand ≥20 mm; 'placenta voorwand/achterwand' of 'hoog' zonder afstand of 'laag'; een later genormaliseerde ligging.",
-      "grenswaarden": "Afstand placentarand tot ostium <20 mm (20 mm telt niet).",
-      "blokken": [
-        "echos",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "laagligg",
         "placenta",
@@ -2924,8 +2418,8 @@
         "placentaligging"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2935,12 +2429,6 @@
       "categorie": "Overig",
       "betekenis": "Taalbarrière: beperkte beheersing van een gedeelde taal die de zorgcommunicatie met de zwangere belemmert. Positief wanneer: De passage noemt bij de zwangere een taalbarrière, dat zij geen of beperkt Nederlands spreekt, anderstalig is, een tolk (ook tolkentelefoon) nodig heeft, of dat de communicatie door taal moeizaam is. Niet positief wanneer: 'Spreekt goed Nederlands' of 'geen taalbarrière'; alleen een buitenlandse herkomst; een voorkeur voor Engels bij goede communicatie (dat is geen taalbarrière); een tolk voor de partner.",
       "omschrijving": "Taalbarrière: beperkte beheersing van een gedeelde taal die de zorgcommunicatie met de zwangere belemmert.",
-      "zoek_naar": "Taal en communicatie met de zwangere, nu of eerder: taalbarrière, taalprobleem, spreekt geen of beperkt Nederlands, tolk, tolkentelefoon, TVcN, tolk nodig, communicatie moeizaam. Ook: de gesproken taal of moedertaal (Arabisch, Turks, Pools, Tigrinya, Oekraïens, Engels), familielid dat tolkt, laaggeletterdheid, Engelstalige of vertaalde informatie.",
-      "niet_positief_wanneer": "'Spreekt goed Nederlands' of 'geen taalbarrière'; alleen een buitenlandse herkomst; een voorkeur voor Engels bij goede communicatie (dat is geen taalbarrière); een tolk voor de partner.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "taal",
         "tolk",
@@ -2968,8 +2456,8 @@
         "spreekt slecht"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -2979,12 +2467,6 @@
       "categorie": "Overig",
       "betekenis": "De zwangere communiceert in de zorg bij voorkeur of noodzakelijk in het Engels. Positief wanneer: De passage noemt bij de zwangere een voorkeur of verzoek voor Engels ('graag in het Engels'), Engelstalige zorgcommunicatie, of dat zij (alleen) Engels spreekt. Niet positief wanneer: Een Engelstalige folder of standaardtekst; Engels met uitsluitend de partner; 'spreekt Nederlands' zonder voorkeur voor Engels; een andere taal dan Engels.",
       "omschrijving": "De zwangere communiceert in de zorg bij voorkeur of noodzakelijk in het Engels.",
-      "zoek_naar": "Communicatie met de zwangere in het Engels, nu of eerder: Engels, Engelstalig, English, communicatie in het Engels, 'graag in het Engels', spreekt Engels, voorkeurstaal Engels. Ook: expat, internationale patiënte, Engelstalige folder of brief, tolk, beperkt Nederlands.",
-      "niet_positief_wanneer": "Een Engelstalige folder of standaardtekst; Engels met uitsluitend de partner; 'spreekt Nederlands' zonder voorkeur voor Engels; een andere taal dan Engels.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "engels",
         "english",
@@ -2998,8 +2480,8 @@
         "in het engels"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3009,14 +2491,6 @@
       "categorie": "Overig",
       "betekenis": "Mogelijke kwetsbaarheden van de zwangere: sociale, psychische of praktische omstandigheden die de zorg in deze zwangerschap kunnen beïnvloeden. Positief wanneer: De passage noemt één van de omstandigheden bij de zwangere: psychische of psychiatrische problematiek (nu, of eerder met psychiater/GGZ/POP-poli/psychofarmaca); traumatische bevalling of PTSS; huiselijk geweld of kindermishandeling; financiële problemen, schulden, huisvestingsproblemen, dakloosheid, relatieproblemen; laaggeletterdheid of verstandelijke beperking; tienerzwangerschap; alcohol- of drugsgebruik; ongedocumenteerde status, AZC; ongeplande/ongewenste zwangerschap; geen sociaal vangnet; zorgmijding of no-show; laat gestarte zorg. Niet positief wanneer: Een bevalling die 'pittig' of 'zwaar' was zonder gevolgen; kortdurend contact met psycholoog, coach of POH zonder verdere problemen; algemene stress; een eenmalig gemiste afspraak; 'geen bijzonderheden' of 'stabiele thuissituatie'.",
       "omschrijving": "Mogelijke kwetsbaarheden van de zwangere: sociale, psychische of praktische omstandigheden die de zorg in deze zwangerschap kunnen beïnvloeden.",
-      "zoek_naar": "Sociale, psychische of praktische omstandigheden van de zwangere, nu of in de voorgeschiedenis: psychische klachten, depressie, angst, paniek, PTSS, trauma, traumatische bevalling, bipolair, borderline, persoonlijkheidsstoornis, psychiater, GGZ, POP-poli, psycholoog, POH-GGZ, psychofarmaca; huiselijk geweld, kindermishandeling, Veilig Thuis, jeugdzorg, meldcode; maatschappelijk werk, financiële problemen, schulden, huisvesting, dakloos, relatieproblemen, alleenstaand, geen sociaal netwerk; laaggeletterd, verstandelijke beperking, LVB, begeleid wonen; jonge leeftijd, tienerzwangerschap; ongeplande of ongewenste zwangerschap; late start zorg, no-show, zorgmijding; alcohol, drugs; ongedocumenteerd, AZC. Ook: VSV-overleg, prenataal huisbezoek, 'kwetsbaar', kortdurend psycholoog- of coachcontact, 'pittige' bevalling.",
-      "niet_positief_wanneer": "Een bevalling die 'pittig' of 'zwaar' was zonder gevolgen; kortdurend contact met psycholoog, coach of POH zonder verdere problemen; algemene stress; een eenmalig gemiste afspraak; 'geen bijzonderheden' of 'stabiele thuissituatie'.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "kerngegevens",
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "psych",
         "[GGZ]",
@@ -3068,8 +2542,8 @@
         "maatschappelijk werk"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "Psychische of psychiatrische problematiek (depressie, angst, PTSS, bipolair, persoonlijkheidsproblematiek), nu of eerder behandeld door psychiater, GGZ of POP-poli, of met psychofarmaca; traumatische bevalling; huiselijk geweld; kindermishandeling (vermoeden of voorgeschiedenis); financiële problemen of schulden; huisvestingsproblemen of dakloosheid; relatieproblemen; alleenstaand zonder sociaal vangnet; laaggeletterdheid of moeite met begrijpen van informatie; verstandelijke beperking, laag IQ of begeleid wonen; tienerzwangerschap; alcoholgebruik; drugsgebruik; ongedocumenteerde status, recent statushouderschap of verblijf in AZC; ongeplande of ongewenste zwangerschap; zorgmijding, no-show of moeite met afspraken; laat gestarte of ongecontroleerde zwangerschapszorg.",
-      "toetsregels": "Geen minimumaantal factoren afgesproken; stapeling vermelden. Of een omstandigheid zwaar genoeg is beoordeelt de zorgverlener.",
       "samengesteld": true,
       "familie_telt": false
     },
@@ -3079,13 +2553,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Een schildklieraandoening bij de zwangere, nu of in de voorgeschiedenis, ook als het subtype niet duidelijk is. Positief wanneer: De passage noemt bij de zwangere een schildklierprobleem of -aandoening: hypo- of hyperthyreoïdie, Hashimoto, Graves, struma, nodus, of schildkliermedicatie (levothyroxine, thiamazol, PTU) met schildklierindicatie. Niet positief wanneer: Een normale TSH/FT4 of 'schildklier normaal'; een aangevraagde schildklierbepaling of 'lab volgt'; schildklierziekte bij een familielid; een vraag 'schildklierprobleem?' zonder bevestiging.",
       "omschrijving": "Een schildklieraandoening bij de zwangere, nu of in de voorgeschiedenis, ook als het subtype niet duidelijk is.",
-      "zoek_naar": "Elke schildklieraandoening bij de zwangere, nu of in de voorgeschiedenis, ook als het subtype niet duidelijk is: schildklier, schildklierafwijking, schildklierprobleem, hypothyreoïdie, hyperthyreoïdie, te traag of te snel werkende schildklier, Hashimoto, Graves, struma, nodus, schildklierkanker. Ook: TSH, FT4, T3, anti-TPO, TSH-receptorantistoffen, TRAb, levothyroxine, Thyrax, Euthyrox, L-thyroxine, thiamazol, Strumazol, PTU, internist of endocrinoloog, schildklierscreening met uitslag.",
-      "niet_positief_wanneer": "Een normale TSH/FT4 of 'schildklier normaal'; een aangevraagde schildklierbepaling of 'lab volgt'; schildklierziekte bij een familielid; een vraag 'schildklierprobleem?' zonder bevestiging.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis",
-        "medicatie"
-      ],
       "zoekwoorden": [
         "schildkl",
         "thyr",
@@ -3111,8 +2578,8 @@
         "schildklier"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3122,14 +2589,6 @@
       "categorie": "Indicatie",
       "betekenis": "Risicofactoren bij de zwangere voor diabetes gravidarum in de huidige zwangerschap (volgens het lokale protocol). Positief wanneer: De passage noemt één van de factoren: diabetes gravidarum in een eerdere zwangerschap; etniciteit zoals letterlijk vermeld (Zuid-Oost-Aziatisch, Hindoestaans, Afro-Caribisch, Midden-Oosters, Marokkaans, Egyptisch); BMI >30 bij intake; bariatrische chirurgie; eerder kind >4500 g of >P95; onverklaarde IUVD; PCOS; diabetes type 2 bij een eerstegraads familielid (ouder, broer/zus, kind, bijv. 'diabetes: vader van mw'); huidige macrosomie (AC/EFW >P95); polyhydramnion. Niet positief wanneer: Een normale OGTT of glucose; een geplande OGTT zonder factor; diabetes bij de partner; diabetes type 1 of bij een tweedegraads familielid; een factor die expliciet ontkend wordt. Grenswaarden: BMI >30 bij intake; eerder geboortegewicht >4500 g of >P95; AC/EFW >P95.",
       "omschrijving": "Risicofactoren bij de zwangere voor diabetes gravidarum in de huidige zwangerschap (volgens het lokale protocol).",
-      "zoek_naar": "Elke risicofactor voor zwangerschapsdiabetes in DEZE zwangerschap, als losse factor: zwangerschapsdiabetes in een eerdere zwangerschap (DG i.a., GDM); herkomst of etniciteit zoals letterlijk vermeld (Hindoestaans, Surinaams, Marokkaans, Turks, Egyptisch, Midden-Oosten, Zuidoost-Azië, Afro-Caribisch); alle BMI-, lengte- en gewichtsvermeldingen; bariatrische chirurgie; eerder kind met hoog geboortegewicht, macrosomie of LGA; IUVD in de voorgeschiedenis met oorzaak indien vermeld; PCOS; diabetes type 2 bij ouder, broer, zus of kind; macrosomie, AC of EFW boven percentiel nu; polyhydramnion, veel vruchtwater, AFI, DVP. Ook: vroege OGTT of OGTT op indicatie, en de reden daarvoor.",
-      "niet_positief_wanneer": "Een normale OGTT of glucose; een geplande OGTT zonder factor; diabetes bij de partner; diabetes type 1 of bij een tweedegraads familielid; een factor die expliciet ontkend wordt.",
-      "grenswaarden": "BMI >30 bij intake; eerder geboortegewicht >4500 g of >P95; AC/EFW >P95.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis",
-        "medische_voorgeschiedenis",
-        "kerngegevens"
-      ],
       "zoekwoorden": [
         "diabetes gravidarum",
         "[DG]",
@@ -3169,8 +2628,8 @@
         "etnicit"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "Diabetes gravidarum in een eerdere zwangerschap; etniciteit of herkomst zoals letterlijk vermeld: Zuid-Oost-Aziatisch, Hindoestaans, Afro-Caribisch, Midden-Oosters, Marokkaans, Egyptisch; BMI >30 bij intake; bariatrische chirurgie in de voorgeschiedenis; eerder kind met geboortegewicht >4500 g of >P95 (macrosomie); onverklaarde intra-uteriene vruchtdood (IUVD) in de voorgeschiedenis; PCOS; diabetes mellitus type 2 bij een eerstegraads familielid (ouder, broer/zus, kind); verwacht macrosoom kind in deze zwangerschap (AC of EFW >P95); polyhydramnion in deze zwangerschap.",
-      "toetsregels": "Minstens één factor is een reden voor (vroege) OGTT volgens protocol tabel 1. Etniciteit alleen uit letterlijke documentatie, nooit afleiden. Beoordeling door de zorgverlener.",
       "samengesteld": true,
       "familie_telt": true
     },
@@ -3180,12 +2639,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Hyperemesis gravidarum van de zwangere in de huidige zwangerschap (ook als werkdiagnose of verwijsreden). Positief wanneer: De passage noemt in deze zwangerschap hyperemesis gravidarum/HG als diagnose, werkdiagnose of dd, een verwijzing, opname of infuus wegens (verdenking) hyperemesis, of aanhoudende misselijkheid/braken na 20 weken. Niet positief wanneer: Gewone misselijkheid of incidenteel braken zonder duiding; anti-emetica zonder duiding; hyperemesis in een eerdere zwangerschap; braken door een andere oorzaak; 'geen misselijkheid'. Misselijkheid of braken zonder diagnose hyperemesis, opname, infuus of medicatie daarvoor. Grenswaarden: Aanhoudende misselijkheid/braken na 20+0 weken.",
       "omschrijving": "Hyperemesis gravidarum van de zwangere in de huidige zwangerschap (ook als werkdiagnose of verwijsreden).",
-      "zoek_naar": "Hyperemesis gravidarum of ernstige misselijkheid en braken in DEZE zwangerschap: hyperemesis gravidarum, HG, hyperemesis, 'dd hyperemesis', werkdiagnose hyperemesis. Ook: verwijzing, opname of infuus wegens braken, aanhoudende misselijkheid of braken met termijn, dehydratie, ketonen, ketonurie, gewichtsverlies, anti-emetica (meclozine, Emesafene, metoclopramide, Primperan, ondansetron, Zofran, domperidon, promethazine, pyridoxine, vitamine B6), PUQE-score, hyperemesis in een eerdere zwangerschap.",
-      "niet_positief_wanneer": "Gewone misselijkheid of incidenteel braken zonder duiding; anti-emetica zonder duiding; hyperemesis in een eerdere zwangerschap; braken door een andere oorzaak; 'geen misselijkheid'. Misselijkheid of braken zonder diagnose hyperemesis, opname, infuus of medicatie daarvoor.",
-      "grenswaarden": "Aanhoudende misselijkheid/braken na 20+0 weken.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "hyperemesis",
         "[HG]",
@@ -3218,8 +2671,8 @@
         "emesis"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3229,12 +2682,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Primo-infectie (eerste episode) van herpes genitalis bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een door een zorgverlener vastgestelde eerste episode/primo-infectie van genitale herpes (HSV-1 of HSV-2), al dan niet met positieve PCR van genitale laesies. Niet positief wanneer: Herpes labialis/koortslip; alleen HSV-serologie (IgG, ook HSV-1) zonder genitale episode; een positieve PCR zonder primo-/recidiefduiding; herpes zoster; herpes bij de partner; een expliciet recidief van bekende herpes (geen eerste episode).",
       "omschrijving": "Primo-infectie (eerste episode) van herpes genitalis bij de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Genitale herpes in DEZE zwangerschap, met de vermelding of het een eerste episode is: primo-infectie herpes genitalis, primaire genitale HSV-infectie, eerste episode, herpes genitalis, genitale herpes, HSV, HSV-1, HSV-2, herpes simplex. Ook: genitale blaasjes of laesies, HSV-PCR of serologie (IgG, IgM) met uitslag, aciclovir, Zovirax, valaciclovir, Zelitrex, herpes bij de partner, GGD of soa-poli, sectio-advies wegens herpes.",
-      "niet_positief_wanneer": "Herpes labialis/koortslip; alleen HSV-serologie (IgG, ook HSV-1) zonder genitale episode; een positieve PCR zonder primo-/recidiefduiding; herpes zoster; herpes bij de partner; een expliciet recidief van bekende herpes (geen eerste episode).",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "herpes",
         "[HSV]",
@@ -3258,8 +2705,8 @@
         "genitale herpes"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3269,12 +2716,6 @@
       "categorie": "Huidige zwangerschap",
       "betekenis": "Recidief van genitale herpes bij de zwangere in de huidige zwangerschap. Positief wanneer: De passage noemt in deze zwangerschap een recidief/reactivatie van bekende genitale herpes (HSV), al dan niet met positieve PCR, of suppressietherapie wegens recidiverende genitale herpes. Niet positief wanneer: Herpes labialis/koortslip; genitale herpes in de anamnese zonder episode nu; alleen HSV-serologie; een primo-infectie (eerste episode, geen recidief); herpes bij de partner; profylactisch aciclovir zonder beschreven recidief.",
       "omschrijving": "Recidief van genitale herpes bij de zwangere in de huidige zwangerschap.",
-      "zoek_naar": "Genitale herpes in DEZE zwangerschap, met de vermelding of het een recidief is: recidief herpes genitalis, reactivatie genitale HSV, herpes genitalis in de anamnese met nieuwe episode, bekende genitale herpes, HSV, HSV-1, HSV-2. Ook: genitale blaasjes of laesies, HSV-PCR met uitslag, aciclovir, Zovirax, valaciclovir, Zelitrex, suppressietherapie of profylactisch aciclovir aan het einde van de zwangerschap, sectio-advies wegens herpes.",
-      "niet_positief_wanneer": "Herpes labialis/koortslip; genitale herpes in de anamnese zonder episode nu; alleen HSV-serologie; een primo-infectie (eerste episode, geen recidief); herpes bij de partner; profylactisch aciclovir zonder beschreven recidief.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "huidige_zwangerschap"
-      ],
       "zoekwoorden": [
         "herpes",
         "[HSV]",
@@ -3298,8 +2739,8 @@
         "genitale herpes"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3309,12 +2750,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Acute fatty liver of pregnancy (AFLP) in een eerdere zwangerschap van de zwangere. Positief wanneer: De passage noemt bij de zwangere een doorgemaakte AFLP/acute zwangerschapsleververvetting in een eerdere zwangerschap of peripartumperiode. Niet positief wanneer: Algemene leververvetting/NAFLD; afwijkende leverwaarden, HELLP, cholestase of hepatitis zonder AFLP; 'AFLP?' zonder bevestiging; AFLP in de huidige zwangerschap.",
       "omschrijving": "Acute fatty liver of pregnancy (AFLP) in een eerdere zwangerschap van de zwangere.",
-      "zoek_naar": "Acute leververvetting in een EERDERE zwangerschap: AFLP, acute fatty liver of pregnancy, acute zwangerschapsleververvetting, leververvetting in de zwangerschap. Ook: leverfalen of IC-opname rond een eerdere bevalling, sterk afwijkende leverwaarden (ALAT, ASAT, bilirubine), stollingsstoornis, hypoglykemie, Swansea-criteria, HELLP of cholestase in die zwangerschap als differentiaaldiagnose.",
-      "niet_positief_wanneer": "Algemene leververvetting/NAFLD; afwijkende leverwaarden, HELLP, cholestase of hepatitis zonder AFLP; 'AFLP?' zonder bevestiging; AFLP in de huidige zwangerschap.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "[AFLP]",
         "fatty liver",
@@ -3330,8 +2765,8 @@
         "swansea"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3341,12 +2776,6 @@
       "categorie": "Medische voorgeschiedenis",
       "betekenis": "Systemische lupus erythematodes (SLE) bij de zwangere, ongeacht ENA-status of ziekteactiviteit. Positief wanneer: De passage noemt bij de zwangere een diagnose SLE/systemische lupus (ook in remissie), of behandeling expliciet wegens SLE (hydroxychloroquine/Plaquenil, azathioprine). Niet positief wanneer: Alleen positieve ANA/ENA of lupus anticoagulans zonder SLE-diagnose; APS zonder SLE; uitsluitend cutane/discoïde lupus; 'lupus' zonder systemische context; SLE bij een familielid.",
       "omschrijving": "Systemische lupus erythematodes (SLE) bij de zwangere, ongeacht ENA-status of ziekteactiviteit.",
-      "zoek_naar": "SLE bij de zwangere, nu of in de voorgeschiedenis: SLE, lupus, systemische lupus erythematodes, lupus erythematodes, cutane of discoïde lupus. Ook: ANA, anti-dsDNA, ENA, anti-Ro, anti-SSA, anti-La, anti-SSB, complement C3 en C4 met uitslag, lupusnefritis, hydroxychloroquine, Plaquenil, azathioprine of prednison wegens lupus, reumatoloog of immunoloog, controle op congenitaal hartblok, ziekteactiviteit of remissie.",
-      "niet_positief_wanneer": "Alleen positieve ANA/ENA of lupus anticoagulans zonder SLE-diagnose; APS zonder SLE; uitsluitend cutane/discoïde lupus; 'lupus' zonder systemische context; SLE bij een familielid.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "medische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "lupus",
         "[SLE]",
@@ -3371,8 +2800,8 @@
         "cutane"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3382,12 +2811,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "ABO-bloedgroepantagonisme bij een eerder kind van de zwangere. Positief wanneer: De passage noemt bij een eerder kind ABO-antagonisme, ABO-immunisatie of hemolytische ziekte door ABO-incompatibiliteit (anti-A/anti-B), al dan niet met fototherapie of wisseltransfusie. Niet positief wanneer: Alleen verschillende bloedgroepen van moeder en kind; neonatale geelzucht of fototherapie zonder ABO-duiding; een positieve DAT/Coombs zonder ABO; rhesus- of Kell-antagonisme.",
       "omschrijving": "ABO-bloedgroepantagonisme bij een eerder kind van de zwangere.",
-      "zoek_naar": "ABO-bloedgroepantagonisme bij een EERDER kind: ABO-antagonisme, ABO-incompatibiliteit, ABO-immunisatie, anti-A, anti-B, hemolytische ziekte van de pasgeborene. Ook: hemolyse bij een eerder kind, DAT of Coombs met uitslag, icterus neonatorum, geelzucht, hyperbilirubinemie, bilirubine, fototherapie, wisseltransfusie, bloedgroep O van de moeder en bloedgroep van het kind.",
-      "niet_positief_wanneer": "Alleen verschillende bloedgroepen van moeder en kind; neonatale geelzucht of fototherapie zonder ABO-duiding; een positieve DAT/Coombs zonder ABO; rhesus- of Kell-antagonisme.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "antagonis",
         "[ABO]",
@@ -3407,8 +2830,8 @@
         "pasgeboren"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     },
@@ -3418,12 +2841,6 @@
       "categorie": "Vorige zwangerschap, bevalling of kraamtijd",
       "betekenis": "Congenitale (aangeboren) afwijking bij een eerder kind of een eerdere zwangerschap van de zwangere, erfelijk of niet. Positief wanneer: De passage noemt bij een eerder kind of een eerdere zwangerschap een aangeboren afwijking (structureel, chromosomaal of genetisch, bijv. hartafwijking, spina bifida, schisis, trisomie), of een zwangerschapsafbreking of sterfte wegens zo'n afwijking. Niet positief wanneer: Alleen dragerschap of risico bij de ouders; een afwijkende screening (NIPT, SEO) zonder diagnose; een afwijking bij een ander familielid; een verworven aandoening (prematuriteit, asfyxie, infectie); 'gezond kind'.",
       "omschrijving": "Congenitale (aangeboren) afwijking bij een eerder kind of een eerdere zwangerschap van de zwangere, erfelijk of niet.",
-      "zoek_naar": "Een EERDER kind of een eerdere zwangerschap met een aangeboren afwijking: congenitale afwijking, aangeboren afwijking, structurele afwijking, hartafwijking, VSD, ASD, neuralebuisdefect, spina bifida, anencefalie, schisis, klompvoet, nierafwijking, chromosoomafwijking, trisomie 21, downsyndroom, trisomie 18, trisomie 13, Turner, syndroom, genetische of erfelijke aandoening, stofwisselingsziekte. Ook: zwangerschapsafbreking wegens afwijking (APLA, TOP), afwijkende GUO, SEO, NIPT, combinatietest, amniocentese of vlokkentest bij een eerdere zwangerschap, klinisch geneticus, dragerschap bij de ouders, miskraam met chromosoomafwijking.",
-      "niet_positief_wanneer": "Alleen dragerschap of risico bij de ouders; een afwijkende screening (NIPT, SEO) zonder diagnose; een afwijking bij een ander familielid; een verworven aandoening (prematuriteit, asfyxie, infectie); 'gezond kind'.",
-      "grenswaarden": "Niet relevant voor dit aandachtspunt.",
-      "blokken": [
-        "obstetrische_voorgeschiedenis"
-      ],
       "zoekwoorden": [
         "aangeboren",
         "congenitaa",
@@ -3460,8 +2877,8 @@
         "congenit"
       ],
       "python_regel": "",
+      "python_voorwaarde": "",
       "factoren": "",
-      "toetsregels": "",
       "samengesteld": false,
       "familie_telt": false
     }
