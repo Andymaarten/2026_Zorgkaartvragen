@@ -1929,9 +1929,7 @@
         "[P<10]",
         "<p10",
         "[PI]",
-        "notch",
-        "groei",
-        "krappe groei"
+        "notch"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2653,8 +2651,7 @@
         "[OUI]",
         "voorligg",
         "ligging placenta",
-        "[plac]",
-        "[laag]"
+        "[plac]"
       ],
       "python_regel": "",
       "python_voorwaarde": "",
@@ -2794,9 +2791,6 @@
         "maatschappelijk werk",
         "jonge moeder",
         "jonge zwangere",
-        "jeugd",
-        "paniek",
-        "stress",
         "verslav",
         "eetstoornis",
         "suïcid",
