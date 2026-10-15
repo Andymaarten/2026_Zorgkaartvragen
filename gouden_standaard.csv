@@ -1,5 +1,5 @@
 kaart;AP;label;juist;opmerking
-001;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+001;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; eerder kind <P10/FGR"
 001;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 001;AP003;Asherman in anamnese;0;
 001;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -351,7 +351,7 @@ kaart;AP;label;juist;opmerking
 004;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 004;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 004;AP088;Congenitale afwijking bij eerder kind;0;
-005;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+005;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; leeftijd ≥40"
 005;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 005;AP003;Asherman in anamnese;0;
 005;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -491,7 +491,7 @@ kaart;AP;label;juist;opmerking
 006;AP050;Vroeggeboorte >34w in anamnese;0;
 006;AP051;Zwangerschap na eiceldonatie;0;
 006;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);0;
-006;AP053;Trombose en trombofilie (profylaxe kraambed);0;
+006;AP053;Trombose en trombofilie (profylaxe kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; BMI >30"
 006;AP054;Sectio in anamnese;0;
 006;AP055;Verdenking FGR in de huidige zwangerschap;0;
 006;AP056;Anemie of ijzertekort;0;
@@ -527,7 +527,7 @@ kaart;AP;label;juist;opmerking
 006;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 006;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 006;AP088;Congenitale afwijking bij eerder kind;0;
-007;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+007;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 007;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 007;AP003;Asherman in anamnese;0;
 007;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -615,7 +615,7 @@ kaart;AP;label;juist;opmerking
 007;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 007;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 007;AP088;Congenitale afwijking bij eerder kind;0;
-008;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+008;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 008;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 008;AP003;Asherman in anamnese;0;
 008;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -703,7 +703,7 @@ kaart;AP;label;juist;opmerking
 008;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 008;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 008;AP088;Congenitale afwijking bij eerder kind;0;
-009;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+009;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 009;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 009;AP003;Asherman in anamnese;0;
 009;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -791,7 +791,7 @@ kaart;AP;label;juist;opmerking
 009;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 009;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 009;AP088;Congenitale afwijking bij eerder kind;0;0 (was 1): kaart zegt 'Cong. afw. man -' en 'Cong. afw. vrouw geen'
-010;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+010;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 010;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 010;AP003;Asherman in anamnese;0;
 010;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -931,7 +931,7 @@ kaart;AP;label;juist;opmerking
 011;AP050;Vroeggeboorte >34w in anamnese;1;
 011;AP051;Zwangerschap na eiceldonatie;0;
 011;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);0;
-011;AP053;Trombose en trombofilie (profylaxe kraambed);0;
+011;AP053;Trombose en trombofilie (profylaxe kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; roken >10 per dag (rookte 15-20, nu 6)"
 011;AP054;Sectio in anamnese;0;
 011;AP055;Verdenking FGR in de huidige zwangerschap;0;
 011;AP056;Anemie of ijzertekort;0;
@@ -967,7 +967,7 @@ kaart;AP;label;juist;opmerking
 011;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 011;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 011;AP088;Congenitale afwijking bij eerder kind;0;
-012;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+012;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 012;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 012;AP003;Asherman in anamnese;1;
 012;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -1106,8 +1106,8 @@ kaart;AP;label;juist;opmerking
 013;AP049;Maternale leeftijd >40 jaar;1;
 013;AP050;Vroeggeboorte >34w in anamnese;0;
 013;AP051;Zwangerschap na eiceldonatie;0;
-013;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);0;
-013;AP053;Trombose en trombofilie (profylaxe kraambed);0;
+013;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; trombose bij moeder"
+013;AP053;Trombose en trombofilie (profylaxe kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; trombose bij moeder"
 013;AP054;Sectio in anamnese;1;
 013;AP055;Verdenking FGR in de huidige zwangerschap;0;
 013;AP056;Anemie of ijzertekort;0;
@@ -1143,7 +1143,7 @@ kaart;AP;label;juist;opmerking
 013;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 013;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 013;AP088;Congenitale afwijking bij eerder kind;1;
-014;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+014;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 014;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 014;AP003;Asherman in anamnese;0;
 014;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -1231,7 +1231,7 @@ kaart;AP;label;juist;opmerking
 014;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 014;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 014;AP088;Congenitale afwijking bij eerder kind;0;
-015;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+015;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 015;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 015;AP003;Asherman in anamnese;0;
 015;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -1319,7 +1319,7 @@ kaart;AP;label;juist;opmerking
 015;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 015;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 015;AP088;Congenitale afwijking bij eerder kind;0;
-016;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+016;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 016;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 016;AP003;Asherman in anamnese;0;
 016;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -1495,7 +1495,7 @@ kaart;AP;label;juist;opmerking
 017;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 017;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 017;AP088;Congenitale afwijking bij eerder kind;0;
-018;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+018;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 018;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 018;AP003;Asherman in anamnese;0;
 018;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -1671,7 +1671,7 @@ kaart;AP;label;juist;opmerking
 019;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 019;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 019;AP088;Congenitale afwijking bij eerder kind;0;
-020;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+020;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; meerling"
 020;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 020;AP003;Asherman in anamnese;0;
 020;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -1899,7 +1899,7 @@ kaart;AP;label;juist;opmerking
 022;AP050;Vroeggeboorte >34w in anamnese;0;
 022;AP051;Zwangerschap na eiceldonatie;0;
 022;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);0;
-022;AP053;Trombose en trombofilie (profylaxe kraambed);0;
+022;AP053;Trombose en trombofilie (profylaxe kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; BMI 30-35; BMI >30"
 022;AP054;Sectio in anamnese;0;
 022;AP055;Verdenking FGR in de huidige zwangerschap;0;
 022;AP056;Anemie of ijzertekort;0;
@@ -2103,7 +2103,7 @@ kaart;AP;label;juist;opmerking
 024;AP078;Engelstalige communicatie;0;
 024;AP079;Mogelijke kwetsbaarheden in de zwangerschap;0;
 024;AP080;Algemene schildklierproblemen;0;
-024;AP081;Risicofactoren diabetes gravidarum;0;
+024;AP081;Risicofactoren diabetes gravidarum;1;"methode A (samengesteld, 15-10): 0 -> 1; diabetes bij moeder; maar de zwangere heeft zelf DM type 2"
 024;AP082;Hyperemesis gravidarum in de huidige zwangerschap;0;
 024;AP083;Herpes genitalis primo-infectie in de huidige zwangerschap;0;
 024;AP084;Recidief herpes genitalis in de huidige zwangerschap;0;
@@ -2199,7 +2199,7 @@ kaart;AP;label;juist;opmerking
 025;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 025;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 025;AP088;Congenitale afwijking bij eerder kind;0;
-026;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+026;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 026;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 026;AP003;Asherman in anamnese;0;
 026;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -2287,7 +2287,7 @@ kaart;AP;label;juist;opmerking
 026;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 026;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 026;AP088;Congenitale afwijking bij eerder kind;0;
-027;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+027;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 027;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 027;AP003;Asherman in anamnese;0;
 027;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -2455,7 +2455,7 @@ kaart;AP;label;juist;opmerking
 028;AP078;Engelstalige communicatie;0;
 028;AP079;Mogelijke kwetsbaarheden in de zwangerschap;0;
 028;AP080;Algemene schildklierproblemen;0;
-028;AP081;Risicofactoren diabetes gravidarum;0;
+028;AP081;Risicofactoren diabetes gravidarum;0;"methode A (samengesteld, 15-10): blijft 0; geboortegewicht eerder kind haalt de lijstgrens (>4500 g of >P95) niet"
 028;AP082;Hyperemesis gravidarum in de huidige zwangerschap;0;
 028;AP083;Herpes genitalis primo-infectie in de huidige zwangerschap;0;
 028;AP084;Recidief herpes genitalis in de huidige zwangerschap;0;
@@ -2463,7 +2463,7 @@ kaart;AP;label;juist;opmerking
 028;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 028;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 028;AP088;Congenitale afwijking bij eerder kind;0;
-029;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+029;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; nullipara"
 029;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 029;AP003;Asherman in anamnese;0;
 029;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
@@ -2515,7 +2515,7 @@ kaart;AP;label;juist;opmerking
 029;AP050;Vroeggeboorte >34w in anamnese;0;
 029;AP051;Zwangerschap na eiceldonatie;0;
 029;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);0;
-029;AP053;Trombose en trombofilie (profylaxe kraambed);0;
+029;AP053;Trombose en trombofilie (profylaxe kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; BMI 30-35"
 029;AP054;Sectio in anamnese;0;
 029;AP055;Verdenking FGR in de huidige zwangerschap;0;
 029;AP056;Anemie of ijzertekort;0;
@@ -2719,7 +2719,7 @@ kaart;AP;label;juist;opmerking
 031;AP078;Engelstalige communicatie;0;
 031;AP079;Mogelijke kwetsbaarheden in de zwangerschap;0;
 031;AP080;Algemene schildklierproblemen;0;
-031;AP081;Risicofactoren diabetes gravidarum;0;
+031;AP081;Risicofactoren diabetes gravidarum;1;"methode A (samengesteld, 15-10): 0 -> 1; diabetes bij moeder"
 031;AP082;Hyperemesis gravidarum in de huidige zwangerschap;0;
 031;AP083;Herpes genitalis primo-infectie in de huidige zwangerschap;0;
 031;AP084;Recidief herpes genitalis in de huidige zwangerschap;0;
@@ -2867,7 +2867,7 @@ kaart;AP;label;juist;opmerking
 033;AP050;Vroeggeboorte >34w in anamnese;0;
 033;AP051;Zwangerschap na eiceldonatie;0;
 033;AP052;Trombose en trombofilie (profylaxe zwangerschap en kraambed);0;
-033;AP053;Trombose en trombofilie (profylaxe kraambed);0;
+033;AP053;Trombose en trombofilie (profylaxe kraambed);1;"methode A (samengesteld, 15-10): 0 -> 1; BMI 30-35; BMI >30"
 033;AP054;Sectio in anamnese;0;
 033;AP055;Verdenking FGR in de huidige zwangerschap;0;
 033;AP056;Anemie of ijzertekort;0;
@@ -3071,7 +3071,7 @@ kaart;AP;label;juist;opmerking
 035;AP078;Engelstalige communicatie;0;
 035;AP079;Mogelijke kwetsbaarheden in de zwangerschap;0;
 035;AP080;Algemene schildklierproblemen;0;
-035;AP081;Risicofactoren diabetes gravidarum;0;
+035;AP081;Risicofactoren diabetes gravidarum;1;"methode A (samengesteld, 15-10): 0 -> 1; diabetes bij vader"
 035;AP082;Hyperemesis gravidarum in de huidige zwangerschap;0;
 035;AP083;Herpes genitalis primo-infectie in de huidige zwangerschap;0;
 035;AP084;Recidief herpes genitalis in de huidige zwangerschap;0;
@@ -3167,7 +3167,7 @@ kaart;AP;label;juist;opmerking
 036;AP086;Systemische lupus erythematodes met of zonder positieve ENA;0;
 036;AP087;ABO-bloedgroepantagonisme in anamnese;0;
 036;AP088;Congenitale afwijking bij eerder kind;0;
-037;AP001;Risicofactoren pre-eclampsie (Ascal);0;
+037;AP001;Risicofactoren pre-eclampsie (Ascal);1;"methode A (samengesteld, 15-10): 0 -> 1; zus van de zwangere had pre-eclampsie"
 037;AP002;Asfyxie of perinatale sterfte in anamnese;0;
 037;AP003;Asherman in anamnese;0;
 037;AP004;Bariatrische chirurgie i.a. BMI 30-40;0;
